@@ -1,0 +1,15 @@
+.host-speech-results h2,.host-speech-results h3 { margin:.2rem 0 .7rem; }
+.host-speech-results h3 {font-size:.95rem;color:#456582;}
+.host-speech-row+.host-speech-row {margin-top:14px;padding-top:14px;border-top:1px solid #dfeaf2;}
+.host-speech-row p,.speech-score-card p {margin:.55rem 0;font-size:.85rem;}
+.host-speech-row small,.speech-score-card small {font-size:.76rem;color:#506b7a;}
+.host-speech-metrics,.speech-metrics,.host-speech-words,.speech-words {display:flex;flex-wrap:wrap;gap:7px 14px;}
+.host-speech-metrics,.speech-metrics {font-size:.88rem;color:#324d67;}
+.host-speech-metrics b,.speech-metrics b {color:#225b85;font-size:1.08rem;}
+.host-speech-words button,.speech-words button {display:inline-flex;align-items:center;gap:7px;border:1px solid #c6deed;background:#f4faff;color:#245379;border-radius:12px;font:inherit;cursor:pointer;padding:7px 10px;min-height:36px;max-width:100%;overflow-wrap:anywhere;}
+.host-speech-words button:hover,.speech-words button:hover {background:#e6f3fc;}
+.host-speech-words button span:last-child,.speech-words button span:last-child {font-size:.65rem;color:#3179a5;}
+.speech-score-card,.speech-score-note {margin-block:8px;padding:10px 13px;border:1px solid #d6e6ef;border-radius:12px;background:#fafeff;line-height:1.55;}
+speaking-assessment {display:block;}
+
+html:has(.speaking-workspace) {scroll-padding-block-start:calc(var(--topbar-h,77px) + 12px);}

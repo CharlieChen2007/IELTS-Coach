@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>听力精练 · IELTS Coach</title><link rel="icon" href="data:,">
+<link rel="stylesheet" href="./styles.css"><link rel="stylesheet" href="./studio.css">
+<link rel="stylesheet" href="/motion.css"><script src="/motion.js" defer></script><link rel="stylesheet" href="/navigation-motion.css"><script src="/navigation-motion.js" defer></script><link rel="stylesheet" href="/frame-layout.css"><script src="/frame-layout.js" defer></script></head>
+<body>
+<main class="studio">
+<div id="status" role="status"></div>
+<div id="workspace" class="workspace" hidden>
+<header class="exercise-tools">
+  <nav class="section-nav" id="sectionNav" aria-label="切换听力材料"></nav>
+  <button type="button" class="ghost" id="wrongbookBtn" disabled>本段错题本 <b id="wbCount">0</b></button>
+</header>
+<section class="card player-card" aria-label="录音播放器">
+  <div class="player-top"><div><span id="npLabel" class="np-label"></span><h3 id="npName"></h3></div><small id="replayInfo"></small></div>
+  <div class="player-row">
+    <button class="play-btn" id="playBtn" aria-label="播放录音"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path id="playIcon" fill="currentColor" d="M8 5v14l11-7z"/></svg></button>
+    <div class="player-main"><input type="range" id="seek" value="0" min="0" max="1000" aria-label="录音进度"><div class="times"><span id="curTime">0:00</span><span id="durTime">0:00</span></div></div>
+  </div>
+  <audio id="audio" preload="metadata"></audio>
+  <div id="lockedTranscript" class="transcript-note">
+    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="5.5" y="10" width="13" height="10" rx="2"/><path d="M8.5 10V7a3.5 3.5 0 0 1 7 0v3"/></svg>
+    <span>交卷后，可展开逐句原文并定位回听。</span>
+  </div>
+  <details id="transcriptPanel" hidden>
+    <summary id="transcriptToggle"><strong>逐句原文</strong><span id="lockTag"></span></summary>
+    <div class="transcript" id="transcript" lang="en"></div>
+  </details>
+</section>
+<div class="work-main">
+  <section id="answerView">
+    <div class="section-head">
+      <div><h3 id="sectionTitle"></h3><span id="sectionMeta" class="section-meta"></span></div>
+      <div class="answer-progress"><span id="answerHint"></span><progress id="answerProgress" aria-label="本段作答进度"></progress></div>
+    </div>
+    <p id="sectionIntro" lang="en"></p>
+    <div id="questionHost"></div>
+    <div class="answer-foot"><button class="primary" id="submitBtn2">提交本段</button></div>
+  </section>
+  <section id="resultView" class="hidden">
+    <div class="result-head card"><div class="score-ring" id="scoreRing"><span id="scoreBig"></span><small id="scoreTotal"></small></div>
+      <div class="result-summary"><h3 id="resultTitle"></h3><div class="chips" id="resultChips"></div><p class="result-lead" id="resultLead"></p></div>
+      <div class="result-actions"><button class="ghost" id="showTranscriptBtn">查看逐句原文</button><button class="ghost" id="reportBtn">学习报告</button><button class="ghost" id="redoBtn">重做本段</button></div></div>
+    <div id="resultList"></div>
+  </section>
+</div>
+</div>
+<footer class="site-foot">素材来源：IELTS 官方机考样题（教学演示）</footer>
+</main>
+<div class="drawer-mask hidden" id="drawerMask"></div>
+<aside class="drawer hidden" id="drawer" role="dialog" aria-modal="true" aria-labelledby="drawerTitle">
+  <div class="drawer-head"><h3 id="drawerTitle">本段错题本</h3><button class="icon-btn" aria-label="关闭错题本" id="drawerClose">×</button></div><p class="drawer-sub" id="drawerSection"></p>
+  <div class="wb-stats"><div><span id="wbRedoRate">—</span><small>重听原题正确率</small></div><div><span id="wbNewRate">—</span><small>同类复练正确率</small></div></div><div class="drawer-body" id="wbList"></div>
+</aside>
+<div class="modal-mask hidden" id="modalMask"><section class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal-head"><h3 id="modalTitle"></h3><button class="icon-btn" id="modalClose" aria-label="关闭">×</button></div><div class="modal-body" id="modalBody"></div></section></div>
+<div class="toast hidden" id="toast" role="status"></div>
+<script type="module" src="./app.js"></script>
+</body></html>

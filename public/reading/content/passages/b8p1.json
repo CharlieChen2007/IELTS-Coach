@@ -1,0 +1,137 @@
+{
+  "id": "b8p1",
+  "bank": "p1",
+  "label": "Passage 1",
+  "title": "The Mechanics of Ancient Astronomy: The Antikythera Mechanism",
+  "titleZh": "古代天文学的机械：安提基特拉装置",
+  "source": "IELTS AI Dataset · Band 8 · CC BY 4.0",
+  "summary": "用复原的齿轮模型解读古希腊天文计算装置如何运作。",
+  "topic": "科学史",
+  "level": "P1 · 基础",
+  "minutes": 20,
+  "tags": [
+    "判断题",
+    "简答"
+  ],
+  "intro": "You should spend about 20 minutes on Questions 1–9, which are based on the passage below.",
+  "paragraphs": [
+    {
+      "id": "A",
+      "text": "In 1901, a group of Greek sponge divers sheltering from a severe storm off the coast of the island of Antikythera inadvertently discovered a sprawling Roman shipwreck. Resting at a depth of 45 metres, the wreck yielded a treasure trove of magnificent bronze and marble statues, exquisite glassware, and ancient silver coins. Among these spectacular artistic treasures was a heavily corroded, unassuming lump of bronze and wood. Initially ignored by marine archaeologists in favour of the more aesthetically pleasing artefacts, the calcified block sat undisturbed in the National Archaeological Museum in Athens. It was not until 1902 that archaeologist Valerios Stais, while examining the crumbling artefact, noticed a small, precisely cut gear wheel embedded in the rock, revealing it to be a highly sophisticated mechanical device rather than a mere statue fragment."
+    },
+    {
+      "id": "B",
+      "text": "For decades, the artefact completely baffled historians and classicists alike. Its sheer mechanical complexity seemed entirely anachronistic for its estimated construction date of the 2nd century BC. At the time, conventional historical narratives dictated that while the ancient Greeks were exceptionally adept at theoretical mathematics and geometry, they lacked the practical metallurgical and engineering skills required to create such a precise machine. The intricate gear trains within the Antikythera Mechanism rivalled the complexity of 18th-century European clocks. This staggering disparity led some early researchers to mistakenly assume it was a modern astrolabe that had been accidentally dropped into the ancient wreck centuries later."
+    },
+    {
+      "id": "C",
+      "text": "The true function and origin of the mechanism were slowly unveiled through successive technological advancements in the late 20th and early 21st centuries. In the 1970s, British science historian Derek de Solla Price used early 2D X-ray imaging to count the gear teeth, proposing it was an astronomical computer designed to calculate celestial positions. Later, in 2005, the Antikythera Mechanism Research Project (AMRP) employed cutting-edge microfocus X-ray computed tomography to peer inside the remaining fragments without causing physical damage. They revealed a sophisticated, hand-powered orrery capable of tracking the Metonic cycle (the 19-year lunar calendar), charting the movements of the five classical planets, and accurately predicting lunar and solar eclipses using the 223-month Saros cycle."
+    },
+    {
+      "id": "D",
+      "text": "The specific creator of the device remains entirely unknown, though many prominent scholars theorise it may have been constructed by, or under the guidance of, the eminent ancient Greek astronomer Hipparchus. This hypothesis is supported by the machine's mechanical incorporation of Hipparchus's theory regarding the moon's elliptical orbit, which explained its variable speed across the sky. Tragically, the trajectory of this mechanical genius was abruptly cut short. The expanding Roman conquest of the Mediterranean, which culminated in the systematic looting of Greek city-states, fundamentally shifted the regional cultural focus from scientific inquiry and philosophy to imperial administration, military engineering, and warfare. The ship carrying the mechanism was, in all likelihood, a Roman vessel transporting looted Greek treasures back to Rome when it sank."
+    },
+    {
+      "id": "E",
+      "text": "The Antikythera Mechanism fundamentally rewrites the history of technology. It proves unequivocally that ancient engineers possessed a profound, applied understanding of kinematics, capable of translating highly complex astronomical cycles into miniature bronze gears. Following the eventual collapse of the Greco-Roman world, this astonishing level of mechanical sophistication disappeared entirely from the historical record, only re-emerging during the European Renaissance over a millennium later. It stands as a profound testament to a lost technological revolution, leaving modern historians to wonder what other mechanical marvels the ancient world might have produced had its intellectual trajectory not been severed."
+    }
+  ],
+  "sections": [
+    {
+      "id": "b8p1-s1",
+      "type": "TFNG",
+      "instruction": "Questions 1–4: Do the following statements agree with the information given in the passage? Write TRUE, FALSE, or NOT GIVEN.",
+      "questions": [
+        {
+          "id": "b8p1-q1",
+          "number": 1,
+          "stem": "The sponge divers immediately recognised the scientific significance of the bronze mechanism in 1901.",
+          "answer": {
+            "value": "FALSE"
+          }
+        },
+        {
+          "id": "b8p1-q2",
+          "number": 2,
+          "stem": "Early historians believed the ancient Greeks were incapable of producing such precise metallurgical engineering.",
+          "answer": {
+            "value": "TRUE"
+          }
+        },
+        {
+          "id": "b8p1-q3",
+          "number": 3,
+          "stem": "Derek de Solla Price built a fully functioning physical replica of the device to prove his theories.",
+          "answer": {
+            "value": "NOT_GIVEN"
+          }
+        },
+        {
+          "id": "b8p1-q4",
+          "number": 4,
+          "stem": "The device incorporated mathematical theories regarding the variable speed of the moon.",
+          "answer": {
+            "value": "TRUE"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b8p1-s3",
+      "type": "SHORT_ANSWER",
+      "instruction": "Questions 5–9: Answer the questions below. Choose NO MORE THAN THREE WORDS from the passage for each answer.",
+      "questions": [
+        {
+          "id": "b8p1-q5",
+          "number": 5,
+          "stem": "What specific celestial cycle did the mechanism utilise to predict eclipses? ______",
+          "answer": {
+            "value": "Saros cycle",
+            "accepted": [
+              "the Saros cycle"
+            ]
+          }
+        },
+        {
+          "id": "b8p1-q6",
+          "number": 6,
+          "stem": "Which eminent Greek astronomer is most commonly theorised to be the device's creator? ______",
+          "answer": {
+            "value": "Hipparchus"
+          }
+        },
+        {
+          "id": "b8p1-q7",
+          "number": 7,
+          "stem": "What was the primary material the device was originally manufactured from? ______",
+          "answer": {
+            "value": "bronze"
+          }
+        },
+        {
+          "id": "b8p1-q8",
+          "number": 8,
+          "stem": "During which later historical period did comparable mechanical complexity finally reappear in Europe? ______",
+          "answer": {
+            "value": "European Renaissance",
+            "accepted": [
+              "the European Renaissance"
+            ]
+          }
+        },
+        {
+          "id": "b8p1-q9",
+          "number": 9,
+          "stem": "What type of ancient vessel was likely transporting the mechanism when it sank? ______",
+          "answer": {
+            "value": "Roman vessel",
+            "accepted": [
+              "a Roman vessel"
+            ]
+          }
+        }
+      ],
+      "wordLimit": 3
+    }
+  ]
+}

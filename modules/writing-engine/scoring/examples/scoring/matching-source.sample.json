@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "writing-matching-source-v1",
+  "assessmentId": "1809aee66a273fb676deb10b6c20cc103f42eccb41573159ea84049fdfbe4e2a",
+  "userId": "synthetic-user-001",
+  "assessmentSetId": "synthetic-set-001",
+  "asOf": "2026-11-09T01:00:00.000Z",
+  "status": "complete",
+  "scope": "academic_writing_first_draft_estimate",
+  "officialResult": false,
+  "calibrationStatus": "not_calibrated_against_examiner_scores",
+  "algorithmVersion": "1.1.0",
+  "policyId": "first-draft-pair-2026-11-v1.1",
+  "writingRaw": 7.25,
+  "writingBand": 7.5,
+  "task1": {
+    "questionId": "T1-001",
+    "submissionId": "smoke-mixed-accurate",
+    "unroundedMean": 7.5,
+    "displayBand": 7.5,
+    "criteria": {
+      "taskAchievement": 7.5,
+      "coherenceCohesion": 7.5,
+      "lexicalResource": 7.5,
+      "grammaticalRangeAccuracy": 7.5
+    },
+    "submittedAt": "2026-11-08T13:53:25.587Z",
+    "provenance": {
+      "upstreamDraftRole": "unverified",
+      "draftRoleResolvedFrom": "trusted_persisted_submission",
+      "reportSchema": "task1-ai-v1",
+      "promptVersion": "a246f4143fcb3e0e",
+      "rubricVersion": "ielts-task1-2023-product-v1",
+      "requestedModel": "deepseek-flash",
+      "responseModel": "deepseek-flash",
+      "sourceOrigin": "reference",
+      "sourceHumanVerified": false,
+      "referenceReviewKind": "agent_visual_review"
+    }
+  },
+  "task2": {
+    "questionId": "T2-026",
+    "submissionId": "task2-discussion-complete",
+    "unroundedMean": 7.125,
+    "displayBand": 7,
+    "criteria": {
+      "taskResponse": 7,
+      "coherenceCohesion": 7,
+      "lexicalResource": 7,
+      "grammaticalRangeAccuracy": 7.5
+    },
+    "submittedAt": "2026-11-09T00:48:53.277Z",
+    "provenance": {
+      "upstreamDraftRole": "unverified",
+      "draftRoleResolvedFrom": "trusted_persisted_submission",
+      "reportSchema": "task2-ai-v2",
+      "promptVersion": "091a6e0c1b785535",
+      "rubricVersion": "ielts-task2-2023-product-v2",
+      "requestedModel": "deepseek-flash",
+      "responseModel": "deepseek-flash",
+      "sourceOrigin": "rule",
+      "sourceHumanVerified": false,
+      "referenceReviewKind": null
+    }
+  },
+  "sampleCounts": {
+    "task1": 1,
+    "task2": 1
+  },
+  "qualityFlags": [
+    "ONE_SAMPLE_PER_AVAILABLE_TASK",
+    "TASK1_SOURCE_NOT_HUMAN_VERIFIED",
+    "UNCALIBRATED_AI_ESTIMATE"
+  ]
+}

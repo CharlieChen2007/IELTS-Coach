@@ -1,0 +1,2650 @@
+{
+ "version": 1,
+ "note": "三篇原文实词词库：surface → [词性, 中文释义, 原形(可选)]",
+ "words": {
+  "abandon": [
+   "v.",
+   "抛弃；放弃"
+  ],
+  "abandoned": [
+   "adj.",
+   "被遗弃的",
+   "abandon"
+  ],
+  "ability": [
+   "n.",
+   "能力"
+  ],
+  "absorbed": [
+   "adj.",
+   "全神贯注的；被吸收的",
+   "absorb"
+  ],
+  "abundant": [
+   "adj.",
+   "丰富的；大量的"
+  ],
+  "access": [
+   "n.",
+   "接触机会；使用权"
+  ],
+  "accidental": [
+   "adj.",
+   "偶然的；意外的"
+  ],
+  "accidents": [
+   "n.",
+   "事故；意外",
+   "accident"
+  ],
+  "active": [
+   "adj.",
+   "活跃的；主动的"
+  ],
+  "adaptive": [
+   "adj.",
+   "适应性的"
+  ],
+  "addresses": [
+   "v.",
+   "处理；应对（第三人称单数）",
+   "address"
+  ],
+  "adolescence": [
+   "n.",
+   "青春期"
+  ],
+  "advertisers": [
+   "n.",
+   "广告商",
+   "advertiser"
+  ],
+  "advertising": [
+   "n.",
+   "广告；广告业"
+  ],
+  "advice": [
+   "n.",
+   "建议"
+  ],
+  "aged": [
+   "adj.",
+   "……岁的；年老的"
+  ],
+  "agree": [
+   "v.",
+   "同意"
+  ],
+  "air": [
+   "n.",
+   "空气"
+  ],
+  "allowed": [
+   "v.",
+   "允许",
+   "allow"
+  ],
+  "almost": [
+   "adv.",
+   "几乎"
+  ],
+  "alternatives": [
+   "n.",
+   "替代方案",
+   "alternative"
+  ],
+  "anthony": [
+   "n.",
+   "安东尼（人名）"
+  ],
+  "anxiety": [
+   "n.",
+   "焦虑"
+  ],
+  "anyone's": [
+   "poss.",
+   "任何人的",
+   "anyone"
+  ],
+  "anything": [
+   "pron.",
+   "任何事物"
+  ],
+  "appeared": [
+   "v.",
+   "出现；显得",
+   "appear"
+  ],
+  "approaches": [
+   "n.",
+   "方法；途径",
+   "approach"
+  ],
+  "argument": [
+   "n.",
+   "论点；争论"
+  ],
+  "arrived": [
+   "v.",
+   "到达",
+   "arrive"
+  ],
+  "arrives": [
+   "v.",
+   "到达（第三人称单数）",
+   "arrive"
+  ],
+  "article": [
+   "n.",
+   "文章"
+  ],
+  "ask": [
+   "v.",
+   "问；要求"
+  ],
+  "asking": [
+   "v.",
+   "问；要求（-ing 形式）",
+   "ask"
+  ],
+  "assumption": [
+   "n.",
+   "假设"
+  ],
+  "attached": [
+   "adj.",
+   "附加的；依恋的",
+   "attach"
+  ],
+  "attention": [
+   "n.",
+   "注意力"
+  ],
+  "autoplay": [
+   "n.",
+   "自动播放"
+  ],
+  "axle": [
+   "n.",
+   "车轴"
+  ],
+  "back": [
+   "adv./n.",
+   "向后；背部"
+  ],
+  "balance": [
+   "n./v.",
+   "平衡"
+  ],
+  "ball": [
+   "n.",
+   "球"
+  ],
+  "bargain": [
+   "n.",
+   "便宜货；交易"
+  ],
+  "basis": [
+   "n.",
+   "基础"
+  ],
+  "bearings": [
+   "n.",
+   "轴承",
+   "bearing"
+  ],
+  "became": [
+   "v.",
+   "变成（过去式）",
+   "become"
+  ],
+  "become": [
+   "v.",
+   "变成"
+  ],
+  "began": [
+   "v.",
+   "开始（过去式）",
+   "begin"
+  ],
+  "behavioural": [
+   "adj.",
+   "行为的"
+  ],
+  "better": [
+   "adj./adv.",
+   "更好的；更好地"
+  ],
+  "bicycle": [
+   "n.",
+   "自行车"
+  ],
+  "bicycle's": [
+   "poss.",
+   "自行车的",
+   "bicycle"
+  ],
+  "bigger": [
+   "adj.",
+   "更大的",
+   "big"
+  ],
+  "blocked": [
+   "v.",
+   "堵塞；阻挡",
+   "block"
+  ],
+  "boneshaker": [
+   "n.",
+   "「震骨车」（早期自行车的绰号）"
+  ],
+  "boom": [
+   "n.",
+   "繁荣；激增"
+  ],
+  "bottom": [
+   "n.",
+   "底部"
+  ],
+  "bought": [
+   "v.",
+   "买（过去式）",
+   "buy"
+  ],
+  "boulevards": [
+   "n.",
+   "林荫大道",
+   "boulevard"
+  ],
+  "boyd": [
+   "n.",
+   "博伊德（人名）"
+  ],
+  "brain": [
+   "n.",
+   "大脑"
+  ],
+  "briefly": [
+   "adv.",
+   "简短地"
+  ],
+  "build": [
+   "v.",
+   "建造"
+  ],
+  "builders": [
+   "n.",
+   "建造者",
+   "builder"
+  ],
+  "came": [
+   "v.",
+   "来（过去式）",
+   "come"
+  ],
+  "cannot": [
+   "v.",
+   "不能"
+  ],
+  "capture": [
+   "v.",
+   "捕捉；记录"
+  ],
+  "cared": [
+   "v.",
+   "关心；在意",
+   "care"
+  ],
+  "carrying": [
+   "v.",
+   "携带（-ing 形式）",
+   "carry"
+  ],
+  "causes": [
+   "n./v.",
+   "原因；导致",
+   "cause"
+  ],
+  "century": [
+   "n.",
+   "世纪"
+  ],
+  "certain": [
+   "adj.",
+   "某些；确定的"
+  ],
+  "chain": [
+   "n.",
+   "链条"
+  ],
+  "change": [
+   "n./v.",
+   "变化；改变"
+  ],
+  "changed": [
+   "v.",
+   "改变（过去式）",
+   "change"
+  ],
+  "cheap": [
+   "adj.",
+   "便宜的"
+  ],
+  "checking": [
+   "v.",
+   "检查（-ing 形式）",
+   "check"
+  ],
+  "childhood": [
+   "n.",
+   "童年"
+  ],
+  "choices": [
+   "n.",
+   "选择",
+   "choice"
+  ],
+  "claim": [
+   "n./v.",
+   "声称；主张"
+  ],
+  "clinical": [
+   "adj.",
+   "临床的"
+  ],
+  "clothes": [
+   "n.",
+   "衣服"
+  ],
+  "combination": [
+   "n.",
+   "组合"
+  ],
+  "combine": [
+   "v.",
+   "结合"
+  ],
+  "comfort": [
+   "n.",
+   "舒适"
+  ],
+  "compete": [
+   "v.",
+   "竞争"
+  ],
+  "conclusion": [
+   "n.",
+   "结论"
+  ],
+  "conditions": [
+   "n.",
+   "条件；状况",
+   "condition"
+  ],
+  "connections": [
+   "n.",
+   "联系；连接",
+   "connection"
+  ],
+  "consensus": [
+   "n.",
+   "共识"
+  ],
+  "conspiracy": [
+   "n.",
+   "阴谋"
+  ],
+  "consumes": [
+   "v.",
+   "消耗（第三人称单数）",
+   "consume"
+  ],
+  "container": [
+   "n.",
+   "容器"
+  ],
+  "content": [
+   "n.",
+   "内容"
+  ],
+  "continues": [
+   "v.",
+   "继续（第三人称单数）",
+   "continue"
+  ],
+  "conversation": [
+   "n.",
+   "对话"
+  ],
+  "copied": [
+   "v.",
+   "复制（过去式）",
+   "copy"
+  ],
+  "cost": [
+   "n./v.",
+   "成本；花费"
+  ],
+  "costs": [
+   "n./v.",
+   "成本；花费（第三人称单数）",
+   "cost"
+  ],
+  "covers": [
+   "v.",
+   "覆盖；涵盖",
+   "cover"
+  ],
+  "cramming": [
+   "n.",
+   "死记硬背；临时抱佛脚",
+   "cram"
+  ],
+  "created": [
+   "v.",
+   "创造（过去式）",
+   "create"
+  ],
+  "creates": [
+   "v.",
+   "创造（第三人称单数）",
+   "create"
+  ],
+  "crucially": [
+   "adv.",
+   "关键的是"
+  ],
+  "cue": [
+   "n.",
+   "提示；线索"
+  ],
+  "cycling": [
+   "n.",
+   "骑行"
+  ],
+  "darker": [
+   "adj.",
+   "更暗的",
+   "dark"
+  ],
+  "day": [
+   "n.",
+   "一天"
+  ],
+  "day's": [
+   "poss.",
+   "一天的",
+   "day"
+  ],
+  "days": [
+   "n.",
+   "天（复数）",
+   "day"
+  ],
+  "decade": [
+   "n.",
+   "十年"
+  ],
+  "decayed": [
+   "adj.",
+   "腐朽的；衰败的",
+   "decay"
+  ],
+  "decide": [
+   "v.",
+   "决定"
+  ],
+  "deciding": [
+   "v.",
+   "决定（-ing 形式）",
+   "decide"
+  ],
+  "decision": [
+   "n.",
+   "决定"
+  ],
+  "decisive": [
+   "adj.",
+   "决定性的"
+  ],
+  "declared": [
+   "v.",
+   "宣布；声称",
+   "declare"
+  ],
+  "declining": [
+   "adj./v.",
+   "下降的；拒绝的",
+   "decline"
+  ],
+  "decouple": [
+   "v.",
+   "使……脱钩；分开"
+  ],
+  "deep": [
+   "adj.",
+   "深的"
+  ],
+  "delay": [
+   "n./v.",
+   "延迟"
+  ],
+  "deliberately": [
+   "adv.",
+   "故意地"
+  ],
+  "dependants": [
+   "n.",
+   "受抚养人；家属",
+   "dependant"
+  ],
+  "depends": [
+   "v.",
+   "取决于；依赖（第三人称单数）",
+   "depend"
+  ],
+  "describe": [
+   "v.",
+   "描述"
+  ],
+  "design": [
+   "n./v.",
+   "设计"
+  ],
+  "designed": [
+   "v.",
+   "设计（过去式）",
+   "design"
+  ],
+  "developed": [
+   "v.",
+   "发展；开发",
+   "develop"
+  ],
+  "diamond": [
+   "n.",
+   "钻石；菱形"
+  ],
+  "difficult": [
+   "adj.",
+   "困难的"
+  ],
+  "directly": [
+   "adv.",
+   "直接地"
+  ],
+  "disagree": [
+   "v.",
+   "不同意"
+  ],
+  "disappears": [
+   "v.",
+   "消失（第三人称单数）",
+   "disappear"
+  ],
+  "discussed": [
+   "v.",
+   "讨论（过去式）",
+   "discuss"
+  ],
+  "disorder": [
+   "n.",
+   "失调；紊乱"
+  ],
+  "display": [
+   "n./v.",
+   "展示；显示"
+  ],
+  "distributed": [
+   "v.",
+   "分发；分布",
+   "distribute"
+  ],
+  "drais": [
+   "n.",
+   "德莱斯（人名，Karl Drais）"
+  ],
+  "dress": [
+   "n.",
+   "连衣裙；服装"
+  ],
+  "drove": [
+   "v.",
+   "驾驶（过去式）",
+   "drive"
+  ],
+  "dunlop": [
+   "n.",
+   "邓禄普（人名，John Boyd Dunlop）"
+  ],
+  "dwell": [
+   "v.",
+   "居住；细想"
+  ],
+  "early": [
+   "adj./adv.",
+   "早期的；早"
+  ],
+  "easiest": [
+   "adj.",
+   "最容易的",
+   "easy"
+  ],
+  "easily": [
+   "adv.",
+   "容易地"
+  ],
+  "easy": [
+   "adj.",
+   "容易的"
+  ],
+  "economist": [
+   "n.",
+   "经济学家"
+  ],
+  "economy": [
+   "n.",
+   "经济"
+  ],
+  "editing": [
+   "n./v.",
+   "编辑（工作）",
+   "edit"
+  ],
+  "education": [
+   "n.",
+   "教育"
+  ],
+  "effectively": [
+   "adv.",
+   "有效地；实际上"
+  ],
+  "efficient": [
+   "adj.",
+   "高效的"
+  ],
+  "effort": [
+   "n.",
+   "努力"
+  ],
+  "eighteenth": [
+   "num.",
+   "第十八"
+  ],
+  "else": [
+   "adv.",
+   "其他；否则"
+  ],
+  "emancipate": [
+   "v.",
+   "解放"
+  ],
+  "end": [
+   "n./v.",
+   "结束；末端"
+  ],
+  "endless": [
+   "adj.",
+   "无休止的"
+  ],
+  "ends": [
+   "v./n.",
+   "结束；末端（第三人称单数）",
+   "end"
+  ],
+  "enormous": [
+   "adj.",
+   "巨大的"
+  ],
+  "equal": [
+   "adj./v.",
+   "相等的；平等"
+  ],
+  "erased": [
+   "v.",
+   "抹去；消除",
+   "erase"
+  ],
+  "europe": [
+   "n.",
+   "欧洲"
+  ],
+  "evening": [
+   "n.",
+   "傍晚；晚上"
+  ],
+  "evenly": [
+   "adv.",
+   "均匀地"
+  ],
+  "ever": [
+   "adv.",
+   "曾经；究竟"
+  ],
+  "everything": [
+   "pron.",
+   "一切"
+  ],
+  "everywhere": [
+   "adv.",
+   "到处"
+  ],
+  "evidence": [
+   "n.",
+   "证据"
+  ],
+  "exaggeration": [
+   "n.",
+   "夸张"
+  ],
+  "exam": [
+   "n.",
+   "考试"
+  ],
+  "exercise": [
+   "n./v.",
+   "练习；锻炼"
+  ],
+  "exist": [
+   "v.",
+   "存在"
+  ],
+  "expensive": [
+   "adj.",
+   "昂贵的"
+  ],
+  "experience": [
+   "n./v.",
+   "经验；经历"
+  ],
+  "experiment": [
+   "n./v.",
+   "实验"
+  ],
+  "explain": [
+   "v.",
+   "解释"
+  ],
+  "exposure": [
+   "n.",
+   "接触；暴露"
+  ],
+  "face": [
+   "n./v.",
+   "脸；面对"
+  ],
+  "factories": [
+   "n.",
+   "工厂（复数）",
+   "factory"
+  ],
+  "factory": [
+   "n.",
+   "工厂"
+  ],
+  "fade": [
+   "v.",
+   "褪色；消退"
+  ],
+  "fail": [
+   "v.",
+   "失败；不及格"
+  ],
+  "failed": [
+   "v.",
+   "失败（过去式）",
+   "fail"
+  ],
+  "failure": [
+   "n.",
+   "失败"
+  ],
+  "fall": [
+   "n./v.",
+   "下降；跌倒"
+  ],
+  "familiar": [
+   "adj.",
+   "熟悉的"
+  ],
+  "far": [
+   "adv.",
+   "远"
+  ],
+  "faster": [
+   "adj./adv.",
+   "更快的",
+   "fast"
+  ],
+  "fatal": [
+   "adj.",
+   "致命的"
+  ],
+  "fear": [
+   "n./v.",
+   "恐惧；害怕"
+  ],
+  "feared": [
+   "v.",
+   "害怕；担心（过去式）",
+   "fear"
+  ],
+  "feed": [
+   "v.",
+   "喂养"
+  ],
+  "feeds": [
+   "v.",
+   "喂养（第三人称单数）",
+   "feed"
+  ],
+  "feel": [
+   "v.",
+   "感觉"
+  ],
+  "feeling": [
+   "n./v.",
+   "感觉",
+   "feel"
+  ],
+  "feels": [
+   "v.",
+   "感觉（第三人称单数）",
+   "feel"
+  ],
+  "feet": [
+   "n.",
+   "脚（foot 的复数）",
+   "foot"
+  ],
+  "fell": [
+   "v.",
+   "落下；跌倒（过去式）",
+   "fall"
+  ],
+  "fewer": [
+   "adj.",
+   "更少的（可数）",
+   "few"
+  ],
+  "finish": [
+   "v.",
+   "完成；结束"
+  ],
+  "fix": [
+   "v.",
+   "修理；固定"
+  ],
+  "fluency": [
+   "n.",
+   "流利；流畅"
+  ],
+  "follow": [
+   "v.",
+   "跟随；理解"
+  ],
+  "forget": [
+   "v.",
+   "忘记"
+  ],
+  "forgetting": [
+   "n./v.",
+   "遗忘（-ing 形式）",
+   "forget"
+  ],
+  "former": [
+   "adj.",
+   "以前的；前者的"
+  ],
+  "forward": [
+   "adv.",
+   "向前"
+  ],
+  "frame": [
+   "n.",
+   "车架；框架"
+  ],
+  "free": [
+   "adj.",
+   "免费的；自由的"
+  ],
+  "french": [
+   "adj.",
+   "法国的；法语的"
+  ],
+  "frequent": [
+   "adj.",
+   "频繁的"
+  ],
+  "friend": [
+   "n.",
+   "朋友"
+  ],
+  "front": [
+   "n./adj.",
+   "前面；前部的"
+  ],
+  "game": [
+   "n.",
+   "游戏；比赛"
+  ],
+  "gardener": [
+   "n.",
+   "园丁"
+  ],
+  "gave": [
+   "v.",
+   "给（过去式）",
+   "give"
+  ],
+  "generation": [
+   "n.",
+   "一代人"
+  ],
+  "generations": [
+   "n.",
+   "几代人（复数）",
+   "generation"
+  ],
+  "gesture": [
+   "n.",
+   "手势；姿态"
+  ],
+  "goes": [
+   "v.",
+   "去（第三人称单数）",
+   "go"
+  ],
+  "good": [
+   "adj.",
+   "好的"
+  ],
+  "grew": [
+   "v.",
+   "成长（过去式）",
+   "grow"
+  ],
+  "ground": [
+   "n.",
+   "地面；场地"
+  ],
+  "grown": [
+   "adj./v.",
+   "成年的；长满的",
+   "grow"
+  ],
+  "half": [
+   "n./adj.",
+   "一半"
+  ],
+  "hall": [
+   "n.",
+   "大厅；礼堂"
+  ],
+  "handlebars": [
+   "n.",
+   "车把",
+   "handlebar"
+  ],
+  "happened": [
+   "v.",
+   "发生（过去式）",
+   "happen"
+  ],
+  "happens": [
+   "v.",
+   "发生（第三人称单数）",
+   "happen"
+  ],
+  "hard": [
+   "adj./adv.",
+   "困难的；努力地"
+  ],
+  "harder": [
+   "adj./adv.",
+   "更难的；更努力",
+   "hard"
+  ],
+  "harmless": [
+   "adj.",
+   "无害的"
+  ],
+  "harvests": [
+   "n.",
+   "收成（复数）",
+   "harvest"
+  ],
+  "heavy": [
+   "adj.",
+   "重的"
+  ],
+  "herbert": [
+   "n.",
+   "赫伯特（人名）"
+  ],
+  "hold": [
+   "v.",
+   "握住；容纳"
+  ],
+  "holding": [
+   "v.",
+   "握着；拿着（-ing 形式）",
+   "hold"
+  ],
+  "horses": [
+   "n.",
+   "马（复数）",
+   "horse"
+  ],
+  "hundreds": [
+   "num./n.",
+   "数百"
+  ],
+  "idea": [
+   "n.",
+   "想法；主意"
+  ],
+  "illusion": [
+   "n.",
+   "错觉；幻想"
+  ],
+  "incentive": [
+   "n.",
+   "激励；动机"
+  ],
+  "increased": [
+   "v./adj.",
+   "增加（过去式）",
+   "increase"
+  ],
+  "industry": [
+   "n.",
+   "工业；行业"
+  ],
+  "influential": [
+   "adj.",
+   "有影响力的"
+  ],
+  "information": [
+   "n.",
+   "信息"
+  ],
+  "inherited": [
+   "v.",
+   "继承",
+   "inherit"
+  ],
+  "instead": [
+   "adv.",
+   "代替；反而"
+  ],
+  "instructed": [
+   "v.",
+   "指示；教导",
+   "instruct"
+  ],
+  "intact": [
+   "adj.",
+   "完好无损的"
+  ],
+  "intended": [
+   "v./adj.",
+   "打算；预期的",
+   "intend"
+  ],
+  "interchangeable": [
+   "adj.",
+   "可互换的"
+  ],
+  "interface": [
+   "n.",
+   "界面；接口"
+  ],
+  "internet": [
+   "n.",
+   "互联网"
+  ],
+  "interpret": [
+   "v.",
+   "解释；理解"
+  ],
+  "interrupts": [
+   "v.",
+   "打断（第三人称单数）",
+   "interrupt"
+  ],
+  "invent": [
+   "v.",
+   "发明"
+  ],
+  "iron": [
+   "n.",
+   "铁"
+  ],
+  "irrelevance": [
+   "n.",
+   "无关；不重要"
+  ],
+  "item": [
+   "n.",
+   "一项；物品"
+  ],
+  "items": [
+   "n.",
+   "项目；物品（复数）",
+   "item"
+  ],
+  "john": [
+   "n.",
+   "约翰（人名）"
+  ],
+  "just": [
+   "adv.",
+   "只是；刚刚"
+  ],
+  "karl": [
+   "n.",
+   "卡尔（人名，Karl Drais）"
+  ],
+  "keeps": [
+   "v.",
+   "保持（第三人称单数）",
+   "keep"
+  ],
+  "kemp": [
+   "n.",
+   "肯普（人名）"
+  ],
+  "kept": [
+   "v.",
+   "保持（过去式）",
+   "keep"
+  ],
+  "known": [
+   "adj./v.",
+   "已知的；知道",
+   "know"
+  ],
+  "last": [
+   "adj./v.",
+   "最后的；持续"
+  ],
+  "lasting": [
+   "adj.",
+   "持久的"
+  ],
+  "later": [
+   "adv.",
+   "后来；稍后"
+  ],
+  "leak": [
+   "v./n.",
+   "泄漏"
+  ],
+  "learned": [
+   "v.",
+   "学会（过去式）",
+   "learn"
+  ],
+  "learning": [
+   "n./v.",
+   "学习",
+   "learn"
+  ],
+  "leave": [
+   "v.",
+   "离开；留下"
+  ],
+  "lessons": [
+   "n.",
+   "课；教训（复数）",
+   "lesson"
+  ],
+  "letter": [
+   "n.",
+   "信；字母"
+  ],
+  "life": [
+   "n.",
+   "生活；生命"
+  ],
+  "like": [
+   "prep./v.",
+   "像；喜欢"
+  ],
+  "likeliest": [
+   "adj.",
+   "最可能的",
+   "likely"
+  ],
+  "line": [
+   "n.",
+   "线；台词"
+  ],
+  "list": [
+   "n./v.",
+   "清单；列出"
+  ],
+  "long": [
+   "adj./adv.",
+   "长的；长久地"
+  ],
+  "long-form": [
+   "adj.",
+   "长篇的"
+  ],
+  "longer": [
+   "adj./adv.",
+   "更长的",
+   "long"
+  ],
+  "loose": [
+   "adj.",
+   "松的"
+  ],
+  "losing": [
+   "v.",
+   "失去（-ing 形式）",
+   "lose"
+  ],
+  "low": [
+   "adj.",
+   "低的"
+  ],
+  "machine": [
+   "n.",
+   "机器；车"
+  ],
+  "made": [
+   "v.",
+   "制作（过去式）",
+   "make"
+  ],
+  "make": [
+   "v.",
+   "制作；使"
+  ],
+  "makes": [
+   "v.",
+   "制作；使（第三人称单数）",
+   "make"
+  ],
+  "mannheim": [
+   "n.",
+   "曼海姆（德国城市）"
+  ],
+  "manufacturers": [
+   "n.",
+   "制造商",
+   "manufacturer"
+  ],
+  "market": [
+   "n.",
+   "市场"
+  ],
+  "mass": [
+   "n./adj.",
+   "大量；大众的"
+  ],
+  "match": [
+   "n./v.",
+   "比赛；匹配"
+  ],
+  "material": [
+   "n./adj.",
+   "材料；物质的"
+  ],
+  "matter": [
+   "n./v.",
+   "事情；要紧"
+  ],
+  "mattered": [
+   "v.",
+   "要紧（过去式）",
+   "matter"
+  ],
+  "matters": [
+   "v.",
+   "要紧（第三人称单数）",
+   "matter"
+  ],
+  "measure": [
+   "n./v.",
+   "措施；测量"
+  ],
+  "measures": [
+   "n.",
+   "措施（复数）",
+   "measure"
+  ],
+  "medium": [
+   "n./adj.",
+   "媒介；中等的"
+  ],
+  "memoranda": [
+   "n.",
+   "备忘录（复数）",
+   "memorandum"
+  ],
+  "memory": [
+   "n.",
+   "记忆；记忆力"
+  ],
+  "men": [
+   "n.",
+   "男人（复数）",
+   "man"
+  ],
+  "minutes": [
+   "n.",
+   "分钟（复数）",
+   "minute"
+  ],
+  "mode": [
+   "n.",
+   "模式；方式"
+  ],
+  "moment": [
+   "n.",
+   "时刻"
+  ],
+  "money": [
+   "n.",
+   "钱"
+  ],
+  "moral": [
+   "adj./n.",
+   "道德的；寓意"
+  ],
+  "motor": [
+   "n.",
+   "发动机"
+  ],
+  "mount": [
+   "v.",
+   "登上；安装"
+  ],
+  "movement": [
+   "n.",
+   "运动；移动"
+  ],
+  "name": [
+   "n./v.",
+   "名字；命名"
+  ],
+  "narrower": [
+   "adj.",
+   "更窄的",
+   "narrow"
+  ],
+  "natural": [
+   "adj.",
+   "自然的"
+  ],
+  "neurons": [
+   "n.",
+   "神经元",
+   "neuron"
+  ],
+  "neutral": [
+   "adj.",
+   "中立的；中性的"
+  ],
+  "new": [
+   "adj.",
+   "新的"
+  ],
+  "newspaper": [
+   "n.",
+   "报纸"
+  ],
+  "next": [
+   "adj./adv.",
+   "下一个；接下来"
+  ],
+  "nicknamed": [
+   "v.",
+   "被起绰号",
+   "nickname"
+  ],
+  "nobody": [
+   "pron.",
+   "没有人"
+  ],
+  "none": [
+   "pron.",
+   "没有一个"
+  ],
+  "nostalgia": [
+   "n.",
+   "怀旧"
+  ],
+  "novels": [
+   "n.",
+   "小说（复数）",
+   "novel"
+  ],
+  "now": [
+   "adv.",
+   "现在"
+  ],
+  "numbers": [
+   "n.",
+   "数字（复数）",
+   "number"
+  ],
+  "obstacle": [
+   "n.",
+   "障碍"
+  ],
+  "obvious": [
+   "adj.",
+   "明显的"
+  ],
+  "obviously": [
+   "adv.",
+   "显然"
+  ],
+  "offered": [
+   "v.",
+   "提供（过去式）",
+   "offer"
+  ],
+  "offices": [
+   "n.",
+   "办公室（复数）",
+   "office"
+  ],
+  "old": [
+   "adj.",
+   "旧的；年老的"
+  ],
+  "once": [
+   "adv./conj.",
+   "一次；一旦"
+  ],
+  "only": [
+   "adv./adj.",
+   "只；唯一的"
+  ],
+  "opposite": [
+   "adj./n.",
+   "相反的；对立面"
+  ],
+  "order": [
+   "n./v.",
+   "秩序；订购"
+  ],
+  "ordinary": [
+   "adj.",
+   "普通的"
+  ],
+  "original": [
+   "adj./n.",
+   "最初的；原作"
+  ],
+  "out": [
+   "adv.",
+   "出去"
+  ],
+  "outcome": [
+   "n.",
+   "结果"
+  ],
+  "outvoted": [
+   "v.",
+   "被投票否决",
+   "outvote"
+  ],
+  "page": [
+   "n.",
+   "页"
+  ],
+  "pages": [
+   "n.",
+   "页（复数）",
+   "page"
+  ],
+  "paid": [
+   "v.",
+   "支付（过去式）",
+   "pay"
+  ],
+  "paralysed": [
+   "adj./v.",
+   "瘫痪的；使麻痹",
+   "paralyse"
+  ],
+  "part": [
+   "n.",
+   "部分；角色"
+  ],
+  "participants": [
+   "n.",
+   "参与者",
+   "participant"
+  ],
+  "particular": [
+   "adj.",
+   "特定的；特别的"
+  ],
+  "parts": [
+   "n.",
+   "零件；部分（复数）",
+   "part"
+  ],
+  "passwords": [
+   "n.",
+   "密码（复数）",
+   "password"
+  ],
+  "patented": [
+   "v.",
+   "获得专利",
+   "patent"
+  ],
+  "pattern": [
+   "n.",
+   "模式；图案"
+  ],
+  "pay": [
+   "v.",
+   "支付"
+  ],
+  "pedals": [
+   "n.",
+   "踏板",
+   "pedal"
+  ],
+  "pedestrian": [
+   "n./adj.",
+   "行人；徒步的"
+  ],
+  "penny-farthing": [
+   "n.",
+   "「大小轮车」（前轮大后轮小的老式自行车）"
+  ],
+  "people": [
+   "n.",
+   "人们"
+  ],
+  "performs": [
+   "v.",
+   "执行；表现（第三人称单数）",
+   "perform"
+  ],
+  "permission": [
+   "n.",
+   "许可"
+  ],
+  "persistent": [
+   "adj.",
+   "持续的；固执的"
+  ],
+  "physical": [
+   "adj.",
+   "身体的；物理的"
+  ],
+  "picture": [
+   "n.",
+   "图片；画面"
+  ],
+  "place": [
+   "n./v.",
+   "地方；放置"
+  ],
+  "platforms": [
+   "n.",
+   "平台",
+   "platform"
+  ],
+  "play": [
+   "v./n.",
+   "玩；播放"
+  ],
+  "pneumatic": [
+   "adj.",
+   "充气的"
+  ],
+  "point": [
+   "n./v.",
+   "要点；指出"
+  ],
+  "popularity": [
+   "n.",
+   "受欢迎程度"
+  ],
+  "possible": [
+   "adj.",
+   "可能的"
+  ],
+  "post-traumatic": [
+   "adj.",
+   "创伤后的"
+  ],
+  "poverty": [
+   "n.",
+   "贫困"
+  ],
+  "practical": [
+   "adj.",
+   "实际的；实用的"
+  ],
+  "precisely": [
+   "adv.",
+   "精确地；正是"
+  ],
+  "predicted": [
+   "v.",
+   "预测（过去式）",
+   "predict"
+  ],
+  "prediction": [
+   "n.",
+   "预测"
+  ],
+  "predictions": [
+   "n.",
+   "预测（复数）",
+   "prediction"
+  ],
+  "present": [
+   "adj./v.",
+   "现在的；呈现"
+  ],
+  "presenting": [
+   "v.",
+   "呈现（-ing 形式）",
+   "present"
+  ],
+  "price": [
+   "n.",
+   "价格"
+  ],
+  "priced": [
+   "adj./v.",
+   "定价的",
+   "price"
+  ],
+  "prices": [
+   "n.",
+   "价格（复数）",
+   "price"
+  ],
+  "problem": [
+   "n.",
+   "问题"
+  ],
+  "problems": [
+   "n.",
+   "问题（复数）",
+   "problem"
+  ],
+  "process": [
+   "n./v.",
+   "过程；处理"
+  ],
+  "produce": [
+   "v.",
+   "生产；产生"
+  ],
+  "produced": [
+   "v.",
+   "生产（过去式）",
+   "produce"
+  ],
+  "product": [
+   "n.",
+   "产品"
+  ],
+  "production": [
+   "n.",
+   "生产"
+  ],
+  "profit": [
+   "n.",
+   "利润"
+  ],
+  "proved": [
+   "v.",
+   "证明（过去式）",
+   "prove"
+  ],
+  "pruned": [
+   "v.",
+   "修剪；削减",
+   "prune"
+  ],
+  "psychologists": [
+   "n.",
+   "心理学家",
+   "psychologist"
+  ],
+  "published": [
+   "v.",
+   "出版（过去式）",
+   "publish"
+  ],
+  "publishers": [
+   "n.",
+   "出版商",
+   "publisher"
+  ],
+  "pull": [
+   "v.",
+   "拉"
+  ],
+  "purely": [
+   "adv.",
+   "纯粹地"
+  ],
+  "pushed": [
+   "v.",
+   "推动（过去式）",
+   "push"
+  ],
+  "quickly": [
+   "adv.",
+   "快速地"
+  ],
+  "quoted": [
+   "v.",
+   "引用（过去式）",
+   "quote"
+  ],
+  "racing": [
+   "n./adj.",
+   "赛车；比赛的"
+  ],
+  "rarer": [
+   "adj.",
+   "更稀少的",
+   "rare"
+  ],
+  "rather": [
+   "adv.",
+   "相当；而不是"
+  ],
+  "rational": [
+   "adj.",
+   "理性的"
+  ],
+  "reach": [
+   "v./n.",
+   "到达；范围"
+  ],
+  "reader": [
+   "n.",
+   "读者"
+  ],
+  "readers": [
+   "n.",
+   "读者（复数）",
+   "reader"
+  ],
+  "reading": [
+   "n./v.",
+   "阅读",
+   "read"
+  ],
+  "rear": [
+   "adj./n.",
+   "后部的；后方"
+  ],
+  "reason": [
+   "n.",
+   "原因；理性"
+  ],
+  "rebuttal": [
+   "n.",
+   "反驳"
+  ],
+  "recalled": [
+   "v.",
+   "回忆起；召回",
+   "recall"
+  ],
+  "receive": [
+   "v.",
+   "收到"
+  ],
+  "recent": [
+   "adj.",
+   "最近的"
+  ],
+  "recipients": [
+   "n.",
+   "接受者",
+   "recipient"
+  ],
+  "recommends": [
+   "v.",
+   "推荐（第三人称单数）",
+   "recommend"
+  ],
+  "reconsolidation": [
+   "n.",
+   "（记忆的）再巩固"
+  ],
+  "record": [
+   "n./v.",
+   "记录；录制"
+  ],
+  "recovering": [
+   "v.",
+   "恢复（-ing 形式）",
+   "recover"
+  ],
+  "redesigned": [
+   "v.",
+   "重新设计",
+   "redesign"
+  ],
+  "refresh": [
+   "v.",
+   "刷新；使恢复精神"
+  ],
+  "refuses": [
+   "v.",
+   "拒绝（第三人称单数）",
+   "refuse"
+  ],
+  "regulation": [
+   "n.",
+   "规章；管理"
+  ],
+  "remember": [
+   "v.",
+   "记得"
+  ],
+  "remembered": [
+   "v.",
+   "记得（过去式）",
+   "remember"
+  ],
+  "removes": [
+   "v.",
+   "移除（第三人称单数）",
+   "remove"
+  ],
+  "repeatedly": [
+   "adv.",
+   "反复地"
+  ],
+  "replaced": [
+   "v.",
+   "取代（过去式）",
+   "replace"
+  ],
+  "replayed": [
+   "v.",
+   "重放；重演",
+   "replay"
+  ],
+  "rereading": [
+   "n./v.",
+   "重读",
+   "reread"
+  ],
+  "resource": [
+   "n.",
+   "资源"
+  ],
+  "response": [
+   "n.",
+   "回应；反应"
+  ],
+  "responses": [
+   "n.",
+   "回应（复数）",
+   "response"
+  ],
+  "rest": [
+   "n./v.",
+   "休息；其余部分"
+  ],
+  "restricted": [
+   "adj./v.",
+   "受限的",
+   "restrict"
+  ],
+  "result": [
+   "n./v.",
+   "结果；导致"
+  ],
+  "retrieval": [
+   "n.",
+   "检索；取回"
+  ],
+  "revenue": [
+   "n.",
+   "收入；营收"
+  ],
+  "reversed": [
+   "v.",
+   "颠倒；逆转",
+   "reverse"
+  ],
+  "revise": [
+   "v.",
+   "修改；复习"
+  ],
+  "rewards": [
+   "n./v.",
+   "奖励（复数）",
+   "reward"
+  ],
+  "ridden": [
+   "v.",
+   "骑（过去分词）",
+   "ride"
+  ],
+  "rider": [
+   "n.",
+   "骑行者"
+  ],
+  "rider's": [
+   "poss.",
+   "骑行者的",
+   "rider"
+  ],
+  "roads": [
+   "n.",
+   "道路（复数）",
+   "road"
+  ],
+  "role": [
+   "n.",
+   "角色；作用"
+  ],
+  "route": [
+   "n.",
+   "路线"
+  ],
+  "rover": [
+   "n.",
+   "漫游者；流浪者"
+  ],
+  "rubber": [
+   "n.",
+   "橡胶"
+  ],
+  "ruin": [
+   "v./n.",
+   "毁坏；废墟"
+  ],
+  "rules": [
+   "n./v.",
+   "规则（复数）",
+   "rule"
+  ],
+  "running": [
+   "n./v.",
+   "跑步；运行",
+   "run"
+  ],
+  "safe": [
+   "adj.",
+   "安全的"
+  ],
+  "safety": [
+   "n.",
+   "安全"
+  ],
+  "said": [
+   "v.",
+   "说（过去式）",
+   "say"
+  ],
+  "sat": [
+   "v.",
+   "坐（过去式）",
+   "sit"
+  ],
+  "scales": [
+   "n.",
+   "秤；规模（复数）",
+   "scale"
+  ],
+  "scarce": [
+   "adj.",
+   "稀少的"
+  ],
+  "sceptics": [
+   "n.",
+   "怀疑者",
+   "sceptic"
+  ],
+  "screen": [
+   "n.",
+   "屏幕"
+  ],
+  "scroll": [
+   "v./n.",
+   "滚动"
+  ],
+  "sealed": [
+   "v.",
+   "密封",
+   "seal"
+  ],
+  "see": [
+   "v.",
+   "看见；明白"
+  ],
+  "seems": [
+   "v.",
+   "似乎（第三人称单数）",
+   "seem"
+  ],
+  "self-reports": [
+   "n.",
+   "自我报告",
+   "self-report"
+  ],
+  "sell": [
+   "v.",
+   "卖"
+  ],
+  "sentence": [
+   "n.",
+   "句子；判决"
+  ],
+  "series": [
+   "n.",
+   "一系列"
+  ],
+  "session": [
+   "n.",
+   "一节课；一次活动"
+  ],
+  "sessions": [
+   "n.",
+   "几次活动（复数）",
+   "session"
+  ],
+  "several": [
+   "adj./pron.",
+   "几个"
+  ],
+  "shook": [
+   "v.",
+   "摇动（过去式）",
+   "shake"
+  ],
+  "shoots": [
+   "v.",
+   "拍摄；发射（第三人称单数）",
+   "shoot"
+  ],
+  "simon": [
+   "n.",
+   "西蒙（人名）"
+  ],
+  "simple": [
+   "adj.",
+   "简单的"
+  ],
+  "single": [
+   "adj.",
+   "单一的；单身的"
+  ],
+  "sit": [
+   "v.",
+   "坐"
+  ],
+  "situation": [
+   "n.",
+   "情况"
+  ],
+  "situations": [
+   "n.",
+   "情况（复数）",
+   "situation"
+  ],
+  "size": [
+   "n.",
+   "大小；尺寸"
+  ],
+  "skill": [
+   "n.",
+   "技能"
+  ],
+  "skirt": [
+   "n.",
+   "裙子"
+  ],
+  "sleep": [
+   "n./v.",
+   "睡眠"
+  ],
+  "slow-media": [
+   "adj.",
+   "慢媒体的"
+  ],
+  "slower": [
+   "adj.",
+   "更慢的",
+   "slow"
+  ],
+  "small": [
+   "adj.",
+   "小的"
+  ],
+  "smooth": [
+   "adj.",
+   "平滑的；顺畅的"
+  ],
+  "solid": [
+   "adj.",
+   "固体的；坚固的"
+  ],
+  "solved": [
+   "v.",
+   "解决（过去式）",
+   "solve"
+  ],
+  "son's": [
+   "poss.",
+   "儿子的",
+   "son"
+  ],
+  "sorting": [
+   "n./v.",
+   "分类；排序",
+   "sort"
+  ],
+  "sound": [
+   "n./adj.",
+   "声音；合理的"
+  ],
+  "sounds": [
+   "n./v.",
+   "声音；听起来（第三人称单数）",
+   "sound"
+  ],
+  "spacing": [
+   "n.",
+   "间隔；间距"
+  ],
+  "spectacle": [
+   "n.",
+   "景象；奇观"
+  ],
+  "speed": [
+   "n.",
+   "速度"
+  ],
+  "speeds": [
+   "n.",
+   "速度（复数）",
+   "speed"
+  ],
+  "spent": [
+   "v.",
+   "花费（过去式）",
+   "spend"
+  ],
+  "sport": [
+   "n.",
+   "运动"
+  ],
+  "standard": [
+   "n./adj.",
+   "标准；标准的"
+  ],
+  "starley's": [
+   "poss.",
+   "斯塔利的（人名所有格）",
+   "starley"
+  ],
+  "start": [
+   "n./v.",
+   "开始"
+  ],
+  "state": [
+   "n.",
+   "状态；国家"
+  ],
+  "steel": [
+   "n.",
+   "钢"
+  ],
+  "step": [
+   "n.",
+   "一步；台阶"
+  ],
+  "still": [
+   "adv.",
+   "仍然"
+  ],
+  "stopping": [
+   "v.",
+   "停止（-ing 形式）",
+   "stop"
+  ],
+  "storage": [
+   "n.",
+   "储存"
+  ],
+  "stress": [
+   "n./v.",
+   "压力；强调"
+  ],
+  "structure": [
+   "n.",
+   "结构"
+  ],
+  "students": [
+   "n.",
+   "学生（复数）",
+   "student"
+  ],
+  "studied": [
+   "v.",
+   "研究；学习（过去式）",
+   "study"
+  ],
+  "study": [
+   "n./v.",
+   "研究；学习"
+  ],
+  "subscriptions": [
+   "n.",
+   "订阅（复数）",
+   "subscription"
+  ],
+  "substitute": [
+   "n./v.",
+   "替代品；代替"
+  ],
+  "sudden": [
+   "adj.",
+   "突然的"
+  ],
+  "suggested": [
+   "v.",
+   "建议；表明（过去式）",
+   "suggest"
+  ],
+  "suggests": [
+   "v.",
+   "建议；表明（第三人称单数）",
+   "suggest"
+  ],
+  "summer": [
+   "n.",
+   "夏天"
+  ],
+  "survives": [
+   "v.",
+   "幸存（第三人称单数）",
+   "survive"
+  ],
+  "susan": [
+   "n.",
+   "苏珊（人名）"
+  ],
+  "sustained": [
+   "adj./v.",
+   "持续的；维持",
+   "sustain"
+  ],
+  "system": [
+   "n.",
+   "系统"
+  ],
+  "technical": [
+   "adj.",
+   "技术的"
+  ],
+  "techniques": [
+   "n.",
+   "技巧（复数）",
+   "technique"
+  ],
+  "technology": [
+   "n.",
+   "技术"
+  ],
+  "teenage": [
+   "adj.",
+   "青少年的"
+  ],
+  "teeth": [
+   "n.",
+   "牙齿（复数）",
+   "tooth"
+  ],
+  "television": [
+   "n.",
+   "电视"
+  ],
+  "tells": [
+   "v.",
+   "告诉（第三人称单数）",
+   "tell"
+  ],
+  "terms": [
+   "n.",
+   "术语；条款（复数）",
+   "term"
+  ],
+  "test": [
+   "n./v.",
+   "测试"
+  ],
+  "text": [
+   "n.",
+   "文本"
+  ],
+  "textbook": [
+   "n.",
+   "教科书"
+  ],
+  "therapy": [
+   "n.",
+   "治疗"
+  ],
+  "thinking": [
+   "n./v.",
+   "思考",
+   "think"
+  ],
+  "thinner": [
+   "adj.",
+   "更薄的；更瘦的",
+   "thin"
+  ],
+  "threaten": [
+   "v.",
+   "威胁"
+  ],
+  "throughout": [
+   "prep.",
+   "贯穿；遍及"
+  ],
+  "throw": [
+   "v.",
+   "扔；抛"
+  ],
+  "time": [
+   "n.",
+   "时间"
+  ],
+  "timing": [
+   "n.",
+   "时机；时间安排"
+  ],
+  "tip-of-the-tongue": [
+   "adj.",
+   "话到嘴边想不起来的"
+  ],
+  "together": [
+   "adv.",
+   "一起"
+  ],
+  "told": [
+   "v.",
+   "告诉（过去式）",
+   "tell"
+  ],
+  "trace": [
+   "n./v.",
+   "痕迹；追溯"
+  ],
+  "trade": [
+   "n./v.",
+   "贸易；交易"
+  ],
+  "trained": [
+   "adj./v.",
+   "受过训练的",
+   "train"
+  ],
+  "transport": [
+   "n./v.",
+   "运输"
+  ],
+  "treated": [
+   "v.",
+   "对待；治疗（过去式）",
+   "treat"
+  ],
+  "treatment": [
+   "n.",
+   "治疗；对待"
+  ],
+  "tricycle": [
+   "n.",
+   "三轮车"
+  ],
+  "triggered": [
+   "v.",
+   "触发（过去式）",
+   "trigger"
+  ],
+  "try": [
+   "v.",
+   "尝试"
+  ],
+  "trying": [
+   "v.",
+   "尝试（-ing 形式）",
+   "try"
+  ],
+  "tubing": [
+   "n.",
+   "管材"
+  ],
+  "turn": [
+   "v./n.",
+   "转动；轮到"
+  ],
+  "turned": [
+   "v.",
+   "转动（过去式）",
+   "turn"
+  ],
+  "twentieth": [
+   "num.",
+   "第二十"
+  ],
+  "two-wheeled": [
+   "adj.",
+   "两轮的"
+  ],
+  "tyre": [
+   "n.",
+   "轮胎"
+  ],
+  "tyres": [
+   "n.",
+   "轮胎（复数）",
+   "tyre"
+  ],
+  "unglamorous": [
+   "adj.",
+   "不光彩的；不起眼的"
+  ],
+  "unimportant": [
+   "adj.",
+   "不重要的"
+  ],
+  "unlikely": [
+   "adj.",
+   "不太可能的"
+  ],
+  "unreliable": [
+   "adj.",
+   "不可靠的"
+  ],
+  "unveiled": [
+   "v.",
+   "揭幕；推出",
+   "unveil"
+  ],
+  "up": [
+   "adv.",
+   "向上"
+  ],
+  "updated": [
+   "v./adj.",
+   "更新的",
+   "update"
+  ],
+  "use": [
+   "v./n.",
+   "使用"
+  ],
+  "used": [
+   "v./adj.",
+   "使用（过去式）；用过的",
+   "use"
+  ],
+  "usefully": [
+   "adv.",
+   "有用地"
+  ],
+  "useless": [
+   "adj.",
+   "无用的"
+  ],
+  "users": [
+   "n.",
+   "用户（复数）",
+   "user"
+  ],
+  "variable": [
+   "adj./n.",
+   "可变的；变量"
+  ],
+  "vary": [
+   "v.",
+   "变化；不同"
+  ],
+  "vibration": [
+   "n.",
+   "振动"
+  ],
+  "village": [
+   "n.",
+   "村庄"
+  ],
+  "walked": [
+   "v.",
+   "走（过去式）",
+   "walk"
+  ],
+  "wanted": [
+   "v.",
+   "想要（过去式）",
+   "want"
+  ],
+  "warning": [
+   "n.",
+   "警告"
+  ],
+  "way": [
+   "n.",
+   "方式；道路"
+  ],
+  "weak": [
+   "adj.",
+   "弱的"
+  ],
+  "wealth": [
+   "n.",
+   "财富"
+  ],
+  "welded": [
+   "v.",
+   "焊接",
+   "weld"
+  ],
+  "well": [
+   "adv./adj.",
+   "好；健康的"
+  ],
+  "whatever": [
+   "pron./conj.",
+   "无论什么"
+  ],
+  "wheel": [
+   "n.",
+   "车轮"
+  ],
+  "wheels": [
+   "n.",
+   "车轮（复数）",
+   "wheel"
+  ],
+  "whole": [
+   "adj./n.",
+   "整个的；整体"
+  ],
+  "woman": [
+   "n.",
+   "女人"
+  ],
+  "women": [
+   "n.",
+   "女人（复数）",
+   "woman"
+  ],
+  "wooden": [
+   "adj.",
+   "木制的"
+  ],
+  "words": [
+   "n.",
+   "词（复数）",
+   "word"
+  ],
+  "work": [
+   "n./v.",
+   "工作；起作用"
+  ],
+  "worked": [
+   "v.",
+   "工作（过去式）",
+   "work"
+  ],
+  "works": [
+   "v./n.",
+   "起作用；作品（第三人称单数）",
+   "work"
+  ],
+  "world": [
+   "n.",
+   "世界"
+  ],
+  "worse": [
+   "adj./adv.",
+   "更糟的",
+   "bad"
+  ],
+  "wrong": [
+   "adj.",
+   "错误的"
+  ],
+  "wrote": [
+   "v.",
+   "写（过去式）",
+   "write"
+  ],
+  "year": [
+   "n.",
+   "年"
+  ],
+  "years": [
+   "n.",
+   "年（复数）",
+   "year"
+  ],
+  "young": [
+   "adj.",
+   "年轻的"
+  ]
+ }
+}

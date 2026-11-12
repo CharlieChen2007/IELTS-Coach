@@ -1,0 +1,32 @@
+import type { Subject } from '../contract'
+
+export type HelpStory = {
+  id: string; subject: Subject; name: string; area: string; topic: string
+  title: string; prompt: string; answer: string; question: string; advice: string
+  stage?: 'claimed' | 'answered' | 'resolved'; helper?: string
+}
+
+export const stories: HelpStory[] = [
+  {id:'listening',subject:'listening',name:'陈思禾',area:'传播学院',topic:'时间与修正',title:'社团改了集合时间，该填哪一个？',prompt:'We used to meet at half past six, but this term we start at a quarter to seven. The club now meets at ____.',answer:'6:30',question:'我听到 half past six 就填了。哪几个词说明后来改了时间？',advice:'used to 介绍以前，but this term 转到本学期。a quarter to seven 是 6:45。'},
+  {id:'speaking',subject:'speaking',name:'周澄',area:'建筑学院',topic:'Part 2 · 回答展开',title:'说完 “It is quiet”，怎么把图书馆讲具体？',prompt:'Describe a place on campus where you like to study.',answer:'I like the library because it is quiet. I study there a lot.',question:'我总是重复 quiet。想加一个细节，但又怕变成流水账。',advice:'说清你坐在哪里，再补一件具体发生的事。例如坐在三楼窗边，一口气读完了整章。'},
+  {id:'reading',subject:'reading',name:'沈予安',area:'人文学院',topic:'判断题 · 范围',title:'原文里的 some，能推出题干里的 most 吗？',prompt:'Some students cycled to the new campus during the first week. Statement: Most students cycled there that week.',answer:'False',question:'数量词不同就是 False 吗？我在 False 和 Not Given 之间犹豫。',advice:'some 表示一部分，没有说明是否过半。它既没有支持也没有否定 most，应选 Not Given。',stage:'answered',helper:'许知遥'},
+  {id:'writing',subject:'writing',name:'叶书言',area:'经济学院',topic:'Task 2 · 论证',title:'怎样把校园食堂的例子写进论证？',prompt:'Should universities offer more low-cost meals? Explain your view.',answer:'Cheap meals are good for students. They can save money. It is useful.',question:'这几句都在说“好”。想让例子真正解释为什么。',advice:'补出节省餐费后的具体选择。Affordable lunches leave students on tight budgets with more money for textbooks.'},
+  {id:'map',subject:'listening',name:'林晓雯',area:'外国语学院',topic:'地图 · 路线',title:'past the gate 指的是门前还是门后？',prompt:'Walk past the gate and take the first path on your left. Where does the first turn occur?',answer:'At the gate.',question:'我一听到 gate 就在门口拐了，路线怎么跟丢的？',advice:'先经过大门，再走经过大门后的第一个左岔口。past 在这里说明要继续向前。',stage:'claimed',helper:'赵芮'},
+  {id:'weekend',subject:'speaking',name:'何嘉宁',area:'管理学院',topic:'Part 1 · 叙事',title:'讲周末经历时，怎么少说几次 very nice？',prompt:'What did you do last weekend?',answer:'I went to a market on Saturday. It was very nice. I bought some food.',question:'讲周末只能想到形容词。怎样把这三句话连起来？',advice:'用同行的人、具体食物和动作串起时间顺序。比同义替换 nice 更容易讲得自然。',stage:'answered',helper:'陈夏'},
+  {id:'heading',subject:'reading',name:'程以棠',area:'教育学部',topic:'标题匹配',title:'段首讲树荫，为什么标题是社区参与？',prompt:'The garden offered plenty of shade. More importantly, neighbours planned its layout, raised funds and now share its upkeep.',answer:'The benefits of shade',question:'第一句很像选项，但后两句在讲人。我应该按什么选？',advice:'More importantly 引出重点。规划、筹款和维护共同支持的主旨是社区参与。'},
+  {id:'comparison',subject:'writing',name:'顾行远',area:'数学科学学院',topic:'Task 1 · 数据比较',title:'从 20% 到 30%，能写 increased by 10% 吗？',prompt:'Bus use rose from 20% in 2015 to 30% in 2020.',answer:'The proportion increased by 10%.',question:'我说的 10 是两年的差，这样写准确吗？',advice:'直接差值为 10 percentage points；相对增幅才是 50%。也可以保留 from 20% to 30%。',stage:'resolved',helper:'林舟'},
+  {id:'plural',subject:'listening',name:'苏晚晴',area:'法学院',topic:'笔记填空 · 复数',title:'为什么听清了 locker，答案还是错？',prompt:'Students can leave their bags in the lockers downstairs. Facilities: ____ for bags.',answer:'locker',question:'是不是 facilities 后面一定要写复数？',advice:'这里录音中的名词本身是 lockers。不要机械地从 facilities 推导，回听词尾并与原句对照。'},
+  {id:'stress',subject:'speaking',name:'罗嘉佑',area:'计算机与软件学院',topic:'表达 · 对比重音',title:'怎么让人听出我强调的是周四而非周二？',prompt:'You were invited to meet on Tuesday. Correct the day politely.',answer:'I meant Thursday, not Tuesday.',question:'两天的词我都念清楚了，但同学还是没听出我在纠正。',advice:'把 Thursday 和 Tuesday 做成对比重音，在 not 前稍停，让听者注意两个日期的变化。'},
+  {id:'reference',subject:'reading',name:'许知遥',area:'艺术学部',topic:'代词指代',title:'这里的 they 指居民还是自行车？',prompt:'Residents welcomed the new bikes because they could now travel to work without parking a car.',answer:'the new bikes',question:'bikes 离 they 最近，是不是应该优先选它？',advice:'看从句的动作和语义。通勤且停车的人是居民，不能只凭距离判断。',stage:'resolved',helper:'沈予安'},
+  {id:'concession',subject:'writing',name:'蒋若葵',area:'人文学院',topic:'让步句',title:'Although 和 but 可以放在同一句吗？',prompt:'Join the ideas in one sentence: running the club costs money; it helps new students.',answer:'Although running the club costs money, but it helps new students.',question:'想保留让步关系，删掉哪个词更顺？',advice:'保留 Although 作从句引导词，主句直接说 it helps new students。',stage:'claimed',helper:'叶书言'},
+  {id:'price',subject:'listening',name:'邓弈',area:'机电与控制工程学院',topic:'报价 · 条件',title:'两种票价同时出现，怎么定位学生票？',prompt:'General admission is twelve pounds. With a student card, you only pay eight. Student price: £____.',answer:'12',question:'我记下了第一个数字，怎样在听之前知道该等哪种信息？',advice:'先圈出 Student price。听到 with a student card 后再把对应的 eight 写到空格。',stage:'answered',helper:'陈思禾'},
+  {id:'reason',subject:'speaking',name:'梁清越',area:'心理学院',topic:'Part 3 · 比较',title:'比较网课和线下课时，怎样举一个短例子？',prompt:'How do online classes differ from classroom learning?',answer:'Online courses are convenient. Classroom learning is interesting.',question:'两点说得很散，想用同一个场景做对比。',advice:'用同一件事比较两种课堂，例如没听懂一道题时，可以回放网课，而在线下能立刻追问老师。',stage:'resolved',helper:'陆安'},
+  {id:'date',subject:'reading',name:'方可欣',area:'医学部',topic:'信息定位',title:'题目问首次开放，能用翻新年份回答吗？',prompt:'The old hall opened to students in 1986. Following repairs in 2012, it reopened as a cultural centre in 2014.',answer:'2014',question:'opened 和 reopened 都在段落里，首次对学生开放怎么看？',advice:'找同一事件的对象和时间。opened to students 对应 1986；2014 是作为文化中心重新开放。',stage:'claimed',helper:'赵芮'},
+  {id:'cohesion',subject:'writing',name:'唐一帆',area:'电子与信息工程学院',topic:'Task 2 · 衔接',title:'两句都用 Moreover，删掉后怎么连起来？',prompt:'Explain why students might use a bike-sharing scheme.',answer:'Moreover, bikes are affordable. Moreover, they are useful for short trips.',question:'我想让两点有联系，不想再背一个 Moreover 的近义词。',advice:'把 affordable 和某个短途场景放进同一句。例如 A short ride to the library costs less than a bus fare.'}
+]
+
+export const clinicLessons = [
+  {id:'speaking',story:'speaking',mentor:'陈夏',role:'英语角领队',focus:'用细节展开回答',audio:'library',after:'I usually take a seat by the window on the third floor. Last Friday I finished an entire chapter there without checking my phone.'},
+  {id:'weekend',story:'weekend',mentor:'陆安',role:'口语社学伴',focus:'把周末经历说连贯',audio:'weekend',after:'On Saturday, my roommate and I walked to the market near campus. We shared a warm rice cake, then picked up some oranges for the walk back.'}
+]
+

@@ -1,0 +1,518 @@
+{
+  "schemaVersion": "task2-ai-v2.1",
+  "task": "task2",
+  "questionId": "T2-026",
+  "submissionId": "short-live-control-256",
+  "textHash": "c9cad69d38868ab34a0d4573e87b475cfc1d715dc334d648fc8276f5b33f818b",
+  "wordCount": 256,
+  "underlength": false,
+  "source": {
+    "schemaVersion": "task2-ai-v2.1",
+    "kind": "task2-question-analysis",
+    "analysisMethod": "rule",
+    "questionId": "T2-026",
+    "sourceFingerprint": "02f59fbbbc5676b26ac306bbab157d1373d9005a52c8b9c9ed3c0bbd891c8de6",
+    "promptVersion": "654884cc1701851f",
+    "analysisId": "e0ed9f031a4c9004f4a298eca9b297688db733ce2f9a41fbfa5f294291b97eaa",
+    "policyVersion": "explicit-requests-v1",
+    "analysis": {
+      "promptQuality": "clear",
+      "questionType": "discussion",
+      "stanceRequired": true,
+      "requirements": [
+        {
+          "id": "r1",
+          "kind": "view_a",
+          "description": "准确讨论题干第一方的主张及理由，保留其对象、范围和限定词。",
+          "promptQuote": "Discuss both views and give your own opinion."
+        },
+        {
+          "id": "r2",
+          "kind": "view_b",
+          "description": "准确讨论题干第二方的主张及理由，保留其对象、范围和限定词。",
+          "promptQuote": "Discuss both views and give your own opinion."
+        },
+        {
+          "id": "r3",
+          "kind": "position",
+          "description": "清楚表达并支持作者自己的意见，可以有条件地支持或综合两者。",
+          "promptQuote": "Discuss both views and give your own opinion."
+        }
+      ],
+      "cautions": []
+    },
+    "generation": {
+      "requestedModel": null,
+      "responseModel": null,
+      "attempts": 0,
+      "generatedAt": "2026-11-09T05:50:28.260Z",
+      "usage": {
+        "promptTokens": 0,
+        "completionTokens": 0
+      }
+    }
+  },
+  "feedback": {
+    "assessmentMode": "full",
+    "assessmentNote": "全文约256词，完整回应了双方观点并给出综合立场，结构清楚，论证有展开。语言整体准确流畅，但词汇和句式多样性仍有提升空间。以下为练习估分，非正式成绩。",
+    "taskCoverage": [
+      {
+        "requirementId": "r1",
+        "status": "covered",
+        "reason": "第二段准确讨论支持就业技能一方的主张，并以工程学生为例说明实践技能的价值。",
+        "evidenceSentenceIds": [
+          "short-live-control-256:s:276",
+          "short-live-control-256:s:385",
+          "short-live-control-256:s:532",
+          "short-live-control-256:s:679"
+        ]
+      },
+      {
+        "requirementId": "r2",
+        "status": "covered",
+        "reason": "第三段讨论纯学术研究的价值，指出原理性理解有助于适应变化并培养批判性思维。",
+        "evidenceSentenceIds": [
+          "short-live-control-256:s:908",
+          "short-live-control-256:s:1016",
+          "short-live-control-256:s:1150",
+          "short-live-control-256:s:1272"
+        ]
+      },
+      {
+        "requirementId": "r3",
+        "status": "covered",
+        "reason": "首段和末段清楚表达综合立场，主张学术基础与应用机会相结合。",
+        "evidenceSentenceIds": [
+          "short-live-control-256:s:139",
+          "short-live-control-256:s:1491",
+          "short-live-control-256:s:1585",
+          "short-live-control-256:s:1671"
+        ]
+      }
+    ],
+    "stance": {
+      "status": "clear",
+      "summary": "作者主张大学教育应把扎实的学术基础与应用机会结合起来，而非二选一。",
+      "evidenceSentenceIds": [
+        "short-live-control-256:s:139",
+        "short-live-control-256:s:1491",
+        "short-live-control-256:s:1585"
+      ]
+    },
+    "scores": {
+      "taskResponse": {
+        "band": 7.5,
+        "reason": "回应了双方观点并给出清晰的综合立场，论证有具体例子和推理支撑。但就业技能一方的讨论可再深入，例如说明具体技能类型或雇主需求，使论证更充分。",
+        "evidenceSentenceIds": [
+          "short-live-control-256:s:276",
+          "short-live-control-256:s:532",
+          "short-live-control-256:s:1016",
+          "short-live-control-256:s:1491"
+        ],
+        "nextStep": "在讨论就业技能一方时，补充一两个具体技能类别（如沟通、项目管理）及其为何难以仅靠学术学习获得。"
+      },
+      "coherenceCohesion": {
+        "band": 7.5,
+        "reason": "四段结构清晰，每段主题明确，衔接自然。第二、三段分别讨论双方观点，末段综合，逻辑推进顺畅。个别连接词可更丰富，但整体组织有效。",
+        "evidenceSentenceIds": [
+          "short-live-control-256:s:276",
+          "short-live-control-256:s:908",
+          "short-live-control-256:s:1491"
+        ],
+        "nextStep": "尝试在段落内部增加更细的逻辑连接，如用“more importantly”“by contrast”等标示论证层次。"
+      },
+      "lexicalResource": {
+        "band": 7,
+        "reason": "词汇使用准确且有一定灵活性，如“underlying principles”“intellectual resources”“question assumptions”。但部分表达较常见，缺乏更精准或多样的学术词汇，个别搭配可更自然。",
+        "evidenceSentenceIds": [
+          "short-live-control-256:s:1016",
+          "short-live-control-256:s:1150",
+          "short-live-control-256:s:1671"
+        ],
+        "nextStep": "积累并练习使用与高等教育、就业能力相关的学术搭配，如“transferable skills”“vocational training”“critical inquiry”。"
+      },
+      "grammaticalRangeAccuracy": {
+        "band": 7.5,
+        "reason": "句式有一定变化，包含定语从句、让步结构和分词短语，语法错误极少。但复杂句式的种类和密度仍可提升，部分句子结构较简单。",
+        "evidenceSentenceIds": [
+          "short-live-control-256:s:385",
+          "short-live-control-256:s:1016",
+          "short-live-control-256:s:1272"
+        ],
+        "nextStep": "练习使用更多样的复杂结构，如条件句、名词性从句和倒装，以增强句法范围。"
+      }
+    },
+    "sentences": [
+      {
+        "id": "short-live-control-256:s:0",
+        "start": 0,
+        "end": 138,
+        "paragraph": 1,
+        "index": 1,
+        "text": "Universities are often expected to prepare students for employment, but they also have a responsibility to develop academic understanding.",
+        "status": "keep",
+        "editType": "none",
+        "action": "keep",
+        "reason": "句子准确引入话题，无需修改。",
+        "suggestion": "Universities are often expected to prepare students for employment, but they also have a responsibility to develop academic understanding.",
+        "contextSentenceIds": [],
+        "redundantWithSentenceId": null
+      },
+      {
+        "id": "short-live-control-256:s:139",
+        "start": 139,
+        "end": 274,
+        "paragraph": 1,
+        "index": 2,
+        "text": "Both purposes are valuable, and I believe degree programmes should combine a strong academic foundation with opportunities to apply it.",
+        "status": "keep",
+        "editType": "none",
+        "action": "keep",
+        "reason": "清楚表达综合立场，与全文一致。",
+        "suggestion": "Both purposes are valuable, and I believe degree programmes should combine a strong academic foundation with opportunities to apply it.",
+        "contextSentenceIds": [],
+        "redundantWithSentenceId": null
+      },
+      {
+        "id": "short-live-control-256:s:276",
+        "start": 276,
+        "end": 384,
+        "paragraph": 2,
+        "index": 1,
+        "text": "Those who favour employment skills point to the difficulties graduates can face when entering the workplace.",
+        "status": "keep",
+        "editType": "none",
+        "action": "keep",
+        "reason": "准确引出就业技能一方的观点。",
+        "suggestion": "Those who favour employment skills point to the difficulties graduates can face when entering the workplace.",
+        "contextSentenceIds": [],
+        "redundantWithSentenceId": null
+      },
+      {
+        "id": "short-live-control-256:s:385",
+        "start": 385,
+        "end": 531,
+        "paragraph": 2,
+        "index": 2,
+        "text": "Knowing a subject does not automatically mean that someone can work effectively with colleagues or use the equipment required in a particular job.",
+        "status": "keep",
+        "editType": "none",
+        "action": "keep",
+        "reason": "解释合理，语法正确。",
+        "suggestion": "Knowing a subject does not automatically mean that someone can work effectively with colleagues or use the equipment required in a particular job.",
+        "contextSentenceIds": [],
+        "redundantWithSentenceId": null
+      },
+      {
+        "id": "short-live-control-256:s:532",
+        "start": 532,
+        "end": 678,
+        "paragraph": 2,
+        "index": 3,
+        "text": "For example, engineering students might design a device for a local organisation, learning to manage deadlines while applying technical knowledge.",
+        "status": "keep",
+        "editType": "none",
+        "action": "keep",
+        "reason": "具体例子有效支撑论点。",
+        "suggestion": "For example, engineering students might design a device for a local organisation, learning to manage deadlines while applying technical knowledge.",
+        "contextSentenceIds": [],
+        "redundantWithSentenceId": null
+      },
+      {
+        "id": "short-live-control-256:s:679",
+        "start": 679,
+        "end": 790,
+        "paragraph": 2,
+        "index": 4,
+        "text": "Such experience can help them make informed career choices as well as demonstrate their abilities to employers.",
+        "status": "keep",
+        "editType": "none",
+        "action": "keep",
+        "reason": "进一步说明实践经历的价值，逻辑连贯。",
+        "suggestion": "Such experience can help them make informed career choices as well as demonstrate their abilities to employers.",
+        "contextSentenceIds": [],
+        "redundantWithSentenceId": null
+      },
+      {
+        "id": "short-live-control-256:s:791",
+        "start": 791,
+        "end": 906,
+        "paragraph": 2,
+        "index": 5,
+        "text": "This is especially useful when students have had little contact with professional work before attending university.",
+        "status": "keep",
+        "editType": "none",
+        "action": "keep",
+        "reason": "补充限定条件，使论证更完整。",
+        "suggestion": "This is especially useful when students have had little contact with professional work before attending university.",
+        "contextSentenceIds": [],
+        "redundantWithSentenceId": null
+      },
+      {
+        "id": "short-live-control-256:s:908",
+        "start": 908,
+        "end": 1015,
+        "paragraph": 3,
+        "index": 1,
+        "text": "However, concentrating only on immediate workplace requirements would narrow the value of higher education.",
+        "status": "keep",
+        "editType": "none",
+        "action": "keep",
+        "reason": "转折自然，引出学术研究的价值。",
+        "suggestion": "However, concentrating only on immediate workplace requirements would narrow the value of higher education.",
+        "contextSentenceIds": [],
+        "redundantWithSentenceId": null
+      },
+      {
+        "id": "short-live-control-256:s:1016",
+        "start": 1016,
+        "end": 1149,
+        "paragraph": 3,
+        "index": 2,
+        "text": "Software, procedures and even entire occupations can change, whereas an understanding of underlying principles helps graduates adapt.",
+        "status": "keep",
+        "editType": "none",
+        "action": "keep",
+        "reason": "对比清晰，论证有力。",
+        "suggestion": "Software, procedures and even entire occupations can change, whereas an understanding of underlying principles helps graduates adapt.",
+        "contextSentenceIds": [],
+        "redundantWithSentenceId": null
+      },
+      {
+        "id": "short-live-control-256:s:1150",
+        "start": 1150,
+        "end": 1271,
+        "paragraph": 3,
+        "index": 3,
+        "text": "Academic study also teaches students to question assumptions and assess evidence, which matters beyond any single career.",
+        "status": "keep",
+        "editType": "none",
+        "action": "keep",
+        "reason": "准确阐述学术学习的另一价值。",
+        "suggestion": "Academic study also teaches students to question assumptions and assess evidence, which matters beyond any single career.",
+        "contextSentenceIds": [],
+        "redundantWithSentenceId": null
+      },
+      {
+        "id": "short-live-control-256:s:1272",
+        "start": 1272,
+        "end": 1404,
+        "paragraph": 3,
+        "index": 4,
+        "text": "A student who understands how research is conducted is better equipped to distinguish a persuasive claim from a reliable conclusion.",
+        "status": "keep",
+        "editType": "none",
+        "action": "keep",
+        "reason": "具体说明批判性思维的应用，论证充分。",
+        "suggestion": "A student who understands how research is conducted is better equipped to distinguish a persuasive claim from a reliable conclusion.",
+        "contextSentenceIds": [],
+        "redundantWithSentenceId": null
+      },
+      {
+        "id": "short-live-control-256:s:1405",
+        "start": 1405,
+        "end": 1489,
+        "paragraph": 3,
+        "index": 5,
+        "text": "These habits benefit both professional decisions and participation in public debate.",
+        "status": "keep",
+        "editType": "none",
+        "action": "keep",
+        "reason": "总结学术习惯的广泛益处，衔接自然。",
+        "suggestion": "These habits benefit both professional decisions and participation in public debate.",
+        "contextSentenceIds": [],
+        "redundantWithSentenceId": null
+      },
+      {
+        "id": "short-live-control-256:s:1491",
+        "start": 1491,
+        "end": 1584,
+        "paragraph": 4,
+        "index": 1,
+        "text": "The most effective approach is therefore integration rather than a choice between these aims.",
+        "status": "keep",
+        "editType": "none",
+        "action": "keep",
+        "reason": "清楚提出综合方案，回应立场。",
+        "suggestion": "The most effective approach is therefore integration rather than a choice between these aims.",
+        "contextSentenceIds": [],
+        "redundantWithSentenceId": null
+      },
+      {
+        "id": "short-live-control-256:s:1585",
+        "start": 1585,
+        "end": 1670,
+        "paragraph": 4,
+        "index": 2,
+        "text": "The balance will vary by discipline, but neither element needs to displace the other.",
+        "status": "keep",
+        "editType": "none",
+        "action": "keep",
+        "reason": "补充说明平衡因学科而异，使立场更灵活。",
+        "suggestion": "The balance will vary by discipline, but neither element needs to displace the other.",
+        "contextSentenceIds": [],
+        "redundantWithSentenceId": null
+      },
+      {
+        "id": "short-live-control-256:s:1671",
+        "start": 1671,
+        "end": 1800,
+        "paragraph": 4,
+        "index": 3,
+        "text": "Graduates should leave with useful capabilities and the intellectual resources to continue learning when their first job changes.",
+        "status": "keep",
+        "editType": "none",
+        "action": "keep",
+        "reason": "结尾总结有力，呼应全文。",
+        "suggestion": "Graduates should leave with useful capabilities and the intellectual resources to continue learning when their first job changes.",
+        "contextSentenceIds": [],
+        "redundantWithSentenceId": null
+      }
+    ],
+    "review": {
+      "decision": "ready",
+      "summary": "全文结构完整，双方观点讨论充分，立场清晰，语言准确流畅。已达到较高水平，无需进一步修改。",
+      "remainingIssues": []
+    },
+    "modelEssay": {
+      "kind": "upgraded",
+      "text": "Universities are often expected to prepare students for employment, but they also have a responsibility to develop academic understanding. Both purposes are valuable, and I believe degree programmes should combine a strong academic foundation with opportunities to apply it.\n\nThose who favour employment skills point to the difficulties graduates can face when entering the workplace. Knowing a subject does not automatically mean that someone can work effectively with colleagues or use the equipment required in a particular job. For example, engineering students might design a device for a local organisation, learning to manage deadlines while applying technical knowledge. Such experience can help them make informed career choices as well as demonstrate their abilities to employers. This is especially useful when students have had little contact with professional work before attending university.\n\nHowever, concentrating only on immediate workplace requirements would narrow the value of higher education. Software, procedures and even entire occupations can change, whereas an understanding of underlying principles helps graduates adapt. Academic study also teaches students to question assumptions and assess evidence, which matters beyond any single career. A student who understands how research is conducted is better equipped to distinguish a persuasive claim from a reliable conclusion. These habits benefit both professional decisions and participation in public debate.\n\nThe most effective approach is therefore integration rather than a choice between these aims. The balance will vary by discipline, but neither element needs to displace the other. Graduates should leave with useful capabilities and the intellectual resources to continue learning when their first job changes.",
+      "preservesStance": true,
+      "note": "本稿已满足本次收尾条件，参考版本保留当前原文，不再为升级而扩写。",
+      "upgrades": []
+    },
+    "nextPractice": {
+      "skill": "transfer",
+      "instruction": "选一道相同设问类型、不同主题的新题，用40分钟完成首稿。先列出实际设问，再迁移本篇已掌握的组织与论证方法；无需继续扩写当前稿。",
+      "successCriteria": [
+        "回应新题的全部实际设问",
+        "用与新题相关的理由展开观点，不套用本篇论据",
+        "完成后检查语言准确性，不以篇幅增长代替改进"
+      ],
+      "evidenceSentenceIds": [
+        "short-live-control-256:s:139"
+      ]
+    }
+  },
+  "assessment": {
+    "criteria": {
+      "taskResponse": 7.5,
+      "coherenceCohesion": 7.5,
+      "lexicalResource": 7,
+      "grammaticalRangeAccuracy": 7.5
+    },
+    "unroundedMean": 7.375,
+    "displayBand": 7.5,
+    "scope": "single_task_practice_estimate",
+    "criterionWeights": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "officialResult": false,
+    "statisticallyCalibrated": false,
+    "displayRounding": "nearest_half_band_product_display",
+    "rubricVersion": "ielts-task2-2023-product-v2"
+  },
+  "scoreRecord": {
+    "schemaVersion": "writing-score-source-v1",
+    "task": "task2",
+    "questionId": "T2-026",
+    "submissionId": "short-live-control-256",
+    "textHash": "c9cad69d38868ab34a0d4573e87b475cfc1d715dc334d648fc8276f5b33f818b",
+    "sourceFingerprint": "02f59fbbbc5676b26ac306bbab157d1373d9005a52c8b9c9ed3c0bbd891c8de6",
+    "criteria": {
+      "taskResponse": 7.5,
+      "coherenceCohesion": 7.5,
+      "lexicalResource": 7,
+      "grammaticalRangeAccuracy": 7.5
+    },
+    "unroundedMean": 7.375,
+    "displayBand": 7.5,
+    "draftRole": "unverified",
+    "trustedRecordId": null,
+    "firstDraftCandidate": false,
+    "sourceOfDraftRole": "caller_must_resolve_from_persisted_submission",
+    "sourceOrigin": "rule",
+    "referenceReviewKind": null,
+    "sourceHumanVerified": false,
+    "calibrationStatus": "not_calibrated_against_examiner_scores",
+    "promptVersion": "654884cc1701851f",
+    "rubricVersion": "ielts-task2-2023-product-v2",
+    "assessedAt": "2026-11-09T05:50:43.860Z"
+  },
+  "featureSignals": {
+    "questionType": "discussion",
+    "topicHint": "教育",
+    "coverage": [
+      {
+        "requirementId": "r1",
+        "status": "covered"
+      },
+      {
+        "requirementId": "r2",
+        "status": "covered"
+      },
+      {
+        "requirementId": "r3",
+        "status": "covered"
+      }
+    ],
+    "stance": "clear",
+    "editCounts": {
+      "grammar": 0,
+      "precision": 0,
+      "logic": 0,
+      "redundancy": 0
+    }
+  },
+  "revisionBudget": {
+    "initialWords": 256,
+    "currentWords": 256,
+    "ceiling": 282,
+    "positiveGrowthBudget": 26,
+    "grammarGrowthLimit": 4,
+    "otherGrowthLimit": 12,
+    "maxNonGrammarEdits": 3,
+    "modelMinWords": 250,
+    "modelWordLimit": 320
+  },
+  "revisionComparison": {
+    "available": false,
+    "previousWords": null,
+    "currentWords": 256,
+    "wordDelta": null,
+    "unchangedSentences": null,
+    "removed": [],
+    "added": [],
+    "qualityImprovementInferred": false
+  },
+  "completionPolicy": {
+    "version": "ready-stop-v1",
+    "applied": true,
+    "retainedOriginalAsModel": true,
+    "transferTaskAssigned": true
+  },
+  "deliveryPolicy": {
+    "version": "task2-delivery-v1",
+    "applied": false,
+    "modelEssayStatus": "available",
+    "adjustments": []
+  },
+  "generation": {
+    "requestedModel": "deepseek-flash",
+    "responseModel": "deepseek-flash",
+    "attempts": 1,
+    "generatedAt": "2026-11-09T05:50:43.860Z",
+    "usage": {
+      "promptTokens": 4577,
+      "completionTokens": 2443
+    }
+  },
+  "cache": {
+    "evaluationReused": false,
+    "fingerprint": "d51432304658decf025dbf170692db5d6a773e48ff50b5d47754afc452536ef8",
+    "scope": "process_same_question_text_mode_budget_model"
+  }
+}

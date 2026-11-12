@@ -1,0 +1,463 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Writing scoring matching-source",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "type": "string",
+      "enum": [
+        "writing-matching-source-v1"
+      ]
+    },
+    "assessmentId": {
+      "type": "string",
+      "minLength": 64,
+      "maxLength": 64,
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "userId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200,
+      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+    },
+    "assessmentSetId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200,
+      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+    },
+    "asOf": {
+      "type": "string",
+      "minLength": 24,
+      "maxLength": 24,
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "complete",
+        "partial",
+        "unavailable",
+        "incompatible"
+      ]
+    },
+    "scope": {
+      "type": "string",
+      "enum": [
+        "academic_writing_first_draft_estimate"
+      ]
+    },
+    "officialResult": {
+      "type": "boolean",
+      "enum": [
+        false
+      ]
+    },
+    "calibrationStatus": {
+      "type": "string",
+      "enum": [
+        "not_calibrated_against_examiner_scores"
+      ]
+    },
+    "algorithmVersion": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200
+    },
+    "policyId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200
+    },
+    "writingRaw": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 9
+    },
+    "writingBand": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 9,
+      "multipleOf": 0.5
+    },
+    "task1": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "questionId": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 200,
+          "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+        },
+        "submissionId": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 200,
+          "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+        },
+        "unroundedMean": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 9
+        },
+        "displayBand": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 9,
+          "multipleOf": 0.5
+        },
+        "criteria": {
+          "type": "object",
+          "properties": {
+            "taskAchievement": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 9,
+              "multipleOf": 0.5
+            },
+            "coherenceCohesion": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 9,
+              "multipleOf": 0.5
+            },
+            "lexicalResource": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 9,
+              "multipleOf": 0.5
+            },
+            "grammaticalRangeAccuracy": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 9,
+              "multipleOf": 0.5
+            }
+          },
+          "required": [
+            "taskAchievement",
+            "coherenceCohesion",
+            "lexicalResource",
+            "grammaticalRangeAccuracy"
+          ],
+          "additionalProperties": false
+        },
+        "submittedAt": {
+          "type": "string",
+          "minLength": 24,
+          "maxLength": 24,
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$"
+        },
+        "provenance": {
+          "type": "object",
+          "properties": {
+            "upstreamDraftRole": {
+              "type": "string",
+              "enum": [
+                "first",
+                "unverified"
+              ]
+            },
+            "draftRoleResolvedFrom": {
+              "type": "string",
+              "enum": [
+                "trusted_persisted_submission"
+              ]
+            },
+            "reportSchema": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 200
+            },
+            "promptVersion": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 64
+            },
+            "rubricVersion": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 100
+            },
+            "requestedModel": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 200
+            },
+            "responseModel": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 200
+            },
+            "sourceOrigin": {
+              "type": "string",
+              "enum": [
+                "reference",
+                "rule",
+                "model"
+              ]
+            },
+            "sourceHumanVerified": {
+              "type": "boolean"
+            },
+            "referenceReviewKind": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "enum": [
+                "human_review",
+                "agent_visual_review",
+                null
+              ]
+            }
+          },
+          "required": [
+            "upstreamDraftRole",
+            "draftRoleResolvedFrom",
+            "reportSchema",
+            "promptVersion",
+            "rubricVersion",
+            "requestedModel",
+            "responseModel",
+            "sourceOrigin",
+            "sourceHumanVerified",
+            "referenceReviewKind"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "questionId",
+        "submissionId",
+        "unroundedMean",
+        "displayBand",
+        "criteria",
+        "submittedAt",
+        "provenance"
+      ],
+      "additionalProperties": false
+    },
+    "task2": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "questionId": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 200,
+          "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+        },
+        "submissionId": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 200,
+          "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+        },
+        "unroundedMean": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 9
+        },
+        "displayBand": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 9,
+          "multipleOf": 0.5
+        },
+        "criteria": {
+          "type": "object",
+          "properties": {
+            "taskResponse": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 9,
+              "multipleOf": 0.5
+            },
+            "coherenceCohesion": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 9,
+              "multipleOf": 0.5
+            },
+            "lexicalResource": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 9,
+              "multipleOf": 0.5
+            },
+            "grammaticalRangeAccuracy": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 9,
+              "multipleOf": 0.5
+            }
+          },
+          "required": [
+            "taskResponse",
+            "coherenceCohesion",
+            "lexicalResource",
+            "grammaticalRangeAccuracy"
+          ],
+          "additionalProperties": false
+        },
+        "submittedAt": {
+          "type": "string",
+          "minLength": 24,
+          "maxLength": 24,
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$"
+        },
+        "provenance": {
+          "type": "object",
+          "properties": {
+            "upstreamDraftRole": {
+              "type": "string",
+              "enum": [
+                "first",
+                "unverified"
+              ]
+            },
+            "draftRoleResolvedFrom": {
+              "type": "string",
+              "enum": [
+                "trusted_persisted_submission"
+              ]
+            },
+            "reportSchema": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 200
+            },
+            "promptVersion": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 64
+            },
+            "rubricVersion": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 100
+            },
+            "requestedModel": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 200
+            },
+            "responseModel": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 200
+            },
+            "sourceOrigin": {
+              "type": "string",
+              "enum": [
+                "reference",
+                "rule",
+                "model"
+              ]
+            },
+            "sourceHumanVerified": {
+              "type": "boolean"
+            },
+            "referenceReviewKind": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "enum": [
+                "human_review",
+                "agent_visual_review",
+                null
+              ]
+            }
+          },
+          "required": [
+            "upstreamDraftRole",
+            "draftRoleResolvedFrom",
+            "reportSchema",
+            "promptVersion",
+            "rubricVersion",
+            "requestedModel",
+            "responseModel",
+            "sourceOrigin",
+            "sourceHumanVerified",
+            "referenceReviewKind"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "questionId",
+        "submissionId",
+        "unroundedMean",
+        "displayBand",
+        "criteria",
+        "submittedAt",
+        "provenance"
+      ],
+      "additionalProperties": false
+    },
+    "sampleCounts": {
+      "type": "object",
+      "properties": {
+        "task1": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "task2": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 1
+        }
+      },
+      "required": [
+        "task1",
+        "task2"
+      ],
+      "additionalProperties": false
+    },
+    "qualityFlags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 200
+      },
+      "maxItems": 20,
+      "minItems": 0
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "assessmentId",
+    "userId",
+    "assessmentSetId",
+    "asOf",
+    "status",
+    "scope",
+    "officialResult",
+    "calibrationStatus",
+    "algorithmVersion",
+    "policyId",
+    "writingRaw",
+    "writingBand",
+    "task1",
+    "task2",
+    "sampleCounts",
+    "qualityFlags"
+  ],
+  "additionalProperties": false
+}

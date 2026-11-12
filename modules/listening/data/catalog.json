@@ -1,0 +1,54 @@
+[
+  {
+    "practice_id": "prac_lsn_s1",
+    "label": "Section 1",
+    "name": "Phone call about second-hand furniture",
+    "title": "二手家具电话咨询",
+    "part": 1,
+    "type_label": "笔记填空",
+    "question_type": "table_completion",
+    "item_count": 7,
+    "duration": 124.003,
+    "blurb": "一段 2 分钟的电话对话，考「信息更正」与「同句多数字」。7 个空。",
+    "source": "IELTS 官方机考样题 · Note Completion / Answer Key / Recording Transcript"
+  },
+  {
+    "practice_id": "prac_lsn_s2",
+    "label": "Section 2",
+    "name": "Kids' Camp · Staff Responsibilities",
+    "title": "夏令营员工职责",
+    "part": 2,
+    "type_label": "匹配题",
+    "question_type": "match",
+    "item_count": 5,
+    "duration": 182.99,
+    "blurb": "听迎新说明，为五项员工职责匹配相应选项。",
+    "source": "IELTS 官方机考样题 · Matching (Sample Task A) / Answers / Recording Transcript"
+  },
+  {
+    "practice_id": "prac_lsn_s3",
+    "label": "Section 3",
+    "name": "Evidence of life on other planets",
+    "title": "地外生命证据流程",
+    "part": 3,
+    "type_label": "流程图选词填空",
+    "question_type": "word_bank_completion",
+    "item_count": 5,
+    "duration": 164.0,
+    "blurb": "听两位学生讨论实验流程，从词库中选出五个缺失的环节。",
+    "source": "IELTS 官方机考样题 · Flow-chart Completion / Answer Key / Tapescript"
+  },
+  {
+    "practice_id": "prac_lsn_s4",
+    "label": "Section 4",
+    "name": "Research into learner persistence",
+    "title": "学习者坚持性研究",
+    "part": 4,
+    "type_label": "表格填空",
+    "question_type": "table_completion",
+    "item_count": 5,
+    "duration": 216.0,
+    "blurb": "一段大学教师的讲座，考「三列三层信息定位」：跟着列名与 level 切换，别把相邻列的词填错格。5 空。",
+    "source": "IELTS 官方机考样题 · Table Completion / Answer Key / Recording Transcript"
+  }
+]

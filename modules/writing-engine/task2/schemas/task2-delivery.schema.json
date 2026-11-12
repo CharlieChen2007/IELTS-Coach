@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Task 2 delivery",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "type": "string",
+      "enum": [
+        "task2-delivery-v1"
+      ]
+    },
+    "applied": {
+      "type": "boolean"
+    },
+    "modelEssayStatus": {
+      "type": "string",
+      "enum": [
+        "available",
+        "unavailable"
+      ]
+    },
+    "adjustments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 200
+          },
+          "rule": {
+            "type": "string",
+            "enum": [
+              "sentence_growth",
+              "total_growth",
+              "non_grammar_edits",
+              "model_min_words",
+              "model_max_words",
+              "model_paragraphs"
+            ]
+          },
+          "sentenceId": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "maxLength": 120
+          },
+          "observed": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "remaining": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "resolution": {
+            "type": "string",
+            "enum": [
+              "manual",
+              "unavailable",
+              "retain_original"
+            ]
+          },
+          "instruction": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 500
+          }
+        },
+        "required": [
+          "path",
+          "rule",
+          "sentenceId",
+          "observed",
+          "limit",
+          "remaining",
+          "resolution",
+          "instruction"
+        ]
+      },
+      "minItems": 0,
+      "maxItems": 110
+    }
+  },
+  "required": [
+    "version",
+    "applied",
+    "modelEssayStatus",
+    "adjustments"
+  ]
+}

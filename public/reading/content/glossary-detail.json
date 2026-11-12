@@ -1,0 +1,6864 @@
+{
+  "version": 1,
+  "note": "词条补充信息：音标（英/美，来源有道词典接口）/ 词形变化（屈折规则 + 不规则表）/ 常用搭配（人工整理）。键与 glossary.json 的词头一致；无对应信息的字段直接省略。",
+  "detail": {
+    "abandon": {
+      "ipa": {
+        "uk": "/əˈbændən/",
+        "us": "/əˈbændən/"
+      },
+      "forms": [
+        "abandons",
+        "abandoned",
+        "abandoning"
+      ],
+      "coll": [
+        "abandon a plan",
+        "abandon hope"
+      ]
+    },
+    "ability": {
+      "ipa": {
+        "uk": "/əˈbɪləti/",
+        "us": "/əˈbɪləti/"
+      },
+      "forms": [
+        "abilities"
+      ],
+      "coll": [
+        "the ability to",
+        "natural ability"
+      ]
+    },
+    "absorb": {
+      "ipa": {
+        "uk": "/əbˈzɔːb/",
+        "us": "/əbˈzɔːrb/"
+      },
+      "coll": [
+        "absorb information",
+        "absorb shock"
+      ]
+    },
+    "abundant": {
+      "ipa": {
+        "uk": "/əˈbʌndənt/",
+        "us": "/əˈbʌndənt/"
+      },
+      "coll": [
+        "abundant evidence",
+        "abundant resources"
+      ]
+    },
+    "access": {
+      "ipa": {
+        "uk": "/ˈækses/",
+        "us": "/ˈækses/"
+      },
+      "forms": [
+        "accesses"
+      ],
+      "coll": [
+        "gain access",
+        "have access to"
+      ]
+    },
+    "accident": {
+      "ipa": {
+        "uk": "/ˈæksɪdənt/",
+        "us": "/ˈæksɪdənt/"
+      },
+      "forms": [
+        "accidents"
+      ],
+      "coll": [
+        "a serious accident",
+        "by accident"
+      ]
+    },
+    "accidental": {
+      "ipa": {
+        "uk": "/ˌæksɪˈdent(ə)l/",
+        "us": "/ˌæksəˈdent(ə)l/"
+      },
+      "coll": [
+        "accidental damage",
+        "an accidental discovery"
+      ]
+    },
+    "active": {
+      "ipa": {
+        "uk": "/ˈæktɪv/",
+        "us": "/ˈæktɪv/"
+      },
+      "coll": [
+        "an active role",
+        "physically active"
+      ]
+    },
+    "adaptive": {
+      "ipa": {
+        "uk": "/əˈdæptɪv/",
+        "us": "/əˈdæptɪv/"
+      },
+      "coll": [
+        "adaptive behaviour",
+        "an adaptive system"
+      ]
+    },
+    "address": {
+      "ipa": {
+        "uk": "/əˈdres/",
+        "us": "/əˈdres/"
+      },
+      "forms": [
+        "addresses",
+        "addressed",
+        "addressing"
+      ],
+      "coll": [
+        "address a problem",
+        "address the issue"
+      ]
+    },
+    "adolescence": {
+      "ipa": {
+        "uk": "/ˌædəˈles(ə)ns/",
+        "us": "/ˌædəˈles(ə)ns/"
+      },
+      "coll": [
+        "in adolescence",
+        "early adolescence"
+      ]
+    },
+    "advertiser": {
+      "ipa": {
+        "uk": "/ˈædvətaɪzə(r)/",
+        "us": "/ˈædvərtaɪzər/"
+      },
+      "forms": [
+        "advertisers"
+      ],
+      "coll": [
+        "a major advertiser",
+        "attract advertisers"
+      ]
+    },
+    "advertising": {
+      "ipa": {
+        "uk": "/ˈædvətaɪzɪŋ/",
+        "us": "/ˈædvərtaɪzɪŋ/"
+      },
+      "coll": [
+        "an advertising campaign",
+        "online advertising"
+      ]
+    },
+    "advice": {
+      "ipa": {
+        "uk": "/ədˈvaɪs/",
+        "us": "/ədˈvaɪs/"
+      },
+      "coll": [
+        "give advice",
+        "a piece of advice"
+      ]
+    },
+    "aged": {
+      "ipa": {
+        "uk": "/eɪdʒd/",
+        "us": "/eɪdʒd/"
+      },
+      "coll": [
+        "aged 12",
+        "the aged"
+      ]
+    },
+    "agree": {
+      "ipa": {
+        "uk": "/əˈɡriː/",
+        "us": "/əˈɡriː/"
+      },
+      "forms": [
+        "agrees",
+        "agreed",
+        "agreeing"
+      ],
+      "coll": [
+        "agree with",
+        "agree on"
+      ]
+    },
+    "air": {
+      "ipa": {
+        "uk": "/eə(r)/",
+        "us": "/er/"
+      },
+      "coll": [
+        "fresh air",
+        "in the air"
+      ]
+    },
+    "allow": {
+      "ipa": {
+        "uk": "/əˈlaʊ/",
+        "us": "/əˈlaʊ/"
+      },
+      "forms": [
+        "allows",
+        "allowed",
+        "allowing"
+      ],
+      "coll": [
+        "allow time",
+        "allow access"
+      ]
+    },
+    "almost": {
+      "ipa": {
+        "uk": "/ˈɔːlməʊst/",
+        "us": "/ˈɔːlmoʊst/"
+      },
+      "coll": [
+        "almost certainly",
+        "almost all"
+      ]
+    },
+    "alternative": {
+      "ipa": {
+        "uk": "/ɔːlˈtɜːnətɪv/",
+        "us": "/ɔːlˈtɜːrnətɪv/"
+      },
+      "forms": [
+        "alternatives"
+      ],
+      "coll": [
+        "an alternative to",
+        "alternative energy"
+      ]
+    },
+    "anxiety": {
+      "ipa": {
+        "uk": "/æŋˈzaɪəti/",
+        "us": "/æŋˈzaɪəti/"
+      },
+      "forms": [
+        "anxieties"
+      ],
+      "coll": [
+        "anxiety about",
+        "reduce anxiety"
+      ]
+    },
+    "anyone": {
+      "ipa": {
+        "uk": "/ˈeniwʌn/",
+        "us": "/ˈeniwʌn/"
+      },
+      "coll": [
+        "anyone else",
+        "anyone can"
+      ]
+    },
+    "anything": {
+      "ipa": {
+        "uk": "/ˈeniθɪŋ/",
+        "us": "/ˈeniθɪŋ/"
+      },
+      "coll": [
+        "anything else",
+        "anything new"
+      ]
+    },
+    "appear": {
+      "ipa": {
+        "uk": "/əˈpɪə(r)/",
+        "us": "/əˈpɪr/"
+      },
+      "forms": [
+        "appears",
+        "appeared",
+        "appearing"
+      ],
+      "coll": [
+        "appear to be",
+        "appear in"
+      ]
+    },
+    "approach": {
+      "ipa": {
+        "uk": "/əˈprəʊtʃ/",
+        "us": "/əˈproʊtʃ/"
+      },
+      "forms": [
+        "approaches"
+      ],
+      "coll": [
+        "an approach to",
+        "a new approach"
+      ]
+    },
+    "argument": {
+      "ipa": {
+        "uk": "/ˈɑːɡjumənt/",
+        "us": "/ˈɑːrɡjumənt/"
+      },
+      "forms": [
+        "arguments"
+      ],
+      "coll": [
+        "an argument for",
+        "a strong argument"
+      ]
+    },
+    "arrive": {
+      "ipa": {
+        "uk": "/əˈraɪv/",
+        "us": "/əˈraɪv/"
+      },
+      "forms": [
+        "arrives",
+        "arrived",
+        "arriving"
+      ],
+      "coll": [
+        "arrive at",
+        "arrive early"
+      ]
+    },
+    "article": {
+      "ipa": {
+        "uk": "/ˈɑːtɪk(ə)l/",
+        "us": "/ˈɑːrtɪk(ə)l/"
+      },
+      "forms": [
+        "articles"
+      ],
+      "coll": [
+        "a newspaper article",
+        "an article on"
+      ]
+    },
+    "ask": {
+      "ipa": {
+        "uk": "/ɑːsk/",
+        "us": "/æsk/"
+      },
+      "forms": [
+        "asks",
+        "asked",
+        "asking"
+      ],
+      "coll": [
+        "ask a question",
+        "ask for help"
+      ]
+    },
+    "assumption": {
+      "ipa": {
+        "uk": "/əˈsʌmpʃn/",
+        "us": "/əˈsʌmpʃ(ə)n/"
+      },
+      "forms": [
+        "assumptions"
+      ],
+      "coll": [
+        "an assumption about",
+        "make an assumption"
+      ]
+    },
+    "attach": {
+      "ipa": {
+        "uk": "/əˈtætʃ/",
+        "us": "/əˈtætʃ/"
+      },
+      "coll": [
+        "attach importance to",
+        "attached to"
+      ]
+    },
+    "attention": {
+      "ipa": {
+        "uk": "/əˈtenʃ(ə)n/",
+        "us": "/əˈtenʃ(ə)n/"
+      },
+      "coll": [
+        "pay attention",
+        "attract attention"
+      ]
+    },
+    "autoplay": {
+      "ipa": {
+        "uk": "/ˈɔːtəpleɪ/",
+        "us": "/ˈɔːtəpleɪ/"
+      },
+      "forms": [
+        "autoplays"
+      ],
+      "coll": [
+        "autoplay video",
+        "an autoplay feature"
+      ]
+    },
+    "axle": {
+      "ipa": {
+        "uk": "/ˈæks(ə)l/",
+        "us": "/ˈæks(ə)l/"
+      },
+      "forms": [
+        "axles"
+      ],
+      "coll": [
+        "a rear axle",
+        "a broken axle"
+      ]
+    },
+    "back": {
+      "ipa": {
+        "uk": "/bæk/",
+        "us": "/bæk/"
+      },
+      "forms": [
+        "backs"
+      ],
+      "coll": [
+        "back then",
+        "a few years back"
+      ]
+    },
+    "bad": {
+      "ipa": {
+        "uk": "/bæd/",
+        "us": "/bæd/"
+      },
+      "forms": [
+        "worse",
+        "worst"
+      ],
+      "coll": [
+        "bad for you",
+        "a bad idea"
+      ]
+    },
+    "balance": {
+      "ipa": {
+        "uk": "/ˈbæləns/",
+        "us": "/ˈbæləns/"
+      },
+      "forms": [
+        "balances",
+        "balanced",
+        "balancing"
+      ],
+      "coll": [
+        "keep a balance",
+        "a sense of balance"
+      ]
+    },
+    "ball": {
+      "ipa": {
+        "uk": "/bɔːl/",
+        "us": "/bɔːl/"
+      },
+      "forms": [
+        "balls"
+      ],
+      "coll": [
+        "a ball bearing",
+        "a rubber ball"
+      ]
+    },
+    "bargain": {
+      "ipa": {
+        "uk": "/ˈbɑːɡən/",
+        "us": "/ˈbɑːrɡən/"
+      },
+      "forms": [
+        "bargains"
+      ],
+      "coll": [
+        "a good bargain",
+        "hard bargain"
+      ]
+    },
+    "basis": {
+      "ipa": {
+        "uk": "/ˈbeɪsɪs/",
+        "us": "/ˈbeɪsɪs/"
+      },
+      "forms": [
+        "bases"
+      ],
+      "coll": [
+        "on the basis of",
+        "a daily basis"
+      ]
+    },
+    "bearing": {
+      "ipa": {
+        "uk": "/ˈbeərɪŋ/",
+        "us": "/ˈberɪŋ/"
+      },
+      "forms": [
+        "bearings"
+      ],
+      "coll": [
+        "a ball bearing",
+        "wheel bearings"
+      ]
+    },
+    "become": {
+      "ipa": {
+        "uk": "/bɪˈkʌm/",
+        "us": "/bɪˈkʌm/"
+      },
+      "forms": [
+        "becomes",
+        "became",
+        "becoming"
+      ],
+      "coll": [
+        "become clear",
+        "become aware"
+      ]
+    },
+    "begin": {
+      "ipa": {
+        "uk": "/bɪˈɡɪn/",
+        "us": "/bɪˈɡɪn/"
+      },
+      "forms": [
+        "begins",
+        "began",
+        "begun",
+        "beginning"
+      ],
+      "coll": [
+        "begin with",
+        "begin to"
+      ]
+    },
+    "behavioural": {
+      "ipa": {
+        "uk": "/bɪˈheɪvjər(ə)l/",
+        "us": "/bɪˈheɪvjərəl/"
+      },
+      "coll": [
+        "behavioural change",
+        "behavioural science"
+      ]
+    },
+    "better": {
+      "ipa": {
+        "uk": "/ˈbetə(r)/",
+        "us": "/ˈbetər/"
+      },
+      "coll": [
+        "better than",
+        "much better"
+      ]
+    },
+    "bicycle": {
+      "ipa": {
+        "uk": "/ˈbaɪsɪk(ə)l/",
+        "us": "/ˈbaɪsɪkl/"
+      },
+      "forms": [
+        "bicycles"
+      ],
+      "coll": [
+        "ride a bicycle",
+        "an electric bicycle"
+      ]
+    },
+    "big": {
+      "ipa": {
+        "uk": "/bɪɡ/",
+        "us": "/bɪɡ/"
+      },
+      "forms": [
+        "bigger",
+        "biggest"
+      ],
+      "coll": [
+        "a big difference",
+        "big data"
+      ]
+    },
+    "block": {
+      "ipa": {
+        "uk": "/blɒk/",
+        "us": "/blɑːk/"
+      },
+      "forms": [
+        "blocks",
+        "blocked",
+        "blocking"
+      ],
+      "coll": [
+        "block access",
+        "block the view"
+      ]
+    },
+    "boneshaker": {
+      "ipa": {
+        "uk": "/ˈbəʊnʃeɪkə(r)/",
+        "us": "/ˈboʊnʃeɪkər/"
+      },
+      "forms": [
+        "boneshakers"
+      ],
+      "coll": [
+        "a boneshaker ride",
+        "the boneshaker nickname"
+      ]
+    },
+    "boom": {
+      "ipa": {
+        "uk": "/buːm/",
+        "us": "/buːm/"
+      },
+      "forms": [
+        "booms"
+      ],
+      "coll": [
+        "an economic boom",
+        "a boom in"
+      ]
+    },
+    "bottom": {
+      "ipa": {
+        "uk": "/ˈbɒtəm/",
+        "us": "/ˈbɑːtəm/"
+      },
+      "forms": [
+        "bottoms"
+      ],
+      "coll": [
+        "at the bottom",
+        "the bottom line"
+      ]
+    },
+    "boulevard": {
+      "ipa": {
+        "uk": "/ˈbuːləvɑːd/",
+        "us": "/ˈbʊləvɑːrd/"
+      },
+      "forms": [
+        "boulevards"
+      ],
+      "coll": [
+        "a tree-lined boulevard",
+        "along the boulevard"
+      ]
+    },
+    "brain": {
+      "ipa": {
+        "uk": "/breɪn/",
+        "us": "/breɪn/"
+      },
+      "forms": [
+        "brains"
+      ],
+      "coll": [
+        "the human brain",
+        "brain activity"
+      ]
+    },
+    "briefly": {
+      "ipa": {
+        "uk": "/ˈbriːfli/",
+        "us": "/ˈbriːfli/"
+      },
+      "coll": [
+        "briefly mention",
+        "briefly explain"
+      ]
+    },
+    "build": {
+      "ipa": {
+        "uk": "/bɪld/",
+        "us": "/bɪld/"
+      },
+      "forms": [
+        "builds",
+        "built",
+        "building"
+      ],
+      "coll": [
+        "build a house",
+        "build up"
+      ]
+    },
+    "builder": {
+      "ipa": {
+        "uk": "/ˈbɪldə(r)/",
+        "us": "/ˈbɪldər/"
+      },
+      "forms": [
+        "builders"
+      ],
+      "coll": [
+        "a house builder",
+        "a builder of"
+      ]
+    },
+    "buy": {
+      "ipa": {
+        "uk": "/baɪ/",
+        "us": "/baɪ/"
+      },
+      "forms": [
+        "buys",
+        "bought",
+        "buying"
+      ],
+      "coll": [
+        "buy a house",
+        "buy online"
+      ]
+    },
+    "cannot": {
+      "ipa": {
+        "uk": "/ˈkænɒt/",
+        "us": "/ˈkænɑːt/"
+      },
+      "forms": [
+        "cannots",
+        "cannoted",
+        "cannoting"
+      ],
+      "coll": [
+        "cannot avoid",
+        "cannot be"
+      ]
+    },
+    "capture": {
+      "ipa": {
+        "uk": "/ˈkæptʃə(r)/",
+        "us": "/ˈkæptʃər/"
+      },
+      "forms": [
+        "captures",
+        "captured",
+        "capturing"
+      ],
+      "coll": [
+        "capture attention",
+        "capture the moment"
+      ]
+    },
+    "care": {
+      "ipa": {
+        "uk": "/keə(r)/",
+        "us": "/ker/"
+      },
+      "forms": [
+        "cares",
+        "cared",
+        "caring"
+      ],
+      "coll": [
+        "care about",
+        "take care of"
+      ]
+    },
+    "carry": {
+      "ipa": {
+        "uk": "/ˈkæri/",
+        "us": "/ˈkæri/"
+      },
+      "forms": [
+        "carries",
+        "carried",
+        "carrying"
+      ],
+      "coll": [
+        "carry out",
+        "carry on"
+      ]
+    },
+    "cause": {
+      "ipa": {
+        "uk": "/kɔːz/",
+        "us": "/kɔːz/"
+      },
+      "forms": [
+        "causes",
+        "caused",
+        "causing"
+      ],
+      "coll": [
+        "cause damage",
+        "the cause of"
+      ]
+    },
+    "century": {
+      "ipa": {
+        "uk": "/ˈsentʃəri/",
+        "us": "/ˈsentʃəri/"
+      },
+      "forms": [
+        "centuries"
+      ],
+      "coll": [
+        "the 19th century",
+        "for centuries"
+      ]
+    },
+    "certain": {
+      "ipa": {
+        "uk": "/ˈsɜːt(ə)n/",
+        "us": "/ˈsɜːrt(ə)n/"
+      },
+      "coll": [
+        "a certain amount",
+        "certain that"
+      ]
+    },
+    "chain": {
+      "ipa": {
+        "uk": "/tʃeɪn/",
+        "us": "/tʃeɪn/"
+      },
+      "forms": [
+        "chains"
+      ],
+      "coll": [
+        "a chain reaction",
+        "the supply chain"
+      ]
+    },
+    "change": {
+      "ipa": {
+        "uk": "/tʃeɪndʒ/",
+        "us": "/tʃeɪndʒ/"
+      },
+      "forms": [
+        "changes",
+        "changed",
+        "changing"
+      ],
+      "coll": [
+        "change behaviour",
+        "a change in"
+      ]
+    },
+    "cheap": {
+      "ipa": {
+        "uk": "/tʃiːp/",
+        "us": "/tʃiːp/"
+      },
+      "forms": [
+        "cheaper",
+        "cheapest"
+      ],
+      "coll": [
+        "cheap fuel",
+        "a cheap alternative"
+      ]
+    },
+    "check": {
+      "ipa": {
+        "uk": "/tʃek/",
+        "us": "/tʃek/"
+      },
+      "forms": [
+        "checks",
+        "checked",
+        "checking"
+      ],
+      "coll": [
+        "check the results",
+        "a quick check"
+      ]
+    },
+    "childhood": {
+      "ipa": {
+        "uk": "/ˈtʃaɪldhʊd/",
+        "us": "/ˈtʃaɪldhʊd/"
+      },
+      "coll": [
+        "in childhood",
+        "early childhood"
+      ]
+    },
+    "choice": {
+      "ipa": {
+        "uk": "/tʃɔɪs/",
+        "us": "/tʃɔɪs/"
+      },
+      "forms": [
+        "choices"
+      ],
+      "coll": [
+        "a choice of",
+        "make a choice"
+      ]
+    },
+    "claim": {
+      "ipa": {
+        "uk": "/kleɪm/",
+        "us": "/kleɪm/"
+      },
+      "forms": [
+        "claims",
+        "claimed",
+        "claiming"
+      ],
+      "coll": [
+        "claim that",
+        "a claim about"
+      ]
+    },
+    "clinical": {
+      "ipa": {
+        "uk": "/ˈklɪnɪk(ə)l/",
+        "us": "/ˈklɪnɪk(ə)l/"
+      },
+      "coll": [
+        "clinical trials",
+        "clinical practice"
+      ]
+    },
+    "clothes": {
+      "ipa": {
+        "uk": "/kləʊðz/",
+        "us": "/kloʊðz/"
+      },
+      "coll": [
+        "wear clothes",
+        "warm clothes"
+      ]
+    },
+    "combination": {
+      "ipa": {
+        "uk": "/ˌkɒmbɪˈneɪʃ(ə)n/",
+        "us": "/ˌkɑːmbɪˈneɪʃ(ə)n/"
+      },
+      "forms": [
+        "combinations"
+      ],
+      "coll": [
+        "a combination of",
+        "in combination"
+      ]
+    },
+    "combine": {
+      "ipa": {
+        "uk": "/kəmˈbaɪn/",
+        "us": "/kəmˈbaɪn/"
+      },
+      "forms": [
+        "combines",
+        "combined",
+        "combining"
+      ],
+      "coll": [
+        "combine with",
+        "combine forces"
+      ]
+    },
+    "come": {
+      "ipa": {
+        "uk": "/kʌm/",
+        "us": "/kʌm/"
+      },
+      "forms": [
+        "comes",
+        "came",
+        "coming"
+      ],
+      "coll": [
+        "come from",
+        "come to"
+      ]
+    },
+    "comfort": {
+      "ipa": {
+        "uk": "/ˈkʌmfət/",
+        "us": "/ˈkʌmfərt/"
+      },
+      "forms": [
+        "comforts"
+      ],
+      "coll": [
+        "in comfort",
+        "the comfort zone"
+      ]
+    },
+    "compete": {
+      "ipa": {
+        "uk": "/kəmˈpiːt/",
+        "us": "/kəmˈpiːt/"
+      },
+      "forms": [
+        "competes",
+        "competed",
+        "competing"
+      ],
+      "coll": [
+        "compete with",
+        "compete for"
+      ]
+    },
+    "conclusion": {
+      "ipa": {
+        "uk": "/kənˈkluːʒn/",
+        "us": "/kənˈkluːʒ(ə)n/"
+      },
+      "forms": [
+        "conclusions"
+      ],
+      "coll": [
+        "in conclusion",
+        "reach a conclusion"
+      ]
+    },
+    "condition": {
+      "ipa": {
+        "uk": "/kənˈdɪʃn/",
+        "us": "/kənˈdɪʃ(ə)n/"
+      },
+      "forms": [
+        "conditions"
+      ],
+      "coll": [
+        "under these conditions",
+        "a medical condition"
+      ]
+    },
+    "connection": {
+      "ipa": {
+        "uk": "/kəˈnekʃn/",
+        "us": "/kəˈnekʃ(ə)n/"
+      },
+      "forms": [
+        "connections"
+      ],
+      "coll": [
+        "a connection between",
+        "in connection with"
+      ]
+    },
+    "consensus": {
+      "ipa": {
+        "uk": "/kənˈsensəs/",
+        "us": "/kənˈsensəs/"
+      },
+      "coll": [
+        "reach a consensus",
+        "a general consensus"
+      ]
+    },
+    "conspiracy": {
+      "ipa": {
+        "uk": "/kənˈspɪrəsi/",
+        "us": "/kənˈspɪrəsi/"
+      },
+      "forms": [
+        "conspiracies"
+      ],
+      "coll": [
+        "a conspiracy theory",
+        "a conspiracy"
+      ]
+    },
+    "consume": {
+      "ipa": {
+        "uk": "/kənˈsjuːm/",
+        "us": "/kənˈsuːm/"
+      },
+      "forms": [
+        "consumes",
+        "consumed",
+        "consuming"
+      ],
+      "coll": [
+        "consume energy",
+        "consume less"
+      ]
+    },
+    "container": {
+      "ipa": {
+        "uk": "/kənˈteɪnə(r)/",
+        "us": "/kənˈteɪnər/"
+      },
+      "forms": [
+        "containers"
+      ],
+      "coll": [
+        "a metal container",
+        "a container ship"
+      ]
+    },
+    "content": {
+      "ipa": {
+        "uk": "/ˈkɒntent/ /kənˈtent/",
+        "us": "/ˈkɑːntent/ /kənˈtent/"
+      },
+      "forms": [
+        "contents"
+      ],
+      "coll": [
+        "digital content",
+        "the content of"
+      ]
+    },
+    "continue": {
+      "ipa": {
+        "uk": "/kənˈtɪnjuː/",
+        "us": "/kənˈtɪnjuː/"
+      },
+      "forms": [
+        "continues",
+        "continued",
+        "continuing"
+      ],
+      "coll": [
+        "continue to",
+        "continue with"
+      ]
+    },
+    "conversation": {
+      "ipa": {
+        "uk": "/ˌkɒnvəˈseɪʃ(ə)n/",
+        "us": "/ˌkɑːnvərˈseɪʃ(ə)n/"
+      },
+      "forms": [
+        "conversations"
+      ],
+      "coll": [
+        "a conversation with",
+        "in conversation"
+      ]
+    },
+    "copy": {
+      "ipa": {
+        "uk": "/ˈkɒpi/",
+        "us": "/ˈkɑːpi/"
+      },
+      "forms": [
+        "copies",
+        "copied",
+        "copying"
+      ],
+      "coll": [
+        "a copy of",
+        "copy and paste"
+      ]
+    },
+    "cost": {
+      "ipa": {
+        "uk": "/kɒst/",
+        "us": "/kɔːst/"
+      },
+      "forms": [
+        "costs",
+        "costing"
+      ],
+      "coll": [
+        "the cost of",
+        "at any cost"
+      ]
+    },
+    "cover": {
+      "ipa": {
+        "uk": "/ˈkʌvə(r)/",
+        "us": "/ˈkʌvər/"
+      },
+      "forms": [
+        "covers",
+        "covered",
+        "covering"
+      ],
+      "coll": [
+        "cover the cost",
+        "cover a topic"
+      ]
+    },
+    "cram": {
+      "ipa": {
+        "uk": "/kræm/",
+        "us": "/kræm/"
+      },
+      "coll": [
+        "a cram school",
+        "last-minute cram"
+      ]
+    },
+    "create": {
+      "ipa": {
+        "uk": "/kriˈeɪt/",
+        "us": "/kriˈeɪt/"
+      },
+      "forms": [
+        "creates",
+        "created",
+        "creating"
+      ],
+      "coll": [
+        "create jobs",
+        "create an impression"
+      ]
+    },
+    "crucially": {
+      "ipa": {
+        "uk": "/ˈkruːʃəli/",
+        "us": "/ˈkruːʃəli/"
+      },
+      "coll": [
+        "crucially important",
+        "and crucially"
+      ]
+    },
+    "cue": {
+      "ipa": {
+        "uk": "/kjuː/",
+        "us": "/kjuː/"
+      },
+      "forms": [
+        "cues"
+      ],
+      "coll": [
+        "a visual cue",
+        "take a cue"
+      ]
+    },
+    "cycling": {
+      "ipa": {
+        "uk": "/ˈsaɪklɪŋ/",
+        "us": "/ˈsaɪklɪŋ/"
+      },
+      "coll": [
+        "go cycling",
+        "a cycling lane"
+      ]
+    },
+    "dark": {
+      "ipa": {
+        "uk": "/dɑːk/",
+        "us": "/dɑːrk/"
+      },
+      "forms": [
+        "darker",
+        "darkest"
+      ],
+      "coll": [
+        "dark blue",
+        "in the dark"
+      ]
+    },
+    "day": {
+      "ipa": {
+        "uk": "/deɪ/",
+        "us": "/deɪ/"
+      },
+      "forms": [
+        "days"
+      ],
+      "coll": [
+        "every day",
+        "day by day"
+      ]
+    },
+    "decade": {
+      "ipa": {
+        "uk": "/ˈdekeɪd/",
+        "us": "/ˈdekeɪd/"
+      },
+      "forms": [
+        "decades"
+      ],
+      "coll": [
+        "over the past decade",
+        "a decade of"
+      ]
+    },
+    "decay": {
+      "ipa": {
+        "uk": "/dɪˈkeɪ/",
+        "us": "/dɪˈkeɪ/"
+      },
+      "coll": [
+        "tooth decay",
+        "decay and rot"
+      ]
+    },
+    "decide": {
+      "ipa": {
+        "uk": "/dɪˈsaɪd/",
+        "us": "/dɪˈsaɪd/"
+      },
+      "forms": [
+        "decides",
+        "decided",
+        "deciding"
+      ],
+      "coll": [
+        "decide to",
+        "decide on"
+      ]
+    },
+    "decision": {
+      "ipa": {
+        "uk": "/dɪˈsɪʒ(ə)n/",
+        "us": "/dɪˈsɪʒ(ə)n/"
+      },
+      "forms": [
+        "decisions"
+      ],
+      "coll": [
+        "make a decision",
+        "a decision about"
+      ]
+    },
+    "decisive": {
+      "ipa": {
+        "uk": "/dɪˈsaɪsɪv/",
+        "us": "/dɪˈsaɪsɪv/"
+      },
+      "coll": [
+        "a decisive factor",
+        "decisive action"
+      ]
+    },
+    "declare": {
+      "ipa": {
+        "uk": "/dɪˈkleə(r)/",
+        "us": "/dɪˈkler/"
+      },
+      "forms": [
+        "declares",
+        "declared",
+        "declaring"
+      ],
+      "coll": [
+        "declare that",
+        "declare war"
+      ]
+    },
+    "decline": {
+      "ipa": {
+        "uk": "/dɪˈklaɪn/",
+        "us": "/dɪˈklaɪn/"
+      },
+      "forms": [
+        "declines",
+        "declined",
+        "declining"
+      ],
+      "coll": [
+        "a decline in",
+        "decline to comment"
+      ]
+    },
+    "decouple": {
+      "ipa": {
+        "uk": "/diːˈkʌpl/",
+        "us": "/diːˈkʌpl/"
+      },
+      "forms": [
+        "decouples",
+        "decoupled",
+        "decoupling"
+      ],
+      "coll": [
+        "decouple from",
+        "decouple growth"
+      ]
+    },
+    "deep": {
+      "ipa": {
+        "uk": "/diːp/",
+        "us": "/diːp/"
+      },
+      "forms": [
+        "deeper",
+        "deepest"
+      ],
+      "coll": [
+        "deep sleep",
+        "deep water"
+      ]
+    },
+    "delay": {
+      "ipa": {
+        "uk": "/dɪˈleɪ/",
+        "us": "/dɪˈleɪ/"
+      },
+      "forms": [
+        "delays",
+        "delayed",
+        "delaying"
+      ],
+      "coll": [
+        "a delay in",
+        "without delay"
+      ]
+    },
+    "deliberately": {
+      "ipa": {
+        "uk": "/dɪˈlɪbərətli/",
+        "us": "/dɪˈlɪbərətli/"
+      },
+      "coll": [
+        "deliberately misleading",
+        "do it deliberately"
+      ]
+    },
+    "depend": {
+      "ipa": {
+        "uk": "/dɪˈpend/",
+        "us": "/dɪˈpend/"
+      },
+      "forms": [
+        "depends",
+        "depended",
+        "depending"
+      ],
+      "coll": [
+        "depend on",
+        "depend upon"
+      ]
+    },
+    "dependant": {
+      "ipa": {
+        "uk": "/dɪˈpendənt/",
+        "us": "/dɪˈpendənt/"
+      },
+      "forms": [
+        "dependants"
+      ],
+      "coll": [
+        "a dependant child",
+        "dependants and carers"
+      ]
+    },
+    "describe": {
+      "ipa": {
+        "uk": "/dɪˈskraɪb/",
+        "us": "/dɪˈskraɪb/"
+      },
+      "forms": [
+        "describes",
+        "described",
+        "describing"
+      ],
+      "coll": [
+        "describe as",
+        "describe how"
+      ]
+    },
+    "design": {
+      "ipa": {
+        "uk": "/dɪˈzaɪn/",
+        "us": "/dɪˈzaɪn/"
+      },
+      "forms": [
+        "designs",
+        "designed",
+        "designing"
+      ],
+      "coll": [
+        "design a system",
+        "by design"
+      ]
+    },
+    "develop": {
+      "ipa": {
+        "uk": "/dɪˈveləp/",
+        "us": "/dɪˈveləp/"
+      },
+      "forms": [
+        "develops",
+        "developed",
+        "developing"
+      ],
+      "coll": [
+        "develop a habit",
+        "develop rapidly"
+      ]
+    },
+    "diamond": {
+      "ipa": {
+        "uk": "/ˈdaɪmənd/ /ˈdaɪəmənd/",
+        "us": "/ˈdaɪmənd/ /ˈdaɪəmənd/"
+      },
+      "forms": [
+        "diamonds"
+      ],
+      "coll": [
+        "a diamond ring",
+        "diamond shape"
+      ]
+    },
+    "difficult": {
+      "ipa": {
+        "uk": "/ˈdɪfɪkəlt/",
+        "us": "/ˈdɪfɪkəlt/"
+      },
+      "coll": [
+        "difficult to",
+        "a difficult question"
+      ]
+    },
+    "directly": {
+      "ipa": {
+        "uk": "/dəˈrektli/",
+        "us": "/dəˈrektli/ /daɪˈrektli/"
+      },
+      "coll": [
+        "directly related",
+        "speak directly"
+      ]
+    },
+    "disagree": {
+      "ipa": {
+        "uk": "/ˌdɪsəˈɡriː/",
+        "us": "/ˌdɪsəˈɡriː/"
+      },
+      "forms": [
+        "disagrees",
+        "disagreed",
+        "disagreeing"
+      ],
+      "coll": [
+        "disagree with",
+        "strongly disagree"
+      ]
+    },
+    "disappear": {
+      "ipa": {
+        "uk": "/ˌdɪsəˈpɪə(r)/",
+        "us": "/ˌdɪsəˈpɪr/"
+      },
+      "forms": [
+        "disappears",
+        "disappeared",
+        "disappearing"
+      ],
+      "coll": [
+        "disappear from",
+        "disappear entirely"
+      ]
+    },
+    "discuss": {
+      "ipa": {
+        "uk": "/dɪˈskʌs/",
+        "us": "/dɪˈskʌs/"
+      },
+      "forms": [
+        "discusses",
+        "discussed",
+        "discussing"
+      ],
+      "coll": [
+        "discuss with",
+        "discuss the issue"
+      ]
+    },
+    "disorder": {
+      "ipa": {
+        "uk": "/dɪsˈɔːdə(r)/",
+        "us": "/dɪsˈɔːrdər/"
+      },
+      "forms": [
+        "disorders"
+      ],
+      "coll": [
+        "a sleep disorder",
+        "in disorder"
+      ]
+    },
+    "display": {
+      "ipa": {
+        "uk": "/dɪˈspleɪ/",
+        "us": "/dɪˈspleɪ/"
+      },
+      "forms": [
+        "displays",
+        "displayed",
+        "displaying"
+      ],
+      "coll": [
+        "on display",
+        "a display of"
+      ]
+    },
+    "distribute": {
+      "ipa": {
+        "uk": "/dɪˈstrɪbjuːt/",
+        "us": "/dɪˈstrɪbjuːt/"
+      },
+      "forms": [
+        "distributes",
+        "distributed",
+        "distributing"
+      ],
+      "coll": [
+        "distribute evenly",
+        "distribute to"
+      ]
+    },
+    "dress": {
+      "ipa": {
+        "uk": "/dres/",
+        "us": "/dres/"
+      },
+      "forms": [
+        "dresses"
+      ],
+      "coll": [
+        "a summer dress",
+        "dress code"
+      ]
+    },
+    "drive": {
+      "ipa": {
+        "uk": "/draɪv/",
+        "us": "/draɪv/"
+      },
+      "forms": [
+        "drives",
+        "drove",
+        "driven",
+        "driving"
+      ],
+      "coll": [
+        "drive a car",
+        "drive growth"
+      ]
+    },
+    "dwell": {
+      "ipa": {
+        "uk": "/dwel/",
+        "us": "/dwel/"
+      },
+      "forms": [
+        "dwells",
+        "dwelt",
+        "dwelling"
+      ],
+      "coll": [
+        "dwell on",
+        "dwell in"
+      ]
+    },
+    "early": {
+      "ipa": {
+        "uk": "/ˈɜːli/",
+        "us": "/ˈɜːrli/"
+      },
+      "forms": [
+        "earlier",
+        "earliest"
+      ],
+      "coll": [
+        "early morning",
+        "as early as"
+      ]
+    },
+    "easily": {
+      "ipa": {
+        "uk": "/ˈiːzəli/",
+        "us": "/ˈiːzəli/"
+      },
+      "coll": [
+        "easily understood",
+        "easily available"
+      ]
+    },
+    "easy": {
+      "ipa": {
+        "uk": "/ˈiːzi/",
+        "us": "/ˈiːzi/"
+      },
+      "forms": [
+        "easier",
+        "easiest"
+      ],
+      "coll": [
+        "easy to",
+        "an easy task"
+      ]
+    },
+    "economist": {
+      "ipa": {
+        "uk": "/ɪˈkɒnəmɪst/",
+        "us": "/ɪˈkɑːnəmɪst/"
+      },
+      "forms": [
+        "economists"
+      ],
+      "coll": [
+        "a chief economist",
+        "economists argue"
+      ]
+    },
+    "economy": {
+      "ipa": {
+        "uk": "/ɪˈkɒnəmi/",
+        "us": "/ɪˈkɑːnəmi/"
+      },
+      "forms": [
+        "economies"
+      ],
+      "coll": [
+        "the global economy",
+        "a growing economy"
+      ]
+    },
+    "edit": {
+      "ipa": {
+        "uk": "/ˈedɪt/",
+        "us": "/ˈedɪt/"
+      },
+      "forms": [
+        "edits",
+        "edited",
+        "editing"
+      ],
+      "coll": [
+        "edit a video",
+        "edit text"
+      ]
+    },
+    "education": {
+      "ipa": {
+        "uk": "/ˌedʒuˈkeɪʃ(ə)n/",
+        "us": "/ˌedʒuˈkeɪʃ(ə)n/"
+      },
+      "coll": [
+        "higher education",
+        "the education system"
+      ]
+    },
+    "effectively": {
+      "ipa": {
+        "uk": "/ɪˈfektɪvli/",
+        "us": "/ɪˈfektɪvli/"
+      },
+      "coll": [
+        "effectively impossible",
+        "act effectively"
+      ]
+    },
+    "efficient": {
+      "ipa": {
+        "uk": "/ɪˈfɪʃ(ə)nt/",
+        "us": "/ɪˈfɪʃ(ə)nt/"
+      },
+      "coll": [
+        "energy efficient",
+        "an efficient way"
+      ]
+    },
+    "effort": {
+      "ipa": {
+        "uk": "/ˈefət/",
+        "us": "/ˈefərt/"
+      },
+      "forms": [
+        "efforts"
+      ],
+      "coll": [
+        "make an effort",
+        "a great effort"
+      ]
+    },
+    "eighteenth": {
+      "ipa": {
+        "uk": "/ˌeɪˈtiːnθ/",
+        "us": "/ˌeɪˈtiːnθ/"
+      },
+      "coll": [
+        "the eighteenth century",
+        "an eighteenth birthday"
+      ]
+    },
+    "else": {
+      "ipa": {
+        "uk": "/els/",
+        "us": "/els/"
+      },
+      "coll": [
+        "someone else",
+        "nothing else"
+      ]
+    },
+    "emancipate": {
+      "ipa": {
+        "uk": "/ɪˈmænsɪpeɪt/",
+        "us": "/ɪˈmænsɪpeɪt/"
+      },
+      "forms": [
+        "emancipates",
+        "emancipated",
+        "emancipating"
+      ],
+      "coll": [
+        "emancipate women",
+        "emancipate from"
+      ]
+    },
+    "end": {
+      "ipa": {
+        "uk": "/end/",
+        "us": "/end/"
+      },
+      "forms": [
+        "ends",
+        "ended",
+        "ending"
+      ],
+      "coll": [
+        "at the end",
+        "the end of"
+      ]
+    },
+    "endless": {
+      "ipa": {
+        "uk": "/ˈendləs/",
+        "us": "/ˈendləs/"
+      },
+      "coll": [
+        "an endless supply",
+        "endless possibilities"
+      ]
+    },
+    "enormous": {
+      "ipa": {
+        "uk": "/ɪˈnɔːməs/",
+        "us": "/ɪˈnɔːrməs/"
+      },
+      "coll": [
+        "an enormous amount",
+        "enormous pressure"
+      ]
+    },
+    "equal": {
+      "ipa": {
+        "uk": "/ˈiːkwəl/",
+        "us": "/ˈiːkwəl/"
+      },
+      "forms": [
+        "equals",
+        "equaled",
+        "equaling"
+      ],
+      "coll": [
+        "equal to",
+        "equal rights"
+      ]
+    },
+    "erase": {
+      "ipa": {
+        "uk": "/ɪˈreɪz/",
+        "us": "/ɪˈreɪs/"
+      },
+      "forms": [
+        "erases",
+        "erased",
+        "erasing"
+      ],
+      "coll": [
+        "erase data",
+        "erase the past"
+      ]
+    },
+    "evening": {
+      "ipa": {
+        "uk": "/ˈiːvnɪŋ/",
+        "us": "/ˈiːvnɪŋ/"
+      },
+      "forms": [
+        "evenings"
+      ],
+      "coll": [
+        "in the evening",
+        "evening news"
+      ]
+    },
+    "evenly": {
+      "ipa": {
+        "uk": "/ˈiːvnli/",
+        "us": "/ˈiːvnli/"
+      },
+      "coll": [
+        "evenly distributed",
+        "breathe evenly"
+      ]
+    },
+    "ever": {
+      "ipa": {
+        "uk": "/ˈevə(r)/",
+        "us": "/ˈevər/"
+      },
+      "coll": [
+        "ever since",
+        "hardly ever"
+      ]
+    },
+    "everything": {
+      "ipa": {
+        "uk": "/ˈevriθɪŋ/",
+        "us": "/ˈevriθɪŋ/"
+      },
+      "coll": [
+        "everything else",
+        "everything about"
+      ]
+    },
+    "everywhere": {
+      "ipa": {
+        "uk": "/ˈevriweə(r)/",
+        "us": "/ˈevriwer/"
+      },
+      "coll": [
+        "everywhere else",
+        "look everywhere"
+      ]
+    },
+    "evidence": {
+      "ipa": {
+        "uk": "/ˈevɪdəns/",
+        "us": "/ˈevɪdəns/"
+      },
+      "coll": [
+        "evidence of",
+        "clear evidence"
+      ]
+    },
+    "exaggeration": {
+      "ipa": {
+        "uk": "/ɪɡˌzædʒəˈreɪʃ(ə)n/",
+        "us": "/ɪɡˌzædʒəˈreɪʃ(ə)n/"
+      },
+      "forms": [
+        "exaggerations"
+      ],
+      "coll": [
+        "an exaggeration",
+        "without exaggeration"
+      ]
+    },
+    "exam": {
+      "ipa": {
+        "uk": "/ɪɡˈzæm/",
+        "us": "/ɪɡˈzæm/"
+      },
+      "forms": [
+        "exams"
+      ],
+      "coll": [
+        "pass an exam",
+        "exam results"
+      ]
+    },
+    "exercise": {
+      "ipa": {
+        "uk": "/ˈeksəsaɪz/",
+        "us": "/ˈeksərsaɪz/"
+      },
+      "forms": [
+        "exercises",
+        "exercised",
+        "exercising"
+      ],
+      "coll": [
+        "exercise regularly",
+        "take exercise"
+      ]
+    },
+    "exist": {
+      "ipa": {
+        "uk": "/ɪɡˈzɪst/",
+        "us": "/ɪɡˈzɪst/"
+      },
+      "forms": [
+        "exists",
+        "existed",
+        "existing"
+      ],
+      "coll": [
+        "exist in",
+        "cease to exist"
+      ]
+    },
+    "expensive": {
+      "ipa": {
+        "uk": "/ɪkˈspensɪv/",
+        "us": "/ɪkˈspensɪv/"
+      },
+      "coll": [
+        "too expensive",
+        "expensive to"
+      ]
+    },
+    "experience": {
+      "ipa": {
+        "uk": "/ɪkˈspɪəriəns/",
+        "us": "/ɪkˈspɪriəns/"
+      },
+      "forms": [
+        "experiences",
+        "experienced",
+        "experiencing"
+      ],
+      "coll": [
+        "experience of",
+        "work experience"
+      ]
+    },
+    "experiment": {
+      "ipa": {
+        "uk": "/ɪkˈsperɪmənt/",
+        "us": "/ɪkˈsperɪmənt/"
+      },
+      "forms": [
+        "experiments",
+        "experimented",
+        "experimenting"
+      ],
+      "coll": [
+        "conduct an experiment",
+        "an experiment on"
+      ]
+    },
+    "explain": {
+      "ipa": {
+        "uk": "/ɪkˈspleɪn/",
+        "us": "/ɪkˈspleɪn/"
+      },
+      "forms": [
+        "explains",
+        "explained",
+        "explaining"
+      ],
+      "coll": [
+        "explain why",
+        "explain to"
+      ]
+    },
+    "exposure": {
+      "ipa": {
+        "uk": "/ɪkˈspəʊʒə(r)/",
+        "us": "/ɪkˈspoʊʒər/"
+      },
+      "coll": [
+        "exposure to",
+        "prolonged exposure"
+      ]
+    },
+    "face": {
+      "ipa": {
+        "uk": "/feɪs/",
+        "us": "/feɪs/"
+      },
+      "forms": [
+        "faces",
+        "faced",
+        "facing"
+      ],
+      "coll": [
+        "face a problem",
+        "face to face"
+      ]
+    },
+    "factory": {
+      "ipa": {
+        "uk": "/ˈfæktri/ /ˈfæktəri/",
+        "us": "/ˈfækt(ə)ri/"
+      },
+      "forms": [
+        "factories"
+      ],
+      "coll": [
+        "a car factory",
+        "factory workers"
+      ]
+    },
+    "fade": {
+      "ipa": {
+        "uk": "/feɪd/",
+        "us": "/feɪd/"
+      },
+      "forms": [
+        "fades",
+        "faded",
+        "fading"
+      ],
+      "coll": [
+        "fade away",
+        "fade into"
+      ]
+    },
+    "fail": {
+      "ipa": {
+        "uk": "/feɪl/",
+        "us": "/feɪl/"
+      },
+      "forms": [
+        "fails",
+        "failed",
+        "failing"
+      ],
+      "coll": [
+        "fail to",
+        "fail a test"
+      ]
+    },
+    "failure": {
+      "ipa": {
+        "uk": "/ˈfeɪljə(r)/",
+        "us": "/ˈfeɪljər/"
+      },
+      "forms": [
+        "failures"
+      ],
+      "coll": [
+        "a failure to",
+        "the failure of"
+      ]
+    },
+    "fall": {
+      "ipa": {
+        "uk": "/fɔːl/",
+        "us": "/fɔːl/"
+      },
+      "forms": [
+        "falls",
+        "fell",
+        "fallen",
+        "falling"
+      ],
+      "coll": [
+        "fall into",
+        "a sharp fall"
+      ]
+    },
+    "familiar": {
+      "ipa": {
+        "uk": "/fəˈmɪliə(r)/",
+        "us": "/fəˈmɪliər/"
+      },
+      "coll": [
+        "familiar with",
+        "a familiar face"
+      ]
+    },
+    "far": {
+      "ipa": {
+        "uk": "/fɑː(r)/",
+        "us": "/fɑːr/"
+      },
+      "coll": [
+        "far from",
+        "so far"
+      ]
+    },
+    "fast": {
+      "ipa": {
+        "uk": "/fɑːst/",
+        "us": "/fæst/"
+      },
+      "forms": [
+        "faster",
+        "fastest"
+      ],
+      "coll": [
+        "fast food",
+        "fast asleep"
+      ]
+    },
+    "fatal": {
+      "ipa": {
+        "uk": "/ˈfeɪt(ə)l/",
+        "us": "/ˈfeɪt(ə)l/"
+      },
+      "coll": [
+        "a fatal mistake",
+        "fatal injuries"
+      ]
+    },
+    "fear": {
+      "ipa": {
+        "uk": "/fɪə(r)/",
+        "us": "/fɪr/"
+      },
+      "forms": [
+        "fears",
+        "feared",
+        "fearing"
+      ],
+      "coll": [
+        "fear of",
+        "for fear of"
+      ]
+    },
+    "feed": {
+      "ipa": {
+        "uk": "/fiːd/",
+        "us": "/fiːd/"
+      },
+      "forms": [
+        "feeds",
+        "fed",
+        "feeding"
+      ],
+      "coll": [
+        "feed on",
+        "feed into"
+      ]
+    },
+    "feel": {
+      "ipa": {
+        "uk": "/fiːl/",
+        "us": "/fiːl/"
+      },
+      "forms": [
+        "feels",
+        "felt",
+        "feeling"
+      ],
+      "coll": [
+        "feel like",
+        "feel the need"
+      ]
+    },
+    "few": {
+      "ipa": {
+        "uk": "/fjuː/",
+        "us": "/fjuː/"
+      },
+      "coll": [
+        "a few",
+        "few people"
+      ]
+    },
+    "finish": {
+      "ipa": {
+        "uk": "/ˈfɪnɪʃ/",
+        "us": "/ˈfɪnɪʃ/"
+      },
+      "forms": [
+        "finishes",
+        "finished",
+        "finishing"
+      ],
+      "coll": [
+        "finish with",
+        "finish on time"
+      ]
+    },
+    "fix": {
+      "ipa": {
+        "uk": "/fɪks/",
+        "us": "/fɪks/"
+      },
+      "forms": [
+        "fixes",
+        "fixxed",
+        "fixxing"
+      ],
+      "coll": [
+        "fix a problem",
+        "fix a date"
+      ]
+    },
+    "fluency": {
+      "ipa": {
+        "uk": "/ˈfluːənsi/",
+        "us": "/ˈfluːənsi/"
+      },
+      "coll": [
+        "fluency in",
+        "language fluency"
+      ]
+    },
+    "follow": {
+      "ipa": {
+        "uk": "/ˈfɒləʊ/",
+        "us": "/ˈfɑːloʊ/"
+      },
+      "forms": [
+        "follows",
+        "followed",
+        "following"
+      ],
+      "coll": [
+        "follow up",
+        "as follows"
+      ]
+    },
+    "foot": {
+      "ipa": {
+        "uk": "/fʊt/",
+        "us": "/fʊt/"
+      },
+      "forms": [
+        "feet"
+      ],
+      "coll": [
+        "on foot",
+        "at the foot of"
+      ]
+    },
+    "forget": {
+      "ipa": {
+        "uk": "/fəˈɡet/",
+        "us": "/fərˈɡet/"
+      },
+      "forms": [
+        "forgets",
+        "forgot",
+        "forgotten",
+        "forgetting"
+      ],
+      "coll": [
+        "forget about",
+        "forget to"
+      ]
+    },
+    "former": {
+      "ipa": {
+        "uk": "/ˈfɔːmə(r)/",
+        "us": "/ˈfɔːrmər/"
+      },
+      "coll": [
+        "the former",
+        "a former president"
+      ]
+    },
+    "forward": {
+      "ipa": {
+        "uk": "/ˈfɔːwəd/",
+        "us": "/ˈfɔːrwərd/"
+      },
+      "coll": [
+        "look forward to",
+        "step forward"
+      ]
+    },
+    "frame": {
+      "ipa": {
+        "uk": "/freɪm/",
+        "us": "/freɪm/"
+      },
+      "forms": [
+        "frames"
+      ],
+      "coll": [
+        "a frame of reference",
+        "time frame"
+      ]
+    },
+    "free": {
+      "ipa": {
+        "uk": "/friː/",
+        "us": "/friː/"
+      },
+      "forms": [
+        "freer",
+        "freest"
+      ],
+      "coll": [
+        "free time",
+        "free of charge"
+      ]
+    },
+    "frequent": {
+      "ipa": {
+        "uk": "/ˈfriːkwənt/",
+        "us": "/ˈfriːkwənt/"
+      },
+      "coll": [
+        "frequent visits",
+        "less frequent"
+      ]
+    },
+    "friend": {
+      "ipa": {
+        "uk": "/frend/",
+        "us": "/frend/"
+      },
+      "forms": [
+        "friends"
+      ],
+      "coll": [
+        "a close friend",
+        "make friends"
+      ]
+    },
+    "front": {
+      "ipa": {
+        "uk": "/frʌnt/",
+        "us": "/frʌnt/"
+      },
+      "forms": [
+        "fronts"
+      ],
+      "coll": [
+        "in front of",
+        "the front door"
+      ]
+    },
+    "game": {
+      "ipa": {
+        "uk": "/ɡeɪm/",
+        "us": "/ɡeɪm/"
+      },
+      "forms": [
+        "games"
+      ],
+      "coll": [
+        "play a game",
+        "a game of"
+      ]
+    },
+    "gardener": {
+      "ipa": {
+        "uk": "/ˈɡɑːdnə(r)/",
+        "us": "/ˈɡɑːrdnər/"
+      },
+      "forms": [
+        "gardeners"
+      ],
+      "coll": [
+        "a keen gardener",
+        "a market gardener"
+      ]
+    },
+    "generation": {
+      "ipa": {
+        "uk": "/ˌdʒenəˈreɪʃ(ə)n/",
+        "us": "/ˌdʒenəˈreɪʃ(ə)n/"
+      },
+      "forms": [
+        "generations"
+      ],
+      "coll": [
+        "a generation of",
+        "the younger generation"
+      ]
+    },
+    "gesture": {
+      "ipa": {
+        "uk": "/ˈdʒestʃə(r)/",
+        "us": "/ˈdʒestʃər/"
+      },
+      "forms": [
+        "gestures"
+      ],
+      "coll": [
+        "a gesture of",
+        "make a gesture"
+      ]
+    },
+    "give": {
+      "ipa": {
+        "uk": "/ɡɪv/",
+        "us": "/ɡɪv/"
+      },
+      "forms": [
+        "gives",
+        "gave",
+        "given",
+        "giving"
+      ],
+      "coll": [
+        "give up",
+        "give rise to"
+      ]
+    },
+    "go": {
+      "ipa": {
+        "uk": "/ɡəʊ/",
+        "us": "/ɡoʊ/"
+      },
+      "forms": [
+        "goes",
+        "went",
+        "gone",
+        "going"
+      ],
+      "coll": [
+        "go on",
+        "go through"
+      ]
+    },
+    "good": {
+      "ipa": {
+        "uk": "/ɡʊd/",
+        "us": "/ɡʊd/"
+      },
+      "forms": [
+        "better",
+        "best"
+      ],
+      "coll": [
+        "good at",
+        "good for"
+      ]
+    },
+    "ground": {
+      "ipa": {
+        "uk": "/ɡraʊnd/",
+        "us": "/ɡraʊnd/"
+      },
+      "forms": [
+        "grounds"
+      ],
+      "coll": [
+        "on the ground",
+        "ground level"
+      ]
+    },
+    "grow": {
+      "ipa": {
+        "uk": "/ɡrəʊ/",
+        "us": "/ɡroʊ/"
+      },
+      "forms": [
+        "grows",
+        "grew",
+        "grown",
+        "growing"
+      ],
+      "coll": [
+        "grow up",
+        "grow into"
+      ]
+    },
+    "half": {
+      "ipa": {
+        "uk": "/hɑːf/",
+        "us": "/hæf/"
+      },
+      "forms": [
+        "halves"
+      ],
+      "coll": [
+        "half of",
+        "by half"
+      ]
+    },
+    "hall": {
+      "ipa": {
+        "uk": "/hɔːl/",
+        "us": "/hɔːl/"
+      },
+      "forms": [
+        "halls"
+      ],
+      "coll": [
+        "the main hall",
+        "a concert hall"
+      ]
+    },
+    "handlebar": {
+      "ipa": {
+        "uk": "/ˈhænd(ə)lbɑː(r)/",
+        "us": "/ˈhænd(ə)lbɑːr/"
+      },
+      "forms": [
+        "handlebars"
+      ],
+      "coll": [
+        "the handlebars",
+        "handlebar height"
+      ]
+    },
+    "happen": {
+      "ipa": {
+        "uk": "/ˈhæpən/",
+        "us": "/ˈhæpən/"
+      },
+      "forms": [
+        "happens",
+        "happened",
+        "happening"
+      ],
+      "coll": [
+        "happen to",
+        "what happens"
+      ]
+    },
+    "hard": {
+      "ipa": {
+        "uk": "/hɑːd/",
+        "us": "/hɑːrd/"
+      },
+      "forms": [
+        "harder",
+        "hardest"
+      ],
+      "coll": [
+        "hard to",
+        "hard work"
+      ]
+    },
+    "harmless": {
+      "ipa": {
+        "uk": "/ˈhɑːmləs/",
+        "us": "/ˈhɑːrmləs/"
+      },
+      "coll": [
+        "harmless to",
+        "seemingly harmless"
+      ]
+    },
+    "harvest": {
+      "ipa": {
+        "uk": "/ˈhɑːvɪst/",
+        "us": "/ˈhɑːrvɪst/"
+      },
+      "forms": [
+        "harvests"
+      ],
+      "coll": [
+        "harvest time",
+        "a good harvest"
+      ]
+    },
+    "heavy": {
+      "ipa": {
+        "uk": "/ˈhevi/",
+        "us": "/ˈhevi/"
+      },
+      "forms": [
+        "heavier",
+        "heaviest"
+      ],
+      "coll": [
+        "heavy rain",
+        "heavy traffic"
+      ]
+    },
+    "hold": {
+      "ipa": {
+        "uk": "/həʊld/",
+        "us": "/hoʊld/"
+      },
+      "forms": [
+        "holds",
+        "held",
+        "holding"
+      ],
+      "coll": [
+        "hold on",
+        "hold a meeting"
+      ]
+    },
+    "horse": {
+      "ipa": {
+        "uk": "/hɔːs/",
+        "us": "/hɔːrs/"
+      },
+      "forms": [
+        "horses"
+      ],
+      "coll": [
+        "ride a horse",
+        "horse-drawn"
+      ]
+    },
+    "hundreds": {
+      "ipa": {
+        "uk": "/ˈhʌndrədz/",
+        "us": "/ˈhʌndrədz/"
+      },
+      "forms": [
+        "hundredses"
+      ],
+      "coll": [
+        "hundreds of",
+        "in hundreds"
+      ]
+    },
+    "idea": {
+      "ipa": {
+        "uk": "/aɪˈdɪə/",
+        "us": "/aɪˈdiːə/"
+      },
+      "forms": [
+        "ideas"
+      ],
+      "coll": [
+        "an idea of",
+        "the idea that"
+      ]
+    },
+    "illusion": {
+      "ipa": {
+        "uk": "/ɪˈluːʒ(ə)n/",
+        "us": "/ɪˈluːʒ(ə)n/"
+      },
+      "forms": [
+        "illusions"
+      ],
+      "coll": [
+        "an illusion of",
+        "optical illusion"
+      ]
+    },
+    "incentive": {
+      "ipa": {
+        "uk": "/ɪnˈsentɪv/",
+        "us": "/ɪnˈsentɪv/"
+      },
+      "forms": [
+        "incentives"
+      ],
+      "coll": [
+        "an incentive to",
+        "financial incentives"
+      ]
+    },
+    "increase": {
+      "ipa": {
+        "uk": "/ɪnˈkriːs/",
+        "us": "/ɪnˈkriːs/"
+      },
+      "forms": [
+        "increases",
+        "increased",
+        "increasing"
+      ],
+      "coll": [
+        "an increase in",
+        "a sharp increase"
+      ]
+    },
+    "industry": {
+      "ipa": {
+        "uk": "/ˈɪndəstri/",
+        "us": "/ˈɪndəstri/"
+      },
+      "forms": [
+        "industries"
+      ],
+      "coll": [
+        "the steel industry",
+        "industry standards"
+      ]
+    },
+    "influential": {
+      "ipa": {
+        "uk": "/ˌɪnfluˈenʃ(ə)l/",
+        "us": "/ˌɪnfluˈenʃ(ə)l/"
+      },
+      "coll": [
+        "highly influential",
+        "an influential book"
+      ]
+    },
+    "information": {
+      "ipa": {
+        "uk": "/ˌɪnfəˈmeɪʃ(ə)n/",
+        "us": "/ˌɪnfərˈmeɪʃ(ə)n/"
+      },
+      "coll": [
+        "information about",
+        "a piece of information"
+      ]
+    },
+    "inherit": {
+      "ipa": {
+        "uk": "/ɪnˈherɪt/",
+        "us": "/ɪnˈherɪt/"
+      },
+      "forms": [
+        "inherits",
+        "inherited",
+        "inheriting"
+      ],
+      "coll": [
+        "inherit from",
+        "inherit a fortune"
+      ]
+    },
+    "instead": {
+      "ipa": {
+        "uk": "/ɪnˈsted/",
+        "us": "/ɪnˈsted/"
+      },
+      "coll": [
+        "instead of",
+        "instead of that"
+      ]
+    },
+    "instruct": {
+      "ipa": {
+        "uk": "/ɪnˈstrʌkt/",
+        "us": "/ɪnˈstrʌkt/"
+      },
+      "forms": [
+        "instructs",
+        "instructed",
+        "instructing"
+      ],
+      "coll": [
+        "instruct someone to",
+        "instruct in"
+      ]
+    },
+    "intact": {
+      "ipa": {
+        "uk": "/ɪnˈtækt/",
+        "us": "/ɪnˈtækt/"
+      },
+      "coll": [
+        "remain intact",
+        "stay intact"
+      ]
+    },
+    "intend": {
+      "ipa": {
+        "uk": "/ɪnˈtend/",
+        "us": "/ɪnˈtend/"
+      },
+      "forms": [
+        "intends",
+        "intended",
+        "intending"
+      ],
+      "coll": [
+        "intend to",
+        "be intended for"
+      ]
+    },
+    "interchangeable": {
+      "ipa": {
+        "uk": "/ˌɪntəˈtʃeɪndʒəb(ə)l/",
+        "us": "/ˌɪntərˈtʃeɪndʒəb(ə)l/"
+      },
+      "coll": [
+        "interchangeable parts",
+        "interchangeable with"
+      ]
+    },
+    "interface": {
+      "ipa": {
+        "uk": "/ˈɪntəfeɪs/",
+        "us": "/ˈɪntərfeɪs/"
+      },
+      "forms": [
+        "interfaces"
+      ],
+      "coll": [
+        "the user interface",
+        "interface design"
+      ]
+    },
+    "internet": {
+      "ipa": {
+        "uk": "/ˈɪntənet/",
+        "us": "/ˈɪntərnet/"
+      },
+      "forms": [
+        "internets"
+      ],
+      "coll": [
+        "on the internet",
+        "internet access"
+      ]
+    },
+    "interpret": {
+      "ipa": {
+        "uk": "/ɪnˈtɜːprət/",
+        "us": "/ɪnˈtɜːrprət/"
+      },
+      "forms": [
+        "interprets",
+        "interpreted",
+        "interpreting"
+      ],
+      "coll": [
+        "interpret as",
+        "interpret data"
+      ]
+    },
+    "interrupt": {
+      "ipa": {
+        "uk": "/ˌɪntəˈrʌpt/",
+        "us": "/ˌɪntəˈrʌpt/"
+      },
+      "forms": [
+        "interrupts",
+        "interrupted",
+        "interrupting"
+      ],
+      "coll": [
+        "interrupt a conversation",
+        "sorry to interrupt"
+      ]
+    },
+    "invent": {
+      "ipa": {
+        "uk": "/ɪnˈvent/",
+        "us": "/ɪnˈvent/"
+      },
+      "forms": [
+        "invents",
+        "invented",
+        "inventing"
+      ],
+      "coll": [
+        "invent a machine",
+        "invent the wheel"
+      ]
+    },
+    "iron": {
+      "ipa": {
+        "uk": "/ˈaɪən/",
+        "us": "/ˈaɪərn/"
+      },
+      "forms": [
+        "irons"
+      ],
+      "coll": [
+        "iron and steel",
+        "an iron bar"
+      ]
+    },
+    "irrelevance": {
+      "ipa": {
+        "uk": "/ɪˈreləvəns/",
+        "us": "/ɪˈreləvəns/"
+      },
+      "forms": [
+        "irrelevances"
+      ],
+      "coll": [
+        "an irrelevance",
+        "the irrelevance of"
+      ]
+    },
+    "item": {
+      "ipa": {
+        "uk": "/ˈaɪtəm/",
+        "us": "/ˈaɪtəm/"
+      },
+      "forms": [
+        "items"
+      ],
+      "coll": [
+        "an item of",
+        "a news item"
+      ]
+    },
+    "just": {
+      "ipa": {
+        "uk": "/dʒʌst/",
+        "us": "/dʒʌst/"
+      },
+      "coll": [
+        "just as",
+        "just about"
+      ]
+    },
+    "keep": {
+      "ipa": {
+        "uk": "/kiːp/",
+        "us": "/kiːp/"
+      },
+      "forms": [
+        "keeps",
+        "kept",
+        "keeping"
+      ],
+      "coll": [
+        "keep up",
+        "keep in mind"
+      ]
+    },
+    "know": {
+      "ipa": {
+        "uk": "/nəʊ/",
+        "us": "/noʊ/"
+      },
+      "forms": [
+        "knows",
+        "knew",
+        "known",
+        "knowing"
+      ],
+      "coll": [
+        "know about",
+        "know how"
+      ]
+    },
+    "last": {
+      "ipa": {
+        "uk": "/lɑːst/",
+        "us": "/læst/"
+      },
+      "forms": [
+        "lasts",
+        "lasted",
+        "lasting"
+      ],
+      "coll": [
+        "last for",
+        "at last"
+      ]
+    },
+    "lasting": {
+      "ipa": {
+        "uk": "/ˈlɑːstɪŋ/",
+        "us": "/ˈlæstɪŋ/"
+      },
+      "coll": [
+        "a lasting impression",
+        "long-lasting"
+      ]
+    },
+    "later": {
+      "ipa": {
+        "uk": "/ˈleɪtə(r)/",
+        "us": "/ˈleɪtər/"
+      },
+      "coll": [
+        "later on",
+        "sooner or later"
+      ]
+    },
+    "leak": {
+      "ipa": {
+        "uk": "/liːk/",
+        "us": "/liːk/"
+      },
+      "forms": [
+        "leaks",
+        "leaked",
+        "leaking"
+      ],
+      "coll": [
+        "a gas leak",
+        "leak out"
+      ]
+    },
+    "learn": {
+      "ipa": {
+        "uk": "/lɜːn/",
+        "us": "/lɜːrn/"
+      },
+      "forms": [
+        "learns",
+        "learnt",
+        "learning"
+      ],
+      "coll": [
+        "learn from",
+        "learn about"
+      ]
+    },
+    "leave": {
+      "ipa": {
+        "uk": "/liːv/",
+        "us": "/liːv/"
+      },
+      "forms": [
+        "leaves",
+        "left",
+        "leaving"
+      ],
+      "coll": [
+        "leave behind",
+        "leave for"
+      ]
+    },
+    "lesson": {
+      "ipa": {
+        "uk": "/ˈles(ə)n/",
+        "us": "/ˈles(ə)n/"
+      },
+      "forms": [
+        "lessons"
+      ],
+      "coll": [
+        "learn a lesson",
+        "a lesson in"
+      ]
+    },
+    "letter": {
+      "ipa": {
+        "uk": "/ˈletə(r)/",
+        "us": "/ˈletər/"
+      },
+      "forms": [
+        "letters"
+      ],
+      "coll": [
+        "a letter to",
+        "by letter"
+      ]
+    },
+    "life": {
+      "ipa": {
+        "uk": "/laɪf/",
+        "us": "/laɪf/"
+      },
+      "forms": [
+        "lives"
+      ],
+      "coll": [
+        "in life",
+        "a way of life"
+      ]
+    },
+    "like": {
+      "ipa": {
+        "uk": "/laɪk/",
+        "us": "/laɪk/"
+      },
+      "forms": [
+        "likes",
+        "liked",
+        "liking"
+      ],
+      "coll": [
+        "like this",
+        "look like"
+      ]
+    },
+    "likely": {
+      "ipa": {
+        "uk": "/ˈlaɪkli/",
+        "us": "/ˈlaɪkli/"
+      },
+      "coll": [
+        "likely to",
+        "more likely"
+      ]
+    },
+    "line": {
+      "ipa": {
+        "uk": "/laɪn/",
+        "us": "/laɪn/"
+      },
+      "forms": [
+        "lines"
+      ],
+      "coll": [
+        "a line of",
+        "in line with"
+      ]
+    },
+    "list": {
+      "ipa": {
+        "uk": "/lɪst/",
+        "us": "/lɪst/"
+      },
+      "forms": [
+        "lists",
+        "listed",
+        "listing"
+      ],
+      "coll": [
+        "a list of",
+        "on the list"
+      ]
+    },
+    "long": {
+      "ipa": {
+        "uk": "/lɒŋ/",
+        "us": "/lɔːŋ/"
+      },
+      "forms": [
+        "longer",
+        "longest"
+      ],
+      "coll": [
+        "a long time",
+        "as long as"
+      ]
+    },
+    "long-form": {
+      "ipa": {
+        "uk": "/ˈlɒŋfɔːm/",
+        "us": "/ˈlɔːŋfɔːrm/"
+      },
+      "coll": [
+        "a long-form article",
+        "long-form content"
+      ]
+    },
+    "loose": {
+      "ipa": {
+        "uk": "/luːs/",
+        "us": "/luːs/"
+      },
+      "forms": [
+        "looser",
+        "loosest"
+      ],
+      "coll": [
+        "come loose",
+        "a loose connection"
+      ]
+    },
+    "lose": {
+      "ipa": {
+        "uk": "/luːz/",
+        "us": "/luːz/"
+      },
+      "forms": [
+        "loses",
+        "lost",
+        "losing"
+      ],
+      "coll": [
+        "lose weight",
+        "lose track of"
+      ]
+    },
+    "low": {
+      "ipa": {
+        "uk": "/ləʊ/",
+        "us": "/loʊ/"
+      },
+      "forms": [
+        "lower",
+        "lowest"
+      ],
+      "coll": [
+        "low level",
+        "low cost"
+      ]
+    },
+    "machine": {
+      "ipa": {
+        "uk": "/məˈʃiːn/",
+        "us": "/məˈʃiːn/"
+      },
+      "forms": [
+        "machines"
+      ],
+      "coll": [
+        "a washing machine",
+        "by machine"
+      ]
+    },
+    "make": {
+      "ipa": {
+        "uk": "/meɪk/",
+        "us": "/meɪk/"
+      },
+      "forms": [
+        "makes",
+        "made",
+        "making"
+      ],
+      "coll": [
+        "make sure",
+        "make a difference"
+      ]
+    },
+    "man": {
+      "ipa": {
+        "uk": "/mæn/",
+        "us": "/mæn/"
+      },
+      "forms": [
+        "men"
+      ],
+      "coll": [
+        "a young man",
+        "the man in"
+      ]
+    },
+    "manufacturer": {
+      "ipa": {
+        "uk": "/ˌmænjuˈfæktʃərə(r)/",
+        "us": "/ˌmænjuˈfæktʃərər/"
+      },
+      "forms": [
+        "manufacturers"
+      ],
+      "coll": [
+        "a car manufacturer",
+        "the manufacturer of"
+      ]
+    },
+    "market": {
+      "ipa": {
+        "uk": "/ˈmɑːkɪt/",
+        "us": "/ˈmɑːrkɪt/"
+      },
+      "forms": [
+        "markets"
+      ],
+      "coll": [
+        "the job market",
+        "on the market"
+      ]
+    },
+    "mass": {
+      "ipa": {
+        "uk": "/mæs/",
+        "us": "/mæs/"
+      },
+      "forms": [
+        "masses"
+      ],
+      "coll": [
+        "a mass of",
+        "mass production"
+      ]
+    },
+    "match": {
+      "ipa": {
+        "uk": "/mætʃ/",
+        "us": "/mætʃ/"
+      },
+      "forms": [
+        "matches",
+        "matched",
+        "matching"
+      ],
+      "coll": [
+        "a perfect match",
+        "match with"
+      ]
+    },
+    "material": {
+      "ipa": {
+        "uk": "/məˈtɪəriəl/",
+        "us": "/məˈtɪriəl/"
+      },
+      "forms": [
+        "materials"
+      ],
+      "coll": [
+        "raw materials",
+        "material goods"
+      ]
+    },
+    "matter": {
+      "ipa": {
+        "uk": "/ˈmætə(r)/",
+        "us": "/ˈmætər/"
+      },
+      "forms": [
+        "matters",
+        "mattered",
+        "mattering"
+      ],
+      "coll": [
+        "a matter of",
+        "no matter"
+      ]
+    },
+    "measure": {
+      "ipa": {
+        "uk": "/ˈmeʒə(r)/",
+        "us": "/ˈmeʒər/"
+      },
+      "forms": [
+        "measures",
+        "measured",
+        "measuring"
+      ],
+      "coll": [
+        "a measure of",
+        "take measures"
+      ]
+    },
+    "medium": {
+      "ipa": {
+        "uk": "/ˈmiːdiəm/",
+        "us": "/ˈmiːdiəm/"
+      },
+      "forms": [
+        "media"
+      ],
+      "coll": [
+        "a medium for",
+        "medium-sized"
+      ]
+    },
+    "memorandum": {
+      "ipa": {
+        "uk": "/ˌmeməˈrændəm/",
+        "us": "/ˌmeməˈrændəm/"
+      },
+      "forms": [
+        "memoranda",
+        "memorandums"
+      ],
+      "coll": [
+        "an internal memorandum",
+        "a memorandum on"
+      ]
+    },
+    "memory": {
+      "ipa": {
+        "uk": "/ˈmeməri/",
+        "us": "/ˈmeməri/"
+      },
+      "forms": [
+        "memories"
+      ],
+      "coll": [
+        "in memory of",
+        "a memory of"
+      ]
+    },
+    "minute": {
+      "ipa": {
+        "uk": "/ˈmɪnɪt/",
+        "us": "/ˈmɪnɪt/"
+      },
+      "forms": [
+        "minutes"
+      ],
+      "coll": [
+        "a few minutes",
+        "at the last minute"
+      ]
+    },
+    "mode": {
+      "ipa": {
+        "uk": "/məʊd/",
+        "us": "/moʊd/"
+      },
+      "forms": [
+        "modes"
+      ],
+      "coll": [
+        "a mode of transport",
+        "switch mode"
+      ]
+    },
+    "moment": {
+      "ipa": {
+        "uk": "/ˈməʊmənt/",
+        "us": "/ˈmoʊmənt/"
+      },
+      "forms": [
+        "moments"
+      ],
+      "coll": [
+        "at the moment",
+        "a moment of"
+      ]
+    },
+    "money": {
+      "ipa": {
+        "uk": "/ˈmʌni/",
+        "us": "/ˈmʌni/"
+      },
+      "coll": [
+        "spend money",
+        "make money"
+      ]
+    },
+    "moral": {
+      "ipa": {
+        "uk": "/ˈmɒrəl/",
+        "us": "/ˈmɔːrəl/"
+      },
+      "forms": [
+        "morals"
+      ],
+      "coll": [
+        "a moral issue",
+        "moral support"
+      ]
+    },
+    "motor": {
+      "ipa": {
+        "uk": "/ˈməʊtə(r)/",
+        "us": "/ˈmoʊtər/"
+      },
+      "forms": [
+        "motors"
+      ],
+      "coll": [
+        "an electric motor",
+        "motor vehicle"
+      ]
+    },
+    "mount": {
+      "ipa": {
+        "uk": "/maʊnt/",
+        "us": "/maʊnt/"
+      },
+      "forms": [
+        "mounts",
+        "mounted",
+        "mounting"
+      ],
+      "coll": [
+        "mount a campaign",
+        "mount up"
+      ]
+    },
+    "movement": {
+      "ipa": {
+        "uk": "/ˈmuːvmənt/",
+        "us": "/ˈmuːvmənt/"
+      },
+      "forms": [
+        "movements"
+      ],
+      "coll": [
+        "a movement of",
+        "a social movement"
+      ]
+    },
+    "name": {
+      "ipa": {
+        "uk": "/neɪm/",
+        "us": "/neɪm/"
+      },
+      "forms": [
+        "names",
+        "named",
+        "naming"
+      ],
+      "coll": [
+        "a name for",
+        "in the name of"
+      ]
+    },
+    "narrow": {
+      "ipa": {
+        "uk": "/ˈnærəʊ/",
+        "us": "/ˈnæroʊ/"
+      },
+      "forms": [
+        "narrower",
+        "narrowest"
+      ],
+      "coll": [
+        "a narrow street",
+        "narrow down"
+      ]
+    },
+    "natural": {
+      "ipa": {
+        "uk": "/ˈnætʃ(ə)rəl/",
+        "us": "/ˈnætʃ(ə)rəl/"
+      },
+      "coll": [
+        "natural resources",
+        "in a natural way"
+      ]
+    },
+    "neuron": {
+      "ipa": {
+        "uk": "/ˈnjʊərɒn/",
+        "us": "/ˈnʊrɑːn/"
+      },
+      "forms": [
+        "neurons"
+      ],
+      "coll": [
+        "brain neurons",
+        "a single neuron"
+      ]
+    },
+    "neutral": {
+      "ipa": {
+        "uk": "/ˈnjuːtrəl/",
+        "us": "/ˈnuːtrəl/"
+      },
+      "coll": [
+        "remain neutral",
+        "a neutral tone"
+      ]
+    },
+    "new": {
+      "ipa": {
+        "uk": "/njuː/",
+        "us": "/nuː/"
+      },
+      "forms": [
+        "newer",
+        "newest"
+      ],
+      "coll": [
+        "new to",
+        "brand new"
+      ]
+    },
+    "newspaper": {
+      "ipa": {
+        "uk": "/ˈnjuːzpeɪpə(r)/",
+        "us": "/ˈnuːzpeɪpər/"
+      },
+      "forms": [
+        "newspapers"
+      ],
+      "coll": [
+        "a newspaper article",
+        "in the newspaper"
+      ]
+    },
+    "next": {
+      "ipa": {
+        "uk": "/nekst/",
+        "us": "/nekst/"
+      },
+      "coll": [
+        "next to",
+        "the next day"
+      ]
+    },
+    "nickname": {
+      "ipa": {
+        "uk": "/ˈnɪkneɪm/",
+        "us": "/ˈnɪkneɪm/"
+      },
+      "forms": [
+        "nicknames",
+        "nicknamed",
+        "nicknaming"
+      ],
+      "coll": [
+        "a nickname for",
+        "give a nickname"
+      ]
+    },
+    "nobody": {
+      "ipa": {
+        "uk": "/ˈnəʊbədi/",
+        "us": "/ˈnoʊbɑːdi/"
+      },
+      "coll": [
+        "nobody else",
+        "nobody knows"
+      ]
+    },
+    "none": {
+      "ipa": {
+        "uk": "/nʌn/",
+        "us": "/nʌn/"
+      },
+      "coll": [
+        "none of",
+        "none at all"
+      ]
+    },
+    "nostalgia": {
+      "ipa": {
+        "uk": "/nɒˈstældʒə/",
+        "us": "/nəˈstældʒə/"
+      },
+      "coll": [
+        "nostalgia for",
+        "a sense of nostalgia"
+      ]
+    },
+    "novel": {
+      "ipa": {
+        "uk": "/ˈnɒv(ə)l/",
+        "us": "/ˈnɑːv(ə)l/"
+      },
+      "forms": [
+        "novels"
+      ],
+      "coll": [
+        "a novel by",
+        "a detective novel"
+      ]
+    },
+    "now": {
+      "ipa": {
+        "uk": "/naʊ/",
+        "us": "/naʊ/"
+      },
+      "coll": [
+        "now that",
+        "by now"
+      ]
+    },
+    "number": {
+      "ipa": {
+        "uk": "/ˈnʌmbə(r)/",
+        "us": "/ˈnʌmbər/"
+      },
+      "forms": [
+        "numbers"
+      ],
+      "coll": [
+        "a number of",
+        "in large numbers"
+      ]
+    },
+    "obstacle": {
+      "ipa": {
+        "uk": "/ˈɒbstək(ə)l/",
+        "us": "/ˈɑːbstək(ə)l/"
+      },
+      "forms": [
+        "obstacles"
+      ],
+      "coll": [
+        "an obstacle to",
+        "overcome obstacles"
+      ]
+    },
+    "obvious": {
+      "ipa": {
+        "uk": "/ˈɒbviəs/",
+        "us": "/ˈɑːbviəs/"
+      },
+      "coll": [
+        "obvious to",
+        "an obvious answer"
+      ]
+    },
+    "obviously": {
+      "ipa": {
+        "uk": "/ˈɒbviəsli/",
+        "us": "/ˈɑːbviəsli/"
+      },
+      "coll": [
+        "obviously not",
+        "quite obviously"
+      ]
+    },
+    "offer": {
+      "ipa": {
+        "uk": "/ˈɒfə(r)/",
+        "us": "/ˈɔːfər/"
+      },
+      "forms": [
+        "offers",
+        "offered",
+        "offering"
+      ],
+      "coll": [
+        "offer to",
+        "an offer of"
+      ]
+    },
+    "office": {
+      "ipa": {
+        "uk": "/ˈɒfɪs/",
+        "us": "/ˈɑːfɪs/"
+      },
+      "forms": [
+        "offices"
+      ],
+      "coll": [
+        "in the office",
+        "office hours"
+      ]
+    },
+    "old": {
+      "ipa": {
+        "uk": "/əʊld/",
+        "us": "/oʊld/"
+      },
+      "forms": [
+        "older",
+        "oldest"
+      ],
+      "coll": [
+        "old enough",
+        "years old"
+      ]
+    },
+    "once": {
+      "ipa": {
+        "uk": "/wʌns/",
+        "us": "/wʌns/"
+      },
+      "coll": [
+        "once again",
+        "at once"
+      ]
+    },
+    "only": {
+      "ipa": {
+        "uk": "/ˈəʊnli/",
+        "us": "/ˈoʊnli/"
+      },
+      "coll": [
+        "only if",
+        "the only one"
+      ]
+    },
+    "opposite": {
+      "ipa": {
+        "uk": "/ˈɒpəzɪt/",
+        "us": "/ˈɑːpəzɪt/"
+      },
+      "forms": [
+        "opposites"
+      ],
+      "coll": [
+        "the opposite of",
+        "the opposite direction"
+      ]
+    },
+    "order": {
+      "ipa": {
+        "uk": "/ˈɔːdə(r)/",
+        "us": "/ˈɔːrdər/"
+      },
+      "forms": [
+        "orders",
+        "ordered",
+        "ordering"
+      ],
+      "coll": [
+        "in order to",
+        "the order of"
+      ]
+    },
+    "ordinary": {
+      "ipa": {
+        "uk": "/ˈɔːd(ə)n(ə)ri/",
+        "us": "/ˈɔːrd(ə)neri/"
+      },
+      "coll": [
+        "ordinary people",
+        "out of the ordinary"
+      ]
+    },
+    "original": {
+      "ipa": {
+        "uk": "/əˈrɪdʒən(ə)l/",
+        "us": "/əˈrɪdʒən(ə)l/"
+      },
+      "forms": [
+        "originals"
+      ],
+      "coll": [
+        "the original",
+        "an original idea"
+      ]
+    },
+    "out": {
+      "ipa": {
+        "uk": "/aʊt/",
+        "us": "/aʊt/"
+      },
+      "coll": [
+        "out of",
+        "find out"
+      ]
+    },
+    "outcome": {
+      "ipa": {
+        "uk": "/ˈaʊtkʌm/",
+        "us": "/ˈaʊtkʌm/"
+      },
+      "forms": [
+        "outcomes"
+      ],
+      "coll": [
+        "the outcome of",
+        "a likely outcome"
+      ]
+    },
+    "outvote": {
+      "ipa": {
+        "uk": "/ˌaʊtˈvəʊt/",
+        "us": "/ˌaʊtˈvoʊt/"
+      },
+      "forms": [
+        "outvotes",
+        "outvoted",
+        "outvoting"
+      ],
+      "coll": [
+        "outvote the others",
+        "be outvoted"
+      ]
+    },
+    "page": {
+      "ipa": {
+        "uk": "/peɪdʒ/",
+        "us": "/peɪdʒ/"
+      },
+      "forms": [
+        "pages"
+      ],
+      "coll": [
+        "on the page",
+        "page after page"
+      ]
+    },
+    "paralyse": {
+      "ipa": {
+        "uk": "/ˈpærəlaɪz/",
+        "us": "/ˈpærəlaɪz/"
+      },
+      "forms": [
+        "paralyses",
+        "paralysed",
+        "paralysing"
+      ],
+      "coll": [
+        "be paralysed by",
+        "paralyse traffic"
+      ]
+    },
+    "part": {
+      "ipa": {
+        "uk": "/pɑːt/",
+        "us": "/pɑːrt/"
+      },
+      "forms": [
+        "parts"
+      ],
+      "coll": [
+        "a part of",
+        "take part in"
+      ]
+    },
+    "participant": {
+      "ipa": {
+        "uk": "/pɑːˈtɪsɪpənt/",
+        "us": "/pɑːrˈtɪsɪpənt/"
+      },
+      "forms": [
+        "participants"
+      ],
+      "coll": [
+        "a participant in",
+        "study participants"
+      ]
+    },
+    "particular": {
+      "ipa": {
+        "uk": "/pəˈtɪkjələ(r)/",
+        "us": "/pərˈtɪkjələr/"
+      },
+      "coll": [
+        "in particular",
+        "a particular case"
+      ]
+    },
+    "password": {
+      "ipa": {
+        "uk": "/ˈpɑːswɜːd/",
+        "us": "/ˈpæswɜːrd/"
+      },
+      "forms": [
+        "passwords"
+      ],
+      "coll": [
+        "enter a password",
+        "a strong password"
+      ]
+    },
+    "patent": {
+      "ipa": {
+        "uk": "/ˈpeɪt(ə)nt/ /ˈpæt(ə)nt/",
+        "us": "/ˈpæt(ə)nt/"
+      },
+      "forms": [
+        "patents",
+        "patented",
+        "patenting"
+      ],
+      "coll": [
+        "apply for a patent",
+        "patent law"
+      ]
+    },
+    "pattern": {
+      "ipa": {
+        "uk": "/ˈpæt(ə)n/",
+        "us": "/ˈpætərn/"
+      },
+      "forms": [
+        "patterns"
+      ],
+      "coll": [
+        "a pattern of",
+        "behaviour patterns"
+      ]
+    },
+    "pay": {
+      "ipa": {
+        "uk": "/peɪ/",
+        "us": "/peɪ/"
+      },
+      "forms": [
+        "pays",
+        "paid",
+        "paying"
+      ],
+      "coll": [
+        "pay for",
+        "pay attention"
+      ]
+    },
+    "pedal": {
+      "ipa": {
+        "uk": "/ˈped(ə)l/",
+        "us": "/ˈped(ə)l/"
+      },
+      "forms": [
+        "pedals"
+      ],
+      "coll": [
+        "press the pedal",
+        "pedal power"
+      ]
+    },
+    "pedestrian": {
+      "ipa": {
+        "uk": "/pəˈdestriən/",
+        "us": "/pəˈdestriən/"
+      },
+      "forms": [
+        "pedestrians"
+      ],
+      "coll": [
+        "a pedestrian crossing",
+        "pedestrian traffic"
+      ]
+    },
+    "penny-farthing": {
+      "ipa": {
+        "uk": "/ˌpeni ˈfɑːðɪŋ/",
+        "us": "/ˌpeni ˈfɑːrðɪŋ/"
+      },
+      "coll": [
+        "a penny-farthing bicycle",
+        "ride a penny-farthing"
+      ]
+    },
+    "people": {
+      "ipa": {
+        "uk": "/ˈpiːp(ə)l/",
+        "us": "/ˈpiːp(ə)l/"
+      },
+      "coll": [
+        "young people",
+        "most people"
+      ]
+    },
+    "perform": {
+      "ipa": {
+        "uk": "/pəˈfɔːm/",
+        "us": "/pərˈfɔːrm/"
+      },
+      "forms": [
+        "performs",
+        "performed",
+        "performing"
+      ],
+      "coll": [
+        "perform well",
+        "perform a task"
+      ]
+    },
+    "permission": {
+      "ipa": {
+        "uk": "/pəˈmɪʃ(ə)n/",
+        "us": "/pərˈmɪʃ(ə)n/"
+      },
+      "coll": [
+        "permission to",
+        "without permission"
+      ]
+    },
+    "persistent": {
+      "ipa": {
+        "uk": "/pəˈsɪstənt/",
+        "us": "/pərˈsɪstənt/"
+      },
+      "coll": [
+        "a persistent cough",
+        "persistent effort"
+      ]
+    },
+    "physical": {
+      "ipa": {
+        "uk": "/ˈfɪzɪk(ə)l/",
+        "us": "/ˈfɪzɪk(ə)l/"
+      },
+      "coll": [
+        "physical activity",
+        "physical health"
+      ]
+    },
+    "picture": {
+      "ipa": {
+        "uk": "/ˈpɪktʃə(r)/",
+        "us": "/ˈpɪktʃər/"
+      },
+      "forms": [
+        "pictures"
+      ],
+      "coll": [
+        "a picture of",
+        "in the picture"
+      ]
+    },
+    "place": {
+      "ipa": {
+        "uk": "/pleɪs/",
+        "us": "/pleɪs/"
+      },
+      "forms": [
+        "places",
+        "placed",
+        "placing"
+      ],
+      "coll": [
+        "take place",
+        "in place of"
+      ]
+    },
+    "platform": {
+      "ipa": {
+        "uk": "/ˈplætfɔːm/",
+        "us": "/ˈplætfɔːrm/"
+      },
+      "forms": [
+        "platforms"
+      ],
+      "coll": [
+        "a platform for",
+        "a station platform"
+      ]
+    },
+    "play": {
+      "ipa": {
+        "uk": "/pleɪ/",
+        "us": "/pleɪ/"
+      },
+      "forms": [
+        "plays",
+        "played",
+        "playing"
+      ],
+      "coll": [
+        "play a role",
+        "play with"
+      ]
+    },
+    "pneumatic": {
+      "ipa": {
+        "uk": "/njuːˈmætɪk/",
+        "us": "/nuːˈmætɪk/"
+      },
+      "coll": [
+        "pneumatic tyres",
+        "a pneumatic drill"
+      ]
+    },
+    "point": {
+      "ipa": {
+        "uk": "/pɔɪnt/",
+        "us": "/pɔɪnt/"
+      },
+      "forms": [
+        "points",
+        "pointed",
+        "pointing"
+      ],
+      "coll": [
+        "a point of",
+        "point out"
+      ]
+    },
+    "popularity": {
+      "ipa": {
+        "uk": "/ˌpɒpjuˈlærəti/",
+        "us": "/ˌpɑːpjuˈlærəti/"
+      },
+      "coll": [
+        "gain popularity",
+        "the popularity of"
+      ]
+    },
+    "possible": {
+      "ipa": {
+        "uk": "/ˈpɒsəb(ə)l/",
+        "us": "/ˈpɑːsəb(ə)l/"
+      },
+      "coll": [
+        "as soon as possible",
+        "possible to"
+      ]
+    },
+    "post-traumatic": {
+      "ipa": {
+        "uk": "/ˌpəʊst trɔːˈmætɪk/",
+        "us": "/ˌpoʊst trɔːˈmætɪk/"
+      },
+      "coll": [
+        "post-traumatic stress",
+        "post-traumatic growth"
+      ]
+    },
+    "poverty": {
+      "ipa": {
+        "uk": "/ˈpɒvəti/",
+        "us": "/ˈpɑːvərti/"
+      },
+      "coll": [
+        "in poverty",
+        "the poverty line"
+      ]
+    },
+    "practical": {
+      "ipa": {
+        "uk": "/ˈpræktɪkl/",
+        "us": "/ˈpræktɪk(ə)l/"
+      },
+      "coll": [
+        "practical skills",
+        "a practical solution"
+      ]
+    },
+    "precisely": {
+      "ipa": {
+        "uk": "/prɪˈsaɪsli/",
+        "us": "/prɪˈsaɪsli/"
+      },
+      "coll": [
+        "precisely because",
+        "more precisely"
+      ]
+    },
+    "predict": {
+      "ipa": {
+        "uk": "/prɪˈdɪkt/",
+        "us": "/prɪˈdɪkt/"
+      },
+      "forms": [
+        "predicts",
+        "predicted",
+        "predicting"
+      ],
+      "coll": [
+        "predict that",
+        "hard to predict"
+      ]
+    },
+    "prediction": {
+      "ipa": {
+        "uk": "/prɪˈdɪkʃ(ə)n/",
+        "us": "/prɪˈdɪkʃn/"
+      },
+      "forms": [
+        "predictions"
+      ],
+      "coll": [
+        "a prediction about",
+        "make predictions"
+      ]
+    },
+    "present": {
+      "ipa": {
+        "uk": "/ˈprez(ə)nt/ /prɪˈzent/",
+        "us": "/ˈprez(ə)nt/ /prɪˈzent/"
+      },
+      "forms": [
+        "presents",
+        "presented",
+        "presenting"
+      ],
+      "coll": [
+        "at present",
+        "the present study"
+      ]
+    },
+    "price": {
+      "ipa": {
+        "uk": "/praɪs/",
+        "us": "/praɪs/"
+      },
+      "forms": [
+        "prices",
+        "priced",
+        "pricing"
+      ],
+      "coll": [
+        "the price of",
+        "at a price"
+      ]
+    },
+    "problem": {
+      "ipa": {
+        "uk": "/ˈprɒbləm/",
+        "us": "/ˈprɑːbləm/"
+      },
+      "forms": [
+        "problems"
+      ],
+      "coll": [
+        "a problem with",
+        "solve a problem"
+      ]
+    },
+    "process": {
+      "ipa": {
+        "uk": "/ˈprəʊses/",
+        "us": "/ˈprɑːses/"
+      },
+      "forms": [
+        "processes",
+        "processed",
+        "processing"
+      ],
+      "coll": [
+        "a process of",
+        "in the process"
+      ]
+    },
+    "produce": {
+      "ipa": {
+        "uk": "/prəˈdjuːs/",
+        "us": "/prəˈduːs/"
+      },
+      "forms": [
+        "produces",
+        "produced",
+        "producing"
+      ],
+      "coll": [
+        "produce results",
+        "produce evidence"
+      ]
+    },
+    "product": {
+      "ipa": {
+        "uk": "/ˈprɒdʌkt/",
+        "us": "/ˈprɑːdʌkt/"
+      },
+      "forms": [
+        "products"
+      ],
+      "coll": [
+        "a product of",
+        "new products"
+      ]
+    },
+    "production": {
+      "ipa": {
+        "uk": "/prəˈdʌkʃ(ə)n/",
+        "us": "/prəˈdʌkʃn/"
+      },
+      "forms": [
+        "productions"
+      ],
+      "coll": [
+        "the production of",
+        "mass production"
+      ]
+    },
+    "profit": {
+      "ipa": {
+        "uk": "/ˈprɒfɪt/",
+        "us": "/ˈprɑːfɪt/"
+      },
+      "forms": [
+        "profits"
+      ],
+      "coll": [
+        "make a profit",
+        "profit margin"
+      ]
+    },
+    "prove": {
+      "ipa": {
+        "uk": "/pruːv/",
+        "us": "/pruːv/"
+      },
+      "forms": [
+        "proves",
+        "proved",
+        "proving"
+      ],
+      "coll": [
+        "prove to be",
+        "prove that"
+      ]
+    },
+    "prune": {
+      "ipa": {
+        "uk": "/pruːn/",
+        "us": "/pruːn/"
+      },
+      "forms": [
+        "prunes",
+        "pruned",
+        "pruning"
+      ],
+      "coll": [
+        "prune trees",
+        "prune back"
+      ]
+    },
+    "psychologist": {
+      "ipa": {
+        "uk": "/saɪˈkɒlədʒɪst/",
+        "us": "/saɪˈkɑːlədʒɪst/"
+      },
+      "forms": [
+        "psychologists"
+      ],
+      "coll": [
+        "a clinical psychologist",
+        "psychologists believe"
+      ]
+    },
+    "publish": {
+      "ipa": {
+        "uk": "/ˈpʌblɪʃ/",
+        "us": "/ˈpʌblɪʃ/"
+      },
+      "forms": [
+        "publishes",
+        "published",
+        "publishing"
+      ],
+      "coll": [
+        "publish a paper",
+        "publish online"
+      ]
+    },
+    "publisher": {
+      "ipa": {
+        "uk": "/ˈpʌblɪʃə(r)/",
+        "us": "/ˈpʌblɪʃər/"
+      },
+      "forms": [
+        "publishers"
+      ],
+      "coll": [
+        "a publisher of",
+        "a book publisher"
+      ]
+    },
+    "pull": {
+      "ipa": {
+        "uk": "/pʊl/",
+        "us": "/pʊl/"
+      },
+      "forms": [
+        "pulls",
+        "pulled",
+        "pulling"
+      ],
+      "coll": [
+        "pull out",
+        "pull up"
+      ]
+    },
+    "purely": {
+      "ipa": {
+        "uk": "/ˈpjʊəli/",
+        "us": "/ˈpjʊrli/"
+      },
+      "coll": [
+        "purely because",
+        "purely practical"
+      ]
+    },
+    "push": {
+      "ipa": {
+        "uk": "/pʊʃ/",
+        "us": "/pʊʃ/"
+      },
+      "forms": [
+        "pushes",
+        "pushed",
+        "pushing"
+      ],
+      "coll": [
+        "push for",
+        "push back"
+      ]
+    },
+    "quickly": {
+      "ipa": {
+        "uk": "/ˈkwɪkli/",
+        "us": "/ˈkwɪkli/"
+      },
+      "coll": [
+        "quickly and easily",
+        "as quickly as"
+      ]
+    },
+    "quote": {
+      "ipa": {
+        "uk": "/kwəʊt/",
+        "us": "/kwoʊt/"
+      },
+      "forms": [
+        "quotes",
+        "quoted",
+        "quoting"
+      ],
+      "coll": [
+        "quote from",
+        "a quote from"
+      ]
+    },
+    "racing": {
+      "ipa": {
+        "uk": "/ˈreɪsɪŋ/",
+        "us": "/ˈreɪsɪŋ/"
+      },
+      "coll": [
+        "a racing car",
+        "a racing driver"
+      ]
+    },
+    "rare": {
+      "ipa": {
+        "uk": "/reə(r)/",
+        "us": "/rer/"
+      },
+      "forms": [
+        "rarer",
+        "rarest"
+      ],
+      "coll": [
+        "a rare species",
+        "a rare opportunity"
+      ]
+    },
+    "rather": {
+      "ipa": {
+        "uk": "/ˈrɑːðə(r)/",
+        "us": "/ˈræðər/"
+      },
+      "coll": [
+        "rather than",
+        "rather like"
+      ]
+    },
+    "rational": {
+      "ipa": {
+        "uk": "/ˈræʃ(ə)nəl/",
+        "us": "/ˈræʃ(ə)nəl/"
+      },
+      "coll": [
+        "a rational decision",
+        "a rational argument"
+      ]
+    },
+    "reach": {
+      "ipa": {
+        "uk": "/riːtʃ/",
+        "us": "/riːtʃ/"
+      },
+      "forms": [
+        "reaches",
+        "reached",
+        "reaching"
+      ],
+      "coll": [
+        "reach a conclusion",
+        "out of reach"
+      ]
+    },
+    "read": {
+      "ipa": {
+        "uk": "/riːd/",
+        "us": "/riːd/"
+      },
+      "forms": [
+        "reads",
+        "reading"
+      ],
+      "coll": [
+        "read about",
+        "read out"
+      ]
+    },
+    "reader": {
+      "ipa": {
+        "uk": "/ˈriːdə(r)/",
+        "us": "/ˈriːdər/"
+      },
+      "forms": [
+        "readers"
+      ],
+      "coll": [
+        "a reader of",
+        "the average reader"
+      ]
+    },
+    "rear": {
+      "ipa": {
+        "uk": "/rɪə(r)/",
+        "us": "/rɪr/"
+      },
+      "forms": [
+        "rears"
+      ],
+      "coll": [
+        "at the rear",
+        "the rear wheel"
+      ]
+    },
+    "reason": {
+      "ipa": {
+        "uk": "/ˈriːz(ə)n/",
+        "us": "/ˈriːz(ə)n/"
+      },
+      "forms": [
+        "reasons"
+      ],
+      "coll": [
+        "a reason for",
+        "for some reason"
+      ]
+    },
+    "rebuttal": {
+      "ipa": {
+        "uk": "/rɪˈbʌtl/",
+        "us": "/rɪˈbʌt(ə)l/"
+      },
+      "forms": [
+        "rebuttals"
+      ],
+      "coll": [
+        "a rebuttal of",
+        "in rebuttal"
+      ]
+    },
+    "recall": {
+      "ipa": {
+        "uk": "/rɪˈkɔːl/",
+        "us": "/rɪˈkɔːl/"
+      },
+      "forms": [
+        "recalls",
+        "recalled",
+        "recalling"
+      ],
+      "coll": [
+        "recall that",
+        "recall a memory"
+      ]
+    },
+    "receive": {
+      "ipa": {
+        "uk": "/rɪˈsiːv/",
+        "us": "/rɪˈsiːv/"
+      },
+      "forms": [
+        "receives",
+        "received",
+        "receiving"
+      ],
+      "coll": [
+        "receive a letter",
+        "receive attention"
+      ]
+    },
+    "recent": {
+      "ipa": {
+        "uk": "/ˈriːs(ə)nt/",
+        "us": "/ˈriːs(ə)nt/"
+      },
+      "coll": [
+        "in recent years",
+        "a recent study"
+      ]
+    },
+    "recipient": {
+      "ipa": {
+        "uk": "/rɪˈsɪpiənt/",
+        "us": "/rɪˈsɪpiənt/"
+      },
+      "forms": [
+        "recipients"
+      ],
+      "coll": [
+        "the recipient of",
+        "a recipient"
+      ]
+    },
+    "recommend": {
+      "ipa": {
+        "uk": "/ˌrekəˈmend/",
+        "us": "/ˌrekəˈmend/"
+      },
+      "forms": [
+        "recommends",
+        "recommended",
+        "recommending"
+      ],
+      "coll": [
+        "recommend that",
+        "highly recommend"
+      ]
+    },
+    "reconsolidation": {
+      "ipa": {
+        "uk": "/riːkənˌsɒlɪˈdeɪʃən/",
+        "us": "/riːkənˌsɒlɪˈdeɪʃən/"
+      },
+      "coll": [
+        "memory reconsolidation",
+        "the reconsolidation of"
+      ]
+    },
+    "record": {
+      "ipa": {
+        "uk": "/ˈrekɔːd/ /rɪˈkɔːd/",
+        "us": "/ˈrekərd/ /rɪˈkɔːrd/"
+      },
+      "forms": [
+        "records",
+        "recorded",
+        "recording"
+      ],
+      "coll": [
+        "keep a record",
+        "a record of"
+      ]
+    },
+    "recover": {
+      "ipa": {
+        "uk": "/rɪˈkʌvə(r)/",
+        "us": "/rɪˈkʌvər/"
+      },
+      "forms": [
+        "recovers",
+        "recovered",
+        "recovering"
+      ],
+      "coll": [
+        "recover from",
+        "fully recover"
+      ]
+    },
+    "redesign": {
+      "ipa": {
+        "uk": "/ˌriːdɪˈzaɪn/",
+        "us": "/ˌriːdɪˈzaɪn/"
+      },
+      "forms": [
+        "redesigns",
+        "redesigned",
+        "redesigning"
+      ],
+      "coll": [
+        "redesign the system",
+        "a complete redesign"
+      ]
+    },
+    "refresh": {
+      "ipa": {
+        "uk": "/rɪˈfreʃ/",
+        "us": "/rɪˈfreʃ/"
+      },
+      "forms": [
+        "refreshes",
+        "refreshed",
+        "refreshing"
+      ],
+      "coll": [
+        "refresh the page",
+        "refresh your memory"
+      ]
+    },
+    "refuse": {
+      "ipa": {
+        "uk": "/rɪˈfjuːz/",
+        "us": "/rɪˈfjuːz/"
+      },
+      "forms": [
+        "refuses",
+        "refused",
+        "refusing"
+      ],
+      "coll": [
+        "refuse to",
+        "refuse an offer"
+      ]
+    },
+    "regulation": {
+      "ipa": {
+        "uk": "/ˌreɡjuˈleɪʃ(ə)n/",
+        "us": "/ˌreɡjuˈleɪʃn/"
+      },
+      "forms": [
+        "regulations"
+      ],
+      "coll": [
+        "rules and regulations",
+        "the regulation of"
+      ]
+    },
+    "remember": {
+      "ipa": {
+        "uk": "/rɪˈmembə(r)/",
+        "us": "/rɪˈmembər/"
+      },
+      "forms": [
+        "remembers",
+        "remembered",
+        "remembering"
+      ],
+      "coll": [
+        "remember to",
+        "remember that"
+      ]
+    },
+    "remove": {
+      "ipa": {
+        "uk": "/rɪˈmuːv/",
+        "us": "/rɪˈmuːv/"
+      },
+      "forms": [
+        "removes",
+        "removed",
+        "removing"
+      ],
+      "coll": [
+        "remove from",
+        "remove barriers"
+      ]
+    },
+    "repeatedly": {
+      "ipa": {
+        "uk": "/rɪˈpiːtɪdli/",
+        "us": "/rɪˈpiːtɪdli/"
+      },
+      "coll": [
+        "repeatedly fail",
+        "repeatedly warned"
+      ]
+    },
+    "replace": {
+      "ipa": {
+        "uk": "/rɪˈpleɪs/",
+        "us": "/rɪˈpleɪs/"
+      },
+      "forms": [
+        "replaces",
+        "replaced",
+        "replacing"
+      ],
+      "coll": [
+        "replace with",
+        "replace by"
+      ]
+    },
+    "replay": {
+      "ipa": {
+        "uk": "/ˈriːpleɪ/",
+        "us": "/ˈriːpleɪ/"
+      },
+      "forms": [
+        "replays",
+        "replayed",
+        "replaying"
+      ],
+      "coll": [
+        "replay a memory",
+        "an action replay"
+      ]
+    },
+    "reread": {
+      "ipa": {
+        "uk": "/riːˈriːd/",
+        "us": "/ˈriˌrid/"
+      },
+      "forms": [
+        "rereads",
+        "rereaded",
+        "rereading"
+      ],
+      "coll": [
+        "reread a book",
+        "reread the text"
+      ]
+    },
+    "resource": {
+      "ipa": {
+        "uk": "/rɪˈsɔːs/",
+        "us": "/ˈriːsɔːrs/"
+      },
+      "forms": [
+        "resources"
+      ],
+      "coll": [
+        "natural resources",
+        "a resource for"
+      ]
+    },
+    "response": {
+      "ipa": {
+        "uk": "/rɪˈspɒns/",
+        "us": "/rɪˈspɑːns/"
+      },
+      "forms": [
+        "responses"
+      ],
+      "coll": [
+        "in response to",
+        "a response to"
+      ]
+    },
+    "rest": {
+      "ipa": {
+        "uk": "/rest/",
+        "us": "/rest/"
+      },
+      "forms": [
+        "rests",
+        "rested",
+        "resting"
+      ],
+      "coll": [
+        "the rest of",
+        "take a rest"
+      ]
+    },
+    "restrict": {
+      "ipa": {
+        "uk": "/rɪˈstrɪkt/",
+        "us": "/rɪˈstrɪkt/"
+      },
+      "forms": [
+        "restricts",
+        "restricted",
+        "restricting"
+      ],
+      "coll": [
+        "restrict access",
+        "restrict to"
+      ]
+    },
+    "result": {
+      "ipa": {
+        "uk": "/rɪˈzʌlt/",
+        "us": "/rɪˈzʌlt/"
+      },
+      "forms": [
+        "results",
+        "resulted",
+        "resulting"
+      ],
+      "coll": [
+        "as a result",
+        "the result of"
+      ]
+    },
+    "retrieval": {
+      "ipa": {
+        "uk": "/rɪˈtriːv(ə)l/",
+        "us": "/rɪˈtriːv(ə)l/"
+      },
+      "forms": [
+        "retrievals"
+      ],
+      "coll": [
+        "information retrieval",
+        "the retrieval of"
+      ]
+    },
+    "revenue": {
+      "ipa": {
+        "uk": "/ˈrevənjuː/",
+        "us": "/ˈrevənuː/"
+      },
+      "forms": [
+        "revenues"
+      ],
+      "coll": [
+        "revenue from",
+        "tax revenue"
+      ]
+    },
+    "reverse": {
+      "ipa": {
+        "uk": "/rɪˈvɜːs/",
+        "us": "/rɪˈvɜːrs/"
+      },
+      "forms": [
+        "reverses",
+        "reversed",
+        "reversing"
+      ],
+      "coll": [
+        "reverse the trend",
+        "in reverse"
+      ]
+    },
+    "revise": {
+      "ipa": {
+        "uk": "/rɪˈvaɪz/",
+        "us": "/rɪˈvaɪz/"
+      },
+      "forms": [
+        "revises",
+        "revised",
+        "revising"
+      ],
+      "coll": [
+        "revise a plan",
+        "revise upwards"
+      ]
+    },
+    "reward": {
+      "ipa": {
+        "uk": "/rɪˈwɔːd/",
+        "us": "/rɪˈwɔːrd/"
+      },
+      "forms": [
+        "rewards",
+        "rewarded",
+        "rewarding"
+      ],
+      "coll": [
+        "a reward for",
+        "a reward of"
+      ]
+    },
+    "ride": {
+      "ipa": {
+        "uk": "/raɪd/",
+        "us": "/raɪd/"
+      },
+      "forms": [
+        "rides",
+        "rode",
+        "ridden",
+        "riding"
+      ],
+      "coll": [
+        "ride a bike",
+        "go for a ride"
+      ]
+    },
+    "rider": {
+      "ipa": {
+        "uk": "/ˈraɪdə(r)/",
+        "us": "/ˈraɪdər/"
+      },
+      "forms": [
+        "riders"
+      ],
+      "coll": [
+        "a horse rider",
+        "the rider of"
+      ]
+    },
+    "road": {
+      "ipa": {
+        "uk": "/rəʊd/",
+        "us": "/roʊd/"
+      },
+      "forms": [
+        "roads"
+      ],
+      "coll": [
+        "on the road",
+        "road safety"
+      ]
+    },
+    "role": {
+      "ipa": {
+        "uk": "/rəʊl/",
+        "us": "/roʊl/"
+      },
+      "forms": [
+        "roles"
+      ],
+      "coll": [
+        "a role in",
+        "play a role"
+      ]
+    },
+    "route": {
+      "ipa": {
+        "uk": "/ruːt/",
+        "us": "/ruːt/"
+      },
+      "forms": [
+        "routes"
+      ],
+      "coll": [
+        "a route to",
+        "on the route"
+      ]
+    },
+    "rover": {
+      "ipa": {
+        "uk": "/ˈrəʊvə(r)/",
+        "us": "/ˈroʊvər/"
+      },
+      "coll": [
+        "a Rover bicycle",
+        "the Rover company"
+      ]
+    },
+    "rubber": {
+      "ipa": {
+        "uk": "/ˈrʌbə(r)/",
+        "us": "/ˈrʌbər/"
+      },
+      "forms": [
+        "rubbers"
+      ],
+      "coll": [
+        "a rubber tyre",
+        "a rubber band"
+      ]
+    },
+    "ruin": {
+      "ipa": {
+        "uk": "/ˈruːɪn/",
+        "us": "/ˈruːɪn/"
+      },
+      "forms": [
+        "ruins",
+        "ruined",
+        "ruining"
+      ],
+      "coll": [
+        "in ruins",
+        "ruin the chances"
+      ]
+    },
+    "rule": {
+      "ipa": {
+        "uk": "/ruːl/",
+        "us": "/ruːl/"
+      },
+      "forms": [
+        "rules",
+        "ruled",
+        "ruling"
+      ],
+      "coll": [
+        "as a rule",
+        "rule out"
+      ]
+    },
+    "run": {
+      "ipa": {
+        "uk": "/rʌn/",
+        "us": "/rʌn/"
+      },
+      "forms": [
+        "runs",
+        "ran",
+        "running"
+      ],
+      "coll": [
+        "run out of",
+        "in the long run"
+      ]
+    },
+    "safe": {
+      "ipa": {
+        "uk": "/seɪf/",
+        "us": "/seɪf/"
+      },
+      "forms": [
+        "safer",
+        "safest"
+      ],
+      "coll": [
+        "safe to",
+        "a safe place"
+      ]
+    },
+    "safety": {
+      "ipa": {
+        "uk": "/ˈseɪfti/",
+        "us": "/ˈseɪfti/"
+      },
+      "coll": [
+        "safety measures",
+        "for safety"
+      ]
+    },
+    "say": {
+      "ipa": {
+        "uk": "/seɪ/",
+        "us": "/seɪ/"
+      },
+      "forms": [
+        "says",
+        "said",
+        "saying"
+      ],
+      "coll": [
+        "say that",
+        "to say the least"
+      ]
+    },
+    "scale": {
+      "ipa": {
+        "uk": "/skeɪl/",
+        "us": "/skeɪl/"
+      },
+      "forms": [
+        "scales"
+      ],
+      "coll": [
+        "on a large scale",
+        "scale up"
+      ]
+    },
+    "scarce": {
+      "ipa": {
+        "uk": "/skeəs/",
+        "us": "/skers/"
+      },
+      "coll": [
+        "scarce resources",
+        "become scarce"
+      ]
+    },
+    "sceptic": {
+      "ipa": {
+        "uk": "/ˈskeptɪk/",
+        "us": "/ˈskeptɪk/"
+      },
+      "forms": [
+        "sceptics"
+      ],
+      "coll": [
+        "a sceptic about",
+        "climate sceptics"
+      ]
+    },
+    "screen": {
+      "ipa": {
+        "uk": "/skriːn/",
+        "us": "/skriːn/"
+      },
+      "forms": [
+        "screens"
+      ],
+      "coll": [
+        "on screen",
+        "screen time"
+      ]
+    },
+    "scroll": {
+      "ipa": {
+        "uk": "/skrəʊl/",
+        "us": "/skroʊl/"
+      },
+      "forms": [
+        "scrolls",
+        "scrolled",
+        "scrolling"
+      ],
+      "coll": [
+        "scroll down",
+        "scroll through"
+      ]
+    },
+    "seal": {
+      "ipa": {
+        "uk": "/siːl/",
+        "us": "/siːl/"
+      },
+      "forms": [
+        "seals",
+        "sealed",
+        "sealing"
+      ],
+      "coll": [
+        "seal off",
+        "a seal of approval"
+      ]
+    },
+    "see": {
+      "ipa": {
+        "uk": "/siː/",
+        "us": "/siː/"
+      },
+      "forms": [
+        "sees",
+        "saw",
+        "seen",
+        "seeing"
+      ],
+      "coll": [
+        "see that",
+        "see the point"
+      ]
+    },
+    "seem": {
+      "ipa": {
+        "uk": "/siːm/",
+        "us": "/siːm/"
+      },
+      "forms": [
+        "seems",
+        "seemed",
+        "seeming"
+      ],
+      "coll": [
+        "seem to",
+        "it seems that"
+      ]
+    },
+    "self-report": {
+      "ipa": {
+        "uk": "/ˌself rɪˈpɔːt/",
+        "us": "/ˌself rɪˈpɔːrt/"
+      },
+      "coll": [
+        "self-report data",
+        "a self-report measure"
+      ]
+    },
+    "sell": {
+      "ipa": {
+        "uk": "/sel/",
+        "us": "/sel/"
+      },
+      "forms": [
+        "sells",
+        "sold",
+        "selling"
+      ],
+      "coll": [
+        "sell out",
+        "sell for"
+      ]
+    },
+    "sentence": {
+      "ipa": {
+        "uk": "/ˈsentəns/",
+        "us": "/ˈsentəns/"
+      },
+      "forms": [
+        "sentences"
+      ],
+      "coll": [
+        "a sentence in",
+        "complete a sentence"
+      ]
+    },
+    "series": {
+      "ipa": {
+        "uk": "/ˈsɪəriːz/",
+        "us": "/ˈsɪriːz/"
+      },
+      "coll": [
+        "a series of",
+        "in series"
+      ]
+    },
+    "session": {
+      "ipa": {
+        "uk": "/ˈseʃ(ə)n/",
+        "us": "/ˈseʃ(ə)n/"
+      },
+      "forms": [
+        "sessions"
+      ],
+      "coll": [
+        "a training session",
+        "in session"
+      ]
+    },
+    "several": {
+      "ipa": {
+        "uk": "/ˈsevrəl/",
+        "us": "/ˈsevrəl/"
+      },
+      "coll": [
+        "several of",
+        "several times"
+      ]
+    },
+    "shake": {
+      "ipa": {
+        "uk": "/ʃeɪk/",
+        "us": "/ʃeɪk/"
+      },
+      "forms": [
+        "shakes",
+        "shook",
+        "shaken",
+        "shaking"
+      ],
+      "coll": [
+        "shake hands",
+        "shake off"
+      ]
+    },
+    "shoot": {
+      "ipa": {
+        "uk": "/ʃuːt/",
+        "us": "/ʃuːt/"
+      },
+      "forms": [
+        "shoots",
+        "shot",
+        "shooting"
+      ],
+      "coll": [
+        "shoot up",
+        "shoot a film"
+      ]
+    },
+    "simple": {
+      "ipa": {
+        "uk": "/ˈsɪmp(ə)l/",
+        "us": "/ˈsɪmp(ə)l/"
+      },
+      "forms": [
+        "simpler",
+        "simplest"
+      ],
+      "coll": [
+        "a simple way",
+        "keep it simple"
+      ]
+    },
+    "single": {
+      "ipa": {
+        "uk": "/ˈsɪŋɡ(ə)l/",
+        "us": "/ˈsɪŋɡ(ə)l/"
+      },
+      "coll": [
+        "a single moment",
+        "every single day"
+      ]
+    },
+    "sit": {
+      "ipa": {
+        "uk": "/sɪt/",
+        "us": "/sɪt/"
+      },
+      "forms": [
+        "sits",
+        "sat",
+        "sitting"
+      ],
+      "coll": [
+        "sit down",
+        "sit on"
+      ]
+    },
+    "situation": {
+      "ipa": {
+        "uk": "/ˌsɪtʃuˈeɪʃ(ə)n/",
+        "us": "/ˌsɪtʃuˈeɪʃ(ə)n/"
+      },
+      "forms": [
+        "situations"
+      ],
+      "coll": [
+        "in this situation",
+        "a difficult situation"
+      ]
+    },
+    "size": {
+      "ipa": {
+        "uk": "/saɪz/",
+        "us": "/saɪz/"
+      },
+      "forms": [
+        "sizes"
+      ],
+      "coll": [
+        "the size of",
+        "a large size"
+      ]
+    },
+    "skill": {
+      "ipa": {
+        "uk": "/skɪl/",
+        "us": "/skɪl/"
+      },
+      "forms": [
+        "skills"
+      ],
+      "coll": [
+        "language skills",
+        "develop a skill"
+      ]
+    },
+    "skirt": {
+      "ipa": {
+        "uk": "/skɜːt/",
+        "us": "/skɜːrt/"
+      },
+      "forms": [
+        "skirts"
+      ],
+      "coll": [
+        "a long skirt",
+        "skirt around"
+      ]
+    },
+    "sleep": {
+      "ipa": {
+        "uk": "/sliːp/",
+        "us": "/sliːp/"
+      },
+      "forms": [
+        "sleeps",
+        "slept",
+        "sleeping"
+      ],
+      "coll": [
+        "a good night's sleep",
+        "lack of sleep"
+      ]
+    },
+    "slow": {
+      "ipa": {
+        "uk": "/sləʊ/",
+        "us": "/sloʊ/"
+      },
+      "forms": [
+        "slower",
+        "slowest"
+      ],
+      "coll": [
+        "slow down",
+        "a slow pace"
+      ]
+    },
+    "slow-media": {
+      "ipa": {
+        "uk": "/ˌsləʊ ˈmiːdiə/",
+        "us": "/ˌsloʊ ˈmiːdiə/"
+      },
+      "coll": [
+        "the slow media movement",
+        "a slow-media approach"
+      ]
+    },
+    "small": {
+      "ipa": {
+        "uk": "/smɔːl/",
+        "us": "/smɔːl/"
+      },
+      "forms": [
+        "smaller",
+        "smallest"
+      ],
+      "coll": [
+        "a small amount",
+        "small business"
+      ]
+    },
+    "smooth": {
+      "ipa": {
+        "uk": "/smuːð/",
+        "us": "/smuːð/"
+      },
+      "forms": [
+        "smoother",
+        "smoothest"
+      ],
+      "coll": [
+        "a smooth surface",
+        "a smooth transition"
+      ]
+    },
+    "solid": {
+      "ipa": {
+        "uk": "/ˈsɒlɪd/",
+        "us": "/ˈsɑːlɪd/"
+      },
+      "coll": [
+        "solid evidence",
+        "a solid foundation"
+      ]
+    },
+    "solve": {
+      "ipa": {
+        "uk": "/sɒlv/",
+        "us": "/sɑːlv/"
+      },
+      "forms": [
+        "solves",
+        "solved",
+        "solving"
+      ],
+      "coll": [
+        "solve a problem",
+        "solve the puzzle"
+      ]
+    },
+    "son": {
+      "ipa": {
+        "uk": "/sʌn/",
+        "us": "/sʌn/"
+      },
+      "coll": [
+        "a son of",
+        "his son"
+      ]
+    },
+    "sort": {
+      "ipa": {
+        "uk": "/sɔːt/",
+        "us": "/sɔːrt/"
+      },
+      "forms": [
+        "sorts",
+        "sorted",
+        "sorting"
+      ],
+      "coll": [
+        "a sort of",
+        "sort out"
+      ]
+    },
+    "sound": {
+      "ipa": {
+        "uk": "/saʊnd/",
+        "us": "/saʊnd/"
+      },
+      "forms": [
+        "sounds",
+        "sounded",
+        "sounding"
+      ],
+      "coll": [
+        "sound waves",
+        "a sound argument"
+      ]
+    },
+    "spacing": {
+      "ipa": {
+        "uk": "/ˈspeɪsɪŋ/",
+        "us": "/ˈspeɪsɪŋ/"
+      },
+      "coll": [
+        "letter spacing",
+        "the spacing between"
+      ]
+    },
+    "spectacle": {
+      "ipa": {
+        "uk": "/ˈspektək(ə)l/",
+        "us": "/ˈspektək(ə)l/"
+      },
+      "forms": [
+        "spectacles"
+      ],
+      "coll": [
+        "a pair of spectacles",
+        "make a spectacle of"
+      ]
+    },
+    "speed": {
+      "ipa": {
+        "uk": "/spiːd/",
+        "us": "/spiːd/"
+      },
+      "forms": [
+        "speeds"
+      ],
+      "coll": [
+        "at speed",
+        "high speed"
+      ]
+    },
+    "spend": {
+      "ipa": {
+        "uk": "/spend/",
+        "us": "/spend/"
+      },
+      "forms": [
+        "spends",
+        "spent",
+        "spending"
+      ],
+      "coll": [
+        "spend time",
+        "spend money"
+      ]
+    },
+    "sport": {
+      "ipa": {
+        "uk": "/spɔːt/",
+        "us": "/spɔːrt/"
+      },
+      "forms": [
+        "sports"
+      ],
+      "coll": [
+        "play a sport",
+        "a sports car"
+      ]
+    },
+    "standard": {
+      "ipa": {
+        "uk": "/ˈstændəd/",
+        "us": "/ˈstændərd/"
+      },
+      "forms": [
+        "standards"
+      ],
+      "coll": [
+        "a high standard",
+        "by modern standards"
+      ]
+    },
+    "start": {
+      "ipa": {
+        "uk": "/stɑːt/",
+        "us": "/stɑːrt/"
+      },
+      "forms": [
+        "starts",
+        "started",
+        "starting"
+      ],
+      "coll": [
+        "start with",
+        "from the start"
+      ]
+    },
+    "state": {
+      "ipa": {
+        "uk": "/steɪt/",
+        "us": "/steɪt/"
+      },
+      "forms": [
+        "states"
+      ],
+      "coll": [
+        "a state of",
+        "in a state of"
+      ]
+    },
+    "steel": {
+      "ipa": {
+        "uk": "/stiːl/",
+        "us": "/stiːl/"
+      },
+      "forms": [
+        "steels"
+      ],
+      "coll": [
+        "a steel frame",
+        "stainless steel"
+      ]
+    },
+    "step": {
+      "ipa": {
+        "uk": "/step/",
+        "us": "/step/"
+      },
+      "forms": [
+        "steps"
+      ],
+      "coll": [
+        "a step forward",
+        "step by step"
+      ]
+    },
+    "still": {
+      "ipa": {
+        "uk": "/stɪl/",
+        "us": "/stɪl/"
+      },
+      "coll": [
+        "still not",
+        "still alive"
+      ]
+    },
+    "stop": {
+      "ipa": {
+        "uk": "/stɒp/",
+        "us": "/stɑːp/"
+      },
+      "forms": [
+        "stops",
+        "stopped",
+        "stopping"
+      ],
+      "coll": [
+        "stop doing",
+        "a bus stop"
+      ]
+    },
+    "storage": {
+      "ipa": {
+        "uk": "/ˈstɔːrɪdʒ/",
+        "us": "/ˈstɔːrɪdʒ/"
+      },
+      "coll": [
+        "storage space",
+        "in storage"
+      ]
+    },
+    "stress": {
+      "ipa": {
+        "uk": "/stres/",
+        "us": "/stres/"
+      },
+      "forms": [
+        "stresses",
+        "stressed",
+        "stressing"
+      ],
+      "coll": [
+        "under stress",
+        "stress on"
+      ]
+    },
+    "structure": {
+      "ipa": {
+        "uk": "/ˈstrʌktʃə(r)/",
+        "us": "/ˈstrʌktʃər/"
+      },
+      "forms": [
+        "structures"
+      ],
+      "coll": [
+        "social structure",
+        "the structure of"
+      ]
+    },
+    "student": {
+      "ipa": {
+        "uk": "/ˈstjuːd(ə)nt/",
+        "us": "/ˈstuːd(ə)nt/"
+      },
+      "forms": [
+        "students"
+      ],
+      "coll": [
+        "a student at",
+        "student life"
+      ]
+    },
+    "study": {
+      "ipa": {
+        "uk": "/ˈstʌdi/",
+        "us": "/ˈstʌdi/"
+      },
+      "forms": [
+        "studies",
+        "studied",
+        "studying"
+      ],
+      "coll": [
+        "a study of",
+        "study abroad"
+      ]
+    },
+    "subscription": {
+      "ipa": {
+        "uk": "/səbˈskrɪpʃ(ə)n/",
+        "us": "/səbˈskrɪpʃ(ə)n/"
+      },
+      "forms": [
+        "subscriptions"
+      ],
+      "coll": [
+        "a subscription to",
+        "a monthly subscription"
+      ]
+    },
+    "substitute": {
+      "ipa": {
+        "uk": "/ˈsʌbstɪtjuːt/",
+        "us": "/ˈsʌbstɪtuːt/"
+      },
+      "forms": [
+        "substitutes",
+        "substituted",
+        "substituting"
+      ],
+      "coll": [
+        "a substitute for",
+        "substitute for"
+      ]
+    },
+    "sudden": {
+      "ipa": {
+        "uk": "/ˈsʌd(ə)n/",
+        "us": "/ˈsʌd(ə)n/"
+      },
+      "coll": [
+        "a sudden change",
+        "all of a sudden"
+      ]
+    },
+    "suggest": {
+      "ipa": {
+        "uk": "/səˈdʒest/",
+        "us": "/səˈdʒest/"
+      },
+      "forms": [
+        "suggests",
+        "suggested",
+        "suggesting"
+      ],
+      "coll": [
+        "suggest that",
+        "suggest a solution"
+      ]
+    },
+    "summer": {
+      "ipa": {
+        "uk": "/ˈsʌmə(r)/",
+        "us": "/ˈsʌmər/"
+      },
+      "forms": [
+        "summers"
+      ],
+      "coll": [
+        "in summer",
+        "summer holidays"
+      ]
+    },
+    "survive": {
+      "ipa": {
+        "uk": "/səˈvaɪv/",
+        "us": "/sərˈvaɪv/"
+      },
+      "forms": [
+        "survives",
+        "survived",
+        "surviving"
+      ],
+      "coll": [
+        "survive on",
+        "survive the winter"
+      ]
+    },
+    "sustain": {
+      "ipa": {
+        "uk": "/səˈsteɪn/",
+        "us": "/səˈsteɪn/"
+      },
+      "forms": [
+        "sustains",
+        "sustained",
+        "sustaining"
+      ],
+      "coll": [
+        "sustain growth",
+        "sustain pressure"
+      ]
+    },
+    "system": {
+      "ipa": {
+        "uk": "/ˈsɪstəm/",
+        "us": "/ˈsɪstəm/"
+      },
+      "forms": [
+        "systems"
+      ],
+      "coll": [
+        "a system of",
+        "the education system"
+      ]
+    },
+    "technical": {
+      "ipa": {
+        "uk": "/ˈteknɪk(ə)l/",
+        "us": "/ˈteknɪk(ə)l/"
+      },
+      "coll": [
+        "technical skills",
+        "technical problems"
+      ]
+    },
+    "technique": {
+      "ipa": {
+        "uk": "/tekˈniːk/",
+        "us": "/tekˈniːk/"
+      },
+      "forms": [
+        "techniques"
+      ],
+      "coll": [
+        "a technique for",
+        "a new technique"
+      ]
+    },
+    "technology": {
+      "ipa": {
+        "uk": "/tekˈnɒlədʒi/",
+        "us": "/tekˈnɑːlədʒi/"
+      },
+      "forms": [
+        "technologies"
+      ],
+      "coll": [
+        "information technology",
+        "new technology"
+      ]
+    },
+    "teenage": {
+      "ipa": {
+        "uk": "/ˈtiːneɪdʒ/",
+        "us": "/ˈtiːneɪdʒ/"
+      },
+      "coll": [
+        "teenage years",
+        "a teenage boy"
+      ]
+    },
+    "television": {
+      "ipa": {
+        "uk": "/ˈtelɪvɪʒ(ə)n/",
+        "us": "/ˈtelɪvɪʒ(ə)n/"
+      },
+      "forms": [
+        "televisions"
+      ],
+      "coll": [
+        "on television",
+        "watch television"
+      ]
+    },
+    "tell": {
+      "ipa": {
+        "uk": "/tel/",
+        "us": "/tel/"
+      },
+      "forms": [
+        "tells",
+        "told",
+        "telling"
+      ],
+      "coll": [
+        "tell the difference",
+        "tell a story"
+      ]
+    },
+    "term": {
+      "ipa": {
+        "uk": "/tɜːm/",
+        "us": "/tɜːrm/"
+      },
+      "forms": [
+        "terms"
+      ],
+      "coll": [
+        "in terms of",
+        "a term for"
+      ]
+    },
+    "test": {
+      "ipa": {
+        "uk": "/test/",
+        "us": "/test/"
+      },
+      "forms": [
+        "tests",
+        "tested",
+        "testing"
+      ],
+      "coll": [
+        "a test of",
+        "take a test"
+      ]
+    },
+    "text": {
+      "ipa": {
+        "uk": "/tekst/",
+        "us": "/tekst/"
+      },
+      "forms": [
+        "texts"
+      ],
+      "coll": [
+        "a text about",
+        "in the text"
+      ]
+    },
+    "textbook": {
+      "ipa": {
+        "uk": "/ˈtekstbʊk/",
+        "us": "/ˈtekstbʊk/"
+      },
+      "forms": [
+        "textbooks"
+      ],
+      "coll": [
+        "a textbook on",
+        "a school textbook"
+      ]
+    },
+    "therapy": {
+      "ipa": {
+        "uk": "/ˈθerəpi/",
+        "us": "/ˈθerəpi/"
+      },
+      "forms": [
+        "therapies"
+      ],
+      "coll": [
+        "therapy for",
+        "group therapy"
+      ]
+    },
+    "thin": {
+      "ipa": {
+        "uk": "/θɪn/",
+        "us": "/θɪn/"
+      },
+      "forms": [
+        "thinner",
+        "thinnest"
+      ],
+      "coll": [
+        "thin air",
+        "a thin layer"
+      ]
+    },
+    "think": {
+      "ipa": {
+        "uk": "/θɪŋk/",
+        "us": "/θɪŋk/"
+      },
+      "forms": [
+        "thinks",
+        "thought",
+        "thinking"
+      ],
+      "coll": [
+        "think about",
+        "think of"
+      ]
+    },
+    "threaten": {
+      "ipa": {
+        "uk": "/ˈθret(ə)n/",
+        "us": "/ˈθret(ə)n/"
+      },
+      "forms": [
+        "threatens",
+        "threatened",
+        "threatening"
+      ],
+      "coll": [
+        "threaten to",
+        "threaten with"
+      ]
+    },
+    "throughout": {
+      "ipa": {
+        "uk": "/θruːˈaʊt/",
+        "us": "/θruːˈaʊt/"
+      },
+      "coll": [
+        "throughout the world",
+        "throughout history"
+      ]
+    },
+    "throw": {
+      "ipa": {
+        "uk": "/θrəʊ/",
+        "us": "/θroʊ/"
+      },
+      "forms": [
+        "throws",
+        "threw",
+        "thrown",
+        "throwing"
+      ],
+      "coll": [
+        "throw away",
+        "throw light on"
+      ]
+    },
+    "time": {
+      "ipa": {
+        "uk": "/taɪm/",
+        "us": "/taɪm/"
+      },
+      "forms": [
+        "times"
+      ],
+      "coll": [
+        "a period of time",
+        "at the same time"
+      ]
+    },
+    "timing": {
+      "ipa": {
+        "uk": "/ˈtaɪmɪŋ/",
+        "us": "/ˈtaɪmɪŋ/"
+      },
+      "coll": [
+        "perfect timing",
+        "the timing of"
+      ]
+    },
+    "tip-of-the-tongue": {
+      "ipa": {
+        "uk": "/ˌtɪp əv ðə ˈtʌŋ/",
+        "us": "/ˌtɪp əv ðə ˈtʌŋ/"
+      },
+      "coll": [
+        "the tip-of-the-tongue phenomenon",
+        "a tip-of-the-tongue state"
+      ]
+    },
+    "together": {
+      "ipa": {
+        "uk": "/təˈɡeðə(r)/",
+        "us": "/təˈɡeðər/"
+      },
+      "coll": [
+        "together with",
+        "work together"
+      ]
+    },
+    "tooth": {
+      "ipa": {
+        "uk": "/tuːθ/",
+        "us": "/tuːθ/"
+      },
+      "forms": [
+        "teeth"
+      ],
+      "coll": [
+        "a bad tooth",
+        "tooth decay"
+      ]
+    },
+    "trace": {
+      "ipa": {
+        "uk": "/treɪs/",
+        "us": "/treɪs/"
+      },
+      "forms": [
+        "traces",
+        "traced",
+        "tracing"
+      ],
+      "coll": [
+        "trace back",
+        "without trace"
+      ]
+    },
+    "trade": {
+      "ipa": {
+        "uk": "/treɪd/",
+        "us": "/treɪd/"
+      },
+      "forms": [
+        "trades",
+        "traded",
+        "trading"
+      ],
+      "coll": [
+        "international trade",
+        "trade routes"
+      ]
+    },
+    "train": {
+      "ipa": {
+        "uk": "/treɪn/",
+        "us": "/treɪn/"
+      },
+      "forms": [
+        "trains",
+        "trained",
+        "training"
+      ],
+      "coll": [
+        "by train",
+        "a train station"
+      ]
+    },
+    "transport": {
+      "ipa": {
+        "uk": "/ˈtrænspɔːt/",
+        "us": "/ˈtrænspɔːrt/"
+      },
+      "forms": [
+        "transports",
+        "transported",
+        "transporting"
+      ],
+      "coll": [
+        "public transport",
+        "the transport system"
+      ]
+    },
+    "treat": {
+      "ipa": {
+        "uk": "/triːt/",
+        "us": "/triːt/"
+      },
+      "forms": [
+        "treats",
+        "treated",
+        "treating"
+      ],
+      "coll": [
+        "treat as",
+        "treat a disease"
+      ]
+    },
+    "treatment": {
+      "ipa": {
+        "uk": "/ˈtriːtmənt/",
+        "us": "/ˈtriːtmənt/"
+      },
+      "forms": [
+        "treatments"
+      ],
+      "coll": [
+        "treatment for",
+        "medical treatment"
+      ]
+    },
+    "tricycle": {
+      "ipa": {
+        "uk": "/ˈtraɪsɪk(ə)l/",
+        "us": "/ˈtraɪsɪk(ə)l/"
+      },
+      "forms": [
+        "tricycles"
+      ],
+      "coll": [
+        "ride a tricycle",
+        "a child's tricycle"
+      ]
+    },
+    "trigger": {
+      "ipa": {
+        "uk": "/ˈtrɪɡə(r)/",
+        "us": "/ˈtrɪɡər/"
+      },
+      "forms": [
+        "triggers",
+        "triggered",
+        "triggering"
+      ],
+      "coll": [
+        "trigger a response",
+        "trigger a memory"
+      ]
+    },
+    "try": {
+      "ipa": {
+        "uk": "/traɪ/",
+        "us": "/traɪ/"
+      },
+      "forms": [
+        "tries",
+        "tried",
+        "trying"
+      ],
+      "coll": [
+        "try to",
+        "try out"
+      ]
+    },
+    "tubing": {
+      "ipa": {
+        "uk": "/ˈtjuːbɪŋ/",
+        "us": "/ˈtuːbɪŋ/"
+      },
+      "forms": [
+        "tubings"
+      ],
+      "coll": [
+        "steel tubing",
+        "rubber tubing"
+      ]
+    },
+    "turn": {
+      "ipa": {
+        "uk": "/tɜːn/",
+        "us": "/tɜːrn/"
+      },
+      "forms": [
+        "turns",
+        "turned",
+        "turning"
+      ],
+      "coll": [
+        "turn out",
+        "in turn"
+      ]
+    },
+    "twentieth": {
+      "ipa": {
+        "uk": "/ˈtwentiəθ/",
+        "us": "/ˈtwentiəθ/"
+      },
+      "coll": [
+        "the twentieth century",
+        "the late twentieth"
+      ]
+    },
+    "two-wheeled": {
+      "ipa": {
+        "uk": "/tuː wiːld/",
+        "us": "/tuː wiːld/"
+      },
+      "coll": [
+        "a two-wheeled vehicle",
+        "a two-wheeled bicycle"
+      ]
+    },
+    "tyre": {
+      "ipa": {
+        "uk": "/ˈtaɪə(r)/",
+        "us": "/ˈtaɪər/"
+      },
+      "forms": [
+        "tyres"
+      ],
+      "coll": [
+        "a flat tyre",
+        "tyre pressure"
+      ]
+    },
+    "unglamorous": {
+      "ipa": {
+        "uk": "/ʌnˈɡlæmərəs/",
+        "us": "/ʌnˈɡlæmərəs/"
+      },
+      "coll": [
+        "an unglamorous job",
+        "unglamorous work"
+      ]
+    },
+    "unimportant": {
+      "ipa": {
+        "uk": "/ˌʌnɪmˈpɔːt(ə)nt/",
+        "us": "/ˌʌnɪmˈpɔːrt(ə)nt/"
+      },
+      "coll": [
+        "relatively unimportant",
+        "seem unimportant"
+      ]
+    },
+    "unlikely": {
+      "ipa": {
+        "uk": "/ʌnˈlaɪkli/",
+        "us": "/ʌnˈlaɪkli/"
+      },
+      "coll": [
+        "unlikely to",
+        "highly unlikely"
+      ]
+    },
+    "unreliable": {
+      "ipa": {
+        "uk": "/ˌʌnrɪˈlaɪəb(ə)l/",
+        "us": "/ˌʌnrɪˈlaɪəb(ə)l/"
+      },
+      "coll": [
+        "unreliable data",
+        "an unreliable source"
+      ]
+    },
+    "unveil": {
+      "ipa": {
+        "uk": "/ˌʌnˈveɪl/",
+        "us": "/ˌʌnˈveɪl/"
+      },
+      "forms": [
+        "unveils",
+        "unveiled",
+        "unveiling"
+      ],
+      "coll": [
+        "unveil a plan",
+        "unveil a statue"
+      ]
+    },
+    "up": {
+      "ipa": {
+        "uk": "/ʌp/",
+        "us": "/ʌp/"
+      },
+      "coll": [
+        "up to",
+        "set up"
+      ]
+    },
+    "update": {
+      "ipa": {
+        "uk": "/ˌʌpˈdeɪt/",
+        "us": "/ˌʌpˈdeɪt/"
+      },
+      "forms": [
+        "updates",
+        "updated",
+        "updating"
+      ],
+      "coll": [
+        "update the system",
+        "an update on"
+      ]
+    },
+    "use": {
+      "ipa": {
+        "uk": "/juːz/",
+        "us": "/juːz/"
+      },
+      "forms": [
+        "uses",
+        "used",
+        "using"
+      ],
+      "coll": [
+        "the use of",
+        "in use"
+      ]
+    },
+    "usefully": {
+      "ipa": {
+        "uk": "/ˈjuːsfəli/",
+        "us": "/ˈjuːsfəli/"
+      },
+      "coll": [
+        "usefully employed",
+        "spend time usefully"
+      ]
+    },
+    "useless": {
+      "ipa": {
+        "uk": "/ˈjuːsləs/",
+        "us": "/ˈjuːsləs/"
+      },
+      "coll": [
+        "a useless tool",
+        "completely useless"
+      ]
+    },
+    "user": {
+      "ipa": {
+        "uk": "/ˈjuːzə(r)/",
+        "us": "/ˈjuːzər/"
+      },
+      "forms": [
+        "users"
+      ],
+      "coll": [
+        "a user of",
+        "user experience"
+      ]
+    },
+    "variable": {
+      "ipa": {
+        "uk": "/ˈveəriəb(ə)l/",
+        "us": "/ˈveriəb(ə)l/"
+      },
+      "forms": [
+        "variables"
+      ],
+      "coll": [
+        "an independent variable",
+        "a key variable"
+      ]
+    },
+    "vary": {
+      "ipa": {
+        "uk": "/ˈveəri/",
+        "us": "/ˈveri/ /ˈværi/"
+      },
+      "forms": [
+        "varies",
+        "varied",
+        "varying"
+      ],
+      "coll": [
+        "vary from",
+        "vary widely"
+      ]
+    },
+    "vibration": {
+      "ipa": {
+        "uk": "/vaɪˈbreɪʃ(ə)n/",
+        "us": "/vaɪˈbreɪʃ(ə)n/"
+      },
+      "forms": [
+        "vibrations"
+      ],
+      "coll": [
+        "reduce vibration",
+        "vibration in"
+      ]
+    },
+    "village": {
+      "ipa": {
+        "uk": "/ˈvɪlɪdʒ/",
+        "us": "/ˈvɪlɪdʒ/"
+      },
+      "forms": [
+        "villages"
+      ],
+      "coll": [
+        "a small village",
+        "village life"
+      ]
+    },
+    "walk": {
+      "ipa": {
+        "uk": "/wɔːk/",
+        "us": "/wɔːk/"
+      },
+      "forms": [
+        "walks",
+        "walked",
+        "walking"
+      ],
+      "coll": [
+        "walk along",
+        "take a walk"
+      ]
+    },
+    "want": {
+      "ipa": {
+        "uk": "/wɒnt/",
+        "us": "/wɑːnt/"
+      },
+      "forms": [
+        "wants",
+        "wanted",
+        "wanting"
+      ],
+      "coll": [
+        "want to",
+        "badly want"
+      ]
+    },
+    "warning": {
+      "ipa": {
+        "uk": "/ˈwɔːnɪŋ/",
+        "us": "/ˈwɔːrnɪŋ/"
+      },
+      "forms": [
+        "warnings"
+      ],
+      "coll": [
+        "a warning about",
+        "without warning"
+      ]
+    },
+    "way": {
+      "ipa": {
+        "uk": "/weɪ/",
+        "us": "/weɪ/"
+      },
+      "forms": [
+        "ways"
+      ],
+      "coll": [
+        "a way of",
+        "in a way"
+      ]
+    },
+    "weak": {
+      "ipa": {
+        "uk": "/wiːk/",
+        "us": "/wiːk/"
+      },
+      "forms": [
+        "weaker",
+        "weakest"
+      ],
+      "coll": [
+        "a weak point",
+        "a weak signal"
+      ]
+    },
+    "wealth": {
+      "ipa": {
+        "uk": "/welθ/",
+        "us": "/welθ/"
+      },
+      "coll": [
+        "a wealth of",
+        "great wealth"
+      ]
+    },
+    "weld": {
+      "ipa": {
+        "uk": "/weld/",
+        "us": "/weld/"
+      },
+      "forms": [
+        "welds",
+        "welded",
+        "welding"
+      ],
+      "coll": [
+        "weld together",
+        "weld metal"
+      ]
+    },
+    "well": {
+      "ipa": {
+        "uk": "/wel/",
+        "us": "/wel/"
+      },
+      "coll": [
+        "as well as",
+        "well known"
+      ]
+    },
+    "whatever": {
+      "ipa": {
+        "uk": "/wɒtˈevə(r)/",
+        "us": "/wətˈevər/"
+      },
+      "coll": [
+        "whatever happens",
+        "whatever it is"
+      ]
+    },
+    "wheel": {
+      "ipa": {
+        "uk": "/wiːl/",
+        "us": "/wiːl/"
+      },
+      "forms": [
+        "wheels"
+      ],
+      "coll": [
+        "a front wheel",
+        "a wheel of"
+      ]
+    },
+    "whole": {
+      "ipa": {
+        "uk": "/həʊl/",
+        "us": "/hoʊl/"
+      },
+      "forms": [
+        "wholes"
+      ],
+      "coll": [
+        "the whole of",
+        "on the whole"
+      ]
+    },
+    "woman": {
+      "ipa": {
+        "uk": "/ˈwʊmən/",
+        "us": "/ˈwʊmən/"
+      },
+      "forms": [
+        "women"
+      ],
+      "coll": [
+        "a young woman",
+        "women's rights"
+      ]
+    },
+    "wooden": {
+      "ipa": {
+        "uk": "/ˈwʊdn/",
+        "us": "/ˈwʊd(ə)n/"
+      },
+      "coll": [
+        "a wooden frame",
+        "wooden wheels"
+      ]
+    },
+    "word": {
+      "ipa": {
+        "uk": "/wɜːd/",
+        "us": "/wɜːrd/"
+      },
+      "forms": [
+        "words"
+      ],
+      "coll": [
+        "in other words",
+        "a word for"
+      ]
+    },
+    "work": {
+      "ipa": {
+        "uk": "/wɜːk/",
+        "us": "/wɜːrk/"
+      },
+      "forms": [
+        "works",
+        "worked",
+        "working"
+      ],
+      "coll": [
+        "work on",
+        "at work"
+      ]
+    },
+    "world": {
+      "ipa": {
+        "uk": "/wɜːld/",
+        "us": "/wɜːrld/"
+      },
+      "forms": [
+        "worlds"
+      ],
+      "coll": [
+        "around the world",
+        "in the world"
+      ]
+    },
+    "write": {
+      "ipa": {
+        "uk": "/raɪt/",
+        "us": "/raɪt/"
+      },
+      "forms": [
+        "writes",
+        "wrote",
+        "written",
+        "writing"
+      ],
+      "coll": [
+        "write about",
+        "write down"
+      ]
+    },
+    "wrong": {
+      "ipa": {
+        "uk": "/rɒŋ/",
+        "us": "/rɔːŋ/"
+      },
+      "coll": [
+        "wrong with",
+        "go wrong"
+      ]
+    },
+    "year": {
+      "ipa": {
+        "uk": "/jɪə(r)/",
+        "us": "/jɪr/"
+      },
+      "forms": [
+        "years"
+      ],
+      "coll": [
+        "a year ago",
+        "year after year"
+      ]
+    },
+    "young": {
+      "ipa": {
+        "uk": "/jʌŋ/",
+        "us": "/jʌŋ/"
+      },
+      "forms": [
+        "younger",
+        "youngest"
+      ],
+      "coll": [
+        "young people",
+        "at a young age"
+      ]
+    }
+  }
+}

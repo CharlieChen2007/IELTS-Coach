@@ -1,0 +1,1260 @@
+{
+  "userId": "synthetic-user-001",
+  "assessmentSetId": "synthetic-set-001",
+  "asOf": "2026-11-09T01:00:00.000Z",
+  "records": [
+    {
+      "submission": {
+        "recordId": "synthetic-record-task1",
+        "userId": "synthetic-user-001",
+        "assessmentSetId": "synthetic-set-001",
+        "practiceId": "synthetic-practice-task1",
+        "task": "task1",
+        "questionId": "T1-001",
+        "submissionId": "smoke-mixed-accurate",
+        "firstSubmissionId": "smoke-mixed-accurate",
+        "attemptNumber": 1,
+        "mode": "essay",
+        "text": "The pie chart shows the regional distribution of Coca-Cola's unit case sales in 2000, while the line graph presents its share price between 1996 and 2001.\n\nOverall, North America accounted for the largest share of sales, whereas Africa and the Middle East had the smallest proportion. The share price fluctuated considerably, reaching a peak around 1998 before declining.\n\nTotal sales amounted to 17.1 billion unit cases in 2000. North America represented 30.4% of this volume, followed by Latin America at 25.7%. Together, these two regions accounted for just over half of the total. Europe contributed a further 20.5%, while Asia's share stood at 16.4%. The remaining 7% came from Africa and the Middle East.\n\nTurning to the share price, it began at approximately $35 and rose, with some fluctuations, to a high of roughly $80 in 1998. It then generally fell, dropping below $50 around 2000 before recovering to about $60. At the end of the period, the price was approximately $55, higher than at the beginning but well below its peak.",
+        "sourceFingerprint": "cab325e1c0e1faf5dfe9ca798a6a93a505bfca379aafd4a7af7a63329b376936",
+        "submittedAt": "2026-11-08T13:53:25.587Z",
+        "reportStoredAt": "2026-11-08T13:54:26.587Z",
+        "lockedReportHash": "e1850aa75c42e14a6d1523e204d2573229727535a05e83bfedfc0534a3f3652d",
+        "origin": "learner",
+        "assistance": "unassisted"
+      },
+      "report": {
+        "schemaVersion": "task1-ai-v1",
+        "task": "task1",
+        "questionId": "T1-001",
+        "submissionId": "smoke-mixed-accurate",
+        "textHash": "8b4e95fb43ed57d968780b16d35aca214dc9e07ee76bebd3a69e78ad8ed4addd",
+        "wordCount": 172,
+        "underlength": false,
+        "source": {
+          "origin": "reference",
+          "sourceFingerprint": "cab325e1c0e1faf5dfe9ca798a6a93a505bfca379aafd4a7af7a63329b376936",
+          "analysisId": "c9b243221fab4d8f521ee1dc408cbb902925e349746bd0de7c33a02943752463",
+          "analysis": {
+            "readability": "clear",
+            "chartTypes": [
+              "pie",
+              "line"
+            ],
+            "questionQuality": {
+              "alignment": "aligned",
+              "instructions": "standard",
+              "issues": []
+            },
+            "panels": [
+              {
+                "id": "p1",
+                "kind": "pie",
+                "description": "2000年地区销量占比"
+              },
+              {
+                "id": "p2",
+                "kind": "line",
+                "description": "1996–2001年股价折线"
+              }
+            ],
+            "facts": [
+              {
+                "id": "f1",
+                "panelId": "p1",
+                "kind": "unit",
+                "statement": "The pie chart shows regional unit case volume in 2000, as percentages of a total of 17.1 billion unit cases.",
+                "location": "左图标题、中心总量",
+                "approximate": false,
+                "confidence": "high"
+              },
+              {
+                "id": "f2",
+                "panelId": "p1",
+                "kind": "value",
+                "statement": "North America: 30.4%; Latin America: 25.7%.",
+                "location": "左图左侧两个标签",
+                "approximate": false,
+                "confidence": "high"
+              },
+              {
+                "id": "f3",
+                "panelId": "p1",
+                "kind": "value",
+                "statement": "Europe: 20.5%; Asia: 16.4%; Africa and the Middle East: 7.0%.",
+                "location": "左图右侧三个标签",
+                "approximate": false,
+                "confidence": "high"
+              },
+              {
+                "id": "f4",
+                "panelId": "p1",
+                "kind": "comparison",
+                "statement": "North America has the largest share; Africa and the Middle East have the smallest. The two American regions together account for 56.1%.",
+                "location": "左图五个标签相比较；30.4+25.7",
+                "approximate": false,
+                "confidence": "high"
+              },
+              {
+                "id": "f5",
+                "panelId": "p2",
+                "kind": "unit",
+                "statement": "The share-price chart uses dollars, with labelled vertical ticks at 30, 50, 70 and 90 and years 1996 to 2001 on the horizontal axis.",
+                "location": "右图纵轴与横轴",
+                "approximate": false,
+                "confidence": "high"
+              },
+              {
+                "id": "f6",
+                "panelId": "p2",
+                "kind": "trend",
+                "statement": "The share price rises from roughly $35–40 at the start to a peak of about $80 around 1998, with fluctuations.",
+                "location": "右图起点在30与50之间靠下；峰值在70与90之间",
+                "approximate": true,
+                "confidence": "medium"
+              },
+              {
+                "id": "f7",
+                "panelId": "p2",
+                "kind": "trend",
+                "statement": "After the peak, the price generally declines, falls below $50 around 2000, recovers to about $60, and ends around $55–60.",
+                "location": "右图1998年后折线及末端",
+                "approximate": true,
+                "confidence": "medium"
+              },
+              {
+                "id": "f8",
+                "panelId": "p2",
+                "kind": "comparison",
+                "statement": "The ending price is higher than the starting price but below the peak.",
+                "location": "右图起点、终点、最高点比较",
+                "approximate": false,
+                "confidence": "high"
+              }
+            ],
+            "keyFeatures": [
+              {
+                "id": "k1",
+                "description": "北美最多，非洲和中东最少；区域份额有关键比较",
+                "factIds": [
+                  "f2",
+                  "f3",
+                  "f4"
+                ]
+              },
+              {
+                "id": "k2",
+                "description": "2000年总量与地区份额的单位正确",
+                "factIds": [
+                  "f1"
+                ]
+              },
+              {
+                "id": "k3",
+                "description": "股价上升到约1998年的峰值，之后回落并有反弹",
+                "factIds": [
+                  "f5",
+                  "f6",
+                  "f7"
+                ]
+              },
+              {
+                "id": "k4",
+                "description": "股价末端高于起点但低于峰值",
+                "factIds": [
+                  "f8"
+                ]
+              }
+            ],
+            "uncertainties": [
+              "折线数据点无数值标签；估读为近似范围，不能据此纠正合理约数。"
+            ]
+          },
+          "generation": {
+            "requestedModel": null,
+            "responseModel": null,
+            "attempts": 0,
+            "generatedAt": "2026-11-08",
+            "usage": {
+              "promptTokens": 0,
+              "completionTokens": 0
+            }
+          },
+          "humanVerified": false,
+          "review": {
+            "kind": "agent_visual_review",
+            "id": "codex-image-review-2026-11-08-T1-001",
+            "reviewedAt": "2026-11-08",
+            "note": "Codex对照用户原图整理；未经人类考官核验。仅供可信服务端载入，不接受浏览器提交。"
+          }
+        },
+        "feedback": {
+          "assessmentMode": "full",
+          "assessmentNote": "完整作文（172词），原图清晰且与sourceAnalysis基本吻合；折线图无数据标签，学生使用的约数（$35、$80、$50、$60、$55）与图像走势一致，按合理估读接受。四维为练习估计，非考官成绩。",
+          "sourceReview": {
+            "imageAgreement": "confirmed",
+            "reason": "左图五个地区份额与总量17.1 billion unit cases、右图1996–2001年股价走势均与学生描述一致；折线图无精确数值标签，学生用approximately/roughly等约数处理，未与图像冲突。"
+          },
+          "overview": {
+            "status": "clear",
+            "sentenceIds": [
+              "smoke-mixed-accurate:s:156",
+              "smoke-mixed-accurate:s:285"
+            ],
+            "reason": "第二段先概括饼图最大/最小份额，再概括股价先升至1998年峰值后回落，覆盖两个面板的全貌，且未堆砌细节。"
+          },
+          "coverage": [
+            {
+              "featureId": "k1",
+              "status": "covered",
+              "sentenceIds": [
+                "smoke-mixed-accurate:s:156",
+                "smoke-mixed-accurate:s:430",
+                "smoke-mixed-accurate:s:514",
+                "smoke-mixed-accurate:s:656"
+              ],
+              "reason": "明确写出北美最大、非洲和中东最小，并给出30.4%、25.7%、7%等关键份额及两地区合计过半的比较。"
+            },
+            {
+              "featureId": "k2",
+              "status": "covered",
+              "sentenceIds": [
+                "smoke-mixed-accurate:s:373"
+              ],
+              "reason": "正确写出2000年总量17.1 billion unit cases，单位与年份准确。"
+            },
+            {
+              "featureId": "k3",
+              "status": "covered",
+              "sentenceIds": [
+                "smoke-mixed-accurate:s:285",
+                "smoke-mixed-accurate:s:712",
+                "smoke-mixed-accurate:s:838"
+              ],
+              "reason": "写出股价上升至约1998年$80峰值，之后总体下跌、2000年前后跌破$50并反弹至约$60，趋势与图像一致。"
+            },
+            {
+              "featureId": "k4",
+              "status": "covered",
+              "sentenceIds": [
+                "smoke-mixed-accurate:s:925"
+              ],
+              "reason": "末句明确比较终点约$55高于起点、低于峰值，完成关键比较。"
+            }
+          ],
+          "checks": [
+            {
+              "sentenceId": "smoke-mixed-accurate:s:373",
+              "quote": "Total sales amounted to 17.1 billion unit cases in 2000.",
+              "verdict": "supported",
+              "factIds": [
+                "f1"
+              ],
+              "reason": "左图中心标注Total: 17.1bn，年份2000，单位case volume，表述准确。",
+              "impact": "none",
+              "confidence": "high"
+            },
+            {
+              "sentenceId": "smoke-mixed-accurate:s:430",
+              "quote": "North America represented 30.4% of this volume, followed by Latin America at 25.7%.",
+              "verdict": "supported",
+              "factIds": [
+                "f2"
+              ],
+              "reason": "两个百分比与左图标签完全一致，排序也正确。",
+              "impact": "none",
+              "confidence": "high"
+            },
+            {
+              "sentenceId": "smoke-mixed-accurate:s:514",
+              "quote": "Together, these two regions accounted for just over half of the total.",
+              "verdict": "supported",
+              "factIds": [
+                "f4"
+              ],
+              "reason": "30.4%+25.7%=56.1%，just over half是合理概括。",
+              "impact": "none",
+              "confidence": "high"
+            },
+            {
+              "sentenceId": "smoke-mixed-accurate:s:585",
+              "quote": "Europe contributed a further 20.5%, while Asia's share stood at 16.4%.",
+              "verdict": "supported",
+              "factIds": [
+                "f3"
+              ],
+              "reason": "欧洲20.5%、亚洲16.4%与左图标签一致。",
+              "impact": "none",
+              "confidence": "high"
+            },
+            {
+              "sentenceId": "smoke-mixed-accurate:s:656",
+              "quote": "The remaining 7% came from Africa and the Middle East.",
+              "verdict": "supported",
+              "factIds": [
+                "f3"
+              ],
+              "reason": "非洲和中东份额为7.0%，表述准确。",
+              "impact": "none",
+              "confidence": "high"
+            },
+            {
+              "sentenceId": "smoke-mixed-accurate:s:712",
+              "quote": "it began at approximately $35 and rose, with some fluctuations, to a high of roughly $80 in 1998",
+              "verdict": "supported",
+              "factIds": [
+                "f5",
+                "f6"
+              ],
+              "reason": "折线起点在30与50之间靠下、峰值在70与90之间且约在1998年；无数据标签，约数处理合理。",
+              "impact": "none",
+              "confidence": "medium"
+            },
+            {
+              "sentenceId": "smoke-mixed-accurate:s:838",
+              "quote": "It then generally fell, dropping below $50 around 2000 before recovering to about $60.",
+              "verdict": "supported",
+              "factIds": [
+                "f7"
+              ],
+              "reason": "1998年后总体下行，2000年前后低点低于50，随后反弹至约60，与折线走势一致。",
+              "impact": "none",
+              "confidence": "medium"
+            },
+            {
+              "sentenceId": "smoke-mixed-accurate:s:925",
+              "quote": "the price was approximately $55, higher than at the beginning but well below its peak",
+              "verdict": "supported",
+              "factIds": [
+                "f8",
+                "f7"
+              ],
+              "reason": "终点约55–60，高于起点、低于峰值，比较关系正确。",
+              "impact": "none",
+              "confidence": "medium"
+            }
+          ],
+          "scores": {
+            "taskAchievement": {
+              "band": 7.5,
+              "reason": "两个面板的主要特征均被准确覆盖：地区份额最大/最小、总量与单位、股价升至1998年峰值后回落并反弹、终点与起点/峰值的比较。概述清楚，数据使用准确，比较有效。折线图无精确标签，学生用约数处理得当；若再补充区域份额的排序或合计比较可更充分，但已属较好完成任务。",
+              "evidenceSentenceIds": [
+                "smoke-mixed-accurate:s:156",
+                "smoke-mixed-accurate:s:285",
+                "smoke-mixed-accurate:s:373",
+                "smoke-mixed-accurate:s:514",
+                "smoke-mixed-accurate:s:712",
+                "smoke-mixed-accurate:s:925"
+              ],
+              "nextStep": "保持现有概述与数据准确度；可在主体段补一句地区份额的排序比较（如北美约为非洲和中东的四倍多），使比较更充分。"
+            },
+            "coherenceCohesion": {
+              "band": 7.5,
+              "reason": "四段结构自然：引言、概述、饼图细节、折线细节。段内按份额从大到小推进，段间用Turning to衔接，指代（these two regions、It）清楚。个别衔接略常规，但整体推进顺畅，不影响阅读。",
+              "evidenceSentenceIds": [
+                "smoke-mixed-accurate:s:0",
+                "smoke-mixed-accurate:s:156",
+                "smoke-mixed-accurate:s:430",
+                "smoke-mixed-accurate:s:712"
+              ],
+              "nextStep": "练习在主体段开头用一句主题句点明该段描述对象（如The pie chart's regional breakdown shows a clear ranking），减少仅靠连接词推进。"
+            },
+            "lexicalResource": {
+              "band": 7.5,
+              "reason": "词汇准确且搭配自然：regional distribution、accounted for、contributed、recovering、well below its peak等使用恰当；approximately/roughly等约数词与无标签折线图匹配。范围足够完成任务，偶有常规表达但不影响准确度。",
+              "evidenceSentenceIds": [
+                "smoke-mixed-accurate:s:0",
+                "smoke-mixed-accurate:s:514",
+                "smoke-mixed-accurate:s:712",
+                "smoke-mixed-accurate:s:925"
+              ],
+              "nextStep": "可积累2–3个描述份额比较的动词/名词搭配（如account for the lion's share、a marginal share），但不必为求高级而替换已准确的词。"
+            },
+            "grammaticalRangeAccuracy": {
+              "band": 7.5,
+              "reason": "句式有变化：while对比、分词状语（followed by、dropping below、reaching a peak）、定语从句式比较（higher than...but well below...）。全文无明显语法错误，时态统一为过去时，单位与百分数表达正确。复杂句使用自然，未出现影响理解的错误。",
+              "evidenceSentenceIds": [
+                "smoke-mixed-accurate:s:0",
+                "smoke-mixed-accurate:s:430",
+                "smoke-mixed-accurate:s:712",
+                "smoke-mixed-accurate:s:838"
+              ],
+              "nextStep": "继续保持；可练习用非谓语结构压缩比较句（如ending at about $55, above the starting point but below the peak），但当前准确度已足够。"
+            }
+          },
+          "sentences": [
+            {
+              "id": "smoke-mixed-accurate:s:0",
+              "start": 0,
+              "end": 154,
+              "paragraph": 1,
+              "index": 1,
+              "text": "The pie chart shows the regional distribution of Coca-Cola's unit case sales in 2000, while the line graph presents its share price between 1996 and 2001.",
+              "status": "keep",
+              "issueType": "none",
+              "reason": "引言准确交代两个图表的内容、年份和单位，表达清晰。",
+              "suggestion": "The pie chart shows the regional distribution of Coca-Cola's unit case sales in 2000, while the line graph presents its share price between 1996 and 2001.",
+              "factIds": [
+                "f1",
+                "f5"
+              ],
+              "redundantWithSentenceId": null
+            },
+            {
+              "id": "smoke-mixed-accurate:s:156",
+              "start": 156,
+              "end": 284,
+              "paragraph": 2,
+              "index": 1,
+              "text": "Overall, North America accounted for the largest share of sales, whereas Africa and the Middle East had the smallest proportion.",
+              "status": "keep",
+              "issueType": "none",
+              "reason": "准确概括饼图最大与最小份额，作为概述的一部分清楚有效。",
+              "suggestion": "Overall, North America accounted for the largest share of sales, whereas Africa and the Middle East had the smallest proportion.",
+              "factIds": [
+                "f4"
+              ],
+              "redundantWithSentenceId": null
+            },
+            {
+              "id": "smoke-mixed-accurate:s:285",
+              "start": 285,
+              "end": 371,
+              "paragraph": 2,
+              "index": 2,
+              "text": "The share price fluctuated considerably, reaching a peak around 1998 before declining.",
+              "status": "keep",
+              "issueType": "none",
+              "reason": "准确概括股价先升至1998年峰值后回落的总体趋势，与图像一致。",
+              "suggestion": "The share price fluctuated considerably, reaching a peak around 1998 before declining.",
+              "factIds": [
+                "f6",
+                "f7"
+              ],
+              "redundantWithSentenceId": null
+            },
+            {
+              "id": "smoke-mixed-accurate:s:373",
+              "start": 373,
+              "end": 429,
+              "paragraph": 3,
+              "index": 1,
+              "text": "Total sales amounted to 17.1 billion unit cases in 2000.",
+              "status": "keep",
+              "issueType": "none",
+              "reason": "总量、单位与年份均准确。",
+              "suggestion": "Total sales amounted to 17.1 billion unit cases in 2000.",
+              "factIds": [
+                "f1"
+              ],
+              "redundantWithSentenceId": null
+            },
+            {
+              "id": "smoke-mixed-accurate:s:430",
+              "start": 430,
+              "end": 513,
+              "paragraph": 3,
+              "index": 2,
+              "text": "North America represented 30.4% of this volume, followed by Latin America at 25.7%.",
+              "status": "keep",
+              "issueType": "none",
+              "reason": "两个百分比与排序均与左图一致。",
+              "suggestion": "North America represented 30.4% of this volume, followed by Latin America at 25.7%.",
+              "factIds": [
+                "f2"
+              ],
+              "redundantWithSentenceId": null
+            },
+            {
+              "id": "smoke-mixed-accurate:s:514",
+              "start": 514,
+              "end": 584,
+              "paragraph": 3,
+              "index": 3,
+              "text": "Together, these two regions accounted for just over half of the total.",
+              "status": "keep",
+              "issueType": "none",
+              "reason": "30.4%+25.7%=56.1%，just over half概括准确。",
+              "suggestion": "Together, these two regions accounted for just over half of the total.",
+              "factIds": [
+                "f4"
+              ],
+              "redundantWithSentenceId": null
+            },
+            {
+              "id": "smoke-mixed-accurate:s:585",
+              "start": 585,
+              "end": 655,
+              "paragraph": 3,
+              "index": 4,
+              "text": "Europe contributed a further 20.5%, while Asia's share stood at 16.4%.",
+              "status": "keep",
+              "issueType": "none",
+              "reason": "欧洲与亚洲份额准确，while衔接自然。",
+              "suggestion": "Europe contributed a further 20.5%, while Asia's share stood at 16.4%.",
+              "factIds": [
+                "f3"
+              ],
+              "redundantWithSentenceId": null
+            },
+            {
+              "id": "smoke-mixed-accurate:s:656",
+              "start": 656,
+              "end": 710,
+              "paragraph": 3,
+              "index": 5,
+              "text": "The remaining 7% came from Africa and the Middle East.",
+              "status": "keep",
+              "issueType": "none",
+              "reason": "非洲和中东7%准确，remaining一词自然承接前文。",
+              "suggestion": "The remaining 7% came from Africa and the Middle East.",
+              "factIds": [
+                "f3"
+              ],
+              "redundantWithSentenceId": null
+            },
+            {
+              "id": "smoke-mixed-accurate:s:712",
+              "start": 712,
+              "end": 837,
+              "paragraph": 4,
+              "index": 1,
+              "text": "Turning to the share price, it began at approximately $35 and rose, with some fluctuations, to a high of roughly $80 in 1998.",
+              "status": "keep",
+              "issueType": "none",
+              "reason": "起点、峰值年份与约数均与无标签折线图合理吻合，表达准确。",
+              "suggestion": "Turning to the share price, it began at approximately $35 and rose, with some fluctuations, to a high of roughly $80 in 1998.",
+              "factIds": [
+                "f5",
+                "f6"
+              ],
+              "redundantWithSentenceId": null
+            },
+            {
+              "id": "smoke-mixed-accurate:s:838",
+              "start": 838,
+              "end": 924,
+              "paragraph": 4,
+              "index": 2,
+              "text": "It then generally fell, dropping below $50 around 2000 before recovering to about $60.",
+              "status": "keep",
+              "issueType": "none",
+              "reason": "下跌、跌破50、反弹至约60的走势与图像一致。",
+              "suggestion": "It then generally fell, dropping below $50 around 2000 before recovering to about $60.",
+              "factIds": [
+                "f7"
+              ],
+              "redundantWithSentenceId": null
+            },
+            {
+              "id": "smoke-mixed-accurate:s:925",
+              "start": 925,
+              "end": 1037,
+              "paragraph": 4,
+              "index": 3,
+              "text": "At the end of the period, the price was approximately $55, higher than at the beginning but well below its peak.",
+              "status": "keep",
+              "issueType": "none",
+              "reason": "终点约55，高于起点、低于峰值，比较关系准确。",
+              "suggestion": "At the end of the period, the price was approximately $55, higher than at the beginning but well below its peak.",
+              "factIds": [
+                "f8",
+                "f7"
+              ],
+              "redundantWithSentenceId": null
+            }
+          ],
+          "review": {
+            "decision": "ready",
+            "summary": "全文172词，结构完整，概述清楚，两个面板的主要特征与关键比较均准确覆盖；语言准确自然，无明显需修改的实质问题。",
+            "resolved": [],
+            "remainingIssues": []
+          },
+          "modelAnswer": {
+            "text": "The pie chart shows how Coca-Cola's 17.1 billion unit cases were distributed by region in 2000, while the line graph traces the company's share price from 1996 to 2001.\n\nOverall, North America was the largest regional market, while Africa and the Middle East was the smallest. The share price rose to a peak around 1998 and then fell back, ending above its starting level but below that peak.\n\nIn 2000, North America accounted for 30.4% of unit case volume, followed by Latin America at 25.7%; together the two American regions made up 56.1%, just over half the total. Europe held 20.5% and Asia 16.4%, while Africa and the Middle East contributed the remaining 7.0%.\n\nThe share price began at roughly $35–40 in 1996 and climbed, with fluctuations, to a peak of about $80 in 1998. It then declined, falling below $50 around 2000, before recovering to about $60. At the end of the period it stood at approximately $55–60, higher than at the start but well below the 1998 peak.",
+            "factIds": [
+              "f1",
+              "f2",
+              "f3",
+              "f4",
+              "f5",
+              "f6",
+              "f7",
+              "f8"
+            ],
+            "note": "参考答案仅基于图中明确事实；折线图无数据标签，价格用约数范围表述。相比学生原稿，主要改进是补充了56.1%的合计计算和起点价格范围，使比较更充分，并非保证高分。"
+          },
+          "nextPractice": {
+            "skill": "comparison",
+            "instruction": "重写饼图主体段，用一句话把北美与非洲和中东的份额作倍数比较（如北美份额约为非洲和中东的四倍多），并保留原有百分比数据。",
+            "successCriteria": [
+              "句中同时出现北美与非洲和中东两个地区",
+              "使用倍数或比例表达，且与30.4%和7.0%相符",
+              "不新增图中没有的数据或原因解释"
+            ],
+            "evidenceSentenceIds": [
+              "smoke-mixed-accurate:s:430",
+              "smoke-mixed-accurate:s:656"
+            ]
+          }
+        },
+        "assessment": {
+          "criteria": {
+            "taskAchievement": 7.5,
+            "coherenceCohesion": 7.5,
+            "lexicalResource": 7.5,
+            "grammaticalRangeAccuracy": 7.5
+          },
+          "unroundedMean": 7.5,
+          "displayBand": 7.5,
+          "scope": "single_task_practice_estimate",
+          "officialResult": false,
+          "rubricVersion": "ielts-task1-2023-product-v1",
+          "criterionWeights": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "displayRounding": "nearest_half_band_product_display",
+          "statisticallyCalibrated": false
+        },
+        "scoreRecord": {
+          "schemaVersion": "writing-score-source-v1",
+          "task": "task1",
+          "questionId": "T1-001",
+          "submissionId": "smoke-mixed-accurate",
+          "textHash": "8b4e95fb43ed57d968780b16d35aca214dc9e07ee76bebd3a69e78ad8ed4addd",
+          "sourceFingerprint": "cab325e1c0e1faf5dfe9ca798a6a93a505bfca379aafd4a7af7a63329b376936",
+          "criteria": {
+            "taskAchievement": 7.5,
+            "coherenceCohesion": 7.5,
+            "lexicalResource": 7.5,
+            "grammaticalRangeAccuracy": 7.5
+          },
+          "unroundedMean": 7.5,
+          "displayBand": 7.5,
+          "draftRole": "unverified",
+          "trustedRecordId": null,
+          "firstDraftCandidate": false,
+          "sourceOfDraftRole": "caller_must_resolve_from_persisted_submission",
+          "sourceOrigin": "reference",
+          "referenceReviewKind": "agent_visual_review",
+          "sourceHumanVerified": false,
+          "calibrationStatus": "not_calibrated_against_examiner_scores",
+          "promptVersion": "a246f4143fcb3e0e",
+          "rubricVersion": "ielts-task1-2023-product-v1",
+          "assessedAt": "2026-11-08T13:54:25.587Z"
+        },
+        "featureSignals": {
+          "chartTypes": [
+            "pie",
+            "line"
+          ],
+          "sourceTopicHint": "经济与商业",
+          "overview": "clear",
+          "coverage": [
+            {
+              "featureId": "k1",
+              "status": "covered"
+            },
+            {
+              "featureId": "k2",
+              "status": "covered"
+            },
+            {
+              "featureId": "k3",
+              "status": "covered"
+            },
+            {
+              "featureId": "k4",
+              "status": "covered"
+            }
+          ],
+          "issueCounts": {},
+          "confirmedFactErrors": 0,
+          "unresolvedFactChecks": 0
+        },
+        "revisionBudget": {
+          "initialWords": 172,
+          "currentWords": 172,
+          "ceiling": 186,
+          "positiveGrowthBudget": 14,
+          "modelMinWords": 150,
+          "modelMaxWords": 220
+        },
+        "generation": {
+          "requestedModel": "deepseek-flash",
+          "responseModel": "deepseek-flash",
+          "attempts": 1,
+          "generatedAt": "2026-11-08T13:54:25.587Z",
+          "usage": {
+            "promptTokens": 5554,
+            "completionTokens": 3303
+          }
+        }
+      }
+    },
+    {
+      "submission": {
+        "recordId": "synthetic-record-task2",
+        "userId": "synthetic-user-001",
+        "assessmentSetId": "synthetic-set-001",
+        "practiceId": "synthetic-practice-task2",
+        "task": "task2",
+        "questionId": "T2-026",
+        "submissionId": "task2-discussion-complete",
+        "firstSubmissionId": "task2-discussion-complete",
+        "attemptNumber": 1,
+        "mode": "essay",
+        "text": "Universities are often expected to prepare students for employment, but they also have a responsibility to develop academic understanding. Both purposes are valuable, and I believe degree programmes should combine a strong academic foundation with opportunities to apply it.\n\nThose who favour employment skills point to the difficulties graduates can face when entering the workplace. Knowing a subject does not automatically mean that someone can work effectively with colleagues or use the equipment required in a particular job. Practical projects and supervised placements can bridge this gap. For example, engineering students might design a device for a local organisation, learning to manage deadlines while applying technical knowledge. Such experience can help them make informed career choices as well as demonstrate their abilities to employers. This is especially useful when students have had little contact with professional work before attending university.\n\nHowever, concentrating only on immediate workplace requirements would narrow the value of higher education. Software, procedures and even entire occupations can change, whereas an understanding of underlying principles helps graduates adapt. Academic study also teaches students to question assumptions and assess evidence, which matters beyond any single career. A student who understands how research is conducted is better equipped to distinguish a persuasive claim from a reliable conclusion. These habits benefit both professional decisions and participation in public debate.\n\nThe most effective approach is therefore integration rather than a choice between these aims. Universities can retain rigorous academic courses while using practical projects to show how the ideas operate outside the classroom. The balance will vary by discipline, but neither element needs to displace the other. Graduates should leave with useful capabilities and the intellectual resources to continue learning when their first job changes.",
+        "sourceFingerprint": "02f59fbbbc5676b26ac306bbab157d1373d9005a52c8b9c9ed3c0bbd891c8de6",
+        "submittedAt": "2026-11-09T00:48:53.277Z",
+        "reportStoredAt": "2026-11-09T00:49:54.277Z",
+        "lockedReportHash": "9410db395a88541d9c3e99a6423d5ec9adbb8fd0086c27843bb51929025eb474",
+        "origin": "learner",
+        "assistance": "unassisted"
+      },
+      "report": {
+        "schemaVersion": "task2-ai-v2",
+        "task": "task2",
+        "questionId": "T2-026",
+        "submissionId": "task2-discussion-complete",
+        "textHash": "4cf344c53093a2be64a6b7a6bb2d41f03193ea03edac86dbfe36efe62636b9da",
+        "wordCount": 284,
+        "underlength": false,
+        "source": {
+          "schemaVersion": "task2-ai-v2",
+          "kind": "task2-question-analysis",
+          "analysisMethod": "rule",
+          "questionId": "T2-026",
+          "sourceFingerprint": "02f59fbbbc5676b26ac306bbab157d1373d9005a52c8b9c9ed3c0bbd891c8de6",
+          "promptVersion": "091a6e0c1b785535",
+          "analysisId": "1a34175306a55a4fee1455ed2a9965d10a009916596eeeee2ed76261e554c34b",
+          "policyVersion": "explicit-requests-v1",
+          "analysis": {
+            "promptQuality": "clear",
+            "questionType": "discussion",
+            "stanceRequired": true,
+            "requirements": [
+              {
+                "id": "r1",
+                "kind": "view_a",
+                "description": "准确讨论题干第一方的主张及理由，保留其对象、范围和限定词。",
+                "promptQuote": "Discuss both views and give your own opinion."
+              },
+              {
+                "id": "r2",
+                "kind": "view_b",
+                "description": "准确讨论题干第二方的主张及理由，保留其对象、范围和限定词。",
+                "promptQuote": "Discuss both views and give your own opinion."
+              },
+              {
+                "id": "r3",
+                "kind": "position",
+                "description": "清楚表达并支持作者自己的意见，可以有条件地支持或综合两者。",
+                "promptQuote": "Discuss both views and give your own opinion."
+              }
+            ],
+            "cautions": []
+          },
+          "generation": {
+            "requestedModel": null,
+            "responseModel": null,
+            "attempts": 0,
+            "generatedAt": "2026-11-08T14:30:29.949Z",
+            "usage": {
+              "promptTokens": 0,
+              "completionTokens": 0
+            }
+          }
+        },
+        "feedback": {
+          "assessmentMode": "full",
+          "assessmentNote": "全文约284词，完整回应了双方观点并给出综合立场。论证有具体展开（工程专业项目例子、学术研究能力），语言总体准确流畅。主要提升空间在于：第一方观点的论证可更充分说明“为何就业技能重要”的深层理由，个别句子可更精炼。",
+          "taskCoverage": [
+            {
+              "requirementId": "r1",
+              "status": "covered",
+              "reason": "第二段明确讨论就业技能支持者的主张，指出毕业生进入职场的困难，并用工程项目和实习说明实践技能如何弥合差距。",
+              "evidenceSentenceIds": [
+                "task2-discussion-complete:s:276",
+                "task2-discussion-complete:s:385",
+                "task2-discussion-complete:s:532",
+                "task2-discussion-complete:s:598",
+                "task2-discussion-complete:s:745"
+              ]
+            },
+            {
+              "requirementId": "r2",
+              "status": "covered",
+              "reason": "第三段讨论纯学术研究的价值，指出职业会变化而基础原理帮助适应，并说明学术训练培养质疑假设和评估证据的能力。",
+              "evidenceSentenceIds": [
+                "task2-discussion-complete:s:974",
+                "task2-discussion-complete:s:1082",
+                "task2-discussion-complete:s:1216",
+                "task2-discussion-complete:s:1338"
+              ]
+            },
+            {
+              "requirementId": "r3",
+              "status": "covered",
+              "reason": "首段和末段清楚表达综合立场：学位课程应结合学术基础与应用机会，整合而非二选一。",
+              "evidenceSentenceIds": [
+                "task2-discussion-complete:s:139",
+                "task2-discussion-complete:s:1557",
+                "task2-discussion-complete:s:1651",
+                "task2-discussion-complete:s:1871"
+              ]
+            }
+          ],
+          "stance": {
+            "status": "clear",
+            "summary": "作者主张大学教育应整合学术基础与就业技能，而非在两者间二选一；平衡因学科而异，但两者不应互相取代。",
+            "evidenceSentenceIds": [
+              "task2-discussion-complete:s:139",
+              "task2-discussion-complete:s:1557",
+              "task2-discussion-complete:s:1785"
+            ]
+          },
+          "scores": {
+            "taskResponse": {
+              "band": 7,
+              "reason": "双方观点均得到讨论并有具体展开，立场清楚且贯穿全文。第一方论证有工程例子支撑，第二方论证有适应性和研究能力支撑。综合立场明确。但第一方“为何就业技能重要”的深层理由（如雇主需求、就业压力）可更充分，论证深度略欠8分水平。",
+              "evidenceSentenceIds": [
+                "task2-discussion-complete:s:276",
+                "task2-discussion-complete:s:598",
+                "task2-discussion-complete:s:1082",
+                "task2-discussion-complete:s:1557"
+              ],
+              "nextStep": "在讨论就业技能一方时，补充一句说明为何这一需求在当下尤为紧迫（如就业市场竞争），使论证更有层次。"
+            },
+            "coherenceCohesion": {
+              "band": 7,
+              "reason": "四段结构清晰：引入并表态、第一方观点、第二方观点、综合结论。段落间用However和therefore自然过渡，段内用For example、Such experience、This is especially useful等衔接。整体推进顺畅，但部分衔接偏常规，未达到8分所需的更精细组织。",
+              "evidenceSentenceIds": [
+                "task2-discussion-complete:s:974",
+                "task2-discussion-complete:s:1557",
+                "task2-discussion-complete:s:598"
+              ],
+              "nextStep": "尝试在第三段开头用更具体的对比衔接（如“While practical training addresses immediate needs, ...”），使两方观点的对照更鲜明。"
+            },
+            "lexicalResource": {
+              "band": 7,
+              "reason": "词汇使用准确且有一定灵活性，如bridge this gap、underlying principles、question assumptions、intellectual resources等搭配自然。但整体词汇范围属常见学术表达，罕见或高度精准的词汇有限，个别表达如“narrow the value”稍显生硬。",
+              "evidenceSentenceIds": [
+                "task2-discussion-complete:s:532",
+                "task2-discussion-complete:s:1082",
+                "task2-discussion-complete:s:1216",
+                "task2-discussion-complete:s:1871"
+              ],
+              "nextStep": "将“narrow the value of higher education”改为更自然的表达，如“unduly narrow the purpose of higher education”，并注意搭配准确性。"
+            },
+            "grammaticalRangeAccuracy": {
+              "band": 7.5,
+              "reason": "句式多样，包含定语从句（who understands how research is conducted）、让步结构（whereas...）、分词结构（learning to manage deadlines）等，且使用准确。全文语法错误极少，句子控制良好。但复杂句式的密度和多样性尚未达到8分所需的持续精准与灵活。",
+              "evidenceSentenceIds": [
+                "task2-discussion-complete:s:385",
+                "task2-discussion-complete:s:1082",
+                "task2-discussion-complete:s:1338",
+                "task2-discussion-complete:s:1651"
+              ],
+              "nextStep": "在结论段尝试一个更复杂的条件句或让步句，如“Even if resources are limited, universities can...”，展示句法灵活性。"
+            }
+          },
+          "sentences": [
+            {
+              "id": "task2-discussion-complete:s:0",
+              "start": 0,
+              "end": 138,
+              "paragraph": 1,
+              "index": 1,
+              "text": "Universities are often expected to prepare students for employment, but they also have a responsibility to develop academic understanding.",
+              "status": "keep",
+              "editType": "none",
+              "action": "keep",
+              "reason": "引入背景，准确概括大学双重期待，无需修改。",
+              "suggestion": "Universities are often expected to prepare students for employment, but they also have a responsibility to develop academic understanding.",
+              "contextSentenceIds": [],
+              "redundantWithSentenceId": null
+            },
+            {
+              "id": "task2-discussion-complete:s:139",
+              "start": 139,
+              "end": 274,
+              "paragraph": 1,
+              "index": 2,
+              "text": "Both purposes are valuable, and I believe degree programmes should combine a strong academic foundation with opportunities to apply it.",
+              "status": "keep",
+              "editType": "none",
+              "action": "keep",
+              "reason": "清楚表达综合立场，与全文一致。",
+              "suggestion": "Both purposes are valuable, and I believe degree programmes should combine a strong academic foundation with opportunities to apply it.",
+              "contextSentenceIds": [],
+              "redundantWithSentenceId": null
+            },
+            {
+              "id": "task2-discussion-complete:s:276",
+              "start": 276,
+              "end": 384,
+              "paragraph": 2,
+              "index": 1,
+              "text": "Those who favour employment skills point to the difficulties graduates can face when entering the workplace.",
+              "status": "keep",
+              "editType": "none",
+              "action": "keep",
+              "reason": "准确引出第一方观点，衔接自然。",
+              "suggestion": "Those who favour employment skills point to the difficulties graduates can face when entering the workplace.",
+              "contextSentenceIds": [],
+              "redundantWithSentenceId": null
+            },
+            {
+              "id": "task2-discussion-complete:s:385",
+              "start": 385,
+              "end": 531,
+              "paragraph": 2,
+              "index": 2,
+              "text": "Knowing a subject does not automatically mean that someone can work effectively with colleagues or use the equipment required in a particular job.",
+              "status": "keep",
+              "editType": "none",
+              "action": "keep",
+              "reason": "解释知识与工作能力之间的差距，论证有效。",
+              "suggestion": "Knowing a subject does not automatically mean that someone can work effectively with colleagues or use the equipment required in a particular job.",
+              "contextSentenceIds": [],
+              "redundantWithSentenceId": null
+            },
+            {
+              "id": "task2-discussion-complete:s:532",
+              "start": 532,
+              "end": 597,
+              "paragraph": 2,
+              "index": 3,
+              "text": "Practical projects and supervised placements can bridge this gap.",
+              "status": "keep",
+              "editType": "none",
+              "action": "keep",
+              "reason": "提出解决方案，衔接前句问题。",
+              "suggestion": "Practical projects and supervised placements can bridge this gap.",
+              "contextSentenceIds": [],
+              "redundantWithSentenceId": null
+            },
+            {
+              "id": "task2-discussion-complete:s:598",
+              "start": 598,
+              "end": 744,
+              "paragraph": 2,
+              "index": 4,
+              "text": "For example, engineering students might design a device for a local organisation, learning to manage deadlines while applying technical knowledge.",
+              "status": "keep",
+              "editType": "none",
+              "action": "keep",
+              "reason": "具体例子支撑前句，论证充分。",
+              "suggestion": "For example, engineering students might design a device for a local organisation, learning to manage deadlines while applying technical knowledge.",
+              "contextSentenceIds": [],
+              "redundantWithSentenceId": null
+            },
+            {
+              "id": "task2-discussion-complete:s:745",
+              "start": 745,
+              "end": 856,
+              "paragraph": 2,
+              "index": 5,
+              "text": "Such experience can help them make informed career choices as well as demonstrate their abilities to employers.",
+              "status": "keep",
+              "editType": "none",
+              "action": "keep",
+              "reason": "说明实践经验的额外好处，推进论证。",
+              "suggestion": "Such experience can help them make informed career choices as well as demonstrate their abilities to employers.",
+              "contextSentenceIds": [],
+              "redundantWithSentenceId": null
+            },
+            {
+              "id": "task2-discussion-complete:s:857",
+              "start": 857,
+              "end": 972,
+              "paragraph": 2,
+              "index": 6,
+              "text": "This is especially useful when students have had little contact with professional work before attending university.",
+              "status": "keep",
+              "editType": "none",
+              "action": "keep",
+              "reason": "补充限定条件，使论证更完整。",
+              "suggestion": "This is especially useful when students have had little contact with professional work before attending university.",
+              "contextSentenceIds": [],
+              "redundantWithSentenceId": null
+            },
+            {
+              "id": "task2-discussion-complete:s:974",
+              "start": 974,
+              "end": 1081,
+              "paragraph": 3,
+              "index": 1,
+              "text": "However, concentrating only on immediate workplace requirements would narrow the value of higher education.",
+              "status": "keep",
+              "editType": "none",
+              "action": "keep",
+              "reason": "转折引出第二方观点，衔接清晰。",
+              "suggestion": "However, concentrating only on immediate workplace requirements would narrow the value of higher education.",
+              "contextSentenceIds": [],
+              "redundantWithSentenceId": null
+            },
+            {
+              "id": "task2-discussion-complete:s:1082",
+              "start": 1082,
+              "end": 1215,
+              "paragraph": 3,
+              "index": 2,
+              "text": "Software, procedures and even entire occupations can change, whereas an understanding of underlying principles helps graduates adapt.",
+              "status": "keep",
+              "editType": "none",
+              "action": "keep",
+              "reason": "解释学术基础为何重要，论证有效。",
+              "suggestion": "Software, procedures and even entire occupations can change, whereas an understanding of underlying principles helps graduates adapt.",
+              "contextSentenceIds": [],
+              "redundantWithSentenceId": null
+            },
+            {
+              "id": "task2-discussion-complete:s:1216",
+              "start": 1216,
+              "end": 1337,
+              "paragraph": 3,
+              "index": 3,
+              "text": "Academic study also teaches students to question assumptions and assess evidence, which matters beyond any single career.",
+              "status": "keep",
+              "editType": "none",
+              "action": "keep",
+              "reason": "补充学术研究的另一价值，推进论证。",
+              "suggestion": "Academic study also teaches students to question assumptions and assess evidence, which matters beyond any single career.",
+              "contextSentenceIds": [],
+              "redundantWithSentenceId": null
+            },
+            {
+              "id": "task2-discussion-complete:s:1338",
+              "start": 1338,
+              "end": 1470,
+              "paragraph": 3,
+              "index": 4,
+              "text": "A student who understands how research is conducted is better equipped to distinguish a persuasive claim from a reliable conclusion.",
+              "status": "keep",
+              "editType": "none",
+              "action": "keep",
+              "reason": "具体说明研究能力的好处，论证充分。",
+              "suggestion": "A student who understands how research is conducted is better equipped to distinguish a persuasive claim from a reliable conclusion.",
+              "contextSentenceIds": [],
+              "redundantWithSentenceId": null
+            },
+            {
+              "id": "task2-discussion-complete:s:1471",
+              "start": 1471,
+              "end": 1555,
+              "paragraph": 3,
+              "index": 5,
+              "text": "These habits benefit both professional decisions and participation in public debate.",
+              "status": "keep",
+              "editType": "none",
+              "action": "keep",
+              "reason": "总结学术习惯的广泛益处，收束本段。",
+              "suggestion": "These habits benefit both professional decisions and participation in public debate.",
+              "contextSentenceIds": [],
+              "redundantWithSentenceId": null
+            },
+            {
+              "id": "task2-discussion-complete:s:1557",
+              "start": 1557,
+              "end": 1650,
+              "paragraph": 4,
+              "index": 1,
+              "text": "The most effective approach is therefore integration rather than a choice between these aims.",
+              "status": "keep",
+              "editType": "none",
+              "action": "keep",
+              "reason": "明确提出综合立场，衔接自然。",
+              "suggestion": "The most effective approach is therefore integration rather than a choice between these aims.",
+              "contextSentenceIds": [],
+              "redundantWithSentenceId": null
+            },
+            {
+              "id": "task2-discussion-complete:s:1651",
+              "start": 1651,
+              "end": 1784,
+              "paragraph": 4,
+              "index": 2,
+              "text": "Universities can retain rigorous academic courses while using practical projects to show how the ideas operate outside the classroom.",
+              "status": "keep",
+              "editType": "none",
+              "action": "keep",
+              "reason": "具体说明如何整合，论证有效。",
+              "suggestion": "Universities can retain rigorous academic courses while using practical projects to show how the ideas operate outside the classroom.",
+              "contextSentenceIds": [],
+              "redundantWithSentenceId": null
+            },
+            {
+              "id": "task2-discussion-complete:s:1785",
+              "start": 1785,
+              "end": 1870,
+              "paragraph": 4,
+              "index": 3,
+              "text": "The balance will vary by discipline, but neither element needs to displace the other.",
+              "status": "keep",
+              "editType": "none",
+              "action": "keep",
+              "reason": "补充平衡因学科而异的限定，使立场更完整。",
+              "suggestion": "The balance will vary by discipline, but neither element needs to displace the other.",
+              "contextSentenceIds": [],
+              "redundantWithSentenceId": null
+            },
+            {
+              "id": "task2-discussion-complete:s:1871",
+              "start": 1871,
+              "end": 2000,
+              "paragraph": 4,
+              "index": 4,
+              "text": "Graduates should leave with useful capabilities and the intellectual resources to continue learning when their first job changes.",
+              "status": "keep",
+              "editType": "none",
+              "action": "keep",
+              "reason": "总结毕业生应具备的能力，收束全文。",
+              "suggestion": "Graduates should leave with useful capabilities and the intellectual resources to continue learning when their first job changes.",
+              "contextSentenceIds": [],
+              "redundantWithSentenceId": null
+            }
+          ],
+          "review": {
+            "decision": "ready",
+            "summary": "全文结构清晰，双方观点均得到讨论并有具体展开，综合立场明确且贯穿全文。语言准确流畅，语法控制良好。已达到7分以上水平，继续润色收益有限，建议转向新题练习。",
+            "remainingIssues": []
+          },
+          "modelEssay": {
+            "kind": "upgraded",
+            "text": "Universities are often expected to prepare students for employment, but they also have a responsibility to develop academic understanding. Both purposes are valuable, and I believe degree programmes should combine a strong academic foundation with opportunities to apply it.\n\nThose who favour employment skills point to the difficulties graduates can face when entering the workplace. Knowing a subject does not automatically mean that someone can work effectively with colleagues or use the equipment required in a particular job. Practical projects and supervised placements can bridge this gap. For example, engineering students might design a device for a local organisation, learning to manage deadlines while applying technical knowledge. Such experience can help them make informed career choices as well as demonstrate their abilities to employers. This is especially useful when students have had little contact with professional work before attending university.\n\nHowever, concentrating only on immediate workplace requirements would narrow the value of higher education. Software, procedures and even entire occupations can change, whereas an understanding of underlying principles helps graduates adapt. Academic study also teaches students to question assumptions and assess evidence, which matters beyond any single career. A student who understands how research is conducted is better equipped to distinguish a persuasive claim from a reliable conclusion. These habits benefit both professional decisions and participation in public debate.\n\nThe most effective approach is therefore integration rather than a choice between these aims. Universities can retain rigorous academic courses while using practical projects to show how the ideas operate outside the classroom. The balance will vary by discipline, but neither element needs to displace the other. Graduates should leave with useful capabilities and the intellectual resources to continue learning when their first job changes.",
+            "preservesStance": true,
+            "note": "本稿已满足本次收尾条件，参考版本保留当前原文，不再为升级而扩写。",
+            "upgrades": []
+          },
+          "nextPractice": {
+            "skill": "transfer",
+            "instruction": "选一道相同设问类型、不同主题的新题，用40分钟完成首稿。先列出实际设问，再迁移本篇已掌握的组织与论证方法；无需继续扩写当前稿。",
+            "successCriteria": [
+              "回应新题的全部实际设问",
+              "用与新题相关的理由展开观点，不套用本篇论据",
+              "完成后检查语言准确性，不以篇幅增长代替改进"
+            ],
+            "evidenceSentenceIds": [
+              "task2-discussion-complete:s:139"
+            ]
+          }
+        },
+        "assessment": {
+          "criteria": {
+            "taskResponse": 7,
+            "coherenceCohesion": 7,
+            "lexicalResource": 7,
+            "grammaticalRangeAccuracy": 7.5
+          },
+          "unroundedMean": 7.125,
+          "displayBand": 7,
+          "scope": "single_task_practice_estimate",
+          "criterionWeights": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "officialResult": false,
+          "statisticallyCalibrated": false,
+          "displayRounding": "nearest_half_band_product_display",
+          "rubricVersion": "ielts-task2-2023-product-v2"
+        },
+        "scoreRecord": {
+          "schemaVersion": "writing-score-source-v1",
+          "task": "task2",
+          "questionId": "T2-026",
+          "submissionId": "task2-discussion-complete",
+          "textHash": "4cf344c53093a2be64a6b7a6bb2d41f03193ea03edac86dbfe36efe62636b9da",
+          "sourceFingerprint": "02f59fbbbc5676b26ac306bbab157d1373d9005a52c8b9c9ed3c0bbd891c8de6",
+          "criteria": {
+            "taskResponse": 7,
+            "coherenceCohesion": 7,
+            "lexicalResource": 7,
+            "grammaticalRangeAccuracy": 7.5
+          },
+          "unroundedMean": 7.125,
+          "displayBand": 7,
+          "draftRole": "unverified",
+          "trustedRecordId": null,
+          "firstDraftCandidate": false,
+          "sourceOfDraftRole": "caller_must_resolve_from_persisted_submission",
+          "sourceOrigin": "rule",
+          "referenceReviewKind": null,
+          "sourceHumanVerified": false,
+          "calibrationStatus": "not_calibrated_against_examiner_scores",
+          "promptVersion": "091a6e0c1b785535",
+          "rubricVersion": "ielts-task2-2023-product-v2",
+          "assessedAt": "2026-11-09T00:49:53.277Z"
+        },
+        "featureSignals": {
+          "questionType": "discussion",
+          "topicHint": "教育",
+          "coverage": [
+            {
+              "requirementId": "r1",
+              "status": "covered"
+            },
+            {
+              "requirementId": "r2",
+              "status": "covered"
+            },
+            {
+              "requirementId": "r3",
+              "status": "covered"
+            }
+          ],
+          "stance": "clear",
+          "editCounts": {
+            "grammar": 0,
+            "precision": 0,
+            "logic": 0,
+            "redundancy": 0
+          }
+        },
+        "revisionBudget": {
+          "initialWords": 284,
+          "currentWords": 284,
+          "ceiling": 313,
+          "positiveGrowthBudget": 29,
+          "grammarGrowthLimit": 4,
+          "otherGrowthLimit": 12,
+          "maxNonGrammarEdits": 3,
+          "modelMinWords": 250,
+          "modelWordLimit": 320
+        },
+        "revisionComparison": {
+          "available": false,
+          "previousWords": null,
+          "currentWords": 284,
+          "wordDelta": null,
+          "unchangedSentences": null,
+          "removed": [],
+          "added": [],
+          "qualityImprovementInferred": false
+        },
+        "completionPolicy": {
+          "version": "ready-stop-v1",
+          "applied": true,
+          "retainedOriginalAsModel": true,
+          "transferTaskAssigned": true
+        },
+        "generation": {
+          "requestedModel": "deepseek-flash",
+          "responseModel": "deepseek-flash",
+          "attempts": 1,
+          "generatedAt": "2026-11-09T00:49:53.277Z",
+          "usage": {
+            "promptTokens": 4499,
+            "completionTokens": 3002
+          }
+        }
+      }
+    }
+  ]
+}

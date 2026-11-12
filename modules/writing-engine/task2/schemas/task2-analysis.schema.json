@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Task 2 analysis",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "promptQuality": {
+      "type": "string",
+      "enum": [
+        "clear",
+        "ambiguous",
+        "invalid"
+      ]
+    },
+    "questionType": {
+      "type": "string",
+      "enum": [
+        "opinion",
+        "discussion",
+        "advantages_disadvantages",
+        "two_part",
+        "mixed",
+        "other"
+      ]
+    },
+    "stanceRequired": {
+      "type": "boolean"
+    },
+    "requirements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 120,
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "position",
+              "view_a",
+              "view_b",
+              "causes",
+              "effects",
+              "solutions",
+              "advantages",
+              "disadvantages",
+              "comparison",
+              "judgement",
+              "other"
+            ]
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 800
+          },
+          "promptQuote": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 2000
+          }
+        },
+        "required": [
+          "id",
+          "kind",
+          "description",
+          "promptQuote"
+        ]
+      },
+      "minItems": 1,
+      "maxItems": 8
+    },
+    "cautions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 800
+      },
+      "minItems": 0,
+      "maxItems": 10
+    }
+  },
+  "required": [
+    "promptQuality",
+    "questionType",
+    "stanceRequired",
+    "requirements",
+    "cautions"
+  ]
+}

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f7f7f2">
+  <title>口语练习 · IELTS Coach</title>
+  <script>
+    /* 嵌入学习空间时，首帧之前就打上 host-embedded：coach-theme.css 靠这个 class
+       隐藏模块自带的二级导航。以前它要等 app.js → connectHost() 运行时才加上，
+       于是 iframe 淡入的最初几帧会把「模考工作台 / 自由对话 / … / 本机工作区」
+       闪出来。head 内联执行后，第一次样式计算时 topbar 就已经是隐藏的。 */
+    (function () {
+      try {
+        var p = new URLSearchParams(location.search);
+        if (window.parent !== window && p.get('embedded') === '1') {
+          document.documentElement.classList.add('host-embedded');
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <style>html.host-embedded .topbar{display:none!important}</style>
+  <meta name="description" content="雅思口语三部分模考、考后报告与自由对话陪练。">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='12' fill='%234b40d9'/%3E%3Cpath stroke='white' fill='none' stroke-width='4' stroke-linecap='round' d='M10 20v8m7-16v24m7-19v14m7-21v28m7-18v8'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css?v=c9f1396a">
+  <link rel="stylesheet" href="coach.css?v=ccb597c0">
+  <link rel="stylesheet" href="practice.css?v=e52f4fa2">
+  <link rel="stylesheet" href="campus.css?v=14fa3d9b">
+  <link rel="stylesheet" href="team-progress.css?v=856fdccc">
+  <link rel="stylesheet" href="pair-speaking.css?v=d23c337d">
+  <link rel="stylesheet" href="coach-theme.css?v=dbac1e50">
+<link rel="stylesheet" href="/motion.css"><script src="/motion.js" defer></script><link rel="stylesheet" href="/navigation-motion.css"><script src="/navigation-motion.js" defer></script><link rel="stylesheet" href="/frame-layout.css"><script src="/frame-layout.js" defer></script></head>
+<body>
+  <header class="topbar"><div class="header-inner">
+    <nav class="nav" aria-label="模块内导航"><a href="#studio" class="nav-item active" data-action="home">模考工作台</a><a href="#practice" class="nav-item" data-action="practice">自由对话</a><a href="#campus" class="nav-item" data-action="campus">双人模拟考</a><a href="#campus-team" class="nav-item" data-action="campus-team">备考小组</a><a href="#history" class="nav-item" data-action="history">练习记录</a></nav>
+    <div class="header-end"><span class="local-indicator" aria-hidden="true">●</span> 本机工作区</div>
+  </div></header>
+  
+  <main id="main" class="shell" tabindex="-1"></main>
+  <dialog id="dialog" class="dialog" aria-labelledby="dialog-title"><div id="dialog-inner"></div></dialog>
+  <div id="toast" class="toast" role="status" hidden></div>
+  <noscript>请启用 JavaScript 以使用录音和模考功能。</noscript>
+  <script type="module" src="app.js?v=1698b37a"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+[
+  {
+    "task": "task2",
+    "questionId": "T2-901",
+    "prompt": "Some people believe that public transport should be free for all students. To what extent do you agree or disagree?",
+    "sourceTypeHint": "同意 / 不同意",
+    "topicHint": "公共交通与教育"
+  },
+  {
+    "task": "task2",
+    "questionId": "T2-902",
+    "prompt": "Some people think that universities should prepare students for employment, while others believe that universities should focus on knowledge for its own sake. Discuss both views and give your own opinion.",
+    "sourceTypeHint": "双边讨论",
+    "topicHint": "大学教育的目的"
+  },
+  {
+    "task": "task2",
+    "questionId": "T2-903",
+    "prompt": "In many places, households throw away large amounts of food. What are the main reasons for this, and what measures could reduce this waste?",
+    "sourceTypeHint": "原因与解决方案",
+    "topicHint": "环境 · 家庭食物浪费"
+  },
+  {
+    "task": "task2",
+    "questionId": "T2-904",
+    "prompt": "Some people think digital communication brings people closer together, while others believe it weakens personal relationships. Discuss both views and give your own opinion.",
+    "sourceTypeHint": "双边讨论",
+    "topicHint": "科技 · 数字沟通与关系"
+  },
+  {
+    "task": "task2",
+    "questionId": "T2-905",
+    "prompt": "Some people believe governments should spend more on walking and cycling facilities than on building new sports centres. To what extent do you agree or disagree?",
+    "sourceTypeHint": "同意 / 不同意",
+    "topicHint": "健康 · 日常运动设施"
+  },
+  {
+    "task": "task2",
+    "questionId": "T2-906",
+    "prompt": "In some occupations, employees can work from home instead of travelling to an office. Do the advantages of this development outweigh the disadvantages?",
+    "sourceTypeHint": "利弊权衡",
+    "topicHint": "职场 · 居家办公"
+  }
+]

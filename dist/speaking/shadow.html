@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IELTS Coach · 每日语料</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="daily-base.css?v=bb184465">
+<link rel="stylesheet" href="shadow.css?v=3ae8b3e3">
+<link rel="stylesheet" href="daily-integration.css?v=c072a701">
+<link rel="stylesheet" href="/motion.css"><script src="/motion.js" defer></script><link rel="stylesheet" href="/navigation-motion.css"><script src="/navigation-motion.js" defer></script><link rel="stylesheet" href="/frame-layout.css"><script src="/frame-layout.js" defer></script></head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo">SL</div>
+      <div class="brand-txt"><b>SpeakLoop · 每日语料</b><span>雅思口语 AI 陪练 · 跟读与发音反馈模块</span></div>
+    </div>
+    <nav class="nav" id="nav">
+      <button class="nav-btn" data-nav="practice">今日跟读</button>
+      <button class="nav-btn" data-nav="library">语料库</button>
+      <button class="nav-btn" data-nav="history">跟读记录</button>
+    </nav>
+    <div class="topright">
+      <div class="mini-progress">
+        <span id="miniProgLabel">今日 0/3</span>
+        <div class="bar"><i id="miniProgBar"></i></div>
+      </div>
+      <button class="account" id="accountBtn"><span class="avatar" id="avatar">S</span><span id="accountName">学员</span></button>
+    </div>
+  </header>
+
+  <div id="micBanner" class="mic-banner hidden"></div>
+  <main id="view" class="container"></main>
+  <div id="dailySync" class="daily-sync" hidden role="status" aria-live="polite"></div>
+  <div id="toast" class="toast"></div>
+  <div id="modal" class="modal hidden"><div class="modal-inner" id="modalInner"></div></div>
+
+  <script src="daily-contract.js?v=1be18dd5"></script>
+  <script src="daily-audio.js?v=d84cd58b"></script>
+  <script src="daily-host.js?v=1d4d8bec"></script>
+  <script src="shadow-data.js?v=a454b35e"></script>
+  <script src="shadow-engine.js?v=f61c3043"></script>
+  <script src="shadow-app.js?v=38cac7d7"></script>
+</body>
+</html>

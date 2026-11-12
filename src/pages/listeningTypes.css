@@ -1,0 +1,57 @@
+.type-directory {container-type:inline-size;background:white;border:1px solid var(--card-line);border-radius:var(--radius);box-shadow:var(--shadow);padding:clamp(16px,2.2vw,28px)}
+.type-intro,.listening-drill header {display:flex;align-items:center;justify-content:space-between;gap:16px}
+.type-intro {padding-bottom:18px;border-bottom:1px solid var(--line)}
+.type-intro h2,.listening-drill h2 {font-size:clamp(21px,2.2vw,30px);letter-spacing:-.035em;line-height:1.24}
+.type-intro p,.drill-caption {margin:5px 0 0;font-size:13px;line-height:1.55;color:var(--text-2)}
+.type-counter {text-align:right;white-space:nowrap}
+.type-counter b,.type-counter span {display:block}
+.type-counter b {font-size:20px;color:var(--brand-dark)}
+.type-counter span,.type-fresh {font-size:12px;color:var(--text-2)}
+.type-category {display:grid;grid-template-columns:minmax(5em,.17fr) minmax(0,1fr);gap:14px;align-items:start;padding:14px 0;border-bottom:1px solid var(--line)}
+.type-category:last-child {border-bottom:0;padding-bottom:0}
+.type-category h3 {color:var(--text);font-size:15px;margin:9px 0}
+.type-category>div {display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,235px),1fr));gap:7px}
+.type-line {display:flex;align-items:center;gap:8px;border:1px solid var(--card-line);border-radius:10px;padding:7px 10px;background:#f8fbfd;min-width:0}
+.type-line-text {flex:1;min-width:0}
+.type-line {position:relative}
+.type-line:hover,.type-line:focus-within {border-color:#91bdd8;background:#eff7fc}
+.type-open::after {content:'';position:absolute;inset:0;border-radius:10px}
+.type-line-text strong,.type-line-text small {display:block}
+.type-line-text strong {font-weight:650;font-size:13px}
+.type-line-text small {font-size:11px;color:var(--text-2);margin-top:2px}
+.type-percent {font-weight:700;color:#226c94}
+.type-open {font:inherit;font-size:12px;font-weight:650;color:#286995;border:0;background:transparent;padding:6px 2px;min-height:36px;cursor:pointer}
+.type-open:hover {text-decoration:underline}
+.type-alert,.listening-drill [role=alert] {color:#8b5020;margin:10px 0}
+.listening-drill {max-width:900px;margin-inline:auto}
+.listening-drill header {margin-bottom:18px;flex-wrap:wrap}
+.listening-drill header>span {color:var(--text-2);font-size:12px}
+.listening-drill audio {display:block;width:100%;margin:14px 0 20px}
+.listening-drill form h3 {font-size:17px;line-height:1.5}
+.listening-drill fieldset {display:grid;gap:6px;margin:12px 0 18px;padding:0;border:0;min-width:0}
+.drill-option {cursor:pointer;display:flex;align-items:center;gap:8px;border:1px solid var(--card-line);border-radius:8px;padding:10px 12px;min-height:42px;line-height:1.5}
+.drill-option:has(:checked) {background:#edf7fd;border-color:#85b9d7}
+.drill-option input {accent-color:var(--brand-dark)}
+.drill-input-label {display:block;font-size:13px;font-weight:650;margin:12px 0 16px}
+.drill-input-label input {display:block;margin-top:6px;max-width:32em}
+.drill-result {margin-top:16px;border-top:1px solid var(--line);padding-top:16px}
+.drill-result h3 {font-size:18px}
+.drill-result dl {display:flex;flex-wrap:wrap;gap:8px 30px;margin:10px 0}
+.drill-result dt {color:var(--text-2);font-size:12px}
+.drill-result dd {margin:0;overflow-wrap:anywhere}
+.drill-result p,.drill-context {font-size:14px;line-height:1.65}
+.drill-context,.drill-result details {background:#f2f7fa;border-radius:9px;margin:12px 0;padding:12px 15px}
+.drill-result details summary {cursor:pointer;font-size:13px;font-weight:650}
+.drill-result details p {margin-top:8px}
+.drill-result-actions {display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+.drill-figure {display:block;margin:12px auto;background:#f6fafc;width:min(100%,440px);height:auto;border:1px solid var(--line);border-radius:10px}
+.drill-figure text {text-anchor:middle;font:13px system-ui,sans-serif;fill:#314e63}
+.drill-figure .figure-wall {stroke:#6f94aa;fill:#e5f0f6;stroke-width:2.5}
+.drill-figure .figure-pin {font-weight:750;font-size:18px;fill:#166888}
+.drill-figure .figure-road {stroke:#b5c5ce;stroke-width:7;stroke-linecap:round}
+@container (max-width:540px) {
+ .type-category {display:block;padding:10px 0}
+ .type-category h3 {margin:0 0 6px}
+ .type-intro {align-items:flex-start}
+ .type-open {min-height:40px}
+}

@@ -1,0 +1,527 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Task 2 evaluation",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "assessmentMode": {
+      "type": "string",
+      "enum": [
+        "full",
+        "language_only",
+        "insufficient_response",
+        "insufficient_question"
+      ]
+    },
+    "assessmentNote": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1500
+    },
+    "taskCoverage": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "requirementId": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 120,
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "covered",
+              "partial",
+              "missing",
+              "uncertain"
+            ]
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1000
+          },
+          "evidenceSentenceIds": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 120,
+              "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+            },
+            "minItems": 0,
+            "maxItems": 100
+          }
+        },
+        "required": [
+          "requirementId",
+          "status",
+          "reason",
+          "evidenceSentenceIds"
+        ]
+      },
+      "minItems": 1,
+      "maxItems": 8
+    },
+    "stance": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "clear",
+            "unclear",
+            "contradictory",
+            "not_required"
+          ]
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1000
+        },
+        "evidenceSentenceIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 120,
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+          },
+          "minItems": 0,
+          "maxItems": 100
+        }
+      },
+      "required": [
+        "status",
+        "summary",
+        "evidenceSentenceIds"
+      ]
+    },
+    "scores": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "taskResponse": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "band": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 9,
+              "multipleOf": 0.5
+            },
+            "reason": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 1500
+            },
+            "evidenceSentenceIds": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 120,
+                "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+              },
+              "minItems": 0,
+              "maxItems": 100
+            },
+            "nextStep": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 800
+            }
+          },
+          "required": [
+            "band",
+            "reason",
+            "evidenceSentenceIds",
+            "nextStep"
+          ]
+        },
+        "coherenceCohesion": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "band": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 9,
+              "multipleOf": 0.5
+            },
+            "reason": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 1500
+            },
+            "evidenceSentenceIds": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 120,
+                "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+              },
+              "minItems": 0,
+              "maxItems": 100
+            },
+            "nextStep": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 800
+            }
+          },
+          "required": [
+            "band",
+            "reason",
+            "evidenceSentenceIds",
+            "nextStep"
+          ]
+        },
+        "lexicalResource": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "band": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 9,
+              "multipleOf": 0.5
+            },
+            "reason": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 1500
+            },
+            "evidenceSentenceIds": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 120,
+                "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+              },
+              "minItems": 0,
+              "maxItems": 100
+            },
+            "nextStep": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 800
+            }
+          },
+          "required": [
+            "band",
+            "reason",
+            "evidenceSentenceIds",
+            "nextStep"
+          ]
+        },
+        "grammaticalRangeAccuracy": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "band": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 9,
+              "multipleOf": 0.5
+            },
+            "reason": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 1500
+            },
+            "evidenceSentenceIds": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 120,
+                "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+              },
+              "minItems": 0,
+              "maxItems": 100
+            },
+            "nextStep": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 800
+            }
+          },
+          "required": [
+            "band",
+            "reason",
+            "evidenceSentenceIds",
+            "nextStep"
+          ]
+        }
+      },
+      "required": [
+        "taskResponse",
+        "coherenceCohesion",
+        "lexicalResource",
+        "grammaticalRangeAccuracy"
+      ]
+    },
+    "sentences": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 120,
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "keep",
+              "fix",
+              "improve"
+            ]
+          },
+          "editType": {
+            "type": "string",
+            "enum": [
+              "none",
+              "grammar",
+              "precision",
+              "logic",
+              "redundancy"
+            ]
+          },
+          "action": {
+            "type": "string",
+            "enum": [
+              "keep",
+              "replace",
+              "delete",
+              "manual"
+            ]
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1000
+          },
+          "suggestion": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 4000
+          },
+          "contextSentenceIds": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 120,
+              "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+            },
+            "minItems": 0,
+            "maxItems": 100
+          },
+          "redundantWithSentenceId": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "maxLength": 120
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "editType",
+          "action",
+          "reason",
+          "suggestion",
+          "contextSentenceIds",
+          "redundantWithSentenceId"
+        ]
+      },
+      "minItems": 1,
+      "maxItems": 100
+    },
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "decision": {
+          "type": "string",
+          "enum": [
+            "revise",
+            "ready"
+          ]
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1500
+        },
+        "remainingIssues": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "sentenceId": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 120,
+                "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+              },
+              "reason": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 800
+              },
+              "action": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 1000
+              }
+            },
+            "required": [
+              "sentenceId",
+              "reason",
+              "action"
+            ]
+          },
+          "minItems": 0,
+          "maxItems": 3
+        }
+      },
+      "required": [
+        "decision",
+        "summary",
+        "remainingIssues"
+      ]
+    },
+    "modelEssay": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": [
+            "upgraded",
+            "unavailable"
+          ]
+        },
+        "text": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 9000
+        },
+        "preservesStance": {
+          "type": "boolean"
+        },
+        "note": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1500
+        },
+        "upgrades": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 800
+          },
+          "minItems": 0,
+          "maxItems": 3
+        }
+      },
+      "required": [
+        "kind",
+        "text",
+        "preservesStance",
+        "note",
+        "upgrades"
+      ]
+    },
+    "nextPractice": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "skill": {
+          "type": "string",
+          "enum": [
+            "task_response",
+            "development",
+            "cohesion",
+            "lexis",
+            "grammar",
+            "conciseness",
+            "transfer"
+          ]
+        },
+        "instruction": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1500
+        },
+        "successCriteria": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 500
+          },
+          "minItems": 1,
+          "maxItems": 4
+        },
+        "evidenceSentenceIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 120,
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+          },
+          "minItems": 0,
+          "maxItems": 100
+        }
+      },
+      "required": [
+        "skill",
+        "instruction",
+        "successCriteria",
+        "evidenceSentenceIds"
+      ]
+    }
+  },
+  "required": [
+    "assessmentMode",
+    "assessmentNote",
+    "taskCoverage",
+    "stance",
+    "scores",
+    "sentences",
+    "review",
+    "modelEssay",
+    "nextPractice"
+  ]
+}

@@ -1,0 +1,636 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Task 1 evaluation",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "assessmentMode": {
+      "type": "string",
+      "enum": [
+        "full",
+        "language_only",
+        "insufficient_source",
+        "insufficient_response"
+      ]
+    },
+    "assessmentNote": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1500
+    },
+    "sourceReview": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "imageAgreement": {
+          "type": "string",
+          "enum": [
+            "confirmed",
+            "uncertain",
+            "conflict"
+          ]
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1000
+        }
+      },
+      "required": [
+        "imageAgreement",
+        "reason"
+      ]
+    },
+    "overview": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "clear",
+            "partial",
+            "missing",
+            "uncertain"
+          ]
+        },
+        "sentenceIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 120,
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+          },
+          "minItems": 0,
+          "maxItems": 100
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1200
+        }
+      },
+      "required": [
+        "status",
+        "sentenceIds",
+        "reason"
+      ]
+    },
+    "coverage": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "featureId": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 120,
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "covered",
+              "partial",
+              "missing",
+              "uncertain"
+            ]
+          },
+          "sentenceIds": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 120,
+              "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+            },
+            "minItems": 0,
+            "maxItems": 100
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 800
+          }
+        },
+        "required": [
+          "featureId",
+          "status",
+          "sentenceIds",
+          "reason"
+        ]
+      },
+      "minItems": 0,
+      "maxItems": 12
+    },
+    "checks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "sentenceId": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 120,
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+          },
+          "quote": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 2000
+          },
+          "verdict": {
+            "type": "string",
+            "enum": [
+              "supported",
+              "contradicted",
+              "unverifiable",
+              "unsupported_explanation"
+            ]
+          },
+          "factIds": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 120,
+              "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+            },
+            "minItems": 0,
+            "maxItems": 100
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1000
+          },
+          "impact": {
+            "type": "string",
+            "enum": [
+              "none",
+              "minor",
+              "major"
+            ]
+          },
+          "confidence": {
+            "type": "string",
+            "enum": [
+              "high",
+              "medium",
+              "low"
+            ]
+          }
+        },
+        "required": [
+          "sentenceId",
+          "quote",
+          "verdict",
+          "factIds",
+          "reason",
+          "impact",
+          "confidence"
+        ]
+      },
+      "minItems": 0,
+      "maxItems": 120
+    },
+    "scores": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "taskAchievement": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "band": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 9,
+              "multipleOf": 0.5
+            },
+            "reason": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 1500
+            },
+            "evidenceSentenceIds": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 120,
+                "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+              },
+              "minItems": 0,
+              "maxItems": 100
+            },
+            "nextStep": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 800
+            }
+          },
+          "required": [
+            "band",
+            "reason",
+            "evidenceSentenceIds",
+            "nextStep"
+          ]
+        },
+        "coherenceCohesion": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "band": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 9,
+              "multipleOf": 0.5
+            },
+            "reason": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 1500
+            },
+            "evidenceSentenceIds": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 120,
+                "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+              },
+              "minItems": 0,
+              "maxItems": 100
+            },
+            "nextStep": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 800
+            }
+          },
+          "required": [
+            "band",
+            "reason",
+            "evidenceSentenceIds",
+            "nextStep"
+          ]
+        },
+        "lexicalResource": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "band": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 9,
+              "multipleOf": 0.5
+            },
+            "reason": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 1500
+            },
+            "evidenceSentenceIds": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 120,
+                "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+              },
+              "minItems": 0,
+              "maxItems": 100
+            },
+            "nextStep": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 800
+            }
+          },
+          "required": [
+            "band",
+            "reason",
+            "evidenceSentenceIds",
+            "nextStep"
+          ]
+        },
+        "grammaticalRangeAccuracy": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "band": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 9,
+              "multipleOf": 0.5
+            },
+            "reason": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 1500
+            },
+            "evidenceSentenceIds": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 120,
+                "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+              },
+              "minItems": 0,
+              "maxItems": 100
+            },
+            "nextStep": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 800
+            }
+          },
+          "required": [
+            "band",
+            "reason",
+            "evidenceSentenceIds",
+            "nextStep"
+          ]
+        }
+      },
+      "required": [
+        "taskAchievement",
+        "coherenceCohesion",
+        "lexicalResource",
+        "grammaticalRangeAccuracy"
+      ]
+    },
+    "sentences": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 120,
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "keep",
+              "fix",
+              "improve"
+            ]
+          },
+          "issueType": {
+            "type": "string",
+            "enum": [
+              "none",
+              "data_accuracy",
+              "overview",
+              "key_features",
+              "comparison",
+              "sequence",
+              "location",
+              "unsupported_explanation",
+              "cohesion",
+              "lexis",
+              "grammar",
+              "redundancy"
+            ]
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1000
+          },
+          "suggestion": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 4000
+          },
+          "factIds": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 120,
+              "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+            },
+            "minItems": 0,
+            "maxItems": 100
+          },
+          "redundantWithSentenceId": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "maxLength": 120
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "issueType",
+          "reason",
+          "suggestion",
+          "factIds",
+          "redundantWithSentenceId"
+        ]
+      },
+      "minItems": 1,
+      "maxItems": 100
+    },
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "decision": {
+          "type": "string",
+          "enum": [
+            "revise",
+            "ready"
+          ]
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1200
+        },
+        "resolved": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 700
+          },
+          "minItems": 0,
+          "maxItems": 6
+        },
+        "remainingIssues": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "sentenceId": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 120,
+                "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+              },
+              "issueType": {
+                "type": "string",
+                "enum": [
+                  "data_accuracy",
+                  "overview",
+                  "key_features",
+                  "comparison",
+                  "sequence",
+                  "location",
+                  "unsupported_explanation",
+                  "cohesion",
+                  "lexis",
+                  "grammar",
+                  "redundancy"
+                ]
+              },
+              "action": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 1000
+              }
+            },
+            "required": [
+              "sentenceId",
+              "issueType",
+              "action"
+            ]
+          },
+          "minItems": 0,
+          "maxItems": 3
+        }
+      },
+      "required": [
+        "decision",
+        "summary",
+        "resolved",
+        "remainingIssues"
+      ]
+    },
+    "modelAnswer": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "text": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 6000
+        },
+        "factIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 120,
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+          },
+          "minItems": 0,
+          "maxItems": 100
+        },
+        "note": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1000
+        }
+      },
+      "required": [
+        "text",
+        "factIds",
+        "note"
+      ]
+    },
+    "nextPractice": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "skill": {
+          "type": "string",
+          "enum": [
+            "data_accuracy",
+            "overview",
+            "key_features",
+            "comparison",
+            "sequence",
+            "location",
+            "unsupported_explanation",
+            "cohesion",
+            "lexis",
+            "grammar",
+            "redundancy"
+          ]
+        },
+        "instruction": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1200
+        },
+        "successCriteria": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 500
+          },
+          "minItems": 1,
+          "maxItems": 4
+        },
+        "evidenceSentenceIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 120,
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+          },
+          "minItems": 0,
+          "maxItems": 100
+        }
+      },
+      "required": [
+        "skill",
+        "instruction",
+        "successCriteria",
+        "evidenceSentenceIds"
+      ]
+    }
+  },
+  "required": [
+    "assessmentMode",
+    "assessmentNote",
+    "sourceReview",
+    "overview",
+    "coverage",
+    "checks",
+    "scores",
+    "sentences",
+    "review",
+    "modelAnswer",
+    "nextPractice"
+  ]
+}

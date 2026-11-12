@@ -1,0 +1,235 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Task 1 source-analysis",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "readability": {
+      "type": "string",
+      "enum": [
+        "clear",
+        "partial",
+        "unreadable"
+      ]
+    },
+    "chartTypes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "bar",
+          "line",
+          "pie",
+          "table",
+          "map",
+          "process",
+          "diagram",
+          "other"
+        ]
+      },
+      "minItems": 1,
+      "maxItems": 8
+    },
+    "questionQuality": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "alignment": {
+          "type": "string",
+          "enum": [
+            "aligned",
+            "mismatch",
+            "uncertain"
+          ]
+        },
+        "instructions": {
+          "type": "string",
+          "enum": [
+            "standard",
+            "legacy_nonstandard",
+            "invalid"
+          ]
+        },
+        "issues": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 600
+          },
+          "minItems": 0,
+          "maxItems": 12
+        }
+      },
+      "required": [
+        "alignment",
+        "instructions",
+        "issues"
+      ]
+    },
+    "panels": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 120,
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "bar",
+              "line",
+              "pie",
+              "table",
+              "map",
+              "process",
+              "diagram",
+              "other"
+            ]
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1000
+          }
+        },
+        "required": [
+          "id",
+          "kind",
+          "description"
+        ]
+      },
+      "minItems": 0,
+      "maxItems": 12
+    },
+    "facts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 120,
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+          },
+          "panelId": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 120,
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "value",
+              "trend",
+              "comparison",
+              "stage",
+              "transition",
+              "location",
+              "structure",
+              "unit",
+              "timeframe"
+            ]
+          },
+          "statement": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1000
+          },
+          "location": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 500
+          },
+          "confidence": {
+            "type": "string",
+            "enum": [
+              "high",
+              "medium",
+              "low"
+            ]
+          },
+          "approximate": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "id",
+          "panelId",
+          "kind",
+          "statement",
+          "location",
+          "confidence",
+          "approximate"
+        ]
+      },
+      "minItems": 0,
+      "maxItems": 160
+    },
+    "keyFeatures": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 120,
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1000
+          },
+          "factIds": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 120,
+              "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+            },
+            "minItems": 1,
+            "maxItems": 100
+          }
+        },
+        "required": [
+          "id",
+          "description",
+          "factIds"
+        ]
+      },
+      "minItems": 0,
+      "maxItems": 12
+    },
+    "uncertainties": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 1000
+      },
+      "minItems": 0,
+      "maxItems": 20
+    }
+  },
+  "required": [
+    "readability",
+    "chartTypes",
+    "questionQuality",
+    "panels",
+    "facts",
+    "keyFeatures",
+    "uncertainties"
+  ]
+}

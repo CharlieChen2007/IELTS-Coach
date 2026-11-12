@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#f5f8fb" />
+  <meta name="description" content="雅思阅读精读：分屏练习、自动判分、原文定位复盘、错题本与精读库" />
+  <title>阅读精读 · IELTS Coach</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <script>
+    /* 首帧前判定嵌入态：独立站的顶栏 / 竖排侧栏 / 品牌先隐藏，避免闪一帧合并痕迹。
+       独立访问本页时 window.parent === window，这些规则全部不生效。 */
+    (function () { try {
+      var p = new URLSearchParams(location.search);
+      if (window.parent !== window && p.get('embedded') === '1') {
+        document.documentElement.classList.add('host-embedded');
+      }
+    } catch (e) {} })();
+  </script>
+  <style>
+    html.host-embedded .topbar,
+    html.host-embedded .sidebar,
+    html.host-embedded .sb-backdrop,
+    html.host-embedded .menu-btn,
+    html.host-embedded .tb-brand,
+    html.host-embedded .brand { display: none !important; }
+    html.host-embedded .main { margin-left: 0 !important; padding-top: 0 !important; }
+    /* 首帧静默：不铺骨架、不显示任何「正在…」等待文案 */
+    html.host-embedded #app:empty { min-height: 0; }
+  </style>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="assets/reading-theme.css" />
+  <!-- Load the entry graph concurrently; init() still restores account state
+       before main.js evaluates and renders any saved exercise. -->
+  <link rel="modulepreload" href="./js/main.js">
+  <script type="module">
+    /* 顺序不能换：先从站点数据库恢复本机状态（防闪旧数据）、装好高度与滚动代理，
+       再动态加载交接包原样的业务代码。 */
+    import { init, startSync } from './assets/reading-host.js';
+    await init();
+    startSync();
+    await import('./js/main.js');
+  </script>
+<link rel="stylesheet" href="/motion.css"><script src="/motion.js" defer></script><link rel="stylesheet" href="/navigation-motion.css"><script src="/navigation-motion.js" defer></script><link rel="stylesheet" href="/frame-layout.css"><script src="/frame-layout.js" defer></script></head>
+<body>
+  <div id="app" class="app-root"></div>
+  <div id="toast" class="toast" aria-live="polite"></div>
+</body>
+</html>

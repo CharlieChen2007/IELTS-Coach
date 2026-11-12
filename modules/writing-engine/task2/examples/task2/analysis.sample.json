@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "task2-ai-v2.1",
+  "kind": "task2-question-analysis",
+  "analysisMethod": "rule",
+  "questionId": "T2-026",
+  "sourceFingerprint": "02f59fbbbc5676b26ac306bbab157d1373d9005a52c8b9c9ed3c0bbd891c8de6",
+  "promptVersion": "654884cc1701851f",
+  "analysisId": "e0ed9f031a4c9004f4a298eca9b297688db733ce2f9a41fbfa5f294291b97eaa",
+  "policyVersion": "explicit-requests-v1",
+  "analysis": {
+    "promptQuality": "clear",
+    "questionType": "discussion",
+    "stanceRequired": true,
+    "requirements": [
+      {
+        "id": "r1",
+        "kind": "view_a",
+        "description": "准确讨论题干第一方的主张及理由，保留其对象、范围和限定词。",
+        "promptQuote": "Discuss both views and give your own opinion."
+      },
+      {
+        "id": "r2",
+        "kind": "view_b",
+        "description": "准确讨论题干第二方的主张及理由，保留其对象、范围和限定词。",
+        "promptQuote": "Discuss both views and give your own opinion."
+      },
+      {
+        "id": "r3",
+        "kind": "position",
+        "description": "清楚表达并支持作者自己的意见，可以有条件地支持或综合两者。",
+        "promptQuote": "Discuss both views and give your own opinion."
+      }
+    ],
+    "cautions": []
+  },
+  "generation": {
+    "requestedModel": null,
+    "responseModel": null,
+    "attempts": 0,
+    "generatedAt": "2026-11-09T05:50:28.260Z",
+    "usage": {
+      "promptTokens": 0,
+      "completionTokens": 0
+    }
+  }
+}

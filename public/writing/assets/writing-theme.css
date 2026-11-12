@@ -1,0 +1,415 @@
+/* ==========================================================================
+   IELTS Coach · 写作精修室「嵌入态统一主题」
+
+   目标：tcamp-writing-team v4.0 的功能、DOM、React 状态、题库、批改引擎、草稿与
+   数据库链路全部保持原样；只把「独立站外观」统一成 IELTS Coach 听/说板块的
+   展示方式：钴蓝科目横幅由主站提供，横向功能页签由主站提供，iframe 内只保留
+   主站风格的浅蓝 hero + 白卡网格 + 蓝色按钮 + 中文功能标题。
+
+   作用域：仅 html.host-embedded（iframe 嵌入态）。独立访问 /writing/index.html
+   时完全不生效，交接包仍是原来的独立站外观，功能不受任何影响。
+
+   设计基准：src/styles.css 的 design tokens
+     --grad-hero  linear-gradient(120deg,#edf7ff 0%,#dcf2fc 100%)
+     --card-line  #e3ebf2     --radius 18px     --shadow 主站双层柔影
+     --text #233b50   --text-2 #4a6075   --text-3 #8393a1   --brand #4388c4
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. 去掉独立站外壳：竖排侧栏、顶栏、页脚、移动导航、加载页
+      导航功能不删除，改由主站横向页签 postMessage → .nav-item.click() 驱动，
+      因此 React 原 onClick / setView 逻辑完全保留。
+   -------------------------------------------------------------------------- */
+html.host-embedded .sidebar,
+html.host-embedded .topbar,
+html.host-embedded .footer,
+html.host-embedded .mobile-nav,
+html.host-embedded .loading-screen,
+html.host-embedded .brand,
+html.host-embedded .sidebar-bottom { display: none !important; }
+
+html.host-embedded .main-shell { margin-left: 0 !important; }
+html.host-embedded .main-content {
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 4px 2px 26px !important;
+}
+
+/* --------------------------------------------------------------------------
+   2. 主视觉 hero：移除黄色玻璃纸飞机大图，换成听/说板块同款浅蓝渐变 + 柔光圆
+   -------------------------------------------------------------------------- */
+html.host-embedded .hero,
+html.host-embedded .overview-hero {
+  background: linear-gradient(120deg, #edf7ff 0%, #dcf2fc 100%) !important;
+  border: 1px solid #d9e8f3 !important;
+  border-radius: var(--radius, 18px) !important;
+  height: auto !important;
+  min-height: 214px;
+  box-shadow: 0 2px 8px rgba(35, 59, 80, .035), 0 14px 34px rgba(35, 59, 80, .055) !important;
+  margin-bottom: 22px !important;
+}
+/* 右上柔光圆：与主站 .hero-card::after 同一手法 */
+html.host-embedded .hero::after {
+  content: '';
+  position: absolute;
+  right: -68px;
+  top: -105px;
+  width: 290px;
+  height: 290px;
+  border-radius: 50%;
+  background: rgba(67, 136, 196, .09);
+  pointer-events: none;
+}
+html.host-embedded .hero::before {
+  content: '';
+  position: absolute;
+  right: 118px;
+  bottom: -118px;
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  background: rgba(67, 136, 196, .055);
+  pointer-events: none;
+}
+html.host-embedded .hero-art { display: none !important; }
+html.host-embedded .hero-copy {
+  max-width: 720px !important;
+  padding: 27px 30px !important;
+  z-index: 1;
+}
+/* 顶部英文 eyebrow → 主站中文小标签 */
+html.host-embedded .eyebrow {
+  color: #6e9bb9 !important;
+  letter-spacing: .08em !important;
+  font-size: 11px !important;
+  font-weight: 650 !important;
+  margin-bottom: 13px !important;
+}
+html.host-embedded .eyebrow span { background: #4388c4 !important; width: 5px; height: 5px; }
+/* 34px 文艺大字 → 主站 24px 常规标题 */
+html.host-embedded .hero h1 {
+  font-size: 24px !important;
+  letter-spacing: -.6px !important;
+  line-height: 1.45 !important;
+  font-weight: 700 !important;
+  color: #233b50 !important;
+}
+html.host-embedded .hero h1 > span { color: #397fb5 !important; }
+html.host-embedded .hero p {
+  color: #4a6075 !important;
+  font-size: 13px !important;
+  letter-spacing: 0 !important;
+  line-height: 1.75 !important;
+  margin-top: 9px !important;
+  max-width: 520px;
+}
+html.host-embedded .hero-actions { gap: 14px !important; margin-top: 19px !important; }
+html.host-embedded .hero-foot { color: #8393a1 !important; font-size: 11px !important; margin-top: 15px !important; }
+html.host-embedded .hero-secondary { color: #397fb5 !important; font-size: 12px !important; }
+
+/* --------------------------------------------------------------------------
+   3. 按钮：对齐主站 .btn / .btn-primary（渐变、圆角、字号、最小高度）
+   -------------------------------------------------------------------------- */
+html.host-embedded .button {
+  font-size: 13px !important;
+  font-weight: 650 !important;
+  min-height: 40px !important;
+  border-radius: 8px !important;
+  padding: 9px 15px !important;
+}
+html.host-embedded .button.primary {
+  background: linear-gradient(135deg, #558fbd 0%, #397fb5 100%) !important;
+  border-color: transparent !important;
+  color: #fff !important;
+  box-shadow: 0 5px 14px rgba(67, 136, 196, .22) !important;
+}
+html.host-embedded .button.secondary {
+  background: #fff !important;
+  border: 1px solid #e3ebf2 !important;
+  color: #4a6075 !important;
+}
+html.host-embedded .button.secondary:hover { border-color: #a6d7f0 !important; background: #f6faff !important; }
+html.host-embedded .small-button { font-size: 12px !important; min-height: 34px !important; }
+
+/* --------------------------------------------------------------------------
+   4. 卡片：全部对齐主站 .card（白底 / 18px 圆角 / 浅蓝描边 / 双层柔影）
+      覆盖所有视图：概览、精修、报告、对比、记录、Task 1
+   -------------------------------------------------------------------------- */
+html.host-embedded :is(
+  .panel, .overview-panel, .score-card, .diagnosis-card, .checklist-panel,
+  .feedback-panel, .revision-card, .composite-card, .question-bank-banner,
+  .overview-topic-card, .overview-task-card, .journey-strip, .revision-mini-card,
+  .upgrades-panel, .model-paper, .annotated-paper, .compare-paper, .topic-panel,
+  .empty-state, .overview-stats, .history-item, .bank-question-foot
+) {
+  background: #fff !important;
+  border: 1px solid #e3ebf2 !important;
+  border-radius: var(--radius, 18px) !important;
+  box-shadow: 0 2px 8px rgba(35, 59, 80, .035), 0 14px 34px rgba(35, 59, 80, .055) !important;
+}
+/* 统计条是紧凑网格，保留内部分隔线观感但收敛圆角 */
+html.host-embedded .overview-stats { border-color: #e3ebf2 !important; overflow: hidden; }
+html.host-embedded .overview-stats > div { background: #fff !important; }
+html.host-embedded .overview-stats b { color: #397fb5 !important; }
+
+/* --------------------------------------------------------------------------
+   5. 标题与小标签：文艺大字 → 主站功能标题；英文 kicker → 中文小标签
+   -------------------------------------------------------------------------- */
+html.host-embedded .page-title h1,
+html.host-embedded .overview-desk-title {
+  font-size: 21px !important;
+  letter-spacing: -.3px !important;
+  font-weight: 700 !important;
+  color: #233b50 !important;
+}
+html.host-embedded .section-heading h2 { font-size: 17px !important; letter-spacing: -.2px !important; font-weight: 700 !important; }
+html.host-embedded .task1-heading-row h1 { font-size: 21px !important; font-weight: 700 !important; }
+html.host-embedded .section-kicker {
+  color: #8393a1 !important;
+  letter-spacing: .04em !important;
+  font-size: 11px !important;
+  font-weight: 650 !important;
+}
+html.host-embedded .eyebrow span,
+html.host-embedded .section-kicker { text-transform: none !important; }
+html.host-embedded .soft-label {
+  background: #eaf5fc !important;
+  color: #397fb5 !important;
+  border-radius: 6px !important;
+  font-size: 11px !important;
+}
+html.host-embedded .quiet-label { color: #8393a1 !important; font-size: 12px !important; }
+html.host-embedded .overline { color: #6e9bb9 !important; font-size: 11px !important; letter-spacing: .04em !important; }
+html.host-embedded .overline svg { color: #4388c4 !important; }
+
+/* iframe 宽度落在交接包的 1190px 窄断点里，概览标题默认会被居中（独立站的
+   居中版式）。IELTS Coach 四科一律是左对齐的区块标题 + 白卡，这里拉回左对齐。 */
+html.host-embedded .overview-header {
+  flex-wrap: wrap !important;
+  align-items: flex-start !important;
+  text-align: left !important;
+  margin: 8px 0 20px !important;
+}
+html.host-embedded .overview-header > div:first-child { text-align: left !important; }
+html.host-embedded .overview-header p { color: #4a6075 !important; font-size: 13px !important; }
+/* 统计条在窄断点下会被拉成一整行居中，改回主站「右侧信息卡」的紧凑观感 */
+html.host-embedded .overview-stats { width: 100%; max-width:100%; min-width:0; flex:1 1 100%; box-sizing:border-box; border-radius: 14px !important; }
+html.host-embedded .overview-stats > div { min-width: 0; }
+html.host-embedded .composite-card { padding: 22px !important; }
+html.host-embedded .composite-title { color: #233b50 !important; font-weight: 700 !important; }
+
+/* --------------------------------------------------------------------------
+   6. 柠檬黄强调 → 主站品牌浅蓝（听/说 hero 与卡片不使用亮黄装饰）
+   -------------------------------------------------------------------------- */
+html.host-embedded .sun-icon,
+html.host-embedded .card-icon.lemon,
+html.host-embedded .note-icon {
+  color: #397fb5 !important;
+  background: linear-gradient(145deg, #eaf5fc, #deeffb) !important;
+}
+html.host-embedded .card-icon { border-radius: 12px !important; }
+
+/* --------------------------------------------------------------------------
+   7. 字体族统一到主站（避免不同系统下字形观感差异）
+   -------------------------------------------------------------------------- */
+html.host-embedded body,
+html.host-embedded button,
+html.host-embedded input,
+html.host-embedded select {
+  font-family: 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', -apple-system,
+    BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif !important;
+}
+/* 英文作文正文保持衬线（与主站 .essay-box / .passage 一致） */
+html.host-embedded .english { font-family: Georgia, 'Times New Roman', serif !important; }
+
+/* --------------------------------------------------------------------------
+   8. 编辑器与输入区：白底、主站圆角/描边；不改结构与交互
+   -------------------------------------------------------------------------- */
+html.host-embedded .essay-input { font-size: 15px !important; color: #233b50 !important; }
+html.host-embedded .editor-panel,
+html.host-embedded .topic-panel { border-radius: var(--radius, 18px) !important; }
+
+/* --------------------------------------------------------------------------
+   9. 响应式：嵌入态在窄屏下不再触发独立站的侧栏收起逻辑
+   -------------------------------------------------------------------------- */
+@media (max-width: 1190px) {
+  html.host-embedded .main-shell { margin-left: 0 !important; }
+  html.host-embedded .main-content { padding-left: 2px !important; padding-right: 2px !important; }
+  html.host-embedded .hero-copy { max-width: 100% !important; }
+}
+@media (max-width: 760px) {
+  html.host-embedded .hero-copy { padding: 22px 20px !important; }
+  html.host-embedded .hero h1 { font-size: 20px !important; }
+  html.host-embedded .main-content { padding-left: 0 !important; padding-right: 0 !important; }
+}
+
+/* ==========================================================================
+   10. 界面一体化 · 全页只有一条滚动轴（本轮硬要求）
+
+   用户指出：整个界面本身已经能滚动，写作模块却还有弹窗内的独立滚动条，滚轮在
+   不同区域控制不同范围，导致「没法第一时间划到想看的地方」。根因是交接包把
+   题库 / 逐句反馈做成 fixed 遮罩 + max-height:xxvh + overflow-y:auto 的模态框。
+
+   处理方式：嵌入态把这些模态框变成「页内白卡」，内容自然高度撑开 iframe；
+   iframe 高度恒等于内容高度（writing-host.js 的 ResizeObserver 上报），自身
+   不可滚动，滚轮默认链式交给主站 document。卡片出现时 host 会通知主站平滑
+   滚到卡片位置（reveal），点击后仍然第一时间看到内容，且不再有第二根滚动条。
+   ========================================================================== */
+html.host-embedded,
+html.host-embedded body {
+  height: auto !important;
+  min-height: 0 !important;
+  overflow: visible !important;
+}
+html.host-embedded .studio-shell { min-height: 0 !important; }
+html.host-embedded .main-content { padding-bottom: 26px !important; }
+
+/* 所有内部滚动容器 → 自然高度。Tailwind 工具类一并覆盖，避免漏网。 */
+html.host-embedded .dialog,
+html.host-embedded .topic-picker-dialog,
+html.host-embedded .question-bank-dialog,
+html.host-embedded .topic-picker-menu,
+html.host-embedded .question-bank-content,
+html.host-embedded .feedback-panel.mobile-open,
+html.host-embedded .overflow-auto,
+html.host-embedded .overflow-y-auto {
+  max-height: none !important;
+  height: auto !important;
+  min-height: 0 !important;
+  overflow: visible !important;
+  overscroll-behavior: auto !important;
+  scrollbar-gutter: auto !important;
+}
+html.host-embedded [data-vaul-drawer-direction="bottom"],
+html.host-embedded [data-vaul-drawer-direction="top"] { max-height: none !important; }
+
+/* fixed 遮罩 → 文档流里的普通容器；卡片本身仍保留白卡观感 */
+html.host-embedded .dialog-backdrop,
+html.host-embedded .feedback-backdrop {
+  position: static !important;
+  inset: auto !important;
+  z-index: auto !important;
+  display: block !important;
+  padding: 0 2px 22px !important;
+  background: transparent !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  animation: none !important;
+}
+html.host-embedded .feedback-panel.mobile-open {
+  position: static !important;
+  inset: auto !important;
+  border-radius: 18px !important;
+}
+html.host-embedded .feedback-panel { position: static !important; top: auto !important; }
+html.host-embedded .dialog,
+html.host-embedded .topic-picker-dialog,
+html.host-embedded .question-bank-dialog {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  background: #fff !important;
+  border: 1px solid #e3ebf2 !important;
+  border-radius: 18px !important;
+  box-shadow: 0 2px 8px rgba(35, 59, 80, .035), 0 14px 34px rgba(35, 59, 80, .055) !important;
+  padding: 22px 24px !important;
+  animation: none !important;
+}
+html.host-embedded .question-bank-dialog { padding: 0 0 12px !important; }
+/* The imported Radix dialog uses utility classes rather than .dialog-backdrop.
+   In the host it must join normal flow, otherwise a tall bank is clipped above
+   and below the iframe while its document height never changes. */
+html.host-embedded [data-slot="dialog-overlay"] { display:none !important; }
+html.host-embedded [data-slot="dialog-content"],
+html.host-embedded .question-bank-dialog,
+html.host-embedded .topic-picker-dialog {
+  position:static !important;inset:auto !important;transform:none !important;
+  translate:none !important;max-height:none !important;margin:0 0 20px !important;
+}
+html.host-embedded .question-bank-content { padding: 16px 22px 2px !important; }
+html.host-embedded .topic-picker-menu { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)) !important; }
+
+/* toast 由 host 转发给主站统一显示；fixed 元素会落在 iframe 最底部看不见 */
+html.host-embedded .toast { display: none !important; }
+html.host-embedded .mobile-open { position: static !important; }
+
+
+html.host-embedded .t1-report[data-local="true"] .diagnosis-card.highlight,
+html.host-embedded .t1-report[data-local="true"] .t1-band-note { display:none; }
+html.coach-writing-compare .task1-workspace { display:none; }
+.coach-task1-compare { padding:24px; border:1px solid #dbe8f1; background:#fff; border-radius:18px; }
+.coach-task1-compare h2 { margin:0 0 16px; }
+.coach-task1-compare > div { display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px; }
+.coach-task1-compare p { white-space:pre-wrap;line-height:1.8;overflow-wrap:anywhere; }
+@media(max-width:620px){.coach-task1-compare > div{grid-template-columns:1fr}}
+
+html.host-embedded .mobile-dock {display:none !important;}
+
+/* Readable supporting copy, with the same blue hierarchy as the host. */
+.save-status,.save-note,.save-indicator,.question-bank-meta,.sentence-word-change,
+.practice-criteria li,.report-source-note,.version-meta,.history-meta,.timeline-date,
+.draft-meta,.card-footer,.topic-submenu-list button,.task1-algorithm-note small {font-size:13px !important;color:#526b80 !important;line-height:1.65;}
+.feedback-panel {min-width:260px;}
+.feedback-section[hidden]{display:none !important;}
+.topic-submenu[data-state="open"],.topic-submenu[data-state="open"] .topic-submenu-list,
+.topic-submenu [data-state="open"] {height:auto !important;min-height:44px;max-height:none !important;overflow:visible !important;}
+.topic-submenu-list {gap:8px;padding:8px 0;}
+.topic-submenu-list button {min-height:42px;}
+.task1-error {line-height:1.7;overflow-wrap:anywhere;}
+.comparison-toolbar {align-items:center;gap:12px;flex-wrap:wrap;}
+@media(max-width:760px){.feedback-panel{min-width:0;width:100%;}.practice-criteria li{font-size:13px !important;}}
+
+/* Report panels own their content spacing. The native Task 1 renderer shares
+   .panel with the editor, but these report-only cards had no padding at all. */
+.t1-report > .t1-review,
+.t1-report > .t1-model,
+.t1-report > .t1-practice,
+.t1-report > .coach-task1-manual {
+  box-sizing: border-box;
+  min-width: 0;
+  max-width: 100%;
+  padding: 24px;
+  overflow-wrap: anywhere;
+}
+.t1-report .revision-review-heading {
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 10px 16px;
+}
+.t1-report .revision-review-heading > * { min-width: 0; max-width: 100%; }
+.t1-review > h3,
+.coach-task1-manual > h3 {
+  margin: 14px 0 0;
+  color: #233b50;
+  font-size: 16px;
+  font-weight: 650;
+  line-height: 1.75;
+}
+.coach-task1-manual { margin-top: 18px; }
+.coach-task1-manual > h3:first-child { margin-top: 0; }
+.coach-task1-manual > p {
+  margin: 12px 0 0;
+  color: #526b80;
+  font-size: 14px;
+  line-height: 1.85;
+}
+.t1-report .t1-model-text {
+  margin: 16px 0 0;
+  line-height: 1.9;
+  white-space: pre-line;
+  overflow-wrap: anywhere;
+}
+.t1-report .t1-model-note { margin: 16px 0 0; font-size: 12px; line-height: 1.75; }
+.t1-report .t1-practice > p { margin: 14px 0 0; font-size: 14px; }
+.t1-report .t1-practice li { font-size: 13px; }
+.t1-report .t1-practice li svg { flex-shrink: 0; }
+.t1-report .remaining-issues li { min-width: 0; }
+.t1-report .remaining-issues p { margin-bottom: 0; }
+.t1-report .overline { flex-wrap: wrap; line-height: 1.7; }
+@media (max-width: 760px) {
+  .t1-report > .t1-review,
+  .t1-report > .t1-model,
+  .t1-report > .t1-practice,
+  .t1-report > .coach-task1-manual { padding: 20px 18px; }
+  .t1-report .remaining-issues li { padding: 14px; }
+}

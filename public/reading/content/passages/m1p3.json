@@ -1,0 +1,286 @@
+{
+  "id": "m1p3",
+  "bank": "p3",
+  "label": "Passage 3",
+  "title": "Quantum Computing and the Future of Cryptography",
+  "titleZh": "量子计算与密码学的未来",
+  "source": "IELTS AI Dataset · 官方风格模考 · CC BY 4.0",
+  "summary": "量子比特威胁现有加密体系，后量子密码成为新的防线。",
+  "topic": "计算机安全",
+  "level": "P3 · 进阶",
+  "minutes": 20,
+  "tags": [
+    "观点判断",
+    "单选",
+    "摘要填空"
+  ],
+  "intro": "You should spend about 20 minutes on Questions 1–13, which are based on the passage below.",
+  "paragraphs": [
+    {
+      "id": "A",
+      "text": "The digital security infrastructure that currently underpins the modern world—from secure online banking and encrypted messaging to classified government communications—relies almost entirely on classical computing paradigms. Classical computers process information using binary bits, representing data as either a 0 or a 1. However, the rapidly advancing field of quantum computing threatens to entirely upend this established digital order. Quantum computers operate on the mind-bending principles of quantum mechanics, utilizing quantum bits, or \"qubits,\" which possess capabilities that make traditional microprocessors look little more than advanced abacuses."
+    },
+    {
+      "id": "B",
+      "text": "The extraordinary power of quantum computers stems from two primary quantum phenomena: superposition and entanglement. While a classical bit must be strictly a 0 or a 1, a qubit in a state of superposition can exist as both a 0 and a 1 simultaneously. This allows quantum systems to evaluate an immense number of potential outcomes concurrently, rather than sequentially. Furthermore, through quantum entanglement, qubits become intricately linked; the state of one instantly influences the state of another, regardless of the physical distance separating them. Together, these properties grant quantum computers exponential processing power for specific types of complex calculations."
+    },
+    {
+      "id": "C",
+      "text": "To understand the existential threat this poses, one must examine how current encryption works. The most widely used cryptographic standard today is the RSA algorithm. RSA security relies completely on the immense mathematical difficulty of factoring incredibly large prime numbers. For a classical supercomputer, calculating the prime factors of a 2048-bit number would theoretically take millions of years. Therefore, classical cryptography assumes that brute-force decryption is practically impossible within a human timeframe. Our data is considered \"secure\" merely because the math takes too long for current machines to solve."
+    },
+    {
+      "id": "D",
+      "text": "Enter Peter Shor. In 1994, the American mathematician developed Shor’s algorithm, a theoretical quantum algorithm designed specifically for integer factorization. Shor proved that a sufficiently powerful quantum computer could execute this algorithm to find the prime factors of large numbers not in millions of years, but in mere hours or minutes. The moment a fully functional, fault-tolerant quantum computer is built, RSA and similar encryption models instantly become obsolete. Every piece of encrypted data—past, present, and future—could be theoretically exposed and decrypted almost instantly."
+    },
+    {
+      "id": "E",
+      "text": "Recognizing this looming \"quantum apocalypse,\" global cybersecurity agencies and cryptographers are aggressively racing to develop \"post-quantum cryptography\" (PQC). The goal is to design entirely new cryptographic algorithms that run on classical computers but rely on mathematical problems so profoundly complex that even a quantum computer cannot easily solve them. The most promising candidates are lattice-based models. These algorithms hide data within multidimensional geometric grids; finding the shortest path between points in a lattice with hundreds of dimensions appears to be a problem that inherently resists even quantum processing speed."
+    },
+    {
+      "id": "F",
+      "text": "The transition to post-quantum cryptography is an urgent race against time. The phenomenon known as \"Harvest Now, Decrypt Later\" reveals that malicious actors are already actively stealing and stockpiling massive amounts of encrypted data today. They intend to hold onto this data until quantum technology matures enough to decrypt it. Therefore, achieving quantum supremacy—the point where a quantum computer definitively outperforms the best classical supercomputer on a specific task—is not just an academic milestone; it is a global national security imperative driving rapid, unprecedented innovation."
+    }
+  ],
+  "sections": [
+    {
+      "id": "m1p3-s1",
+      "type": "YNNG",
+      "instruction": "Questions 1–5: Do the following statements agree with the claims of the writer? Write YES, NO, or NOT GIVEN.",
+      "questions": [
+        {
+          "id": "m1p3-q1",
+          "number": 1,
+          "stem": "Qubits are capable of existing in multiple states simultaneously.",
+          "answer": {
+            "value": "YES"
+          }
+        },
+        {
+          "id": "m1p3-q2",
+          "number": 2,
+          "stem": "The RSA algorithm is easily broken by modern classical supercomputers.",
+          "answer": {
+            "value": "NO"
+          }
+        },
+        {
+          "id": "m1p3-q3",
+          "number": 3,
+          "stem": "Shor's algorithm has already been successfully used to hack major banking systems.",
+          "answer": {
+            "value": "NOT_GIVEN"
+          }
+        },
+        {
+          "id": "m1p3-q4",
+          "number": 4,
+          "stem": "Lattice-based cryptography is proven to be completely immune to all future technological advancements.",
+          "answer": {
+            "value": "NO"
+          }
+        },
+        {
+          "id": "m1p3-q5",
+          "number": 5,
+          "stem": "Researchers are actively working on developing algorithms resistant to quantum computers.",
+          "answer": {
+            "value": "YES"
+          }
+        }
+      ]
+    },
+    {
+      "id": "m1p3-s2",
+      "type": "MCQ",
+      "instruction": "Questions 6–9: Complete each sentence with the correct ending, A–F, from the box below.",
+      "questions": [
+        {
+          "id": "m1p3-q6",
+          "number": 6,
+          "stem": "Classical computers process information",
+          "answer": {
+            "value": "C"
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "the difficulty of factoring large prime numbers."
+            },
+            {
+              "id": "B",
+              "text": "develop systems secure against quantum attacks."
+            },
+            {
+              "id": "C",
+              "text": "using binary bits that represent either a 0 or a 1."
+            },
+            {
+              "id": "D",
+              "text": "stockpiling encrypted data for future use."
+            },
+            {
+              "id": "E",
+              "text": "existing in multiple physical locations simultaneously."
+            },
+            {
+              "id": "F",
+              "text": "solve complex factorization problems exponentially faster."
+            }
+          ]
+        },
+        {
+          "id": "m1p3-q7",
+          "number": 7,
+          "stem": "The security of the RSA algorithm relies heavily on",
+          "answer": {
+            "value": "A"
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "the difficulty of factoring large prime numbers."
+            },
+            {
+              "id": "B",
+              "text": "develop systems secure against quantum attacks."
+            },
+            {
+              "id": "C",
+              "text": "using binary bits that represent either a 0 or a 1."
+            },
+            {
+              "id": "D",
+              "text": "stockpiling encrypted data for future use."
+            },
+            {
+              "id": "E",
+              "text": "existing in multiple physical locations simultaneously."
+            },
+            {
+              "id": "F",
+              "text": "solve complex factorization problems exponentially faster."
+            }
+          ]
+        },
+        {
+          "id": "m1p3-q8",
+          "number": 8,
+          "stem": "Shor's algorithm poses a massive security threat because it can",
+          "answer": {
+            "value": "F"
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "the difficulty of factoring large prime numbers."
+            },
+            {
+              "id": "B",
+              "text": "develop systems secure against quantum attacks."
+            },
+            {
+              "id": "C",
+              "text": "using binary bits that represent either a 0 or a 1."
+            },
+            {
+              "id": "D",
+              "text": "stockpiling encrypted data for future use."
+            },
+            {
+              "id": "E",
+              "text": "existing in multiple physical locations simultaneously."
+            },
+            {
+              "id": "F",
+              "text": "solve complex factorization problems exponentially faster."
+            }
+          ]
+        },
+        {
+          "id": "m1p3-q9",
+          "number": 9,
+          "stem": "The primary goal of post-quantum cryptography is to",
+          "answer": {
+            "value": "B"
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "the difficulty of factoring large prime numbers."
+            },
+            {
+              "id": "B",
+              "text": "develop systems secure against quantum attacks."
+            },
+            {
+              "id": "C",
+              "text": "using binary bits that represent either a 0 or a 1."
+            },
+            {
+              "id": "D",
+              "text": "stockpiling encrypted data for future use."
+            },
+            {
+              "id": "E",
+              "text": "existing in multiple physical locations simultaneously."
+            },
+            {
+              "id": "F",
+              "text": "solve complex factorization problems exponentially faster."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m1p3-s3",
+      "type": "SUMMARY_COMPLETION",
+      "instruction": "Questions 10–13: Complete the summary below. Choose ONE WORD from the box for each answer. Word box: cryptography · qubits · superposition · lattice-based · supremacy · bits · security · technology",
+      "questions": [
+        {
+          "id": "m1p3-q10",
+          "number": 10,
+          "stem": "The advent of quantum computers severely threatens traditional ______.",
+          "answer": {
+            "value": "cryptography"
+          }
+        },
+        {
+          "id": "m1p3-q11",
+          "number": 11,
+          "stem": "Unlike classical bits, ______ utilise phenomena such as superposition to process vast amounts of data concurrently.",
+          "answer": {
+            "value": "qubits"
+          }
+        },
+        {
+          "id": "m1p3-q12",
+          "number": 12,
+          "stem": "To counter the decryption threat posed by mathematical formulas like Shor's algorithm, scientists are creating entirely new, complex structures, such as ______ models.",
+          "answer": {
+            "value": "lattice-based"
+          }
+        },
+        {
+          "id": "m1p3-q13",
+          "number": 13,
+          "stem": "The global race to achieve quantum ______ is driving rapid innovation, spurred on by the urgent need to protect encrypted data from future attacks.",
+          "answer": {
+            "value": "supremacy"
+          }
+        }
+      ],
+      "wordLimit": 1,
+      "wordBank": [
+        "cryptography",
+        "qubits",
+        "superposition",
+        "lattice-based",
+        "supremacy",
+        "bits",
+        "security",
+        "technology"
+      ]
+    }
+  ]
+}

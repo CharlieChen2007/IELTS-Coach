@@ -1,0 +1,247 @@
+{
+  "id": "p3",
+  "label": "Passage 3",
+  "title": "The Economics of Attention",
+  "titleZh": "注意力的经济学",
+  "source": "自编 · 模拟 The Economist 风格",
+  "summary": "当注意力变成稀缺资源，内容平台、广告主与监管者都在围绕「争夺眼球」重新定价。",
+  "topic": "社会与经济",
+  "level": "P3 · 进阶",
+  "minutes": 23,
+  "tags": ["观点判断", "段落信息匹配", "单选", "摘要填空"],
+  "intro": "You should spend about 23 minutes on Questions 27–40, which are based on the passage below.",
+  "paragraphs": [
+    {
+      "id": "A",
+      "text": "In 1971 the economist Herbert Simon made a prediction that has aged well. In a world of abundant information, he suggested, the scarce resource is whatever the information consumes, and information consumes the attention of its recipients. A wealth of information, he wrote, creates a poverty of attention. Fifty years later the sentence is quoted everywhere, usually to describe the internet, although Simon was thinking about offices and memoranda."
+    },
+    {
+      "id": "B",
+      "text": "The internet did not invent the attention market, but it changed the terms of trade. Most content is free at the point of use, paid for by advertising, and advertising is priced by the second. The bargain is simple: users pay with attention instead of money, and publishers sell that attention to advertisers. It is not a conspiracy, and it is not neutral either. When revenue depends on time spent, the incentive to design a page that ends is weak."
+    },
+    {
+      "id": "C",
+      "text": "Feeds make the point. A newspaper has a front page and a back page, and a reader can finish it. An endless scroll has no bottom, and a 'pull to refresh' gesture has no natural stopping point. Each new item arrives after a variable delay, in the pattern that behavioural psychologists have long known to produce persistent checking. The design is not accidental, and it is not the only possible design: the same technology could display one article a day."
+    },
+    {
+      "id": "D",
+      "text": "What does the attention economy cost? The familiar claim is that sustained reading is declining, and that a generation is losing the ability to follow an argument for more than a few minutes. The evidence is thinner than the claim. Screen time is easy to measure and hard to interpret; self-reports of deep reading are unreliable; and the reading of long-form text has, by some measures, increased. What seems solid is narrower: the conditions for sustained attention, such as a page that ends and a place where nobody interrupts, have become rarer."
+    },
+    {
+      "id": "E",
+      "text": "Sceptics have a point. Every new medium has produced anxiety about attention, and the anxiety has usually been wrong. In the eighteenth century novels were said to ruin young women; in the twentieth, television was said to end conversation. Neither happened in the way predicted, and the generations that grew up with them learned to use them. But the nostalgia argument is a warning, not a rebuttal: it tells us that predictions fail, not that the present is harmless."
+    },
+    {
+      "id": "F",
+      "text": "Alternatives exist. Subscriptions decouple revenue from dwell time, and some publishers have redesigned their pages to end. A small slow-media movement recommends fewer, longer items and no autoplay. None of these approaches scales easily, because they ask readers to pay for what they now receive free, and because the platforms that profit most have the least reason to change."
+    },
+    {
+      "id": "G",
+      "text": "The likeliest fix is neither moral nor purely technical. Design choices matter, since an interface that ends is not difficult to build, but they are made inside an incentive structure that rewards the opposite. Regulation is being discussed, without consensus, and education has a role too: attention, like any skill, can be trained. What is unlikely to work is the advice to try harder, offered to people whose attention is precisely what the system is designed to capture."
+    }
+  ],
+  "sections": [
+    {
+      "id": "p3-s1",
+      "type": "YNNG",
+      "instruction": "Questions 27–30: Do the following statements agree with the claims of the writer? Write YES if the statement agrees with the claims, NO if the statement contradicts the claims, or NOT GIVEN if it is impossible to say what the writer thinks about this.",
+      "questions": [
+        {
+          "id": "p3-q27", "number": 27,
+          "stem": "The writer believes that attention has become scarcer than information.",
+          "answer": { "value": "YES" },
+          "explanation": {
+            "paragraph": "A",
+            "quote": "the scarce resource is whatever the information consumes, and information consumes the attention of its recipients",
+            "verdict": "作者引用并认同 Simon 的判断：信息过剩而注意力稀缺，所以是 YES。",
+            "trap": "注意题的限定词——题干用 believes，问的是作者立场；原文是引用他人，但作者用 has aged well（经受住了时间检验）表达认同。"
+          }
+        },
+        {
+          "id": "p3-q28", "number": 28,
+          "stem": "The writer argues that advertising revenue improves the quality of content.",
+          "answer": { "value": "NO" },
+          "explanation": {
+            "paragraph": "B",
+            "quote": "When revenue depends on time spent, the incentive to design a page that ends is weak.",
+            "verdict": "作者指出广告收入依赖停留时长，会削弱「让页面结束」的动机——这是对内容质量的反向影响，与题干相反，所以是 NO。",
+            "trap": "原文没有直接说 quality 这个词，需要从 incentive 与 design 的因果关系推出，属于观点判断题的正常难度。"
+          }
+        },
+        {
+          "id": "p3-q29", "number": 29,
+          "stem": "The writer accepts that alarm about new media is entirely without precedent.",
+          "answer": { "value": "NO" },
+          "explanation": {
+            "paragraph": "E",
+            "quote": "In the eighteenth century novels were said to ruin young women; in the twentieth, television was said to end conversation.",
+            "verdict": "作者明确举出小说与电视两个先例，说明这种焦虑「一再出现」，因此「完全没有先例」与作者观点相悖，NO。",
+            "trap": "段中出现了 the anxiety has usually been wrong，容易让人以为作者完全否定焦虑，进而误判为 YES；但作者紧接着说这是 a warning, not a rebuttal。"
+          }
+        },
+        {
+          "id": "p3-q30", "number": 30,
+          "stem": "The writer recommends a specific law to limit autoplay.",
+          "answer": { "value": "NOT_GIVEN" },
+          "explanation": {
+            "paragraph": "G",
+            "quote": "Regulation is being discussed, without consensus",
+            "verdict": "原文只说监管「正在讨论、尚无共识」，既没有提出具体法律，也没有推荐任何立法，所以是 NOT GIVEN。",
+            "trap": "F 段提到 no autoplay 是慢媒体运动的建议，不是作者提出的法律；把相邻段落的细节当成本题依据是最常见的失分点。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "p3-s2",
+      "type": "MATCHING_INFORMATION",
+      "instruction": "Questions 31–33: Which paragraph contains the following information? Write the correct letter, A–G.",
+      "optionsAuto": "paragraphs",
+      "questions": [
+        {
+          "id": "p3-q31", "number": 31,
+          "stem": "a prediction made more than fifty years ago",
+          "answer": { "value": "A" },
+          "explanation": {
+            "paragraph": "A",
+            "quote": "In 1971 the economist Herbert Simon made a prediction that has aged well.",
+            "verdict": "1971 年距现在超过五十年，且原文直接使用了 prediction 一词，定位段为 A。",
+            "trap": "G 段谈的是未来对策，不是预测；注意 prediction（预言）与 recommendation（建议）的区别。"
+          }
+        },
+        {
+          "id": "p3-q32", "number": 32,
+          "stem": "an example of an earlier medium that caused similar anxiety",
+          "answer": { "value": "E" },
+          "explanation": {
+            "paragraph": "E",
+            "quote": "in the twentieth, television was said to end conversation",
+            "verdict": "E 段举了小说与电视两个更早的媒介引发同类焦虑的例子，答案 E。",
+            "trap": "C 段也提到 newspaper，但那里是拿报纸的「有最后一页」与信息流的「无限」对比，不是焦虑的例子。"
+          }
+        },
+        {
+          "id": "p3-q33", "number": 33,
+          "stem": "a design feature that removes a natural ending",
+          "answer": { "value": "C" },
+          "explanation": {
+            "paragraph": "C",
+            "quote": "An endless scroll has no bottom, and a 'pull to refresh' gesture has no natural stopping point.",
+            "verdict": "C 段直接描述了「无限滚动」这一设计如何取消自然终点，答案 C。",
+            "trap": "G 段也提到 an interface that ends，但那是在说设计可以做对，不是描述取消终点的特征。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "p3-s3",
+      "type": "MCQ",
+      "instruction": "Questions 34–36: Choose the correct letter, A, B, C or D.",
+      "questions": [
+        {
+          "id": "p3-q34", "number": 34,
+          "stem": "The phrase 'a poverty of attention' is used to suggest that",
+          "options": [
+            { "id": "A", "text": "people with little money receive less information." },
+            { "id": "B", "text": "attention has become the scarce resource." },
+            { "id": "C", "text": "information is now less reliable than before." },
+            { "id": "D", "text": "offices produce too many memoranda." }
+          ],
+          "answer": { "value": "B" },
+          "explanation": {
+            "paragraph": "A",
+            "quote": "the scarce resource is whatever the information consumes",
+            "verdict": "「注意力的贫困」是用经济学的稀缺性作比喻：信息越多，注意力越成为瓶颈，对应 B。",
+            "trap": "A 抓住了 poverty 的字面义（贫穷），是把比喻当字面的典型误读。"
+          }
+        },
+        {
+          "id": "p3-q35", "number": 35,
+          "stem": "Why does the writer mention the front page and back page of a newspaper?",
+          "options": [
+            { "id": "A", "text": "to show that newspapers were more informative" },
+            { "id": "B", "text": "to contrast a medium that can be finished with one that cannot" },
+            { "id": "C", "text": "to explain why advertising moved online" },
+            { "id": "D", "text": "to criticise the design of printed pages" }
+          ],
+          "answer": { "value": "B" },
+          "explanation": {
+            "paragraph": "C",
+            "quote": "A newspaper has a front page and a back page, and a reader can finish it. An endless scroll has no bottom",
+            "verdict": "作者用报纸「有最后一页」对比信息流「没有底」，说明可读完与无法读完的差别，对应 B。",
+            "trap": "D 把「对比」误读成「批评印刷页设计」，方向完全相反：作者认为有终点的设计才是好的。"
+          }
+        },
+        {
+          "id": "p3-q36", "number": 36,
+          "stem": "What is the writer's overall conclusion?",
+          "options": [
+            { "id": "A", "text": "Technology itself is the cause of the problem." },
+            { "id": "B", "text": "Readers should simply try harder to concentrate." },
+            { "id": "C", "text": "The problem lies in design and incentives, not in technology as such." },
+            { "id": "D", "text": "Regulation has already solved the problem." }
+          ],
+          "answer": { "value": "C" },
+          "explanation": {
+            "paragraph": "G",
+            "quote": "they are made inside an incentive structure that rewards the opposite",
+            "verdict": "结尾段说设计选择受激励结构约束，并明确反对「多努力」的建议，对应 C。",
+            "trap": "B 是原文直接嘲讽的做法（advice to try harder）；D 与 without consensus 矛盾。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "p3-s4",
+      "type": "SUMMARY_COMPLETION",
+      "instruction": "Questions 37–40: Complete the summary below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+      "wordLimit": 2,
+      "questions": [
+        {
+          "id": "p3-q37", "number": 37,
+          "stem": "An abundance of information produces a ______ of attention.",
+          "answer": { "value": "poverty" },
+          "explanation": {
+            "paragraph": "A",
+            "quote": "A wealth of information, he wrote, creates a poverty of attention.",
+            "verdict": "原文原句：信息的充裕造成注意力的 poverty（贫困），答案 poverty。",
+            "trap": "题干把 creates 换成 produces，是同一句的改写，答案词不变。"
+          }
+        },
+        {
+          "id": "p3-q38", "number": 38,
+          "stem": "Advertising is priced by the ______.",
+          "answer": { "value": "second" },
+          "explanation": {
+            "paragraph": "B",
+            "quote": "advertising is priced by the second",
+            "verdict": "原文原句，答案 second。",
+            "trap": "不能写 time 或 duration：原文的介词短语是 by the second，写 time 不符合字数与原文用词要求。"
+          }
+        },
+        {
+          "id": "p3-q39", "number": 39,
+          "stem": "An endless scroll has no natural ______ point.",
+          "answer": { "value": "stopping" },
+          "explanation": {
+            "paragraph": "C",
+            "quote": "a 'pull to refresh' gesture has no natural stopping point",
+            "verdict": "原文的固定搭配是 natural stopping point，答案 stopping。",
+            "trap": "题干把主语从下拉刷新换成了无限滚动，但考点短语没变——定位时可以搜 stopping 而不是搜 scroll。"
+          }
+        },
+        {
+          "id": "p3-q40", "number": 40,
+          "stem": "Subscriptions separate revenue from ______.",
+          "answer": { "value": "dwell time", "accepted": ["dwell-time"] },
+          "explanation": {
+            "paragraph": "F",
+            "quote": "Subscriptions decouple revenue from dwell time",
+            "verdict": "原文用 decouple … from，题干换成 separate … from，答案 dwell time（停留时长）。",
+            "trap": "dwell time 是两个词，正好卡在 NO MORE THAN TWO WORDS 的上限，多写一个字就判错。"
+          }
+        }
+      ]
+    }
+  ]
+}

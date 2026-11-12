@@ -1,0 +1,135 @@
+[
+  {
+    "id": "single",
+    "title": "图书馆迎新活动",
+    "prompt": "Why has the welcome talk been moved to the gallery?",
+    "options": [
+      "The lecture hall is being painted.",
+      "More students registered than expected.",
+      "The gallery has a better sound system."
+    ],
+    "correct": [
+      "B"
+    ],
+    "script": "Our welcome talk was due to take place in the lecture hall. The painting there finished yesterday, so the room is ready. However, over a hundred students have signed up, and there simply aren't enough seats. We'll meet in the gallery instead.",
+    "reason": "留意 however 之后的原因。油漆已经完成，真正导致换场地的是报名人数超过座位数。"
+  },
+  {
+    "id": "multiple",
+    "title": "校园自行车维修日",
+    "prompt": "Which TWO things must students bring to the repair session?",
+    "options": [
+      "a bicycle pump",
+      "a student card",
+      "a helmet",
+      "a spare tube",
+      "a printed ticket"
+    ],
+    "correct": [
+      "B",
+      "D"
+    ],
+    "script": "You're welcome to borrow a pump at the repair session. Bring your student card so we can check your booking, and a spare tube that fits your wheel. Helmets aren't needed, as you won't be riding. Showing your ticket on a phone is fine.",
+    "reason": "student card 和 spare tube 都由 bring 引出。打气筒可以借用，票也可以出示电子版。"
+  },
+  {
+    "id": "plan",
+    "title": "教学楼平面导览",
+    "prompt": "Which room is the recording studio? Choose A, B or C on the plan.",
+    "visual": "plan",
+    "options": [
+      "Room A",
+      "Room B",
+      "Room C"
+    ],
+    "correct": [
+      "C"
+    ],
+    "script": "Enter the building from the south door. Walk straight past reception on your left and the small office on your right. At the end of the corridor, turn right. The recording studio is on that corner, opposite the reading room.",
+    "reason": "从南侧入口向上走，在走廊尽头右转，录音室位于右上角的 C。"
+  },
+  {
+    "id": "map",
+    "title": "校园骑行路线",
+    "prompt": "Where is the new bike shelter? Choose A, B or C on the map.",
+    "visual": "map",
+    "options": [
+      "Site A",
+      "Site B",
+      "Site C"
+    ],
+    "correct": [
+      "B"
+    ],
+    "script": "Start at the library and walk east along College Road. Cross the narrow stream and continue towards the sports field. The new bike shelter is on your left, between the bridge and the field. The old shelter used to be on the other side of the stream.",
+    "reason": "向东时左手边是北面。先过桥，再找运动场前方的遮棚，对应 B。"
+  },
+  {
+    "id": "diagram",
+    "title": "温室采水装置",
+    "prompt": "Which labelled part is the filter? Choose A, B or C.",
+    "visual": "diagram",
+    "options": [
+      "Part A",
+      "Part B",
+      "Part C"
+    ],
+    "correct": [
+      "C"
+    ],
+    "script": "The greenhouse collects rainwater from a sloping roof. Water passes down the pipe into a large storage tank. Before it reaches the tank, it passes through a small filter fitted inside the pipe, just above the tank opening.",
+    "reason": "过滤器在管道内部、储水箱入口正上方。图中该部件标为 C。"
+  },
+  {
+    "id": "form",
+    "title": "社团工作坊报名",
+    "prompt": "Complete the booking form. Write ONE WORD.",
+    "context": [
+      "Workshop: Campus photography",
+      "First name: Emma",
+      "Surname: _____"
+    ],
+    "correct": [
+      "Barton"
+    ],
+    "script": "I'd like to book a place on the campus photography workshop. My first name is Emma, and my surname is Barton. That's B, A, R, T, O, N. I can come to either session on Friday.",
+    "reason": "姓氏在 surname 后出现，随后的逐字拼读 B-A-R-T-O-N 可用来核对拼写。"
+  },
+  {
+    "id": "summary",
+    "title": "校园屋顶花园调查",
+    "prompt": "Complete the summary. Write ONE WORD.",
+    "context": [
+      "The team compared two rooftops in the same weather. The planted roof showed a smaller change in _____ during the day."
+    ],
+    "correct": [
+      "temperature"
+    ],
+    "script": "The class put sensors on two roofs, one covered with plants and one without. Both received the same amount of sunshine. What surprised us was the temperature. It stayed fairly steady under the plants, while the bare roof grew much hotter by midday.",
+    "reason": "比较的是两个屋顶整天的温度变化。sunshine 是相同的实验条件。"
+  },
+  {
+    "id": "sentence",
+    "title": "借用摄影设备",
+    "prompt": "Complete the sentence. Write ONE WORD.",
+    "context": [
+      "Students must return borrowed cameras to the _____ before they leave campus."
+    ],
+    "correct": [
+      "reception"
+    ],
+    "script": "When your photography session is over, don't leave the camera in the classroom. Before you leave campus, take it down to reception. Staff there will check the battery and sign it back in.",
+    "reason": "录音先排除 classroom，再给出归还地点 reception。"
+  },
+  {
+    "id": "short",
+    "title": "志愿者集合安排",
+    "prompt": "What should volunteers bring to record the number of visitors? Write NO MORE THAN TWO WORDS.",
+    "correct": [
+      "a notebook",
+      "notebook"
+    ],
+    "script": "For Saturday's open day, we'll give every volunteer a badge and a printed map. Please bring a notebook to keep a tally of visitors at your gate. You can borrow a pen from the team leader when you arrive.",
+    "reason": "badge 和 map 由校方提供，记录人数用的 notebook 需要志愿者自备。"
+  }
+]

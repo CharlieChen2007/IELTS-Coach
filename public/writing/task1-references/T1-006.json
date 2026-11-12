@@ -1,0 +1,133 @@
+{
+  "questionId": "T1-006",
+  "sourceFingerprint": "837000a6f1cbfac992f9923879a187d2ee48c826807c20d31a87afd3d1803b9b",
+  "review": {
+    "kind": "agent_visual_review",
+    "id": "codex-image-review-2026-11-08-T1-006",
+    "reviewedAt": "2026-11-08",
+    "note": "Codex对照用户原图整理；未经人类考官核验。仅供可信服务端载入，不接受浏览器提交。"
+  },
+  "analysis": {
+    "readability": "clear",
+    "chartTypes": [
+      "process"
+    ],
+    "questionQuality": {
+      "alignment": "aligned",
+      "instructions": "standard",
+      "issues": []
+    },
+    "panels": [
+      {
+        "id": "p1",
+        "kind": "process",
+        "description": "黑色制造流程和蓝色反馈线"
+      }
+    ],
+    "facts": [
+      {
+        "id": "f1",
+        "panelId": "p1",
+        "kind": "structure",
+        "statement": "Black arrows indicate the manufacturing flow; blue arrows indicate information feedback.",
+        "location": "右上图例",
+        "approximate": false,
+        "confidence": "high"
+      },
+      {
+        "id": "f2",
+        "panelId": "p1",
+        "kind": "transition",
+        "statement": "Raw materials and manufactured components both enter storage.",
+        "location": "上方两个框的黑色箭头指向storage",
+        "approximate": false,
+        "confidence": "high"
+      },
+      {
+        "id": "f3",
+        "panelId": "p1",
+        "kind": "transition",
+        "statement": "The main sequence is storage, production planning, assembly, inspection, testing, packaging, despatch and sales.",
+        "location": "左列自上而下黑色箭头",
+        "approximate": false,
+        "confidence": "high"
+      },
+      {
+        "id": "f4",
+        "panelId": "p1",
+        "kind": "transition",
+        "statement": "Product research leads to design, which leads to production planning.",
+        "location": "右上product research向下至design，再向左至production planning",
+        "approximate": false,
+        "confidence": "high"
+      },
+      {
+        "id": "f5",
+        "panelId": "p1",
+        "kind": "transition",
+        "statement": "Production planning sends information feedback to storage.",
+        "location": "production planning左边蓝线从约y249向左上至storage箭头；与下方sales长线分离",
+        "approximate": false,
+        "confidence": "high"
+      },
+      {
+        "id": "f6",
+        "panelId": "p1",
+        "kind": "transition",
+        "statement": "Testing sends information feedback to design.",
+        "location": "testing右端蓝线沿约y426向右再向上至design底边",
+        "approximate": false,
+        "confidence": "high"
+      },
+      {
+        "id": "f7",
+        "panelId": "p1",
+        "kind": "transition",
+        "statement": "Sales sends feedback to production planning and to market research.",
+        "location": "sales底部左侧长蓝线指向planning；右侧长蓝线指向market research",
+        "approximate": false,
+        "confidence": "high"
+      },
+      {
+        "id": "f8",
+        "panelId": "p1",
+        "kind": "transition",
+        "statement": "Market research sends feedback to design, packaging and advertising.",
+        "location": "market research顶边蓝线向design；左边沿约y445后向下左至packaging；下边箭头向advertising",
+        "approximate": false,
+        "confidence": "high"
+      }
+    ],
+    "keyFeatures": [
+      {
+        "id": "k1",
+        "description": "主生产链从储存到销售",
+        "factIds": [
+          "f2",
+          "f3"
+        ]
+      },
+      {
+        "id": "k2",
+        "description": "产品研究与设计接入生产计划",
+        "factIds": [
+          "f4"
+        ]
+      },
+      {
+        "id": "k3",
+        "description": "生产主链之外有多个反馈支路",
+        "factIds": [
+          "f1",
+          "f5",
+          "f6",
+          "f7",
+          "f8"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "交叉折线不表示连接；不得额外补出testing→packaging、sales→storage或advertising→market research。"
+    ]
+  }
+}

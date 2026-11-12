@@ -1,0 +1,289 @@
+{
+  "id": "b8ap2",
+  "bank": "p2",
+  "label": "Passage 2",
+  "title": "Epigenetics: Beyond the DNA Sequence",
+  "titleZh": "表观遗传学：DNA 之外",
+  "source": "IELTS AI Dataset · Band 8 · CC BY 4.0",
+  "summary": "基因不是宿命：环境通过化学标记改写基因的开关。",
+  "topic": "分子生物学",
+  "level": "P2 · 中等",
+  "minutes": 20,
+  "tags": [
+    "标题匹配",
+    "段落信息匹配",
+    "单选"
+  ],
+  "intro": "You should spend about 20 minutes on Questions 1–14, which are based on the passage below.",
+  "paragraphs": [
+    {
+      "id": "A",
+      "text": "For decades following the discovery of the double-helix structure of DNA, the scientific community operated under the central dogma of molecular biology: genetic information flows strictly from DNA to RNA to proteins, establishing our biology in a rigid, immutable script. According to this paradigm, our physical traits, susceptibility to diseases, and even behavioral predispositions were tightly bound by the genetic lottery of our inheritance. However, the burgeoning field of epigenetics has unequivocally dismantled this deterministic view, revealing a dynamic, highly responsive supplementary layer of biological instruction."
+    },
+    {
+      "id": "B",
+      "text": "The term \"epigenetics\"—literally translating to \"above\" or \"on top of\" genetics—refers to heritable phenotypic changes that do not involve alterations to the underlying DNA sequence itself. Instead of mutating the genetic code, epigenetic mechanisms function essentially as a complex array of biological switches. They dictate how tightly the DNA is coiled around structural proteins called histones, and deploy chemical tags, such as methyl groups, that physically attach to the DNA strand. By modifying the accessibility of specific genes, these mechanisms dictate whether a gene is actively transcribed (turned \"on\") or silenced (turned \"off\"), allowing a single genome to produce a vast diversity of specialized cell types."
+    },
+    {
+      "id": "C",
+      "text": "What makes epigenetics particularly revolutionary is its extreme sensitivity to exogenous factors. Unlike our fixed genome, the epigenome is extraordinarily malleable, constantly adapting in real-time to an individual's environment and lifestyle. Empirical studies have correlated epigenetic alterations with an array of stimuli: dietary composition, physical exertion, exposure to environmental toxins, and even psychological stress. Consequently, epigenetics serves as the vital molecular bridge linking environmental exposure to biological outcomes, illuminating how lifestyle choices can fundamentally alter gene expression across a lifespan."
+    },
+    {
+      "id": "D",
+      "text": "The profound implications of environmental impact were starkly illustrated by the Dutch Hunger Winter study. During the brutal winter of 1944–1945, the German occupation of the Netherlands led to severe famine. Epidemiological follow-ups of individuals who were in utero during this devastating period revealed shocking data. Even decades later, these individuals exhibited significantly higher rates of obesity, diabetes, and cardiovascular diseases compared to their siblings conceived before or after the famine. Molecular analysis confirmed that the severe caloric restriction had altered the methylation patterns of specific metabolic genes, essentially programming the developing fetuses to store maximum calories in anticipation of a nutrient-scarce environment."
+    },
+    {
+      "id": "E",
+      "text": "Perhaps the most provocative aspect of epigenetics is the concept of transgenerational epigenetic inheritance. Historically, it was believed that epigenetic marks were completely erased during the formation of reproductive cells, ensuring a \"clean slate\" for the next generation. However, recent mammalian studies suggest that certain epigenetic configurations can bypass this resetting process, passing directly to offspring. While heavily debated in human contexts due to the extended intervals between generations, compelling animal models demonstrate that chemically induced metabolic disorders or trauma-induced fear conditioning can be transmitted for multiple subsequent generations, entirely independent of DNA sequence alterations."
+    },
+    {
+      "id": "F",
+      "text": "In the realm of clinical medicine, the malleability of the epigenome presents an unprecedented therapeutic frontier. Many forms of cancer, autoimmune diseases, and neurodegenerative disorders are now understood to be driven significantly by epigenetic dysregulation—aberrant silencing of tumor-suppressor genes or hyper-activation of oncogenes. Because epigenetic changes are inherently reversible, unlike genetic mutations, pharmacology is aggressively pursuing \"epi-drugs.\" Medications such as DNA methyltransferase inhibitors are already being utilized clinically to chemically strip away rogue epigenetic tags, effectively reactivating dormant protective genes and restoring normal cellular function."
+    },
+    {
+      "id": "G",
+      "text": "The paradigm shift initiated by epigenetics forces a philosophical recalibration of our biological destiny. We are no longer viewed as helpless hostages to our genetic blueprints. Instead, the epigenome introduces an empowering narrative of biological agency, suggesting that our daily interactions with our environment orchestrate a continuous, dynamic symphony of gene expression."
+    }
+  ],
+  "sections": [
+    {
+      "id": "b8ap2-s1",
+      "type": "MATCHING_HEADINGS",
+      "instruction": "Questions 1–6: The reading passage has seven paragraphs, A–G. Choose the correct heading for paragraphs B through G from the list of headings below.",
+      "questions": [
+        {
+          "id": "b8ap2-q1",
+          "number": 1,
+          "stem": "Paragraph B",
+          "answer": {
+            "value": "v"
+          }
+        },
+        {
+          "id": "b8ap2-q2",
+          "number": 2,
+          "stem": "Paragraph C",
+          "answer": {
+            "value": "vii"
+          }
+        },
+        {
+          "id": "b8ap2-q3",
+          "number": 3,
+          "stem": "Paragraph D",
+          "answer": {
+            "value": "iv"
+          }
+        },
+        {
+          "id": "b8ap2-q4",
+          "number": 4,
+          "stem": "Paragraph E",
+          "answer": {
+            "value": "iii"
+          }
+        },
+        {
+          "id": "b8ap2-q5",
+          "number": 5,
+          "stem": "Paragraph F",
+          "answer": {
+            "value": "i"
+          }
+        },
+        {
+          "id": "b8ap2-q6",
+          "number": 6,
+          "stem": "Paragraph G",
+          "answer": {
+            "value": "vi"
+          }
+        }
+      ],
+      "options": [
+        {
+          "id": "i",
+          "text": "Reversing the irreversible: Medical breakthroughs"
+        },
+        {
+          "id": "ii",
+          "text": "The historical certainty of genetic determinism"
+        },
+        {
+          "id": "iii",
+          "text": "Inheriting the experiences of our ancestors"
+        },
+        {
+          "id": "iv",
+          "text": "A tragic historical precedent of environmental impact"
+        },
+        {
+          "id": "v",
+          "text": "Understanding the mechanics of genetic switches"
+        },
+        {
+          "id": "vi",
+          "text": "Redefining human agency in biological outcomes"
+        },
+        {
+          "id": "vii",
+          "text": "The direct correlation between lifestyle and the epigenome"
+        },
+        {
+          "id": "viii",
+          "text": "The ethical dilemmas of epigenetic manipulation"
+        }
+      ]
+    },
+    {
+      "id": "b8ap2-s2",
+      "type": "MATCHING_INFORMATION",
+      "instruction": "Questions 7–10: Which paragraph contains the following information? Write the correct letter, A–G.",
+      "questions": [
+        {
+          "id": "b8ap2-q7",
+          "number": 7,
+          "stem": "Reference to an outdated scientific belief regarding the erasure of cellular memory.",
+          "answer": {
+            "value": "E"
+          }
+        },
+        {
+          "id": "b8ap2-q8",
+          "number": 8,
+          "stem": "An explanation of how distinct cell types emerge from identical DNA.",
+          "answer": {
+            "value": "B"
+          }
+        },
+        {
+          "id": "b8ap2-q9",
+          "number": 9,
+          "stem": "Examples of specific modern pharmaceuticals targeting epigenetic errors.",
+          "answer": {
+            "value": "F"
+          }
+        },
+        {
+          "id": "b8ap2-q10",
+          "number": 10,
+          "stem": "The original scientific assumption regarding the inflexibility of human traits.",
+          "answer": {
+            "value": "A"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b8ap2-s3",
+      "type": "MCQ",
+      "instruction": "Questions 11–14: Choose the correct letter, A, B, C or D.",
+      "questions": [
+        {
+          "id": "b8ap2-q11",
+          "number": 11,
+          "stem": "According to Paragraph B, how do epigenetic mechanisms primarily function?",
+          "answer": {
+            "value": "C"
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "By permanently mutating the underlying DNA sequence."
+            },
+            {
+              "id": "B",
+              "text": "By creating entirely new genes to adapt to the environment."
+            },
+            {
+              "id": "C",
+              "text": "By utilizing chemical tags to control gene transcription."
+            },
+            {
+              "id": "D",
+              "text": "By replacing structural histones with methyl groups."
+            }
+          ]
+        },
+        {
+          "id": "b8ap2-q12",
+          "number": 12,
+          "stem": "The Dutch Hunger Winter study demonstrated that:",
+          "answer": {
+            "value": "B"
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "Famine only impacts the generation directly exposed to starvation."
+            },
+            {
+              "id": "B",
+              "text": "Environmental stress in utero can cause long-term metabolic reprogramming."
+            },
+            {
+              "id": "C",
+              "text": "Siblings born before the famine suffered similar obesity rates."
+            },
+            {
+              "id": "D",
+              "text": "Malnutrition strictly alters the genetic DNA sequences of fetuses."
+            }
+          ]
+        },
+        {
+          "id": "b8ap2-q13",
+          "number": 13,
+          "stem": "Why is transgenerational epigenetic inheritance controversial in human studies?",
+          "answer": {
+            "value": "D"
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "The scientific equipment is not sophisticated enough to detect it."
+            },
+            {
+              "id": "B",
+              "text": "Animal models have consistently disproved the theory."
+            },
+            {
+              "id": "C",
+              "text": "Epigenetic marks are scientifically proven to be permanently erased."
+            },
+            {
+              "id": "D",
+              "text": "The lengthy lifespan between human generations complicates data collection."
+            }
+          ]
+        },
+        {
+          "id": "b8ap2-q14",
+          "number": 14,
+          "stem": "What distinguishes epigenetic treatments (\"epi-drugs\") from treatments for genetic mutations?",
+          "answer": {
+            "value": "A"
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "They capitalize on the reversible nature of epigenetic modifications."
+            },
+            {
+              "id": "B",
+              "text": "They are capable of rewriting defective DNA sequences."
+            },
+            {
+              "id": "C",
+              "text": "They exclusively target neurodegenerative disorders."
+            },
+            {
+              "id": "D",
+              "text": "They intentionally silence protective tumor-suppressor genes."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

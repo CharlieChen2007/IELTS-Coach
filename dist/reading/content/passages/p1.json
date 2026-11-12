@@ -1,0 +1,232 @@
+{
+  "id": "p1",
+  "label": "Passage 1",
+  "title": "The Reinvention of the Bicycle",
+  "titleZh": "自行车的重生",
+  "source": "自编 · 模拟 The Guardian 风格",
+  "summary": "自行车从危险的「高轮车」演化为今天的通勤工具，靠的是材料、传动与道路规则的三次改动。",
+  "topic": "技术史",
+  "level": "P1 · 基础",
+  "minutes": 17,
+  "tags": ["判断题", "单选", "摘要填空", "句子填空"],
+  "intro": "You should spend about 17 minutes on Questions 1–13, which are based on the passage below.",
+  "paragraphs": [
+    {
+      "id": "A",
+      "text": "When Karl Drais unveiled his two-wheeled 'running machine' in Mannheim in 1817, he was not trying to start a sport. Europe was recovering from a series of failed harvests and the year without a summer, and horses were expensive to feed. Drais wanted a cheap substitute: a wooden frame, two wheels in line, and a rider who pushed himself along with his feet. The machine had no pedals, and it was never intended for racing. It was a response to a transport problem, and like most such responses it was quickly copied and just as quickly abandoned."
+    },
+    {
+      "id": "B",
+      "text": "The next step came in the 1860s, when French builders attached pedals directly to the front wheel. The result, nicknamed the 'boneshaker', had iron tyres and a frame of heavy iron. On smooth boulevards it worked; on ordinary roads it shook a rider's teeth loose. Its popularity, however, proved that the idea was sound. Manufacturers began to experiment with wheel size, and the experiment produced an obvious conclusion: a bigger wheel covers more ground for each turn of the pedals."
+    },
+    {
+      "id": "C",
+      "text": "By the 1870s the front wheel had grown enormous. The 'penny-farthing' could reach speeds that no pedestrian could match, and it turned cycling into a spectacle. Because the rider sat almost directly above the front axle, however, a sudden obstacle could throw him forward over the handlebars. Accidents were frequent and sometimes fatal, and the machine was effectively restricted to young men with good balance and no dependants. Speed had been bought at the price of safety."
+    },
+    {
+      "id": "D",
+      "text": "The safety bicycle of 1885 solved both problems at once. Instead of pedals on the front wheel, John Kemp Starley's Rover drove the rear wheel through a chain, so the wheels could be of equal size and the rider could sit low and between them. It was not the first machine to use a chain, and it was only one of the first to combine a chain with a diamond frame and equal wheels; that combination, rather than any single part, was decisive. The safety was slower than a penny-farthing, and nobody cared. It was easy to mount, hard to fall from, and, crucially, it could be ridden in ordinary clothes."
+    },
+    {
+      "id": "E",
+      "text": "That last point mattered more than it sounds. A woman in a long skirt could not sit on a penny-farthing, and the safety bicycle became an argument for 'rational dress' as much as for exercise. Susan B. Anthony, no friend of exaggeration, declared in 1896 that the bicycle had done more to emancipate women than anything else in the world. It gave a generation of young people the ability to leave a village without asking anyone's permission, and that, rather than any record, is what the machine is remembered for."
+    },
+    {
+      "id": "F",
+      "text": "Comfort arrived in 1888, when John Boyd Dunlop patented a pneumatic tyre for his son's tricycle. Air, it turned out, absorbed vibration far better than solid rubber, and the pneumatic tyre was designed for comfort rather than for economy. Together with cheap steel tubing and mass production, it created the bicycle boom of the 1890s, when prices fell by more than half in a decade and hundreds of small factories appeared. Most of them failed, but the techniques they developed, among them ball bearings, welded tubing and interchangeable parts, were inherited by the motor industry that replaced them. The bicycle's most lasting product may have been the factory, not the bicycle."
+    }
+  ],
+  "sections": [
+    {
+      "id": "p1-s1",
+      "type": "TFNG",
+      "instruction": "Questions 1–5: Do the following statements agree with the information given in the passage? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, or NOT GIVEN if there is no information on this.",
+      "questions": [
+        {
+          "id": "p1-q1", "number": 1,
+          "stem": "Drais built his machine in order to race it.",
+          "answer": { "value": "FALSE" },
+          "explanation": {
+            "paragraph": "A",
+            "quote": "The machine had no pedals, and it was never intended for racing.",
+            "verdict": "原文明确说这台机器「从未打算用于比赛」，而题干说「为了比赛而造」——两者直接矛盾，所以是 FALSE。",
+            "trap": "题干出现了 in order to，考的是目的。原文同一段先说了「不是为了运动」，又说「从未打算比赛」，两处都指向同一结论。"
+          }
+        },
+        {
+          "id": "p1-q2", "number": 2,
+          "stem": "The penny-farthing's large front wheel made it fast but also dangerous.",
+          "answer": { "value": "TRUE" },
+          "explanation": {
+            "paragraph": "C",
+            "quote": "The 'penny-farthing' could reach speeds that no pedestrian could match … a sudden obstacle could throw him forward over the handlebars.",
+            "verdict": "原文说它「速度是行人比不上的」，同时说「突然的障碍会把人向前甩过车把、事故频繁甚至致命」，与题干「快但危险」完全一致，所以是 TRUE。",
+            "trap": "题干关键词 fast / dangerous 在原文里换成了 speeds no pedestrian could match 和 fatal，属于同义替换。"
+          }
+        },
+        {
+          "id": "p1-q3", "number": 3,
+          "stem": "The Rover was the first bicycle to combine a chain drive with equal-sized wheels.",
+          "answer": { "value": "NOT_GIVEN" },
+          "explanation": {
+            "paragraph": "D",
+            "quote": "It was not the first machine to use a chain, and it was only one of the first to combine a chain with a diamond frame and equal wheels",
+            "verdict": "原文只说它是「最早那一批之一（one of the first）」，没有说它是「第一个（the first）」。题干把「之一」偷换成了「第一」，原文既没有确认也没有否认这一点，所以是 NOT GIVEN。",
+            "trap": "最容易错成 FALSE：原文确实说了 not the first，但否定的对象是「使用链条」这件事，而不是「链条+等大车轮的组合」。题干问的是后者，原文对其只给了「之一」的模糊表述。"
+          }
+        },
+        {
+          "id": "p1-q4", "number": 4,
+          "stem": "Pneumatic tyres were developed in order to reduce the cost of bicycles.",
+          "answer": { "value": "FALSE" },
+          "explanation": {
+            "paragraph": "F",
+            "quote": "the pneumatic tyre was designed for comfort rather than for economy",
+            "verdict": "原文直说充气轮胎是「为了舒适而不是为了省钱（economy）」，题干说目的是降低成本——目的相反，所以是 FALSE。",
+            "trap": "同一段后文确实提到价格下跌（prices fell by more than half），但那是大规模生产带来的结果，不是轮胎的发明目的。把「结果」当成「目的」是这道题的坑。"
+          }
+        },
+        {
+          "id": "p1-q5", "number": 5,
+          "stem": "Manufacturing techniques from the bicycle industry were later used by car makers.",
+          "answer": { "value": "TRUE" },
+          "explanation": {
+            "paragraph": "F",
+            "quote": "the techniques they developed, among them ball bearings, welded tubing and interchangeable parts, were inherited by the motor industry that replaced them",
+            "verdict": "原文说自行车厂的技术（滚珠轴承、焊接车管、可互换零件）被「取代了它们的汽车工业继承」，与题干一致，所以是 TRUE。",
+            "trap": "题干用被动语态把汽车厂商放到了句尾，原文是 motor industry inherited。词序变了，逻辑没变。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "p1-s2",
+      "type": "MCQ",
+      "instruction": "Questions 6–8: Choose the correct letter, A, B, C or D.",
+      "questions": [
+        {
+          "id": "p1-q6", "number": 6,
+          "stem": "Why did Karl Drais build his running machine?",
+          "options": [
+            { "id": "A", "text": "to take part in races" },
+            { "id": "B", "text": "to provide cheap transport" },
+            { "id": "C", "text": "to entertain children" },
+            { "id": "D", "text": "to test the surfaces of roads" }
+          ],
+          "answer": { "value": "B" },
+          "explanation": {
+            "paragraph": "A",
+            "quote": "Drais wanted a cheap substitute",
+            "verdict": "原文说他想要「廉价的替代品」，用来解决马匹太贵、粮食歉收的交通问题，对应 B。",
+            "trap": "A 是原文明确否定的（never intended for racing），属于反向干扰项。"
+          }
+        },
+        {
+          "id": "p1-q7", "number": 7,
+          "stem": "According to the passage, the popularity of the penny-farthing was limited mainly by",
+          "options": [
+            { "id": "A", "text": "its high price" },
+            { "id": "B", "text": "a shortage of steel" },
+            { "id": "C", "text": "the risk of falling" },
+            { "id": "D", "text": "its great weight" }
+          ],
+          "answer": { "value": "C" },
+          "explanation": {
+            "paragraph": "C",
+            "quote": "Because the rider sat almost directly above the front axle, however, a sudden obstacle could throw him forward over the handlebars.",
+            "verdict": "原文说事故频繁、甚至致命，而且「实际上只限于平衡好、没有家累的年轻男性」——限制它流行的是摔倒的风险，对应 C。",
+            "trap": "A（价格）和 B（钢材）原文都没有提到；这是典型的「原文没说的选项」。D 的重量属于无中生有。"
+          }
+        },
+        {
+          "id": "p1-q8", "number": 8,
+          "stem": "What does the writer emphasise about the social effect of the safety bicycle?",
+          "options": [
+            { "id": "A", "text": "It made cycling cheaper than walking." },
+            { "id": "B", "text": "It gave young people, especially women, greater independence." },
+            { "id": "C", "text": "It replaced the horse in rural areas." },
+            { "id": "D", "text": "It created the modern tourist industry." }
+          ],
+          "answer": { "value": "B" },
+          "explanation": {
+            "paragraph": "E",
+            "quote": "It gave a generation of young people the ability to leave a village without asking anyone's permission",
+            "verdict": "原文强调它让一代年轻人「不必征求任何人同意就能离开村庄」，并用 Anthony 的话说它解放了女性，对应 B。",
+            "trap": "C 的「取代马匹」在 D 段出现过 horse 吗？没有——马只在 A 段作为「太贵」的背景出现，属于跨段混淆。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "p1-s3",
+      "type": "SUMMARY_COMPLETION",
+      "instruction": "Questions 9–11: Complete the summary below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+      "wordLimit": 2,
+      "questions": [
+        {
+          "id": "p1-q9", "number": 9,
+          "stem": "Air-filled tyres absorbed ______ far better than solid rubber.",
+          "answer": { "value": "vibration", "accepted": ["vibrations"] },
+          "explanation": {
+            "paragraph": "F",
+            "quote": "Air, it turned out, absorbed vibration far better than solid rubber",
+            "verdict": "原文原句直接给出答案 vibration（振动）。",
+            "trap": "原文用的是单数 vibration，写 vibrations 也算对，因为雅思对可数名词的单复数容忍度较低但此处不改变含义。"
+          }
+        },
+        {
+          "id": "p1-q10", "number": 10,
+          "stem": "In the 1890s the price of a bicycle fell by more than ______ within ten years.",
+          "answer": { "value": "half" },
+          "explanation": {
+            "paragraph": "F",
+            "quote": "prices fell by more than half in a decade",
+            "verdict": "原文说十年间价格跌了「一半以上」，答案就是 half。",
+            "trap": "不能写 50%，因为题目要求 NO MORE THAN TWO WORDS 且需要「从原文中找词」；数字虽在字数内，但原文用的是 half。"
+          }
+        },
+        {
+          "id": "p1-q11", "number": 11,
+          "stem": "Small factories developed techniques such as ball ______ which were later taken up by car makers.",
+          "answer": { "value": "bearings" },
+          "explanation": {
+            "paragraph": "F",
+            "quote": "among them ball bearings, welded tubing and interchangeable parts",
+            "verdict": "原文列举的技术里第一个就是 ball bearings，答案 bearings。",
+            "trap": "只写 bearing 也行（单复数变体），但不能写 ball bearing welded 这种拼接多个词的答案——会超字数。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "p1-s4",
+      "type": "SENTENCE_COMPLETION",
+      "instruction": "Questions 12–13: Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+      "wordLimit": 2,
+      "questions": [
+        {
+          "id": "p1-q12", "number": 12,
+          "stem": "The Rover's power reached the rear wheel by means of a ______.",
+          "answer": { "value": "chain" },
+          "explanation": {
+            "paragraph": "D",
+            "quote": "John Kemp Starley's Rover drove the rear wheel through a chain",
+            "verdict": "原文说 Rover 通过链条（chain）驱动后轮，答案 chain。",
+            "trap": "题干 by means of 与原文 through 同义，定位句就是 D 段第二句。"
+          }
+        },
+        {
+          "id": "p1-q13", "number": 13,
+          "stem": "Susan B. Anthony said the bicycle had done more than anything else to ______ women.",
+          "answer": { "value": "emancipate" },
+          "explanation": {
+            "paragraph": "E",
+            "quote": "the bicycle had done more to emancipate women than anything else in the world",
+            "verdict": "原文原句的动词是 emancipate（解放），直接填入。",
+            "trap": "题干把原文的 done more to emancipate 改成了 had done more … to ______，只是换了位置，词本身没变。"
+          }
+        }
+      ]
+    }
+  ]
+}

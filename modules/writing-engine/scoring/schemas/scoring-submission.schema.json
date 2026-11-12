@@ -1,0 +1,133 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Writing scoring submission",
+  "type": "object",
+  "properties": {
+    "recordId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200,
+      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+    },
+    "userId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200,
+      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+    },
+    "assessmentSetId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200,
+      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+    },
+    "practiceId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200,
+      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+    },
+    "task": {
+      "type": "string",
+      "enum": [
+        "task1",
+        "task2"
+      ]
+    },
+    "questionId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200,
+      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+    },
+    "submissionId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100,
+      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+    },
+    "firstSubmissionId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100,
+      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+    },
+    "attemptNumber": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 10000
+    },
+    "mode": {
+      "type": "string",
+      "enum": [
+        "essay",
+        "language"
+      ]
+    },
+    "text": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 20000
+    },
+    "sourceFingerprint": {
+      "type": "string",
+      "minLength": 64,
+      "maxLength": 64,
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "submittedAt": {
+      "type": "string",
+      "minLength": 24,
+      "maxLength": 24,
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$"
+    },
+    "reportStoredAt": {
+      "type": "string",
+      "minLength": 24,
+      "maxLength": 24,
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$"
+    },
+    "lockedReportHash": {
+      "type": "string",
+      "minLength": 64,
+      "maxLength": 64,
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "origin": {
+      "type": "string",
+      "enum": [
+        "learner",
+        "sample",
+        "model_answer"
+      ]
+    },
+    "assistance": {
+      "type": "string",
+      "enum": [
+        "unassisted",
+        "assisted",
+        "unknown"
+      ]
+    }
+  },
+  "required": [
+    "recordId",
+    "userId",
+    "assessmentSetId",
+    "practiceId",
+    "task",
+    "questionId",
+    "submissionId",
+    "firstSubmissionId",
+    "attemptNumber",
+    "mode",
+    "text",
+    "sourceFingerprint",
+    "submittedAt",
+    "reportStoredAt",
+    "lockedReportHash",
+    "origin",
+    "assistance"
+  ],
+  "additionalProperties": false
+}

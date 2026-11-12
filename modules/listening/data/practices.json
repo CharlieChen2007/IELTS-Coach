@@ -1,0 +1,2197 @@
+{
+  "prac_lsn_s1": {
+    "practice_id": "prac_lsn_s1",
+    "skill": "listening",
+    "title": "二手家具电话咨询",
+    "subtitle": "Phone call about second-hand furniture",
+    "section_label": "Section 1",
+    "section_name": "Phone call about second-hand furniture",
+    "part": 1,
+    "type_label": "笔记填空",
+    "question_type": "table_completion",
+    "source": "IELTS 官方机考样题 · Note Completion / Answer Key / Recording Transcript",
+    "intro": "You will hear a telephone conversation about second-hand furniture. Complete the notes. Write ONE WORD AND/OR A NUMBER for each answer.",
+    "blurb": "一段 2 分钟的电话对话，考「信息更正」与「同句多数字」。7 个空。",
+    "segments": [
+      {
+        "audio_id": "s1",
+        "label": "Section 1",
+        "name": "Phone call about second-hand furniture",
+        "url": "audio/s1_official.mp3",
+        "duration": 124.003,
+        "part": 1,
+        "items": 7,
+        "intro": "You will hear a telephone conversation about second-hand furniture. Complete the notes. Write ONE WORD AND/OR A NUMBER for each answer."
+      }
+    ],
+    "tables": {
+      "t1": {
+        "caption": "Phone call about second-hand furniture — Complete the notes. Write ONE WORD AND/OR A NUMBER for each answer.",
+        "headers": [
+          "Notes",
+          "Answer"
+        ],
+        "rows": [
+          [
+            "Dining table: ______ shape; medium size",
+            {
+              "blank": 1
+            }
+          ],
+          [
+            "Dining table: ______ old; price £25.00",
+            {
+              "blank": 2
+            }
+          ],
+          [
+            "Dining chairs: set of ______ chairs",
+            {
+              "blank": 3
+            }
+          ],
+          [
+            "Dining chairs: seats covered in ______ material",
+            {
+              "blank": 4
+            }
+          ],
+          [
+            "Dining chairs: in ______ condition; price £20.00",
+            {
+              "blank": 5
+            }
+          ],
+          [
+            "Desk: length ______; 3 drawers; £50.00",
+            {
+              "blank": 6
+            }
+          ],
+          [
+            "Desk: top drawer has a ______",
+            {
+              "blank": 7
+            }
+          ]
+        ]
+      }
+    },
+    "options": [],
+    "bank_title": "",
+    "flow_steps": [],
+    "items": [
+      {
+        "id": "lsn-s1-tab-01",
+        "number": 1,
+        "segment": "s1",
+        "part": 1,
+        "type": "table_completion",
+        "prompt": "Complete the notes. Write ONE WORD AND/OR A NUMBER for each answer.",
+        "correct_answers": [
+          "round"
+        ],
+        "distractors": [
+          "square",
+          "rectangular",
+          "medium",
+          "six"
+        ],
+        "explanation": "卖家直接说 it’s round；同一句里的 medium sized、seats about six 是尺寸与容量信息，容易误填。",
+        "error_tags": [
+          "DISTRACTOR"
+        ],
+        "trap_type": "adjacent_info",
+        "retry_stem": "餐桌的形状是 ______ .",
+        "evidence": {
+          "audio_id": "s1",
+          "start": 37.52,
+          "end": 45.32,
+          "quote": "Well, it's round. I'm not sure of the exact measurements, but it's medium sized. It seats about six."
+        },
+        "skill": "listening",
+        "word_limit": {
+          "max_words": 2,
+          "allow_number": true,
+          "raw": "ONE WORD AND/OR A NUMBER"
+        },
+        "table_id": "t1",
+        "blank": 1
+      },
+      {
+        "id": "lsn-s1-tab-02",
+        "number": 2,
+        "segment": "s1",
+        "part": 1,
+        "type": "table_completion",
+        "prompt": "Complete the notes. Write ONE WORD AND/OR A NUMBER for each answer.",
+        "correct_answers": [
+          "12",
+          "12 years",
+          "12 years old",
+          "twelve",
+          "twelve years",
+          "twelve years old"
+        ],
+        "distractors": [
+          "10",
+          "ten",
+          "10 years",
+          "ten years"
+        ],
+        "explanation": "卖家先猜 ten years? 随即自我更正 No it must be twelve by now，答案取改口后的 12 years。这是本题最典型的「漏听自我更正」陷阱。",
+        "error_tags": [
+          "SELF_CORRECTION_MISS",
+          "NUMBER_DATE"
+        ],
+        "trap_type": "corrected_number",
+        "retry_stem": "餐桌已经用了 ______ 年。",
+        "evidence": {
+          "audio_id": "s1",
+          "start": 47.62,
+          "end": 52.195,
+          "quote": "Mmm, let's see, ten years? No, it must be twelve by now."
+        },
+        "skill": "listening",
+        "word_limit": {
+          "max_words": 2,
+          "allow_number": true,
+          "raw": "ONE WORD AND/OR A NUMBER"
+        },
+        "table_id": "t1",
+        "blank": 2
+      },
+      {
+        "id": "lsn-s1-tab-03",
+        "number": 3,
+        "segment": "s1",
+        "part": 1,
+        "type": "table_completion",
+        "prompt": "Complete the notes. Write ONE WORD AND/OR A NUMBER for each answer.",
+        "correct_answers": [
+          "4",
+          "four"
+        ],
+        "distractors": [
+          "6",
+          "six",
+          "2",
+          "two"
+        ],
+        "explanation": "现有一套 4 把；后面 there were two more / a couple have disappeared 说的是原本多出的 2 把，不是答案。",
+        "error_tags": [
+          "DISTRACTOR",
+          "NUMBER_DATE"
+        ],
+        "trap_type": "distractor",
+        "retry_stem": "餐椅一套有 ______ 把。",
+        "evidence": {
+          "audio_id": "s1",
+          "start": 60.7,
+          "end": 66.475,
+          "quote": "Yes. It's a set of four chairs. There were two more, but over the years a couple have disappeared."
+        },
+        "skill": "listening",
+        "word_limit": {
+          "max_words": 2,
+          "allow_number": true,
+          "raw": "ONE WORD AND/OR A NUMBER"
+        },
+        "table_id": "t1",
+        "blank": 3
+      },
+      {
+        "id": "lsn-s1-tab-04",
+        "number": 4,
+        "segment": "s1",
+        "part": 1,
+        "type": "table_completion",
+        "prompt": "Complete the notes. Write ONE WORD AND/OR A NUMBER for each answer.",
+        "correct_answers": [
+          "green"
+        ],
+        "distractors": [
+          "material",
+          "upholstered",
+          "different"
+        ],
+        "explanation": "upholstered seats / covered in material 是铺垫，颜色在下一句才点明 That’s green。",
+        "error_tags": [
+          "DISTRACTOR"
+        ],
+        "trap_type": "adjacent_info",
+        "retry_stem": "椅面布料是 ______ 色。",
+        "evidence": {
+          "audio_id": "s1",
+          "start": 68.7,
+          "end": 79.55,
+          "quote": "They've got upholstered seats ... covered in material ... That's green, but you could change it, of course, if you wanted something different."
+        },
+        "skill": "listening",
+        "word_limit": {
+          "max_words": 2,
+          "allow_number": true,
+          "raw": "ONE WORD AND/OR A NUMBER"
+        },
+        "table_id": "t1",
+        "blank": 4
+      },
+      {
+        "id": "lsn-s1-tab-05",
+        "number": 5,
+        "segment": "s1",
+        "part": 1,
+        "type": "table_completion",
+        "prompt": "Complete the notes. Write ONE WORD AND/OR A NUMBER for each answer.",
+        "correct_answers": [
+          "reasonable"
+        ],
+        "distractors": [
+          "good",
+          "nice",
+          "a bit of wear"
+        ],
+        "explanation": "椅子状况是 reasonable（had a bit of wear）；good condition 出现在后面书桌的描述里，属于跨题干扰。",
+        "error_tags": [
+          "DISTRACTOR"
+        ],
+        "trap_type": "distractor",
+        "retry_stem": "餐椅的成色是 ______ .",
+        "evidence": {
+          "audio_id": "s1",
+          "start": 81.835,
+          "end": 88.91,
+          "quote": "I'd say reasonable. They've had a bit of wear and we're asking 20 pounds for those."
+        },
+        "skill": "listening",
+        "word_limit": {
+          "max_words": 2,
+          "allow_number": true,
+          "raw": "ONE WORD AND/OR A NUMBER"
+        },
+        "table_id": "t1",
+        "blank": 5
+      },
+      {
+        "id": "lsn-s1-tab-06",
+        "number": 6,
+        "segment": "s1",
+        "part": 1,
+        "type": "table_completion",
+        "prompt": "Complete the notes. Write ONE WORD AND/OR A NUMBER for each answer.",
+        "correct_answers": [
+          "1.20 metres",
+          "1.20 meters",
+          "1.2 metres",
+          "1.2 meters",
+          "1 metre 20",
+          "1 meter 20",
+          "1.20 m",
+          "1.2 m",
+          "1.20",
+          "1.2"
+        ],
+        "distractors": [
+          "75 cm",
+          "75 centimetres",
+          "40 cm",
+          "40 centimetres",
+          "3 drawers"
+        ],
+        "explanation": "同一句里出现 75 cm high（高）、1 metre 20（长）、40 cm deep（深）三个数字，题目只问长度。",
+        "error_tags": [
+          "NUMBER_DATE",
+          "DISTRACTOR"
+        ],
+        "trap_type": "adjacent_info",
+        "retry_stem": "书桌的长度是 ______ .",
+        "evidence": {
+          "audio_id": "s1",
+          "start": 98.87,
+          "end": 115.32,
+          "quote": "It's 75 centimetres high I know, and the length's er 1 metre 20. And it's 40 centimetres deep."
+        },
+        "skill": "listening",
+        "word_limit": {
+          "max_words": 2,
+          "allow_number": true,
+          "raw": "ONE WORD AND/OR A NUMBER"
+        },
+        "table_id": "t1",
+        "blank": 6
+      },
+      {
+        "id": "lsn-s1-tab-07",
+        "number": 7,
+        "segment": "s1",
+        "part": 1,
+        "type": "table_completion",
+        "prompt": "Complete the notes. Write ONE WORD AND/OR A NUMBER for each answer.",
+        "correct_answers": [
+          "lock",
+          "a lock"
+        ],
+        "distractors": [
+          "key",
+          "valuables",
+          "3 drawers"
+        ],
+        "explanation": "最上面那个抽屉有 lock，用来放 valuables；valuables 是用途不是物件。",
+        "error_tags": [
+          "DISTRACTOR"
+        ],
+        "trap_type": "detail",
+        "retry_stem": "书桌最上面的抽屉有 ______ .",
+        "evidence": {
+          "audio_id": "s1",
+          "start": 98.87,
+          "end": 115.32,
+          "quote": "It's got three drawers — the top one's got a lock, so you can keep your valuables there."
+        },
+        "skill": "listening",
+        "word_limit": {
+          "max_words": 2,
+          "allow_number": true,
+          "raw": "ONE WORD AND/OR A NUMBER"
+        },
+        "table_id": "t1",
+        "blank": 7
+      }
+    ],
+    "transcripts": {
+      "s1": [
+        {
+          "start": 6.4,
+          "end": 7.95,
+          "speaker": "M",
+          "text": "348831",
+          "item_ids": []
+        },
+        {
+          "start": 8.86,
+          "end": 13.36,
+          "speaker": "F",
+          "text": "Oh hello, I'm calling about your advertisement in the local paper.",
+          "item_ids": []
+        },
+        {
+          "start": 13.41,
+          "end": 14.085,
+          "speaker": "F",
+          "text": "Oh.",
+          "item_ids": []
+        },
+        {
+          "start": 14.085,
+          "end": 18.735,
+          "speaker": "M",
+          "text": "Well, there were two ads actually. Was it the one for second-hand furniture?",
+          "item_ids": []
+        },
+        {
+          "start": 18.735,
+          "end": 21.31,
+          "speaker": "F",
+          "text": "That's right, yes. Last Thursday.",
+          "item_ids": []
+        },
+        {
+          "start": 21.81,
+          "end": 22.46,
+          "speaker": "F",
+          "text": "Oh.",
+          "item_ids": []
+        },
+        {
+          "start": 22.46,
+          "end": 28.035,
+          "speaker": "M",
+          "text": "Yes, some of it's already gone, I'm afraid. But what exactly were you interested in?",
+          "item_ids": []
+        },
+        {
+          "start": 28.035,
+          "end": 31.61,
+          "speaker": "F",
+          "text": "Mainly the dining room furniture, especially the table.",
+          "item_ids": []
+        },
+        {
+          "start": 31.71,
+          "end": 33.56,
+          "speaker": "F",
+          "text": "Has that gone yet?",
+          "item_ids": []
+        },
+        {
+          "start": 33.56,
+          "end": 34.11,
+          "speaker": "M",
+          "text": "Not yet.",
+          "item_ids": []
+        },
+        {
+          "start": 34.41,
+          "end": 37.085,
+          "speaker": "F",
+          "text": "Oh good. Can you tell me a bit about it?",
+          "item_ids": []
+        },
+        {
+          "start": 37.52,
+          "end": 38.82,
+          "speaker": "M",
+          "text": "Well, it's round.",
+          "item_ids": []
+        },
+        {
+          "start": 39.07,
+          "end": 43.32,
+          "speaker": "M",
+          "text": "I'm not sure of the exact measurements, but it's medium sized.",
+          "item_ids": [
+            "lsn-s1-tab-01"
+          ]
+        },
+        {
+          "start": 43.52,
+          "end": 45.32,
+          "speaker": "M",
+          "text": "It seats about six.",
+          "item_ids": []
+        },
+        {
+          "start": 45.47,
+          "end": 47.62,
+          "speaker": "F",
+          "text": "And how old is it?",
+          "item_ids": []
+        },
+        {
+          "start": 47.62,
+          "end": 50.17,
+          "speaker": "M",
+          "text": "Mmm, let's see, ten years?",
+          "item_ids": [
+            "lsn-s1-tab-02"
+          ]
+        },
+        {
+          "start": 50.27,
+          "end": 52.195,
+          "speaker": "M",
+          "text": "No, it must be twelve by now.",
+          "item_ids": []
+        },
+        {
+          "start": 52.195,
+          "end": 56.37,
+          "speaker": "F",
+          "text": "And the advertisement said you were asking 25 pounds for that?",
+          "item_ids": []
+        },
+        {
+          "start": 56.37,
+          "end": 57.37,
+          "speaker": "M",
+          "text": "That's right.",
+          "item_ids": []
+        },
+        {
+          "start": 58.0,
+          "end": 60.65,
+          "speaker": "F",
+          "text": "And do you still have the dining chairs?",
+          "item_ids": []
+        },
+        {
+          "start": 60.7,
+          "end": 66.475,
+          "speaker": "M",
+          "text": "Yes. It's a set of four chairs. There were two more, but over the years a couple have disappeared.",
+          "item_ids": [
+            "lsn-s1-tab-03"
+          ]
+        },
+        {
+          "start": 66.475,
+          "end": 67.6,
+          "speaker": "F",
+          "text": "What are they like?",
+          "item_ids": []
+        },
+        {
+          "start": 67.7,
+          "end": 68.65,
+          "speaker": "M",
+          "text": "Quite nice.",
+          "item_ids": []
+        },
+        {
+          "start": 68.7,
+          "end": 79.55,
+          "speaker": "M",
+          "text": "They've got upholstered seats, you know, they're covered in material to make them more comfortable to sit on. That's green, but you could change it, of course, if you wanted something different.",
+          "item_ids": [
+            "lsn-s1-tab-04"
+          ]
+        },
+        {
+          "start": 80.16,
+          "end": 81.835,
+          "speaker": "F",
+          "text": "What sort of condition are they in?",
+          "item_ids": []
+        },
+        {
+          "start": 81.835,
+          "end": 88.91,
+          "speaker": "M",
+          "text": "I'd say reasonable. They've had a bit of wear and we're asking 20 pounds for those.",
+          "item_ids": [
+            "lsn-s1-tab-05"
+          ]
+        },
+        {
+          "start": 90.02,
+          "end": 93.27,
+          "speaker": "F",
+          "text": "And the other thing I wanted to ask about was the desk.",
+          "item_ids": []
+        },
+        {
+          "start": 93.42,
+          "end": 98.87,
+          "speaker": "F",
+          "text": "Can you tell me roughly how long the top is so I know if it'll fit in my room?",
+          "item_ids": []
+        },
+        {
+          "start": 98.87,
+          "end": 115.32,
+          "speaker": "M",
+          "text": "Let's see, it's 75 centimetres high I know, and the length's er 1 metre 20. And it's 40 centimetres deep. It's got three drawers — the top one's got a lock, so you can keep your valuables there.",
+          "item_ids": [
+            "lsn-s1-tab-06",
+            "lsn-s1-tab-07"
+          ]
+        },
+        {
+          "start": 115.32,
+          "end": 118.995,
+          "speaker": "F",
+          "text": "And you were asking 50 pounds for that?",
+          "item_ids": []
+        },
+        {
+          "start": 118.995,
+          "end": 121.795,
+          "speaker": "M",
+          "text": "Yes, it's a bit more because it's in good condition.",
+          "item_ids": []
+        },
+        {
+          "start": 122.42,
+          "end": 122.795,
+          "speaker": "F",
+          "text": "Okay.",
+          "item_ids": []
+        }
+      ]
+    }
+  },
+  "prac_lsn_s2": {
+    "practice_id": "prac_lsn_s2",
+    "skill": "listening",
+    "title": "夏令营员工职责",
+    "subtitle": "Kids' Camp · Staff Responsibilities",
+    "section_label": "Section 2",
+    "section_name": "Kids' Camp · Staff Responsibilities",
+    "part": 2,
+    "type_label": "匹配题",
+    "question_type": "match",
+    "source": "IELTS 官方机考样题 · Matching (Sample Task A) / Answers / Recording Transcript",
+    "intro": "You will hear a talk given to new staff at a children's summer camp. Choose the correct letter, A–H, for each person.",
+    "blurb": "听迎新说明，为五项员工职责匹配相应选项。",
+    "segments": [
+      {
+        "audio_id": "s2",
+        "label": "Section 2",
+        "name": "Kids' Camp · Staff Responsibilities",
+        "url": "audio/s2_official.mp3",
+        "duration": 182.99,
+        "part": 2,
+        "items": 5,
+        "intro": "You will hear a talk given to new staff at a children's summer camp. Choose the correct letter, A–H, for each person."
+      }
+    ],
+    "tables": {},
+    "options": [
+      {
+        "key": "A",
+        "text": "Finance"
+      },
+      {
+        "key": "B",
+        "text": "Food"
+      },
+      {
+        "key": "C",
+        "text": "Health"
+      },
+      {
+        "key": "D",
+        "text": "Kids' Counselling"
+      },
+      {
+        "key": "E",
+        "text": "Organisation"
+      },
+      {
+        "key": "F",
+        "text": "Rooms"
+      },
+      {
+        "key": "G",
+        "text": "Sport"
+      },
+      {
+        "key": "H",
+        "text": "Trips"
+      }
+    ],
+    "bank_title": "",
+    "flow_steps": [],
+    "items": [
+      {
+        "id": "lsn-s2-mat-11",
+        "number": 11,
+        "segment": "s2",
+        "part": 2,
+        "type": "match",
+        "prompt": "Mary Brown",
+        "correct_answers": [
+          "F",
+          "Rooms"
+        ],
+        "distractors": [
+          "A",
+          "E",
+          "Health",
+          "Finance"
+        ],
+        "explanation": "accommodation officer / housekeeping / dormitories 都指向 Rooms，答案不是字面上出现的 rooms；Health 是后面「今年不再驻场急救员」的干扰。",
+        "error_tags": [
+          "SYNONYM_MISS"
+        ],
+        "trap_type": "synonym",
+        "retry_stem": "Mary Brown 负责哪一类工作？（填 A–H）",
+        "evidence": {
+          "audio_id": "s2",
+          "start": 67.36,
+          "end": 80.06,
+          "quote": "The next person you need to know is Mary Brown; she's our accommodation officer, so she deals with all the housekeeping matters concerning both the children's dormitories and your own accommodation wing."
+        },
+        "skill": "listening",
+        "options": [
+          {
+            "key": "A",
+            "text": "Finance"
+          },
+          {
+            "key": "B",
+            "text": "Food"
+          },
+          {
+            "key": "C",
+            "text": "Health"
+          },
+          {
+            "key": "D",
+            "text": "Kids' Counselling"
+          },
+          {
+            "key": "E",
+            "text": "Organisation"
+          },
+          {
+            "key": "F",
+            "text": "Rooms"
+          },
+          {
+            "key": "G",
+            "text": "Sport"
+          },
+          {
+            "key": "H",
+            "text": "Trips"
+          }
+        ]
+      },
+      {
+        "id": "lsn-s2-mat-12",
+        "number": 12,
+        "segment": "s2",
+        "part": 2,
+        "type": "match",
+        "prompt": "John Stevens",
+        "correct_answers": [
+          "B",
+          "Food"
+        ],
+        "distractors": [
+          "A",
+          "C",
+          "Health",
+          "Finance"
+        ],
+        "explanation": "catering manager / menus / special dietary requirements 对应 Food；不要把 dietary 误听成 Health。",
+        "error_tags": [
+          "SYNONYM_MISS"
+        ],
+        "trap_type": "synonym",
+        "retry_stem": "John Stevens 负责哪一类工作？（填 A–H）",
+        "evidence": {
+          "audio_id": "s2",
+          "start": 80.74,
+          "end": 103.94,
+          "quote": "Next, we have John Stevens, who is our catering manager and he organises all the menus."
+        },
+        "skill": "listening",
+        "options": [
+          {
+            "key": "A",
+            "text": "Finance"
+          },
+          {
+            "key": "B",
+            "text": "Food"
+          },
+          {
+            "key": "C",
+            "text": "Health"
+          },
+          {
+            "key": "D",
+            "text": "Kids' Counselling"
+          },
+          {
+            "key": "E",
+            "text": "Organisation"
+          },
+          {
+            "key": "F",
+            "text": "Rooms"
+          },
+          {
+            "key": "G",
+            "text": "Sport"
+          },
+          {
+            "key": "H",
+            "text": "Trips"
+          }
+        ]
+      },
+      {
+        "id": "lsn-s2-mat-13",
+        "number": 13,
+        "segment": "s2",
+        "part": 2,
+        "type": "match",
+        "prompt": "Alison Jones",
+        "correct_answers": [
+          "H",
+          "Trips"
+        ],
+        "distractors": [
+          "G",
+          "F",
+          "Sport",
+          "Rooms"
+        ],
+        "explanation": "excursions / tour buses / accompanies the children 对应 Trips；同一段末尾才转到 Tim Smith，注意人物切换。",
+        "error_tags": [
+          "SYNONYM_MISS"
+        ],
+        "trap_type": "synonym",
+        "retry_stem": "Alison Jones 负责哪一类工作？（填 A–H）",
+        "evidence": {
+          "audio_id": "s2",
+          "start": 105.2,
+          "end": 127.5,
+          "quote": "Then we have Alison Jones. She plans all the excursions and does all the bookings for the tour buses etc. Alison also accompanies the children on the excursions."
+        },
+        "skill": "listening",
+        "options": [
+          {
+            "key": "A",
+            "text": "Finance"
+          },
+          {
+            "key": "B",
+            "text": "Food"
+          },
+          {
+            "key": "C",
+            "text": "Health"
+          },
+          {
+            "key": "D",
+            "text": "Kids' Counselling"
+          },
+          {
+            "key": "E",
+            "text": "Organisation"
+          },
+          {
+            "key": "F",
+            "text": "Rooms"
+          },
+          {
+            "key": "G",
+            "text": "Sport"
+          },
+          {
+            "key": "H",
+            "text": "Trips"
+          }
+        ]
+      },
+      {
+        "id": "lsn-s2-mat-14",
+        "number": 14,
+        "segment": "s2",
+        "part": 2,
+        "type": "match",
+        "prompt": "Tim Smith",
+        "correct_answers": [
+          "G",
+          "Sport"
+        ],
+        "distractors": [
+          "C",
+          "H",
+          "Health",
+          "Trips"
+        ],
+        "explanation": "physical education / athletics carnival / training sessions 对应 Sport。",
+        "error_tags": [
+          "SYNONYM_MISS"
+        ],
+        "trap_type": "synonym",
+        "retry_stem": "Tim Smith 负责哪一类工作？（填 A–H）",
+        "evidence": {
+          "audio_id": "s2",
+          "start": 127.5,
+          "end": 136.6,
+          "quote": "Tim Smith is in charge of physical education. He'll organise the big athletics carnival that we have at the end of the camp, but he'll also plan the individual training sessions for the kids."
+        },
+        "skill": "listening",
+        "options": [
+          {
+            "key": "A",
+            "text": "Finance"
+          },
+          {
+            "key": "B",
+            "text": "Food"
+          },
+          {
+            "key": "C",
+            "text": "Health"
+          },
+          {
+            "key": "D",
+            "text": "Kids' Counselling"
+          },
+          {
+            "key": "E",
+            "text": "Organisation"
+          },
+          {
+            "key": "F",
+            "text": "Rooms"
+          },
+          {
+            "key": "G",
+            "text": "Sport"
+          },
+          {
+            "key": "H",
+            "text": "Trips"
+          }
+        ]
+      },
+      {
+        "id": "lsn-s2-mat-15",
+        "number": 15,
+        "segment": "s2",
+        "part": 2,
+        "type": "match",
+        "prompt": "Jenny James",
+        "correct_answers": [
+          "D",
+          "Kids' Counselling"
+        ],
+        "distractors": [
+          "C",
+          "A",
+          "Health",
+          "Finance"
+        ],
+        "explanation": "homesick / problems getting on with other kids 对应 Kids’ Counselling；紧接着出现的 qualified nurse / first aid 是 Health 的强干扰，但那是外聘人员，不属于 Jenny 的职责。",
+        "error_tags": [
+          "DISTRACTOR"
+        ],
+        "trap_type": "distractor",
+        "retry_stem": "Jenny James 负责哪一类工作？（填 A–H）",
+        "evidence": {
+          "audio_id": "s2",
+          "start": 143.45,
+          "end": 157.8,
+          "quote": "Last but not least is our wonderful Jenny James. She looks after any of the children who are homesick or have problems getting on with other kids here."
+        },
+        "skill": "listening",
+        "options": [
+          {
+            "key": "A",
+            "text": "Finance"
+          },
+          {
+            "key": "B",
+            "text": "Food"
+          },
+          {
+            "key": "C",
+            "text": "Health"
+          },
+          {
+            "key": "D",
+            "text": "Kids' Counselling"
+          },
+          {
+            "key": "E",
+            "text": "Organisation"
+          },
+          {
+            "key": "F",
+            "text": "Rooms"
+          },
+          {
+            "key": "G",
+            "text": "Sport"
+          },
+          {
+            "key": "H",
+            "text": "Trips"
+          }
+        ]
+      }
+    ],
+    "transcripts": {
+      "s2": [
+        {
+          "start": 0.2,
+          "end": 5.625,
+          "speaker": "提示",
+          "text": "Part two. You will hear a talk given to new staff at a children's summer camp.",
+          "item_ids": []
+        },
+        {
+          "start": 6.48,
+          "end": 9.93,
+          "speaker": "提示",
+          "text": "First, you have some time to look at questions 11 to 15.",
+          "item_ids": []
+        },
+        {
+          "start": 35.41,
+          "end": 39.26,
+          "speaker": "提示",
+          "text": "Now listen carefully and answer questions 11 to 15.",
+          "item_ids": []
+        },
+        {
+          "start": 42.94,
+          "end": 66.715,
+          "speaker": "Jill",
+          "text": "Good morning everyone, welcome to all our staff on this summer's Kids' Camp. In our orientation programme this morning I will introduce you to all the people you need to know at the camp. They each have a different responsibility in the centre, so it's a good idea to make a note of who does what. Well, first of all, you all know me, Jill Andrews, I'm the co-ordinator here.",
+          "item_ids": []
+        },
+        {
+          "start": 67.36,
+          "end": 70.31,
+          "speaker": "Jill",
+          "text": "The next person you need to know is Mary Brown.",
+          "item_ids": []
+        },
+        {
+          "start": 70.46,
+          "end": 80.06,
+          "speaker": "Jill",
+          "text": "She's our accommodation officer, so she deals with all the housekeeping matters concerning both the children's dormitories and your own accommodation wing.",
+          "item_ids": [
+            "lsn-s2-mat-11"
+          ]
+        },
+        {
+          "start": 80.74,
+          "end": 87.54,
+          "speaker": "Jill",
+          "text": "Next we have John Stevens, who is our catering manager and he organises all the menus.",
+          "item_ids": []
+        },
+        {
+          "start": 87.64,
+          "end": 103.94,
+          "speaker": "Jill",
+          "text": "If you have any special dietary requirements, speak to John and he'll do his best to accommodate you. We sometimes find that the children complain about not liking certain meals, so if there's a real problem you should get John involved.",
+          "item_ids": [
+            "lsn-s2-mat-12"
+          ]
+        },
+        {
+          "start": 105.2,
+          "end": 112.95,
+          "speaker": "Jill",
+          "text": "Then we have Alison Jones. She plans all the excursions and does all the bookings for the tour buses etc.",
+          "item_ids": []
+        },
+        {
+          "start": 113.05,
+          "end": 127.5,
+          "speaker": "Jill",
+          "text": "Alison also accompanies the children on the excursions and is responsible for making sure that the same number of children return to the centre as leave it. Tim Smith is in charge of physical education.",
+          "item_ids": [
+            "lsn-s2-mat-13"
+          ]
+        },
+        {
+          "start": 127.7,
+          "end": 136.6,
+          "speaker": "Jill",
+          "text": "He'll organise the big athletics carnival that we have at the end of the camp, but he'll also plan the individual training sessions for the kids.",
+          "item_ids": [
+            "lsn-s2-mat-14"
+          ]
+        },
+        {
+          "start": 136.65,
+          "end": 141.7,
+          "speaker": "Jill",
+          "text": "We have to remember that exercise is one of the key features of this camp.",
+          "item_ids": []
+        },
+        {
+          "start": 143.45,
+          "end": 147.25,
+          "speaker": "Jill",
+          "text": "Last but not least is our wonderful Jenny James.",
+          "item_ids": []
+        },
+        {
+          "start": 147.6,
+          "end": 157.8,
+          "speaker": "Jill",
+          "text": "She looks after any of the children who are homesick or have problems getting on with other kids here, so don't feel you have to deal with those problems yourself.",
+          "item_ids": [
+            "lsn-s2-mat-15"
+          ]
+        },
+        {
+          "start": 157.9,
+          "end": 164.5,
+          "speaker": "Jill",
+          "text": "A chat with Jenny usually does the trick. You'll notice that this year we don't have a resident first aid person.",
+          "item_ids": []
+        },
+        {
+          "start": 164.65,
+          "end": 170.175,
+          "speaker": "Jill",
+          "text": "Instead we have a qualified nurse on call at all times should anyone fall ill.",
+          "item_ids": []
+        },
+        {
+          "start": 173.89,
+          "end": 179.34,
+          "speaker": "提示",
+          "text": "Before you hear the rest of the talk, you have some time to look at questions 16 to 20.",
+          "item_ids": []
+        }
+      ]
+    }
+  },
+  "prac_lsn_s3": {
+    "practice_id": "prac_lsn_s3",
+    "skill": "listening",
+    "title": "地外生命证据流程",
+    "subtitle": "Evidence of life on other planets",
+    "section_label": "Section 3",
+    "section_name": "Evidence of life on other planets",
+    "part": 3,
+    "type_label": "流程图选词填空",
+    "question_type": "word_bank_completion",
+    "source": "IELTS 官方机考样题 · Flow-chart Completion / Answer Key / Tapescript",
+    "intro": "You will hear two biology students comparing their research on evidence of life on Earth and other planets. Choose ONE WORD ONLY from the box for each answer.",
+    "blurb": "听两位学生讨论实验流程，从词库中选出五个缺失的环节。",
+    "segments": [
+      {
+        "audio_id": "s3",
+        "label": "Section 3",
+        "name": "Evidence of life on other planets",
+        "url": "audio/s3_official.mp3",
+        "duration": 164.0,
+        "part": 3,
+        "items": 5,
+        "intro": "You will hear two biology students comparing their research on evidence of life on Earth and other planets. Choose ONE WORD ONLY from the box for each answer."
+      }
+    ],
+    "tables": {},
+    "options": [
+      {
+        "key": "A",
+        "text": "contamination"
+      },
+      {
+        "key": "B",
+        "text": "vehicle"
+      },
+      {
+        "key": "C",
+        "text": "heat"
+      },
+      {
+        "key": "D",
+        "text": "results"
+      },
+      {
+        "key": "E",
+        "text": "radiation"
+      },
+      {
+        "key": "F",
+        "text": "site"
+      },
+      {
+        "key": "G",
+        "text": "microbes"
+      },
+      {
+        "key": "H",
+        "text": "water"
+      }
+    ],
+    "bank_title": "Word bank",
+    "flow_steps": [
+      {
+        "text": "A spacecraft lands on a planet and sends out a rover."
+      },
+      {
+        "text": "The rover is directed to a ______ which has organic material.",
+        "blank": 1
+      },
+      {
+        "text": "It collects a sample from below the surface (in order to avoid the effects of ______).",
+        "blank": 2
+      },
+      {
+        "text": "The soil and rocks are checked to look for evidence of fossils."
+      },
+      {
+        "text": "The sample is converted to powder."
+      },
+      {
+        "text": "The sample is subjected to ______.",
+        "blank": 3
+      },
+      {
+        "text": "A mass spectrometer is used to search for potential proof of life, e.g. ______.",
+        "blank": 4
+      },
+      {
+        "text": "The ______ are compared with existing data from Earth.",
+        "blank": 5
+      }
+    ],
+    "items": [
+      {
+        "id": "lsn-s3-wor-26",
+        "number": 26,
+        "segment": "s3",
+        "part": 3,
+        "type": "word_bank_completion",
+        "prompt": "The rover is directed to a ______ which has organic material.",
+        "correct_answers": [
+          "site"
+        ],
+        "distractors": [
+          "vehicle",
+          "water",
+          "contamination"
+        ],
+        "explanation": "题干里的 directed to 对应原文 direct it to a site；词库里的 vehicle 是上一句 rover 的同位语，属于位置干扰。",
+        "error_tags": [
+          "SYNONYM_MISS"
+        ],
+        "trap_type": "synonym",
+        "retry_stem": "探测器被派往一个 ______ 。",
+        "evidence": {
+          "audio_id": "s3",
+          "start": 44.6,
+          "end": 50.125,
+          "quote": "The rover needs to find a good range of organic material, so they direct it to a site that's likely to provide this."
+        },
+        "skill": "listening",
+        "word_limit": {
+          "max_words": 1,
+          "allow_number": false,
+          "raw": "ONE WORD ONLY"
+        },
+        "options": [
+          {
+            "key": "A",
+            "text": "contamination"
+          },
+          {
+            "key": "B",
+            "text": "vehicle"
+          },
+          {
+            "key": "C",
+            "text": "heat"
+          },
+          {
+            "key": "D",
+            "text": "results"
+          },
+          {
+            "key": "E",
+            "text": "radiation"
+          },
+          {
+            "key": "F",
+            "text": "site"
+          },
+          {
+            "key": "G",
+            "text": "microbes"
+          },
+          {
+            "key": "H",
+            "text": "water"
+          }
+        ],
+        "blank": 1
+      },
+      {
+        "id": "lsn-s3-wor-27",
+        "number": 27,
+        "segment": "s3",
+        "part": 3,
+        "type": "word_bank_completion",
+        "prompt": "It collects a sample from below the surface (in order to avoid the effects of ______).",
+        "correct_answers": [
+          "radiation"
+        ],
+        "distractors": [
+          "contamination",
+          "water",
+          "site"
+        ],
+        "explanation": "学生先猜 contamination，随即被 No 否定，真正原因是 atmosphere 带来的 radiation。听到 No / actually 一定要划掉前一个猜测。",
+        "error_tags": [
+          "NEGATION",
+          "DISTRACTOR"
+        ],
+        "trap_type": "corrected_info",
+        "retry_stem": "从地表下取样是为了避开 ______ 。",
+        "evidence": {
+          "audio_id": "s3",
+          "start": 59.96,
+          "end": 75.71,
+          "quote": "Is it to stop contamination from the rover? ... No, the rover is clean. It's actually because of the atmosphere ... the surface might be exposed to high levels of radiation."
+        },
+        "skill": "listening",
+        "word_limit": {
+          "max_words": 1,
+          "allow_number": false,
+          "raw": "ONE WORD ONLY"
+        },
+        "options": [
+          {
+            "key": "A",
+            "text": "contamination"
+          },
+          {
+            "key": "B",
+            "text": "vehicle"
+          },
+          {
+            "key": "C",
+            "text": "heat"
+          },
+          {
+            "key": "D",
+            "text": "results"
+          },
+          {
+            "key": "E",
+            "text": "radiation"
+          },
+          {
+            "key": "F",
+            "text": "site"
+          },
+          {
+            "key": "G",
+            "text": "microbes"
+          },
+          {
+            "key": "H",
+            "text": "water"
+          }
+        ],
+        "blank": 2
+      },
+      {
+        "id": "lsn-s3-wor-28",
+        "number": 28,
+        "segment": "s3",
+        "part": 3,
+        "type": "word_bank_completion",
+        "prompt": "The sample is subjected to ______.",
+        "correct_answers": [
+          "heat"
+        ],
+        "distractors": [
+          "radiation",
+          "water",
+          "results"
+        ],
+        "explanation": "exposed to heat 之后还有 mass spectrometer，但流程这一步问的是「样品被施加什么」，答案是 heat。",
+        "error_tags": [
+          "DISTRACTOR"
+        ],
+        "trap_type": "adjacent_info",
+        "retry_stem": "样品随后要接受 ______ 。",
+        "evidence": {
+          "audio_id": "s3",
+          "start": 107.24,
+          "end": 113.44,
+          "quote": "And in the next stage of the analysis, the sample has to be exposed to heat, and then run through a mass spectrometer."
+        },
+        "skill": "listening",
+        "word_limit": {
+          "max_words": 1,
+          "allow_number": false,
+          "raw": "ONE WORD ONLY"
+        },
+        "options": [
+          {
+            "key": "A",
+            "text": "contamination"
+          },
+          {
+            "key": "B",
+            "text": "vehicle"
+          },
+          {
+            "key": "C",
+            "text": "heat"
+          },
+          {
+            "key": "D",
+            "text": "results"
+          },
+          {
+            "key": "E",
+            "text": "radiation"
+          },
+          {
+            "key": "F",
+            "text": "site"
+          },
+          {
+            "key": "G",
+            "text": "microbes"
+          },
+          {
+            "key": "H",
+            "text": "water"
+          }
+        ],
+        "blank": 3
+      },
+      {
+        "id": "lsn-s3-wor-29",
+        "number": 29,
+        "segment": "s3",
+        "part": 3,
+        "type": "word_bank_completion",
+        "prompt": "A mass spectrometer is used to search for potential proof of life, e.g. ______.",
+        "correct_answers": [
+          "microbes"
+        ],
+        "distractors": [
+          "fossils",
+          "results",
+          "powder"
+        ],
+        "explanation": "microscopic signs of life / much smaller than fossils 是 microbes 的解释；fossils 是前面步骤查过、且被明确排除的对象。",
+        "error_tags": [
+          "SYNONYM_MISS"
+        ],
+        "trap_type": "synonym",
+        "retry_stem": "质谱仪用来寻找 ______ 这类微观生命证据。",
+        "evidence": {
+          "audio_id": "s3",
+          "start": 121.04,
+          "end": 128.665,
+          "quote": "This level of analysis is necessary to search for microscopic signs of life, much smaller than fossils, such as microbes."
+        },
+        "skill": "listening",
+        "word_limit": {
+          "max_words": 1,
+          "allow_number": false,
+          "raw": "ONE WORD ONLY"
+        },
+        "options": [
+          {
+            "key": "A",
+            "text": "contamination"
+          },
+          {
+            "key": "B",
+            "text": "vehicle"
+          },
+          {
+            "key": "C",
+            "text": "heat"
+          },
+          {
+            "key": "D",
+            "text": "results"
+          },
+          {
+            "key": "E",
+            "text": "radiation"
+          },
+          {
+            "key": "F",
+            "text": "site"
+          },
+          {
+            "key": "G",
+            "text": "microbes"
+          },
+          {
+            "key": "H",
+            "text": "water"
+          }
+        ],
+        "blank": 4
+      },
+      {
+        "id": "lsn-s3-wor-30",
+        "number": 30,
+        "segment": "s3",
+        "part": 3,
+        "type": "word_bank_completion",
+        "prompt": "The ______ are compared with existing data from Earth.",
+        "correct_answers": [
+          "results",
+          "result"
+        ],
+        "distractors": [
+          "microbes",
+          "data",
+          "water"
+        ],
+        "explanation": "句中同时出现 results / data / water / desert soils，题干问的是「什么被拿去和地球数据比较」，只有 results 符合。",
+        "error_tags": [
+          "DISTRACTOR"
+        ],
+        "trap_type": "adjacent_info",
+        "retry_stem": "把 ______ 与地球上的已有数据比较。",
+        "evidence": {
+          "audio_id": "s3",
+          "start": 129.34,
+          "end": 142.59,
+          "quote": "So once all this has been done and the results sent back to Earth, what happens next? ... They can compare them with data from similar studies done on large bodies of water or desert soils from Earth."
+        },
+        "skill": "listening",
+        "word_limit": {
+          "max_words": 1,
+          "allow_number": false,
+          "raw": "ONE WORD ONLY"
+        },
+        "options": [
+          {
+            "key": "A",
+            "text": "contamination"
+          },
+          {
+            "key": "B",
+            "text": "vehicle"
+          },
+          {
+            "key": "C",
+            "text": "heat"
+          },
+          {
+            "key": "D",
+            "text": "results"
+          },
+          {
+            "key": "E",
+            "text": "radiation"
+          },
+          {
+            "key": "F",
+            "text": "site"
+          },
+          {
+            "key": "G",
+            "text": "microbes"
+          },
+          {
+            "key": "H",
+            "text": "water"
+          }
+        ],
+        "blank": 5
+      }
+    ],
+    "transcripts": {
+      "s3": [
+        {
+          "start": 5.05,
+          "end": 8.75,
+          "speaker": "提示",
+          "text": "Now listen and answer questions 26 to 30.",
+          "item_ids": []
+        },
+        {
+          "start": 12.38,
+          "end": 25.83,
+          "speaker": "A",
+          "text": "So we've talked about how we find evidence of past life on Earth, and in the second part of our presentation, we want to demonstrate in a practical way how to find out if there has ever been life on other planets in the solar system.",
+          "item_ids": []
+        },
+        {
+          "start": 25.83,
+          "end": 29.78,
+          "speaker": "B",
+          "text": "And I thought we could present the information in the form of a flowchart.",
+          "item_ids": []
+        },
+        {
+          "start": 29.78,
+          "end": 30.805,
+          "speaker": "A",
+          "text": "Great idea.",
+          "item_ids": []
+        },
+        {
+          "start": 31.47,
+          "end": 36.62,
+          "speaker": "A",
+          "text": "So the procedure begins by sending a spacecraft to land on the planet.",
+          "item_ids": []
+        },
+        {
+          "start": 36.62,
+          "end": 40.72,
+          "speaker": "B",
+          "text": "Right, then a vehicle, called a rover, is sent out from the spacecraft.",
+          "item_ids": []
+        },
+        {
+          "start": 41.38,
+          "end": 43.78,
+          "speaker": "B",
+          "text": "This is a small machine which travels over the planet.",
+          "item_ids": []
+        },
+        {
+          "start": 44.6,
+          "end": 50.125,
+          "speaker": "B",
+          "text": "The rover needs to find a good range of organic material, so they direct it to a site that's likely to provide this. Then the rover drills down under the surface to collect a sample.",
+          "item_ids": [
+            "lsn-s3-wor-26"
+          ]
+        },
+        {
+          "start": 54.09,
+          "end": 59.215,
+          "speaker": "A",
+          "text": "Why does the sample have to come from underneath? Why not just scoop up some soil from the top?",
+          "item_ids": []
+        },
+        {
+          "start": 59.96,
+          "end": 64.685,
+          "speaker": "A",
+          "text": "Is it to stop contamination from the rover? I've heard that can be a problem.",
+          "item_ids": []
+        },
+        {
+          "start": 64.685,
+          "end": 65.86,
+          "speaker": "B",
+          "text": "No, the rover is clean.",
+          "item_ids": []
+        },
+        {
+          "start": 65.91,
+          "end": 75.71,
+          "speaker": "B",
+          "text": "It's actually because of the atmosphere. Unlike our planet, the surface might be exposed to high levels of radiation and that could kill anything living on the surface.",
+          "item_ids": [
+            "lsn-s3-wor-27"
+          ]
+        },
+        {
+          "start": 75.91,
+          "end": 81.41,
+          "speaker": "A",
+          "text": "I see. But something could still be present underneath the surface.",
+          "item_ids": []
+        },
+        {
+          "start": 81.46,
+          "end": 82.46,
+          "speaker": "B",
+          "text": "Yes, it's possible.",
+          "item_ids": []
+        },
+        {
+          "start": 82.96,
+          "end": 89.585,
+          "speaker": "A",
+          "text": "So at this point, the soil and rocks that have been collected would need to be analysed, to see if there are any signs of fossils.",
+          "item_ids": []
+        },
+        {
+          "start": 89.585,
+          "end": 91.76,
+          "speaker": "B",
+          "text": "Right. Just as we do on Earth.",
+          "item_ids": []
+        },
+        {
+          "start": 92.48,
+          "end": 96.98,
+          "speaker": "B",
+          "text": "It's unlikely that there'd be anything that large, but it's an essential step.",
+          "item_ids": []
+        },
+        {
+          "start": 97.98,
+          "end": 101.78,
+          "speaker": "B",
+          "text": "Once that's been done, the sample is crushed into a fine powder.",
+          "item_ids": []
+        },
+        {
+          "start": 101.78,
+          "end": 105.68,
+          "speaker": "A",
+          "text": "Why is that? Doesn't that destroy everything?",
+          "item_ids": []
+        },
+        {
+          "start": 105.68,
+          "end": 106.38,
+          "speaker": "B",
+          "text": "Well, luckily, no.",
+          "item_ids": []
+        },
+        {
+          "start": 107.24,
+          "end": 113.44,
+          "speaker": "B",
+          "text": "And in the next stage of the analysis, the sample has to be exposed to heat, and then run through a mass spectrometer.",
+          "item_ids": [
+            "lsn-s3-wor-28"
+          ]
+        },
+        {
+          "start": 113.44,
+          "end": 120.165,
+          "speaker": "A",
+          "text": "We'll need to explain that this is an instrument used to measure the weight and concentration of atoms and molecules.",
+          "item_ids": []
+        },
+        {
+          "start": 121.04,
+          "end": 128.665,
+          "speaker": "B",
+          "text": "Yes. This level of analysis is necessary to search for microscopic signs of life, much smaller than fossils, such as microbes.",
+          "item_ids": [
+            "lsn-s3-wor-29"
+          ]
+        },
+        {
+          "start": 129.34,
+          "end": 133.59,
+          "speaker": "A",
+          "text": "So once all this has been done and the results sent back to Earth, what happens next?",
+          "item_ids": []
+        },
+        {
+          "start": 133.69,
+          "end": 135.765,
+          "speaker": "A",
+          "text": "Can they do anything with the results?",
+          "item_ids": []
+        },
+        {
+          "start": 135.765,
+          "end": 142.59,
+          "speaker": "B",
+          "text": "Yes. They can compare them with data from similar studies done on large bodies of water or desert soils from Earth.",
+          "item_ids": [
+            "lsn-s3-wor-30"
+          ]
+        },
+        {
+          "start": 142.69,
+          "end": 147.09,
+          "speaker": "A",
+          "text": "Fascinating. Let's make a start on our presentation slides, shall we?",
+          "item_ids": []
+        },
+        {
+          "start": 150.27,
+          "end": 151.97,
+          "speaker": "提示",
+          "text": "That is the end of part three.",
+          "item_ids": []
+        },
+        {
+          "start": 152.8,
+          "end": 156.425,
+          "speaker": "提示",
+          "text": "You now have 30 seconds to check your answers to part three.",
+          "item_ids": []
+        }
+      ]
+    }
+  },
+  "prac_lsn_s4": {
+    "practice_id": "prac_lsn_s4",
+    "skill": "listening",
+    "title": "学习者坚持性研究",
+    "subtitle": "Research into learner persistence",
+    "section_label": "Section 4",
+    "section_name": "Research into learner persistence",
+    "part": 4,
+    "type_label": "表格填空",
+    "question_type": "table_completion",
+    "source": "IELTS 官方机考样题 · Table Completion / Answer Key / Recording Transcript",
+    "intro": "You will hear part of a talk about research into 'learner persistence' given by a university lecturer. Complete the table. Write ONE WORD ONLY for each answer.",
+    "blurb": "一段大学教师的讲座，考「三列三层信息定位」：跟着列名与 level 切换，别把相邻列的词填错格。5 空。",
+    "segments": [
+      {
+        "audio_id": "s4",
+        "label": "Section 4",
+        "name": "Research into learner persistence",
+        "url": "audio/s4_official.mp3",
+        "duration": 216.0,
+        "part": 4,
+        "items": 5,
+        "intro": "You will hear part of a talk about research into 'learner persistence' given by a university lecturer. Complete the table. Write ONE WORD ONLY for each answer."
+      }
+    ],
+    "tables": {
+      "t4": {
+        "caption": "Research findings — Complete the table. Write ONE WORD ONLY for each answer.",
+        "headers": [
+          "Level of importance",
+          "Social and Environmental Factors",
+          "Other Factors",
+          "Personal Characteristics"
+        ],
+        "rows": [
+          [
+            "First level",
+            "Effective support",
+            "Perceived success in study",
+            {
+              "blank": 1,
+              "label": "Enjoyment of a ______"
+            }
+          ],
+          [
+            "Second level",
+            {
+              "blank": 2,
+              "label": "Positive experiences at ______"
+            },
+            {
+              "blank": 3,
+              "label": "Good ______"
+            },
+            {
+              "blank": 4,
+              "label": "Many ______ in daily life"
+            }
+          ],
+          [
+            "Third level",
+            {
+              "blank": 5,
+              "label": "Good interaction with the ______"
+            },
+            "No family problems",
+            "Capacity for multi-tasking"
+          ]
+        ]
+      }
+    },
+    "options": [],
+    "bank_title": "",
+    "flow_steps": [],
+    "items": [
+      {
+        "id": "lsn-s4-tab-33",
+        "number": 33,
+        "segment": "s4",
+        "part": 4,
+        "type": "table_completion",
+        "prompt": "Complete the table. Write ONE WORD ONLY for each answer.",
+        "correct_answers": [
+          "challenge"
+        ],
+        "distractors": [
+          "success",
+          "support",
+          "high grades"
+        ],
+        "explanation": "题干 Enjoyment of a ______ 对应原文 took pleasure in challenge；success / support 分别属于前面两列，容易串列。",
+        "error_tags": [
+          "SYNONYM_MISS"
+        ],
+        "trap_type": "synonym",
+        "retry_stem": "学习者从 ______ 中获得乐趣。",
+        "evidence": {
+          "audio_id": "s4",
+          "start": 50.64,
+          "end": 59.34,
+          "quote": "And for personal characteristics, many respondents reported that they took pleasure in challenge and that this was regarded as very significant."
+        },
+        "skill": "listening",
+        "word_limit": {
+          "max_words": 1,
+          "allow_number": false,
+          "raw": "ONE WORD ONLY"
+        },
+        "table_id": "t4",
+        "blank": 1
+      },
+      {
+        "id": "lsn-s4-tab-34",
+        "number": 34,
+        "segment": "s4",
+        "part": 4,
+        "type": "table_completion",
+        "prompt": "Complete the table. Write ONE WORD ONLY for each answer.",
+        "correct_answers": [
+          "school"
+        ],
+        "distractors": [
+          "family",
+          "friends",
+          "support"
+        ],
+        "explanation": "第二层的 social factor 是 school；family / friends 是第一层 support 的来源，别提前写下。",
+        "error_tags": [
+          "DISTRACTOR"
+        ],
+        "trap_type": "adjacent_info",
+        "retry_stem": "第二层的社会因素是曾经在 ______ 过得愉快。",
+        "evidence": {
+          "audio_id": "s4",
+          "start": 60.78,
+          "end": 71.58,
+          "quote": "At the second level of importance, in the first category, a sizeable percentage talked about the fact that they had enjoyed themselves in school as an important social factor."
+        },
+        "skill": "listening",
+        "word_limit": {
+          "max_words": 1,
+          "allow_number": false,
+          "raw": "ONE WORD ONLY"
+        },
+        "table_id": "t4",
+        "blank": 2
+      },
+      {
+        "id": "lsn-s4-tab-35",
+        "number": 35,
+        "segment": "s4",
+        "part": 4,
+        "type": "table_completion",
+        "prompt": "Complete the table. Write ONE WORD ONLY for each answer.",
+        "correct_answers": [
+          "health"
+        ],
+        "distractors": [
+          "grades",
+          "decent",
+          "illness"
+        ],
+        "explanation": "注意 in the second column 的列切换信号；decent 只是修饰词，答案只要一个词 health。",
+        "error_tags": [
+          "DISTRACTOR"
+        ],
+        "trap_type": "adjacent_info",
+        "retry_stem": "第二层的「其他因素」是良好的 ______ 。",
+        "evidence": {
+          "audio_id": "s4",
+          "start": 72.44,
+          "end": 79.44,
+          "quote": "In the second column, other factors, a number of people said that what was of most importance was decent health."
+        },
+        "skill": "listening",
+        "word_limit": {
+          "max_words": 1,
+          "allow_number": false,
+          "raw": "ONE WORD ONLY"
+        },
+        "table_id": "t4",
+        "blank": 3
+      },
+      {
+        "id": "lsn-s4-tab-36",
+        "number": 36,
+        "segment": "s4",
+        "part": 4,
+        "type": "table_completion",
+        "prompt": "Complete the table. Write ONE WORD ONLY for each answer.",
+        "correct_answers": [
+          "interests"
+        ],
+        "distractors": [
+          "roles",
+          "perspective",
+          "depth"
+        ],
+        "explanation": "lots of interests / in their everyday lives 对应题干 Many ______ in daily life；depth / perspective 是后半句的结果描述。",
+        "error_tags": [
+          "SYNONYM_MISS"
+        ],
+        "trap_type": "synonym",
+        "retry_stem": "个人特征之一是日常生活里有很多 ______ 。",
+        "evidence": {
+          "audio_id": "s4",
+          "start": 84.78,
+          "end": 96.73,
+          "quote": "And then under the heading of personal characteristics, there were quite a large percentage of respondents who mentioned they felt it was important to have lots of interests in their everyday lives."
+        },
+        "skill": "listening",
+        "word_limit": {
+          "max_words": 1,
+          "allow_number": false,
+          "raw": "ONE WORD ONLY"
+        },
+        "table_id": "t4",
+        "blank": 4
+      },
+      {
+        "id": "lsn-s4-tab-37",
+        "number": 37,
+        "segment": "s4",
+        "part": 4,
+        "type": "table_completion",
+        "prompt": "Complete the table. Write ONE WORD ONLY for each answer.",
+        "correct_answers": [
+          "tutor",
+          "tutors"
+        ],
+        "distractors": [
+          "family",
+          "friends",
+          "teachers"
+        ],
+        "explanation": "第三层 social factors 是 tutors；同一句后半段 family problems 属于 other factors 列。",
+        "error_tags": [
+          "DISTRACTOR"
+        ],
+        "trap_type": "adjacent_info",
+        "retry_stem": "第三层的社会因素是与 ______ 的良好关系。",
+        "evidence": {
+          "audio_id": "s4",
+          "start": 103.84,
+          "end": 117.49,
+          "quote": "And then on to the third level. Under social factors, several respondents talked about good relationships with their tutors."
+        },
+        "skill": "listening",
+        "word_limit": {
+          "max_words": 1,
+          "allow_number": false,
+          "raw": "ONE WORD ONLY"
+        },
+        "table_id": "t4",
+        "blank": 5
+      }
+    ],
+    "transcripts": {
+      "s4": [
+        {
+          "start": 4.75,
+          "end": 17.875,
+          "speaker": "Lecturer",
+          "text": "The second section of my questionnaire looked at learner persistence under three main headings: social and environmental factors, other factors, and intrinsic or personal characteristics.",
+          "item_ids": []
+        },
+        {
+          "start": 18.58,
+          "end": 39.98,
+          "speaker": "Lecturer",
+          "text": "I identified three levels of importance for each of these. At the first level — those points identified by participants as most important in learner persistence — for social factors, many respondents said how crucial it had been to have good support, though there was no one specific source; it could be family or friends.",
+          "item_ids": []
+        },
+        {
+          "start": 40.13,
+          "end": 49.93,
+          "speaker": "Lecturer",
+          "text": "As regards other factors, students are heartened not so much by high grades but by what they regard as success in study.",
+          "item_ids": []
+        },
+        {
+          "start": 50.64,
+          "end": 59.34,
+          "speaker": "Lecturer",
+          "text": "And for personal characteristics, many respondents reported that they took pleasure in challenge and that this was regarded as very significant.",
+          "item_ids": [
+            "lsn-s4-tab-33"
+          ]
+        },
+        {
+          "start": 60.78,
+          "end": 71.58,
+          "speaker": "Lecturer",
+          "text": "At the second level of importance, in the first category, a sizeable percentage talked about the fact that they had enjoyed themselves in school as an important social factor.",
+          "item_ids": [
+            "lsn-s4-tab-34"
+          ]
+        },
+        {
+          "start": 72.44,
+          "end": 79.44,
+          "speaker": "Lecturer",
+          "text": "In the second column, other factors, a number of people said that what was of most importance was decent health.",
+          "item_ids": [
+            "lsn-s4-tab-35"
+          ]
+        },
+        {
+          "start": 79.54,
+          "end": 83.84,
+          "speaker": "Lecturer",
+          "text": "This had a fairly strong influence on their persistence in their studies.",
+          "item_ids": []
+        },
+        {
+          "start": 84.78,
+          "end": 96.73,
+          "speaker": "Lecturer",
+          "text": "And then under the heading of personal characteristics, there were quite a large percentage of respondents who mentioned they felt it was important to have lots of interests in their everyday lives.",
+          "item_ids": [
+            "lsn-s4-tab-36"
+          ]
+        },
+        {
+          "start": 96.88,
+          "end": 102.93,
+          "speaker": "Lecturer",
+          "text": "This gave them a depth and sense of perspective which less persistent learners might lack.",
+          "item_ids": []
+        },
+        {
+          "start": 103.84,
+          "end": 117.49,
+          "speaker": "Lecturer",
+          "text": "And then on to the third level. Under social factors, several respondents talked about good relationships with their tutors. For other factors, they mentioned lack or absence of any problems in their families.",
+          "item_ids": [
+            "lsn-s4-tab-37"
+          ]
+        },
+        {
+          "start": 117.74,
+          "end": 127.14,
+          "speaker": "Lecturer",
+          "text": "And finally under column three, they identified an ability to juggle several roles — what we might call their capacity for multi-tasking.",
+          "item_ids": []
+        },
+        {
+          "start": 128.1,
+          "end": 147.35,
+          "speaker": "Lecturer",
+          "text": "Now these findings obviously helped inform the design of activities as I mentioned, but in addition a number of further recommendations emerged. Firstly, I propose that the department distributes questionnaires to first year students to help get an idea of their maturity when starting the course.",
+          "item_ids": []
+        },
+        {
+          "start": 148.14,
+          "end": 150.34,
+          "speaker": "Lecturer",
+          "text": "This is really our overriding concern.",
+          "item_ids": []
+        },
+        {
+          "start": 150.49,
+          "end": 160.865,
+          "speaker": "Lecturer",
+          "text": "Secondly, I recommend we look into ways of offering induction courses for some selected students to allow them to take on the role of advisors.",
+          "item_ids": []
+        },
+        {
+          "start": 161.56,
+          "end": 169.11,
+          "speaker": "Lecturer",
+          "text": "We think they are the best people to act in that role. This policy will make support much more accessible to our students.",
+          "item_ids": []
+        },
+        {
+          "start": 170.2,
+          "end": 182.3,
+          "speaker": "Lecturer",
+          "text": "Thirdly, this help is often most needed in the evening and night when offices are closed, and so we should set up online services instead of the more traditional telephone services.",
+          "item_ids": []
+        },
+        {
+          "start": 183.26,
+          "end": 188.21,
+          "speaker": "Lecturer",
+          "text": "Research has shown that these services are actually more accessible to the majority of students.",
+          "item_ids": []
+        },
+        {
+          "start": 189.22,
+          "end": 200.47,
+          "speaker": "Lecturer",
+          "text": "And finally, it is often important to be proactive. If students are not meeting deadlines, then someone should contact them rather than wait for them to come to us.",
+          "item_ids": []
+        },
+        {
+          "start": 201.32,
+          "end": 204.07,
+          "speaker": "Lecturer",
+          "text": "Now are there any questions about the points?",
+          "item_ids": []
+        },
+        {
+          "start": 207.39,
+          "end": 213.515,
+          "speaker": "提示",
+          "text": "That is the end of part four. You now have 45 seconds to check your answers to part four.",
+          "item_ids": []
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "id": "p2",
+  "label": "Passage 2",
+  "title": "Learning to Forget",
+  "titleZh": "学会遗忘",
+  "source": "自编 · 模拟 New Scientist 风格",
+  "summary": "记忆研究近年转向「遗忘」：主动清掉过时信息，可能与记住新东西同样重要。",
+  "topic": "认知科学",
+  "level": "P2 · 中等",
+  "minutes": 20,
+  "tags": ["标题匹配", "判断题", "填空", "单选"],
+  "intro": "You should spend about 20 minutes on Questions 14–26, which are based on the passage below.",
+  "paragraphs": [
+    {
+      "id": "A",
+      "text": "For most of the twentieth century, forgetting was treated as the failure mode of memory: the leak in a container that ought to have been sealed. A textbook published in 1961 could describe a 'good' memory as one that kept everything. That assumption has since been reversed. Forgetting is now studied as an active process, one that the brain performs deliberately and, on the whole, usefully. If you remembered every route you had ever walked and every price you had ever paid, the argument goes, you would be paralysed by irrelevance. A memory system that keeps everything is not a better system; it is one that cannot decide."
+    },
+    {
+      "id": "B",
+      "text": "The physical basis of this deciding is easiest to see in adolescence. Connections between neurons are produced in enormous numbers in early childhood and then pruned back during the teenage years, in much the same way that a gardener removes weak shoots. What survives is what has been used. The process continues throughout life, and it is not evenly distributed: the brain does much of its sorting while we sleep, when the day's experience is replayed and the unimportant parts are allowed to fade. Sleep is not a rest from learning; it is part of the editing."
+    },
+    {
+      "id": "C",
+      "text": "Forgetting also happens at the moment of retrieval. The memory may be intact but the route to it blocked, which is what the tip-of-the-tongue state feels like: the name is there, you are certain it is there, and you cannot produce it until a cue — a first letter, a face, a place — arrives. Psychologists still disagree about what causes the state, but almost all agree that it is not evidence that a memory trace has decayed. Access has failed; storage has not."
+    },
+    {
+      "id": "D",
+      "text": "Some forgetting is obviously adaptive. Old passwords, former addresses and the rules of a game you no longer play are worse than useless, because holding them costs time at every decision. In one influential experiment, participants who were instructed to forget a first list of words learned a second list faster than those who were told to remember it. Carrying the first list made the second harder to hold."
+    },
+    {
+      "id": "E",
+      "text": "The clinical picture is darker, because sometimes the failure is not forgetting but the opposite. In post-traumatic stress disorder a fear memory refuses to fade, and it is triggered by situations that no longer threaten. Exposure therapy, the standard treatment, works by presenting the feared situation repeatedly without the feared outcome, so that a new, safe memory can compete with the old one. The original memory is not erased; it is outvoted. Recent work on 'reconsolidation' suggests that a memory must be briefly recalled before it can be updated in this way, which may explain why the timing of sessions matters."
+    },
+    {
+      "id": "F",
+      "text": "For students, the practical lessons are unglamorous. Study the same material across several days rather than in one evening; test yourself instead of rereading, because rereading creates an illusion of fluency that disappears in an exam hall; and vary the place and the order in which you revise. None of this makes learning feel efficient, and spacing in particular feels worse than cramming, which is one reason students abandon it. The feeling of effort, however, is the point. Forgetting between sessions is what makes the next session do work."
+    }
+  ],
+  "sections": [
+    {
+      "id": "p2-s1",
+      "type": "MATCHING_HEADINGS",
+      "instruction": "Questions 14–17: The passage has six paragraphs, A–F. Choose the correct heading for paragraphs A, B, E and F from the list of headings below.",
+      "options": [
+        { "id": "i", "text": "A memory that refuses to fade" },
+        { "id": "ii", "text": "The myth of the perfect memory" },
+        { "id": "iii", "text": "How the brain chooses what to keep" },
+        { "id": "iv", "text": "Techniques that make learning last" },
+        { "id": "v", "text": "The hidden cost of sleep loss" },
+        { "id": "vi", "text": "Access rather than storage" },
+        { "id": "vii", "text": "The commercial value of forgetting" }
+      ],
+      "questions": [
+        {
+          "id": "p2-q14", "number": 14,
+          "stem": "Paragraph A",
+          "answer": { "value": "ii" },
+          "explanation": {
+            "paragraph": "A",
+            "quote": "A textbook published in 1961 could describe a 'good' memory as one that kept everything. That assumption has since been reversed.",
+            "verdict": "整段在拆掉「记得越多越好」这一旧观念，ii（完美记忆的迷思）正好概括。",
+            "trap": "v 提到 sleep loss，但段 A 根本没讲睡眠；vii 的 commercial 全文未出现。标题匹配的第一原则是「段落主题」而非「出现过的词」。"
+          }
+        },
+        {
+          "id": "p2-q15", "number": 15,
+          "stem": "Paragraph B",
+          "answer": { "value": "iii" },
+          "explanation": {
+            "paragraph": "B",
+            "quote": "What survives is what has been used… the brain does much of its sorting while we sleep",
+            "verdict": "本段讲大脑剔除弱连接、保留常用连接、并在睡眠中完成筛选，对应 iii（大脑如何决定留下什么）。",
+            "trap": "v 只抓住了 sleep 这个词，但段落的重心是「筛选机制」，不是「缺觉的代价」。"
+          }
+        },
+        {
+          "id": "p2-q16", "number": 16,
+          "stem": "Paragraph E",
+          "answer": { "value": "i" },
+          "explanation": {
+            "paragraph": "E",
+            "quote": "In post-traumatic stress disorder a fear memory refuses to fade",
+            "verdict": "本段讲创伤后应激障碍中「恐惧记忆不肯消退」，以及暴露疗法如何让新记忆竞争，对应 i。",
+            "trap": "vi（存取而非存储）说的是 C 段的提取失败，跨段错配是本题最大陷阱。"
+          }
+        },
+        {
+          "id": "p2-q17", "number": 17,
+          "stem": "Paragraph F",
+          "answer": { "value": "iv" },
+          "explanation": {
+            "paragraph": "F",
+            "quote": "Study the same material across several days rather than in one evening; test yourself instead of rereading",
+            "verdict": "本段是给学生的具体做法：间隔、自测、换环境，对应 iv（让学习持久的技巧）。",
+            "trap": "段落末尾提到 forgetting between sessions，容易误选 vii（遗忘的商业价值），但全段没有一个字谈商业。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "p2-s2",
+      "type": "TFNG",
+      "instruction": "Questions 18–21: Do the following statements agree with the information given in the passage? Write TRUE, FALSE or NOT GIVEN.",
+      "questions": [
+        {
+          "id": "p2-q18", "number": 18,
+          "stem": "Researchers still disagree about what causes the tip-of-the-tongue experience.",
+          "answer": { "value": "TRUE" },
+          "explanation": {
+            "paragraph": "C",
+            "quote": "Psychologists still disagree about what causes the state",
+            "verdict": "原文原句就是「心理学家对该状态的成因仍有分歧」，与题干一致，TRUE。",
+            "trap": "紧跟着的 almost all agree 说的是另一件事（它不是记忆衰退的证据），不要被 agree 带偏。"
+          }
+        },
+        {
+          "id": "p2-q19", "number": 19,
+          "stem": "Forgetting an old password can be useful.",
+          "answer": { "value": "TRUE" },
+          "explanation": {
+            "paragraph": "D",
+            "quote": "Old passwords… are worse than useless, because holding them costs time at every decision.",
+            "verdict": "段落明确把旧密码列为「适应性的遗忘」：记住它们反而拖慢每次决策，所以忘记它是有用的，TRUE。",
+            "trap": "原文写的是 worse than useless（比没用还糟），如果只扫到 useless 就容易误判成 FALSE。"
+          }
+        },
+        {
+          "id": "p2-q20", "number": 20,
+          "stem": "The tip-of-the-tongue state proves that a memory has decayed.",
+          "answer": { "value": "FALSE" },
+          "explanation": {
+            "paragraph": "C",
+            "quote": "almost all agree that it is not evidence that a memory trace has decayed",
+            "verdict": "原文说它「不是记忆痕迹衰退的证据」，而题干说它「证明了记忆已衰退」——正相反，FALSE。",
+            "trap": "proves（证明）是最强的措辞；原文连 evidence 都否认了，所以这不可能是 NOT GIVEN。"
+          }
+        },
+        {
+          "id": "p2-q21", "number": 21,
+          "stem": "Exposure therapy is more effective than medication for post-traumatic stress disorder.",
+          "answer": { "value": "NOT_GIVEN" },
+          "explanation": {
+            "paragraph": "E",
+            "quote": "Exposure therapy, the standard treatment, works by presenting the feared situation repeatedly without the feared outcome",
+            "verdict": "原文只说暴露疗法是「标准疗法」及其原理，从未与药物比较过疗效——「更有效」这层比较关系在原文中不存在，所以 NOT GIVEN。",
+            "trap": "标准疗法（standard treatment）暗示它被认可，但「被认可」不等于「优于药物」。凡是原文没有的比较级，一律先怀疑 NG。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "p2-s3",
+      "type": "SENTENCE_COMPLETION",
+      "instruction": "Questions 22–24: Complete the sentences below. Choose NO MORE THAN THREE WORDS from the passage for each answer.",
+      "wordLimit": 3,
+      "questions": [
+        {
+          "id": "p2-q22", "number": 22,
+          "stem": "During adolescence, the brain removes ______ that are not being used.",
+          "answer": { "value": "connections", "accepted": ["connections between neurons", "neural connections"] },
+          "explanation": {
+            "paragraph": "B",
+            "quote": "Connections between neurons are produced in enormous numbers in early childhood and then pruned back",
+            "verdict": "原文说神经元之间的「连接」在青少年期被剪除，答案 connections。",
+            "trap": "pruned back 是剪枝的比喻，需要转换成「移除」；原文没有出现 removes 这个词。"
+          }
+        },
+        {
+          "id": "p2-q23", "number": 23,
+          "stem": "A memory is easier to retrieve when the brain is given the right ______.",
+          "answer": { "value": "cue", "accepted": ["cues"] },
+          "explanation": {
+            "paragraph": "C",
+            "quote": "you cannot produce it until a cue — a first letter, a face, a place — arrives",
+            "verdict": "原文说直到「线索（cue）」出现才能提取，答案 cue。",
+            "trap": "a first letter, a face, a place 是对 cue 的举例，不能拿其中一个举例词填空。"
+          }
+        },
+        {
+          "id": "p2-q24", "number": 24,
+          "stem": "Rereading can create an illusion of ______.",
+          "answer": { "value": "fluency" },
+          "explanation": {
+            "paragraph": "F",
+            "quote": "rereading creates an illusion of fluency that disappears in an exam hall",
+            "verdict": "原文原句给出 illusion of fluency，答案 fluency。",
+            "trap": "题干把 creates 换成 can create，加了情态后仍是同一个短语，不影响填空。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "p2-s4",
+      "type": "MCQ",
+      "instruction": "Questions 25–26: Choose the correct letter, A, B, C or D.",
+      "questions": [
+        {
+          "id": "p2-q25", "number": 25,
+          "stem": "According to the passage, exposure therapy works because",
+          "options": [
+            { "id": "A", "text": "the feared memory is gradually erased." },
+            { "id": "B", "text": "a new, safe memory competes with the old one." },
+            { "id": "C", "text": "patients are prevented from sleeping." },
+            { "id": "D", "text": "the original memory becomes harder to recall." }
+          ],
+          "answer": { "value": "B" },
+          "explanation": {
+            "paragraph": "E",
+            "quote": "so that a new, safe memory can compete with the old one… it is outvoted",
+            "verdict": "原文明确说新记忆与旧记忆竞争、旧记忆被「投票压过」，而不是被抹除，对应 B。",
+            "trap": "A 是原文直接否认的（is not erased），这是最典型的「说了反面」干扰项。"
+          }
+        },
+        {
+          "id": "p2-q26", "number": 26,
+          "stem": "What is the writer's attitude towards the idea that forgetting is a defect?",
+          "options": [
+            { "id": "A", "text": "It is well supported by recent evidence." },
+            { "id": "B", "text": "It has been abandoned as outdated." },
+            { "id": "C", "text": "It is valid for adolescents but not for adults." },
+            { "id": "D", "text": "It applies only to clinical conditions." }
+          ],
+          "answer": { "value": "B" },
+          "explanation": {
+            "paragraph": "A",
+            "quote": "That assumption has since been reversed.",
+            "verdict": "作者说这一假设「已经被推翻」，并且全篇都在论证遗忘是主动且有用的过程，对应 B。",
+            "trap": "原文用 has since been reversed，语气是「已过时」而非「仍在争议」；C、D 都是原文没有的范围限定。"
+          }
+        }
+      ]
+    }
+  ]
+}

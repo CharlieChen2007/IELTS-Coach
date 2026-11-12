@@ -1,0 +1,55 @@
+/* Shared motion scale for the host and embedded practice modules. */
+:root {
+  --motion-fast: 180ms;
+  --motion-enter: 540ms;
+  --motion-dialog: 300ms;
+  --motion-ease: cubic-bezier(.2,.75,.25,1);
+  --transition: var(--motion-fast);
+  --ease-out-soft: var(--motion-ease);
+}
+/* Content motion is attached to individual blocks by motion.js after layout. */
+.page-view .stage-body,
+.page-view .stage-body .stage-body,
+.page-view .stage-pane.replay-enter { animation: none; }
+.coach-motion-item { animation: none !important; }
+.coach-motion-item :is(.reveal,.reveal-fade,.reveal-pop) { animation: none !important; opacity: 1 !important; transform: none !important; }
+.frame-stage > iframe { transition: none; }
+.frame-stage[data-ready="1"] > iframe { opacity: 1; }
+:is(button,a,input,textarea,select) {
+  transition-property: color, background-color, border-color, box-shadow, transform;
+  transition-duration: var(--motion-fast);
+  transition-timing-function: var(--motion-ease);
+}
+:is(button,a):active:not(:disabled) { transform: translateY(1px); }
+:is(button,a):focus-visible { outline: 3px solid #8cc9ee; outline-offset: 3px; }
+:is(.modal-mask,.space-sheet) { backdrop-filter: none; }
+:is(.modal,.space-panel,.space-sheet-card,.subject-peer-popover) {
+  animation-duration: var(--motion-dialog);
+  animation-timing-function: var(--motion-ease);
+}
+:is(.reveal,.reveal-fade,.reveal-pop).is-in {
+  animation-duration: 540ms; animation-delay: var(--d, 0s);
+}
+html.host-embedded {
+  --sans: 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif;
+  font-family: var(--sans);
+}
+html.host-embedded body { font-family: var(--sans); }
+/* The shared runtime applies the same choreography after each module renders. */
+html.host-embedded :is(h1,h2,h3,button,input,textarea,select) { font-family: var(--sans); }
+html[data-motion="off"] *,
+html[data-motion="off"] *::before,
+html[data-motion="off"] *::after {
+  animation: none !important; transition: none !important; scroll-behavior: auto !important;
+}
+html[data-motion="off"] :is(.reveal,.reveal-fade,.reveal-pop) { opacity: 1 !important; transform: none !important; }
+@media (prefers-reduced-motion: reduce) {
+  *,*::before,*::after {
+    animation: none !important; transition: none !important; scroll-behavior: auto !important;
+  }
+  .reveal,.reveal-fade,.reveal-pop { opacity: 1 !important; transform: none !important; }
+}
+
+.app-start { min-height: 80vh; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; padding: 24px; text-align: center; }
+.app-start > b { font-size: 24px; color: var(--brand-dark); }
+.select { appearance: none; padding-right: 34px; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' fill='none' stroke='%23516b80' stroke-width='1.7'%3E%3Cpath d='m3 5 4 4 4-4'/%3E%3C/svg%3E"); background-repeat:no-repeat; background-position:right 12px center; }

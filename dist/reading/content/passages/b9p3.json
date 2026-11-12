@@ -1,0 +1,285 @@
+{
+  "id": "b9p3",
+  "bank": "p3",
+  "label": "Passage 3",
+  "title": "Quantum Biology: Navigating the Subatomic Frontier of Life",
+  "titleZh": "量子生物学：生命的亚原子前沿",
+  "source": "IELTS AI Dataset · Band 9 · CC BY 4.0",
+  "summary": "光合作用与鸟类导航里，量子效应如何在温暖潮湿的生物体内存活。",
+  "topic": "量子生物学",
+  "level": "P3 · 进阶",
+  "minutes": 20,
+  "tags": [
+    "观点判断",
+    "单选",
+    "摘要填空"
+  ],
+  "intro": "You should spend about 20 minutes on Questions 1–13, which are based on the passage below.",
+  "paragraphs": [
+    {
+      "id": "A",
+      "text": "The intersection of quantum mechanics and molecular biology—two disciplines traditionally isolated by vastly disparate spatial and temporal scales—has birthed the profoundly disruptive paradigm of quantum biology. For decades, classical biochemistry presupposed that the warm, chaotic, and macroscopic environment of living organisms would instantaneously collapse any delicate quantum superpositions, rendering phenomena like entanglement and quantum tunneling biologically inert. However, recent empirical breakthroughs have unequivocally demonstrated that life not only tolerates quantum anomalies but actively exploits them to achieve physiological efficiencies entirely unattainable by classical thermodynamics."
+    },
+    {
+      "id": "B",
+      "text": "Perhaps the most extensively corroborated instance of macroscopic quantum biology is avian magnetoreception. The European Robin (Erithacus rubecula) undertakes transcontinental migrations by navigating along the Earth's extraordinarily weak magnetic field. Classical chemical reactions lack the sensitivity required to detect such minute magnetic variations. However, researchers have identified a light-sensitive protein in the avian retina called cryptochrome. When a photon strikes this protein, it creates a \"radical pair\" of electrons that exist in a state of quantum entanglement. The microscopic spin states of these entangled electrons oscillate in a manner exquisitely sensitive to the Earth's magnetic inclination, effectively providing the bird with a subatomic quantum compass."
+    },
+    {
+      "id": "C",
+      "text": "Equally astonishing is the application of quantum coherence in photosynthesis. The Fenna-Matthews-Olson (FMO) complex, a pigment-protein structure found in green sulfur bacteria, operates as an energy funnel, transporting solar photons to a reaction center with an astoundingly near-perfect efficiency of 99 percent. Classical models, representing energy transfer as a random, localized 'drunkard's walk', fail entirely to account for this speed and efficiency. Advanced femtosecond spectroscopy has revealed that the excitation energy propagates through the FMO complex in a state of quantum coherence—simultaneously exploring every possible route to the reaction center and instantaneously collapsing into the most efficient pathway."
+    },
+    {
+      "id": "D",
+      "text": "The phenomenon of quantum tunneling—where a particle passes through an insurmountable energy barrier by virtue of its probabilistic wave function—has also been identified as a cornerstone of cellular enzymology. Enzymes are biological catalysts that accelerate chemical reactions by lowering activation energy barriers. However, experimental data shows that protons and electrons frequently bypass these barriers altogether via quantum tunneling. Without this subatomic shortcut, essential biological processes, including cellular respiration and DNA mutation, would proceed at rates far too sluggish to sustain complex biological life."
+    },
+    {
+      "id": "E",
+      "text": "A more speculative, yet highly compelling, frontier involves the physiology of olfaction. The traditional 'lock-and-key' model of smell posits that odorant molecules fit perfectly into matching receptor proteins. Yet, molecules with entirely different shapes can smell identical, while molecular isotopes—which share the same shape but differ slightly in mass—smell distinct. The controversial 'vibration theory' of olfaction suggests that olfactory receptors operate as nanoscale quantum spectrometers. When an odorant binds to a receptor, an electron quantum tunnels across the receptor, a process governed precisely by the molecular vibrational frequency of the odorant."
+    },
+    {
+      "id": "F",
+      "text": "The implications of these discoveries stretch deeply into evolutionary theory. If biological systems have evolved to maintain quantum coherence within the supposedly prohibitive 'hot and wet' environment of a cell, it suggests that natural selection operates effectively at the deepest, most fundamental layers of physical reality. The biological exploitation of the quantum realm is not a bizarre anomaly; rather, it appears to be an inexorable, highly optimized strategy of life itself. As instrumentation continues to attain unprecedented precision, the artificial boundary demarcating classical biology from quantum physics will likely dissolve entirely."
+    }
+  ],
+  "sections": [
+    {
+      "id": "b9p3-s1",
+      "type": "YNNG",
+      "instruction": "Questions 1–5: Do the following statements agree with the claims of the writer? Write YES, NO, or NOT GIVEN.",
+      "questions": [
+        {
+          "id": "b9p3-q1",
+          "number": 1,
+          "stem": "Classical biochemists initially believed that a living organism's internal environment would destroy quantum states.",
+          "answer": {
+            "value": "YES"
+          }
+        },
+        {
+          "id": "b9p3-q2",
+          "number": 2,
+          "stem": "The cryptochrome protein relies on sound vibrations to maintain its quantum entanglement.",
+          "answer": {
+            "value": "NO"
+          }
+        },
+        {
+          "id": "b9p3-q3",
+          "number": 3,
+          "stem": "Energy transfer in the FMO complex can be adequately explained by the classical \"drunkard's walk\" model.",
+          "answer": {
+            "value": "NO"
+          }
+        },
+        {
+          "id": "b9p3-q4",
+          "number": 4,
+          "stem": "Quantum tunneling is primarily responsible for preventing detrimental DNA mutations in humans.",
+          "answer": {
+            "value": "NOT_GIVEN"
+          }
+        },
+        {
+          "id": "b9p3-q5",
+          "number": 5,
+          "stem": "The vibration theory of olfaction proposes that receptors measure an odorant's molecular vibrational frequency.",
+          "answer": {
+            "value": "YES"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b9p3-s2",
+      "type": "MCQ",
+      "instruction": "Questions 6–9: Complete each sentence with the correct ending, A–F, from the box below.",
+      "questions": [
+        {
+          "id": "b9p3-q6",
+          "number": 6,
+          "stem": "The discovery of avian magnetoreception suggests that European Robins can",
+          "answer": {
+            "value": "D"
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "simultaneously explore all potential paths to a reaction center."
+            },
+            {
+              "id": "B",
+              "text": "overcome previously insurmountable chemical activation barriers."
+            },
+            {
+              "id": "C",
+              "text": "predict the exact isotopic mass of scent molecules."
+            },
+            {
+              "id": "D",
+              "text": "navigate using entangled electrons sensitive to magnetic fields."
+            },
+            {
+              "id": "E",
+              "text": "maintain a chaotic cellular environment to prevent entanglement."
+            },
+            {
+              "id": "F",
+              "text": "operate as nanoscale quantum spectrometers for visual stimuli."
+            }
+          ]
+        },
+        {
+          "id": "b9p3-q7",
+          "number": 7,
+          "stem": "Because excitation energy exists in a state of quantum coherence, it can",
+          "answer": {
+            "value": "A"
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "simultaneously explore all potential paths to a reaction center."
+            },
+            {
+              "id": "B",
+              "text": "overcome previously insurmountable chemical activation barriers."
+            },
+            {
+              "id": "C",
+              "text": "predict the exact isotopic mass of scent molecules."
+            },
+            {
+              "id": "D",
+              "text": "navigate using entangled electrons sensitive to magnetic fields."
+            },
+            {
+              "id": "E",
+              "text": "maintain a chaotic cellular environment to prevent entanglement."
+            },
+            {
+              "id": "F",
+              "text": "operate as nanoscale quantum spectrometers for visual stimuli."
+            }
+          ]
+        },
+        {
+          "id": "b9p3-q8",
+          "number": 8,
+          "stem": "By utilizing the probabilistic subatomic wave function, cellular enzymes help particles",
+          "answer": {
+            "value": "B"
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "simultaneously explore all potential paths to a reaction center."
+            },
+            {
+              "id": "B",
+              "text": "overcome previously insurmountable chemical activation barriers."
+            },
+            {
+              "id": "C",
+              "text": "predict the exact isotopic mass of scent molecules."
+            },
+            {
+              "id": "D",
+              "text": "navigate using entangled electrons sensitive to magnetic fields."
+            },
+            {
+              "id": "E",
+              "text": "maintain a chaotic cellular environment to prevent entanglement."
+            },
+            {
+              "id": "F",
+              "text": "operate as nanoscale quantum spectrometers for visual stimuli."
+            }
+          ]
+        },
+        {
+          "id": "b9p3-q9",
+          "number": 9,
+          "stem": "The failure of the traditional lock-and-key model of olfaction led to the hypothesis that receptors might",
+          "answer": {
+            "value": "C"
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "simultaneously explore all potential paths to a reaction center."
+            },
+            {
+              "id": "B",
+              "text": "overcome previously insurmountable chemical activation barriers."
+            },
+            {
+              "id": "C",
+              "text": "differentiate odorants based on their molecular vibrational frequency."
+            },
+            {
+              "id": "D",
+              "text": "navigate using entangled electrons sensitive to magnetic fields."
+            },
+            {
+              "id": "E",
+              "text": "maintain a chaotic cellular environment to prevent entanglement."
+            },
+            {
+              "id": "F",
+              "text": "operate as nanoscale quantum spectrometers for visual stimuli."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b9p3-s3",
+      "type": "SUMMARY_COMPLETION",
+      "instruction": "Questions 10–13: Complete the summary below. Choose ONE WORD from the box for each answer. Word box: entanglement · coherence · tunneling · anomalies · spectrometers · vibrational · thermodynamics",
+      "questions": [
+        {
+          "id": "b9p3-q10",
+          "number": 10,
+          "stem": "Quantum biology explains how living organisms exploit quantum ______ to perform highly efficient processes.",
+          "answer": {
+            "value": "anomalies"
+          }
+        },
+        {
+          "id": "b9p3-q11",
+          "number": 11,
+          "stem": "For example, avian magnetoreception relies on the quantum ______ of radical electron pairs.",
+          "answer": {
+            "value": "entanglement"
+          }
+        },
+        {
+          "id": "b9p3-q12",
+          "number": 12,
+          "stem": "Similarly, the near-perfect efficiency of photosynthesis is driven by quantum ______, allowing energy to find optimal pathways.",
+          "answer": {
+            "value": "coherence"
+          }
+        },
+        {
+          "id": "b9p3-q13",
+          "number": 13,
+          "stem": "Furthermore, enzymes rapidly catalyze reactions via quantum ______, enabling particles to bypass massive energy barriers.",
+          "answer": {
+            "value": "tunneling"
+          }
+        }
+      ],
+      "wordLimit": 1,
+      "wordBank": [
+        "entanglement",
+        "coherence",
+        "tunneling",
+        "anomalies",
+        "spectrometers",
+        "vibrational",
+        "thermodynamics"
+      ]
+    }
+  ]
+}

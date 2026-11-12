@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#f5f8fb" />
+    <meta name="description" content="雅思 Task 1 与 Task 2 写作练习，逐句反馈、原稿保留、二稿对比及校园复练。" />
+    <link rel="icon" href="/writing/favicon.svg" />
+    <script>
+      /* 首帧前判定嵌入态：隐藏独立站的加载页、品牌、账号区与页脚，避免闪一帧合并痕迹。 */
+      (function () { try {
+        var p = new URLSearchParams(location.search);
+        if (window.parent !== window && p.get('embedded') === '1') {
+          document.documentElement.classList.add('host-embedded');
+        }
+      } catch (e) {} })();
+    </script>
+    <style>
+      /* 首帧前就隐藏独立站外壳与竖排导航，避免 React 挂载时闪一帧「另一个站」。
+         导航功能仍在 DOM 里，由主站横向页签 postMessage → .nav-item.click() 驱动。 */
+      html.host-embedded .loading-screen,
+      html.host-embedded .topbar,
+      html.host-embedded .sidebar,
+      html.host-embedded .sidebar-bottom,
+      html.host-embedded .brand,
+      html.host-embedded .mobile-nav,
+      html.host-embedded .footer { display: none !important; }
+      html.host-embedded .main-shell { margin-left: 0 !important; }
+      html.host-embedded .main-content { padding-top: 8px; }
+    </style>
+    <title>IELTS Coach · 写作精修</title>
+    <!-- Fetch and compile while saved workspace restoration is in flight;
+         evaluation still waits for init(), so drafts retain their original order. -->
+    <link rel="modulepreload" href="./assets/index-0aS61Pbq.js">
+    <script type="module">
+      import { init, startSync } from './assets/writing-host.js';
+      await init();
+      startSync();
+      await import('./assets/index-0aS61Pbq.js');
+    </script>
+    <link rel="stylesheet" crossorigin href="/writing/assets/index-_lOiRoZk.css">
+    <link rel="stylesheet" href="/writing/assets/writing-theme.css">
+    <link rel="stylesheet" href="/writing/assets/writing-hero.css">
+    <script type="module" src="/writing/assets/writing-hero.js"></script>
+  <link rel="stylesheet" href="/motion.css"><script src="/motion.js" defer></script><link rel="stylesheet" href="/navigation-motion.css"><script src="/navigation-motion.js" defer></script><link rel="stylesheet" href="/frame-layout.css"><script src="/frame-layout.js" defer></script></head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

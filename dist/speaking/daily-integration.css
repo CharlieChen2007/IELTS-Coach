@@ -1,0 +1,81 @@
+/* Shared IELTS Coach visual language for the imported SpeakLoop learning tools. */
+:root {
+  --bg: #f4f7f9;
+  --ink: #18384c;
+  --ink2: #496274;
+  --muted: #7b8e9c;
+  --line: #dce6ec;
+  --primary: #2f6b8f;
+  --primary2: #4b8ca8;
+  --teal: #279783;
+  --coral: #d97955;
+  --shadow: 0 8px 26px rgba(32, 67, 88, .065);
+  --shadow2: 0 16px 38px rgba(32, 67, 88, .12);
+}
+body {
+  background: radial-gradient(900px 360px at 10% -10%, #e3f0f6 0, transparent 65%),
+    radial-gradient(760px 320px at 95% 0, #e5f4ef 0, transparent 60%), var(--bg);
+}
+/* 嵌入时不要自带底色：模块的径向渐变与宿主底色差一点点，会在页面上显出一整块
+   边界模糊的「另一种白」，看起来像没对齐的卡片。透明后由宿主统一铺底。
+   同时取消 min-height:100vh —— iframe 里 100vh 就等于 iframe 当前高度，
+   body 永远「至少和现在一样高」，切到更短的子页签时高度只涨不落，下面留一大片空白。 */
+.host-embedded body { background: transparent; min-height: 0; }
+.btn.primary, .btn.teal { box-shadow: 0 6px 16px rgba(47, 107, 143, .18); }
+.btn.soft, .pill.blue, .nav-btn.active { background: #e7f1f6; color: #285f80; border-color: #d4e5ee; }
+.vc-hero, .sh-hero, .sh-band, .report-hero, .vc-front {
+  background: linear-gradient(122deg, #183e57 0%, #2f6b8f 55%, #369b8c 115%);
+  box-shadow: 0 15px 34px rgba(33, 79, 105, .18);
+}
+.vc-front { background: linear-gradient(140deg, #214f6b 0%, #347d9a 58%, #3a9a8c 120%); }
+.vc-hero .btn, .sh-hero .btn, .hero .btn { color: #285f80; }
+.vc-bar i, .vc-spark .line { background: linear-gradient(180deg, #4b8ca8, #2f6b8f); stroke: #2f6b8f; }
+.vc-spark .dot { stroke: #2f6b8f; }
+.vc-chip.on, .day-tab.on, .seg button.on { background: #e7f1f6; border-color: #c8dfe9; color: #285f80; }
+.vc-back .vc-ex b, .vc-detail .vd-ex b { color: #285f80; background: linear-gradient(transparent 62%, #dcecf3 62%); }
+.marked { background: linear-gradient(135deg, #f8fbfd, #f3faf8); border-color: #dce8ed; }
+.marked .st { color: #285f80; background: linear-gradient(transparent 62%, #d8eaf2 62%); }
+.vocab-chip { background: #e9f2f6; color: #285f80; }
+.next-card { background: linear-gradient(120deg, #edf5f8, #eaf7f3); border-color: #d5e7e9; }
+.issue-act { background: #edf5f8; border-color: #c8dfe9; color: #285f80; }
+.daily-sync {
+  position: fixed; right: 18px; bottom: 16px; z-index: 70; padding: 5px 11px;
+  border: 1px solid #d4e4df; border-radius: 99px; background: rgba(247, 252, 250, .94);
+  color: #337765; font-size: 11px; box-shadow: var(--shadow); pointer-events: none;
+}
+.daily-sync.error { color: #9a641d; border-color: #ecd9b8; background: #fffaf0; }
+/* 嵌入总站时：模块自带的品牌、账号、进度条与内部导航全部隐藏。
+   内部导航由宿主的一层二级页签接管（每日语料 = 跟读 / 语料库 / 跟读记录），
+   页面上只剩「总站页签 + 一级页签」两层，不再出现第三层下划线页签。 */
+.host-embedded .topbar { display: none !important; }
+.host-embedded .brand, .host-embedded .brand-mark, .host-embedded .brand-name,
+.host-embedded .topright, .host-embedded .nav, .host-embedded .nav-btn.link { display: none !important; }
+.host-embedded .container, .host-embedded .vc-wrap { padding-top: 0; max-width: 1240px; }
+.host-embedded .modal { position: fixed; }
+.host-embedded .sh-prog { min-width:0;max-width:100%; }
+.host-embedded .sh-layout > * { min-width:0; }
+.host-embedded .corpus-card { min-width:0;overflow-wrap:anywhere; }
+.host-embedded .tip-list { min-width:0;grid-template-columns:minmax(0,1fr); }
+.host-embedded .tip { min-width:0;flex-wrap:wrap; }
+.host-embedded .tip > * { min-width:0;max-width:100%;overflow-wrap:anywhere; }
+.host-embedded .tip b { white-space:normal; }
+.host-embedded .lib-head { min-width:0;flex-wrap:wrap; }
+.host-embedded .lib-head > * { min-width:0;max-width:100%;overflow-wrap:anywhere; }
+@media(max-width:1040px) { .host-embedded .sh-layout { grid-template-columns:minmax(0,1fr); } }
+@media (max-width: 700px) {
+  .host-embedded .container, .host-embedded .vc-wrap { padding-top: 8px; }
+  .sh-hero, .vc-hero { border-radius: 18px; padding: 20px; }
+  .marked { padding: 15px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .vc-inner, .vc-prog i, .bar i { transition: none; }
+}
+/* 文字默认不可选中：点正文不会再出现闪烁的文本光标；输入框、可复制区域单独放开。 */
+.host-embedded body, .host-embedded .vc-wrap, .host-embedded .sh-wrap,
+.host-embedded button, .host-embedded label, .host-embedded summary { -webkit-user-select: none; user-select: none; }
+.host-embedded input, .host-embedded textarea, .host-embedded select,
+.host-embedded [contenteditable="true"], .host-embedded .marked,
+.host-embedded .vc-ex, .host-embedded .vc-def, .host-embedded .sh-script,
+.host-embedded code, .host-embedded kbd, .host-embedded .selectable {
+  -webkit-user-select: text; user-select: text;
+}

@@ -1,0 +1,67 @@
+.practice-entry { display:flex; align-items:center; justify-content:space-between; gap:18px; background:#eaf4eb; border-color:#ccdfce; }
+.practice-entry h2,.coach-exercises h2,.coach-report h2,.model-report h2 { font-size:21px; line-height:1.35; }
+.practice-entry p,.coach-exercises p,.report-summary p { margin-top:6px; color:var(--secondary); }
+.practice-entry .btn { flex-shrink:0; }
+.coach-report,.model-report,.coach-exercises,.history-trend { margin-bottom:18px; }
+.report-summary { display:flex; gap:22px; align-items:flex-start; justify-content:space-between; margin-bottom:17px; }
+.report-meta,.progress-legend,.pause-points { display:flex; flex-wrap:wrap; gap:8px 16px; }
+.report-meta { margin-top:10px; color:var(--secondary); font-size:12px; }
+.report-grade { flex:none; text-align:center; padding:10px 14px; min-width:110px; border-radius:12px; background:#f1efff; color:var(--deep); }
+.report-grade span { display:block; font-size:12px; }
+.report-grade strong { display:block; font:700 29px/1.45 var(--font); }
+.dimension-grid,.exercise-grid { display:grid; gap:12px; grid-template-columns:repeat(2,minmax(0,1fr)); }
+.dimension,.exercise-grid article { border:1px solid var(--line); border-radius:12px; padding:14px; }
+.dimension>div { display:flex; align-items:center; justify-content:space-between; gap:9px; }
+.dimension h3,.exercise-grid h3 { font-size:15px; }
+.dimension strong { color:var(--deep); font-size:17px; }
+.dimension p,.exercise-grid p { margin:6px 0; color:var(--secondary); font-size:14px; }
+.dimension p.dimension-advice { color:var(--ink); }
+.report-method { margin-top:15px; font-size:13px; }
+.report-method ul { padding-left:20px; margin:7px 0 0; color:var(--secondary); }
+.model-report .note { margin-top:7px; }
+.model-report .btn,.exercise-grid { margin-top:10px; }
+.turn-feedback { padding:11px 14px; margin:12px 0; background:#f7f7fa; border-radius:10px; }
+.turn-feedback dl { display:grid; grid-template-columns:4.3em 1fr; gap:5px 9px; font-size:14px; margin:0 0 5px; }
+.turn-feedback dt { color:var(--secondary); }
+.turn-feedback dd { margin:0; overflow-wrap:anywhere; }
+.sound-metrics { display:flex; flex-wrap:wrap; gap:7px 21px; margin:12px 0; }
+.sound-metrics dt { color:var(--secondary); font-size:12px; }
+.sound-metrics dd { margin:0; font-weight:700; }
+.pause-points { margin:8px 0; }
+.pause-points .btn { height:auto; min-height:32px; font-size:12px; }
+.review-panel { margin-bottom:18px; }
+.history-trend { margin-top:18px; }
+.progress-chart { display:block; width:min(100%,580px); }
+.progress-legend { list-style:none; padding:0; font-size:13px; }
+.progress-legend li { padding:3px 8px; border:1px solid var(--line); border-radius:6px; }
+.report-tool-status { margin:6px 0; color:var(--secondary); }
+.guest-access { display:none; }
+.header-end a,.guest-access a { color:var(--accent); }
+@media (max-width:650px) {
+  .practice-entry { align-items:flex-start; flex-direction:column; gap:10px; }
+  .dimension-grid,.exercise-grid { grid-template-columns:1fr; }
+  .report-summary { gap:10px; }
+  .report-grade { min-width:78px; max-width:14em; padding:7px; }
+  .report-summary p,.report-grade span { font-size:12px; }
+  .header-inner { gap:8px; }
+  .header-end { gap:3px; }
+}
+@media (max-width:470px) {
+  .header-inner { flex-wrap:wrap; column-gap:16px; }
+  .header-inner .nav { order:3; width:100%; min-height:39px; }
+  .header-inner .brand,.header-inner .header-end { margin-block:6px 0; }
+}
+.soe-panel { margin:14px 0; padding:16px; border:1px solid #cbdccd; border-radius:12px; background:#f4f8f3; }
+.soe-panel h4 { margin:0 0 6px; font-size:16px; }
+.soe-panel p { margin:6px 0; }
+.soe-panel .actions { margin:10px 0; }
+.soe-panel audio { display:block; width:min(100%, 360px); margin:4px 0; }
+.soe-scores { display:flex; flex-wrap:wrap; gap:8px 20px; margin:12px 0; }
+.soe-scores b { color:#265237; font-size:20px; }
+.soe-words,.soe-player { display:block; margin:10px 0; font-size:14px; font-weight:600; }
+.soe-words select { display:block; width:min(100%, 360px); margin-top:4px; padding:8px; border:1px solid #a9bbaa; border-radius:7px; background:white; color:inherit; font:inherit; }
+.soe-selection { margin-top:12px; }
+.soe-phones table { border-collapse:collapse; text-align:left; font-size:13px; }
+.soe-phones caption { text-align:left; font-weight:600; }
+.soe-phones th,.soe-phones td { padding:3px 14px 3px 0; }
+.soe-panel .soe-status:empty { display:none; }

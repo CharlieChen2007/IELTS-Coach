@@ -1,0 +1,24 @@
+.szu-workspace {
+  display: grid;
+  align-content: start;
+  gap: 16px;
+  min-width: 0;
+}
+.campus-btn .campus-mobile-label { display: none; }
+@media (min-width: 361px) and (max-width: 760px) {
+  .campus-btn span.campus-mobile-label:not(.campus-ico):not(.campus-caret) { display: inline; font-size: 12px; }
+  .campus-btn svg { width: 15px; }
+}
+
+.camp-activities.workspace-primary { margin: 0; }
+.szu-workspace .stage-body a:focus-visible { outline: 2px solid #397fb5; outline-offset: 2px; }
+.szu-evidence { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 12px; }
+.szu-evidence article { min-width: 0; background: var(--surface); border: 1px solid var(--card-line); border-radius: 15px; padding: 18px; }
+.szu-evidence h3 { margin: 0; font-size: 16px; }
+.szu-evidence p { overflow-wrap: anywhere; }
+.szu-inline { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+
+@media (max-width: 620px) {
+  .szu-evidence { grid-template-columns: 1fr; }
+  .szu-workspace { gap: 14px; }
+}

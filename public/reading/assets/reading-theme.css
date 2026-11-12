@@ -1,0 +1,459 @@
+/* ==========================================================================
+   IELTS Coach · 阅读精读「统一主题 + 独立双栏练习」
+
+   目标（与写作精修室同一套接入口径）：
+     1. 功能不变：ielts-reading-lab 的题库、分屏做题、自动判分、原文定位、
+        错题本、单词本、精读标注、精读库、薄弱题型全部保持原样，不改业务 JS。
+     2. 展示方式统一：独立站的紫色玻璃态 / 竖排侧栏 / 顶栏 / 品牌 / 英文文艺
+        hero 换成主站「钴蓝横幅（由 SubjectPage 提供）+ 横向页签 + 浅蓝 hero
+        + 白卡 + 蓝色按钮」，design tokens 对齐 src/styles.css。
+     3. 首页与学习工具使用主站滚动；做题与就地解析是有明确边界的双栏工作区，
+        原文与题目分别滚动，顶部计时、交卷和移动切换始终可见。
+        工作区高度来自主站可用视口，不能用 iframe 100vh 自引用撑高。
+
+   作用域：仅 html.host-embedded（iframe 嵌入态）。独立访问 /reading/index.html
+   时完全不生效，交接包仍是原来的独立站外观与交互。
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   0. 设计变量：紫色玻璃态 → IELTS Coach 品牌蓝 / 青蓝
+   -------------------------------------------------------------------------- */
+html.host-embedded {
+  --ink: #233b50;
+  --ink-2: #4a6075;
+  --muted: #5b7183;
+  --faint: #8393a1;
+  --line: #e3ebf2;
+  --brand: #4388c4;
+  --brand-2: #397fb5;
+  --cyan: #4689b7;
+  --ok: #2f6b4f;
+  --ok-bg: #eef7f2;
+  --bad: #a34f38;
+  --bad-bg: #fcf1ed;
+  --warn: #756a2c;
+  --warn-bg: #f7f5e7;
+  --ok-soft: #279783;
+  --bad-soft: #a34f38;
+  --p1: #2f6b8f;
+  --p2: #4b8ca8;
+  --p3: #279783;
+  --radius: 18px;
+  --shadow-sm: 0 2px 8px rgba(35, 59, 80, .035);
+  --shadow: 0 2px 8px rgba(35, 59, 80, .035), 0 14px 34px rgba(35, 59, 80, .055);
+  --shadow-lg: 0 10px 28px rgba(35, 59, 80, .10);
+  --glass: #ffffff;
+  --glass-border: 1px solid #e3ebf2;
+  --sans: 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', -apple-system,
+    BlinkMacSystemFont, sans-serif;
+}
+
+html.host-embedded body {
+  background: #f5f8fb !important;
+  background-image: none !important;
+  background-attachment: scroll !important;
+  font-family: var(--sans) !important;
+  color: var(--ink) !important;
+}
+html.host-embedded button,
+html.host-embedded input,
+html.host-embedded select,
+html.host-embedded textarea { font-family: var(--sans) !important; }
+
+/* --------------------------------------------------------------------------
+   1. 去掉独立站外壳；导航上移到主站横向页签（DOM 仍在，host 用 hash 路由驱动）
+   -------------------------------------------------------------------------- */
+html.host-embedded .topbar,
+html.host-embedded .sidebar,
+html.host-embedded .sb-backdrop,
+html.host-embedded .menu-btn,
+html.host-embedded .tb-brand,
+html.host-embedded .tb-avatar,
+html.host-embedded .sb-foot,
+html.host-embedded .brand,
+html.host-embedded .footer { display: none !important; }
+
+html.host-embedded .main {
+  margin-left: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  min-height: 0 !important;
+  width: 100% !important;
+  max-width: none !important;
+}
+
+/* --------------------------------------------------------------------------
+   2. 单一滚动轴：html / body / shell / 练习页 / 分屏两栏一律自然高度
+      —— iframe 内不再存在任何可滚动容器，滚轮只控制主站 document。
+   -------------------------------------------------------------------------- */
+html.host-embedded,
+html.host-embedded body {
+  height: auto !important;
+  min-height: 0 !important;
+  overflow: visible !important;
+}
+html.host-embedded .app-root,
+html.host-embedded .shell,
+html.host-embedded .main { min-height: 0 !important; }
+
+html.host-embedded .mode-practice {
+  height: auto !important;
+  min-height: 0 !important;
+  overflow: visible !important;
+}
+html.host-embedded .mode-practice .main {
+  height: auto !important;
+  min-height: 0 !important;
+  display: block !important;
+  overflow: visible !important;
+}
+html.host-embedded .split {
+  flex: none !important;
+  min-height: 0 !important;
+  padding: 0 0 4px !important;
+  gap: 14px;
+}
+html.host-embedded .pane {
+  min-height: 0 !important;
+  height: auto !important;
+  max-height: none !important;
+  overflow: visible !important;
+  overscroll-behavior: auto !important;
+  scroll-behavior: auto !important;
+  background: #fff !important;
+  border: 1px solid #e3ebf2 !important;
+  border-radius: 18px !important;
+  box-shadow: 0 2px 8px rgba(35, 59, 80, .035), 0 14px 34px rgba(35, 59, 80, .055) !important;
+}
+/* 两栏内部不再 sticky：sticky 相对 iframe 视口会与主站顶栏打架 */
+html.host-embedded .read-bar,
+html.host-embedded .q-nav { position: static !important; top: auto !important; }
+html.host-embedded .q-nav { border-radius: 18px 18px 0 0 !important; background: #fff !important; }
+html.host-embedded .pane-inner { padding-bottom: 30px !important; }
+
+/* 站内对话框：fixed 遮罩改为「页内白卡」，内容自然撑高 iframe。
+   host 检测到它出现时会通知主站平滑滚到卡片位置（reveal），
+   所以点开弹窗仍然第一时间看到，且全程只有一条滚动轴。 */
+html.host-embedded .dlg-overlay,
+html.host-embedded .rd-overlay {
+  position: static !important;
+  inset: auto !important;
+  z-index: auto !important;
+  display: block !important;
+  place-items: unset !important;
+  padding: 0 2px 22px !important;
+  background: transparent !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  animation: none !important;
+}
+html.host-embedded .dlg,
+html.host-embedded .rd-card {
+  width: 100% !important;
+  max-width: none !important;
+  max-height: none !important;
+  overflow: visible !important;
+  animation: none !important;
+  background: #fff !important;
+  border: 1px solid #e3ebf2 !important;
+  border-radius: 18px !important;
+  padding: 22px 24px !important;
+  box-shadow: 0 2px 8px rgba(35, 59, 80, .035), 0 14px 34px rgba(35, 59, 80, .055) !important;
+}
+html.host-embedded .dlg-title,
+html.host-embedded .rd-card h3 { color: #233b50 !important; font-size: 16px !important; }
+
+/* 提示条由 host 转发给主站的 toast，避免 fixed 元素落在 iframe 最底部看不见 */
+html.host-embedded .toast { display: none !important; }
+
+/* --------------------------------------------------------------------------
+   3. 首页 hero：英文文艺大字 → 主站浅蓝功能横幅
+   -------------------------------------------------------------------------- */
+html.host-embedded .home { padding: 0 2px !important; }
+html.host-embedded .hero {
+  max-width: none !important;
+  margin: 0 0 22px !important;
+  padding: 26px 30px 24px !important;
+  background: linear-gradient(120deg, #edf7ff 0%, #dcf2fc 100%) !important;
+  border: 1px solid #d9e8f3 !important;
+  border-radius: 18px !important;
+  box-shadow: 0 2px 8px rgba(35, 59, 80, .035), 0 14px 34px rgba(35, 59, 80, .055) !important;
+}
+html.host-embedded .hero-tag {
+  color: #6e9bb9 !important;
+  background: rgba(255, 255, 255, .72) !important;
+  border: 1px solid rgba(207, 224, 238, .8) !important;
+  font-size: 11px !important;
+  letter-spacing: .04em !important;
+  padding: 5px 11px !important;
+}
+html.host-embedded .hero h1 {
+  margin: 12px 0 9px !important;
+  font-size: 24px !important;
+  line-height: 1.4 !important;
+  letter-spacing: -.6px !important;
+  font-weight: 700 !important;
+}
+html.host-embedded .hero h1 em {
+  background: none !important;
+  -webkit-background-clip: border-box !important;
+  background-clip: border-box !important;
+  -webkit-text-fill-color: #397fb5 !important;
+  color: #397fb5 !important;
+}
+html.host-embedded .hero p {
+  max-width: none !important;
+  margin: 0 !important;
+  font-family: var(--sans) !important;
+  font-style: normal !important;
+  font-size: 13px !important;
+  line-height: 1.75 !important;
+  color: #4a6075 !important;
+}
+html.host-embedded .stats-row { gap: 10px !important; margin-top: 18px !important; }
+html.host-embedded .stat-pill {
+  background: #fff !important;
+  border: 1px solid #e3ebf2 !important;
+  border-radius: 12px !important;
+  box-shadow: none !important;
+  color: #4a6075 !important;
+}
+html.host-embedded .stat-pill b { color: #397fb5 !important; }
+
+/* --------------------------------------------------------------------------
+   4. 卡片 / 按钮 / 标签：玻璃态紫渐变 → 主站白卡 + 品牌蓝按钮
+   -------------------------------------------------------------------------- */
+html.host-embedded .glass,
+html.host-embedded .bank-card,
+html.host-embedded .card,
+html.host-embedded .panel {
+  background: #fff !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  border: 1px solid #e3ebf2 !important;
+  border-radius: 18px !important;
+  box-shadow: 0 2px 8px rgba(35, 59, 80, .035), 0 14px 34px rgba(35, 59, 80, .055) !important;
+}
+html.host-embedded .bank-card::after { background: rgba(67, 136, 196, .07) !important; }
+html.host-embedded .bank-card::before { background: linear-gradient(90deg, #4388c4, transparent 88%) !important; }
+html.host-embedded .bank-card:hover { transform: none !important; box-shadow: 0 10px 28px rgba(35, 59, 80, .10) !important; }
+html.host-embedded .bank-en { display: none !important; }
+html.host-embedded .level-badge {
+  color: #397fb5 !important;
+  background: #eaf5fc !important;
+  border: 1px solid #d9e8f3 !important;
+}
+html.host-embedded .section-head { margin: 18px 2px 12px !important; }
+html.host-embedded .section-head h2 { color: #233b50 !important; font-size: 17px !important; }
+html.host-embedded .section-head span { color: #8393a1 !important; }
+
+html.host-embedded .btn-primary {
+  color: #fff !important;
+  background: linear-gradient(135deg, #558fbd 0%, #397fb5 100%) !important;
+  box-shadow: 0 6px 16px rgba(67, 136, 196, .24) !important;
+  border-radius: 8px !important;
+}
+html.host-embedded .btn-primary:hover { box-shadow: 0 10px 22px rgba(67, 136, 196, .32) !important; }
+/* 题库卡片按钮原来按栏目的 --accent 各染一种颜色（绿 / 紫 / 粉），
+   嵌入态一律统一成主站品牌蓝，避免出现第二套配色。 */
+html.host-embedded .bank-cta,
+html.host-embedded .btn.bank-cta {
+  color: #fff !important;
+  background: linear-gradient(135deg, #558fbd 0%, #397fb5 100%) !important;
+  border: 0 !important;
+  border-radius: 8px !important;
+  box-shadow: 0 6px 16px rgba(67, 136, 196, .24) !important;
+}
+html.host-embedded .bank-cta:hover { box-shadow: 0 10px 22px rgba(67, 136, 196, .32) !important; }
+html.host-embedded .btn-ghost { background: #fff !important; border-color: #e3ebf2 !important; color: #4a6075 !important; }
+html.host-embedded .chip.tag,
+html.host-embedded .chip {
+  background: #eef4f9 !important;
+  border-color: #e3ebf2 !important;
+  color: #4a6075 !important;
+}
+html.host-embedded .empty,
+html.host-embedded .empty b { color: #8393a1 !important; }
+
+/* 精读页 / 错题本 / 单词本 / 薄弱题型的标题与条带统一 */
+html.host-embedded .read-hero,
+html.host-embedded .passage-head { background: transparent !important; }
+html.host-embedded .read-tip {
+  background: #eaf5fc !important;
+  border: 1px solid #d9e8f3 !important;
+  color: #4a6075 !important;
+  border-radius: 12px !important;
+}
+html.host-embedded .page h1,
+html.host-embedded .page-title,
+html.host-embedded h1 { color: #233b50 !important; }
+html.host-embedded .q-card,
+html.host-embedded .mx-card,
+html.host-embedded .vb-card,
+html.host-embedded .wt-card { border-color: #e3ebf2 !important; }
+html.host-embedded .annot.flash { background: rgba(67, 136, 196, .14) !important; box-shadow: 0 0 0 3px rgba(67, 136, 196, .26) !important; }
+html.host-embedded mark.quote,
+html.host-embedded .para.highlighted p {
+  background: linear-gradient(180deg, transparent 62%, rgba(138, 201, 240, .42) 62%) !important;
+}
+
+/* --------------------------------------------------------------------------
+   5. 响应式：嵌入态不再触发独立站的侧栏抽屉 / 100vh 锁定
+   -------------------------------------------------------------------------- */
+@media (max-width: 960px) {
+  html.host-embedded .split { grid-template-columns: minmax(0, 1fr) !important; }
+  html.host-embedded .hero { padding: 22px 20px !important; }
+  html.host-embedded .hero h1 { font-size: 20px !important; }
+  html.host-embedded .stats-row { flex-wrap: wrap !important; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html.host-embedded .dlg-overlay,
+  html.host-embedded .dlg,
+  html.host-embedded .rd-overlay,
+  html.host-embedded .rd-card { animation: none !important; }
+}
+/* Keep the answer, status and expand control readable inside narrow mistake
+   cards instead of letting the six-column row disappear behind its clip. */
+@media(max-width:500px) {
+  html.host-embedded .mx-row { display:flex;flex-wrap:wrap;gap:7px; }
+  html.host-embedded .mx-row > * { min-width:0;max-width:100%; }
+  html.host-embedded .mx-stem { flex:1 1 100%;white-space:normal; }
+  html.host-embedded .mx-ans { flex:1 1 100%;white-space:normal;overflow-wrap:anywhere; }
+  html.host-embedded .mx-row .mx-caret { margin-left:auto; }
+}
+
+.reading-sync-status{margin:0 0 14px;padding:12px 15px;border:1px solid #d9e8f3;border-radius:12px;background:#f2f8fc;color:#4a6075;font-size:13px;line-height:1.6}.reading-sync-status button{border:0;background:transparent;color:#397fb5;font:inherit;font-weight:700;padding:4px 7px;cursor:pointer}
+
+/* Practice is the one intentional, bounded independent-scroll workspace. */
+html.host-embedded[data-reading-workspace="split"] .mode-practice {
+  height: var(--reading-workspace-height, 640px) !important;
+  min-height: 0 !important;
+  overflow: hidden !important;
+}
+html.host-embedded[data-reading-workspace="split"] .mode-practice .main {
+  display: flex !important;
+  flex-direction: column !important;
+  height: 100% !important;
+  overflow: hidden !important;
+}
+html.host-embedded[data-reading-workspace="split"] .practice-bar,
+html.host-embedded[data-reading-workspace="split"] .mobile-tabs { flex: 0 0 auto; }
+html.host-embedded[data-reading-workspace="split"] .split {
+  flex: 1 1 0 !important;
+  min-height: 0 !important;
+  padding: 12px 1px 4px !important;
+  align-items: stretch;
+}
+html.host-embedded[data-reading-workspace="split"] .pane {
+  height: 100% !important;
+  min-height: 0 !important;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  overscroll-behavior-y: contain !important;
+  scrollbar-width: thin;
+  scrollbar-color: #94b7cd #f0f5f9;
+  scroll-behavior: smooth !important;
+}
+html.host-embedded[data-reading-workspace="split"] .pane::-webkit-scrollbar { width: 9px; }
+html.host-embedded[data-reading-workspace="split"] .pane::-webkit-scrollbar-track { background: #f0f5f9; }
+html.host-embedded[data-reading-workspace="split"] .pane::-webkit-scrollbar-thumb { background: #94b7cd; border: 2px solid #f0f5f9; border-radius: 8px; }
+html.host-embedded[data-reading-workspace="split"] .q-nav {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 4;
+  border-bottom: 1px solid var(--line);
+}
+html.host-embedded[data-reading-workspace="split"] .dlg-overlay {
+  position: fixed !important;
+  inset: 0 !important;
+  z-index: 100 !important;
+  display: grid !important;
+  place-items: center !important;
+  padding: 20px !important;
+  background: rgba(27, 52, 73, .25) !important;
+}
+html.host-embedded[data-reading-workspace="split"] .dlg {
+  max-width: 500px !important;
+  max-height: calc(100% - 12px) !important;
+  overflow-y: auto !important;
+}
+html.host-embedded .para.focus { background: #eef7fd; box-shadow: inset 3px 0 0 #4388c4; border-radius: 6px; }
+html.host-embedded .para.focus mark.quote,
+html.host-embedded mark.quote { background: #d7ecfa !important; color: #233b50; box-shadow: inset 0 -2px #73accf; }
+
+/* Supporting labels remain legible; only decoration uses the pale palette. */
+html.host-embedded { --faint: #5c7182; --muted: #52697c; }
+html.host-embedded :is(.rv-label,.rv-tip,.para-badge,.para-letter,.limit-hint,.pb-title span,.rv-type,.q-instruction,.passage-head .intro,.bank-meta,.bank-en,.ps-meta) {
+  font-size: 12.5px;
+  line-height: 1.65;
+  color: var(--muted);
+}
+html.host-embedded .q-stem { font-size: 15px; line-height: 1.7; }
+html.host-embedded .opt { font-size: 14px; line-height: 1.7; }
+html.host-embedded .q-chip { min-width: 34px; min-height: 34px; font-size: 13px; }
+html.host-embedded .q-num { display: grid; place-items: center; padding: 0; font-size: 13px; }
+html.host-embedded .q-num { background: #e8f3fc; color: #326f98; }
+html.host-embedded .q-instruction { background: #f1f7fc; border-left-color: #8bbbd9; }
+html.host-embedded .pb-bank-back { display: flex; align-items: center; gap: 8px; min-width: 0; color: #233b50; text-decoration: none; }
+html.host-embedded .pb-bank-back b { min-width: 0; }
+html.host-embedded .pb-bank-back > span { display: inline !important; color: #397fb5; font-size: 18px; line-height: 1; }
+html.host-embedded .pb-bank-back:hover b { color: #397fb5; }
+@media (max-width: 960px) {
+  html.host-embedded[data-reading-workspace="split"] .mobile-tabs { padding: 8px 0; }
+  html.host-embedded[data-reading-workspace="split"] .mobile-tabs button { min-height: 40px; font-size: 14px; color: #52697c !important; background: #fff !important; border-color: #dce7f0 !important; }
+  html.host-embedded[data-reading-workspace="split"] .mobile-tabs button.on { color: #1c567c !important; background: #dceffc !important; border-color: #8cbcdc !important; box-shadow: inset 0 0 0 1px #8cbcdc; font-weight: 750; }
+  html.host-embedded[data-reading-workspace="split"] .practice-bar { padding: 10px 12px; gap: 8px; }
+  html.host-embedded[data-reading-workspace="split"] .practice-bar .spacer { display: none; }
+  html.host-embedded[data-reading-workspace="split"] .practice-bar .pb-title { flex-basis: 100%; }
+  html.host-embedded[data-reading-workspace="split"] .practice-bar.submitted .pb-title { display: none; }
+  html.host-embedded[data-reading-workspace="split"] .split { padding-top: 0 !important; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html.host-embedded[data-reading-workspace="split"] .pane { scroll-behavior: auto !important; }
+}
+
+/* Subject overview uses the same large illustrated lead as listening and speaking. */
+html.host-embedded .reading-hero {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) minmax(210px, 32%);
+  align-items: center;
+  gap: 12px;
+  min-height: 282px;
+  padding: clamp(24px, 3vw, 38px) !important;
+  overflow: hidden;
+  isolation: isolate;
+  background: radial-gradient(ellipse at 90% 12%, #cde9fa 0%, transparent 54%), linear-gradient(118deg, #eef8ff 6%, #e1f2fc 66%, #d9edf9) !important;
+  border-color: #cde4f2 !important;
+}
+html.host-embedded .reading-hero-copy { min-width: 0; position: relative; z-index: 1; }
+html.host-embedded .reading-hero-copy h1 {
+  margin: 0 0 12px !important;
+  font-size: clamp(28px, 3.2vw, 38px) !important;
+  line-height: 1.24 !important;
+  letter-spacing: -.04em !important;
+}
+html.host-embedded .reading-hero-copy h1 em {
+  color: #1c3b52 !important;
+  -webkit-text-fill-color: #1c3b52 !important;
+  font-style: normal;
+}
+html.host-embedded .reading-hero-copy p { max-width: 42em !important; font-size: 14px !important; }
+html.host-embedded .reading-hero .stats-row { margin-top: 20px !important; flex-wrap: wrap; gap: 8px !important; }
+html.host-embedded .reading-hero-art {
+  width: 100%; max-width: 340px; height: auto; display: block; justify-self: end;
+  pointer-events: none; user-select: none;
+}
+@media (max-width: 760px) {
+  html.host-embedded .reading-hero { grid-template-columns: minmax(0, 1fr) 30%; min-height: 244px; gap: 0; padding: 24px !important; }
+  html.host-embedded .reading-hero-copy h1 { font-size: clamp(24px, 4vw, 32px) !important; }
+  html.host-embedded .reading-hero-copy p { font-size: 13px !important; }
+  html.host-embedded .reading-hero .stats-row { gap: 6px !important; }
+  html.host-embedded .reading-hero .stat-pill { padding: 8px 10px !important; font-size: 11px; }
+}
+@media (max-width: 480px) {
+  html.host-embedded .reading-hero { grid-template-columns: minmax(0, 1fr); position: relative; padding: 22px 18px !important; }
+  html.host-embedded .reading-hero-copy h1 { width: calc(100% - 68px); min-height: 74px; font-size: 25px !important; margin-bottom: 10px !important; }
+  html.host-embedded .reading-hero-art { position: absolute; width: 105px; height: 92px; right: 2px; top: 12px; }
+  html.host-embedded .reading-hero .stats-row { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 15px !important; }
+  html.host-embedded .reading-hero .stat-pill { min-width: 0; justify-content: center; gap: 5px; }
+}

@@ -1,0 +1,42 @@
+/* Shared illustrated overview, matching the listening and speaking lead cards. */
+html.host-embedded .writing-subject-hero {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) minmax(210px, 32%);
+  align-items: center;
+  gap: 12px;
+  min-height: 282px;
+  padding: clamp(24px, 3vw, 38px) !important;
+  isolation: isolate;
+  background: radial-gradient(ellipse at 90% 12%, #cde9fa 0%, transparent 54%), linear-gradient(118deg, #eef8ff 6%, #e1f2fc 66%, #d9edf9) !important;
+  border-color: #cde4f2 !important;
+}
+html.host-embedded .writing-subject-hero::before,
+html.host-embedded .writing-subject-hero::after { content: none !important; }
+html.host-embedded .writing-subject-hero .hero-copy {
+  min-width: 0; width: 100%; max-width: none !important; padding: 0 !important;
+}
+html.host-embedded .writing-subject-hero .eyebrow { display: none; }
+html.host-embedded .writing-subject-hero h1 {
+  font-size: clamp(28px, 3.2vw, 38px) !important;
+  line-height: 1.24 !important;
+  letter-spacing: -.04em !important;
+  color: #1c3b52 !important;
+}
+html.host-embedded .writing-subject-hero p { font-size: 14px !important; max-width: 42em; }
+html.host-embedded .writing-hero-illustration { min-width: 0; position: relative; z-index: 1; justify-self: end; width: 100%; max-width: 340px; pointer-events: none; user-select: none; }
+html.host-embedded .writing-hero-illustration img { display: block; width: 100%; height: auto; }
+@media (max-width: 760px) {
+  html.host-embedded .writing-subject-hero { grid-template-columns: minmax(0, 1fr) 30%; min-height: 244px; gap: 0; padding: 24px !important; }
+  html.host-embedded .writing-subject-hero h1 { font-size: clamp(24px, 4vw, 32px) !important; }
+  html.host-embedded .writing-subject-hero p { font-size: 13px !important; }
+}
+@media (max-width: 480px) {
+  html.host-embedded .writing-subject-hero { grid-template-columns: minmax(0, 1fr); padding: 22px 18px !important; }
+  html.host-embedded .writing-subject-hero h1 { width: calc(100% - 66px); min-height: 74px; font-size: 25px !important; }
+  html.host-embedded .writing-hero-illustration { position: absolute; width: 105px; height: 92px; right: 2px; top: 12px; }
+  html.host-embedded .writing-subject-hero .hero-actions { gap: 10px !important; margin-top: 16px !important; }
+  html.host-embedded .writing-subject-hero .hero-foot { margin-top: 13px !important; }
+}
+@media (max-width: 360px) {
+  html.host-embedded .writing-subject-hero h1 { font-size: 22px !important; }
+}

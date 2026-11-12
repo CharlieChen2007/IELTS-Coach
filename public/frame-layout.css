@@ -1,0 +1,12 @@
+/* Intrinsic documents hand their page scroll to the host; no scrollbar hiding. */
+html.host-embedded,
+html.host-embedded body { height:auto !important; min-height:0 !important; }
+html.host-embedded body { display:flow-root !important; }
+/* Tool dialogs stay within the visible host screen and retain their own list scroll. */
+html.host-embedded:is([data-frame-layout="vocab"],[data-frame-layout="shadow"]) .modal {
+  position:absolute;inset:var(--frame-visible-top,0px) 0 auto;
+  height:var(--frame-visible-height,80vh);padding:16px;box-sizing:border-box;
+}
+html.host-embedded:is([data-frame-layout="vocab"],[data-frame-layout="shadow"]) .modal-inner {
+  max-height:calc(var(--frame-visible-height,80vh) - 32px);overflow:auto;
+}

@@ -1,0 +1,10 @@
+.subject-team-peek { margin-block: 14px; padding: 14px 18px; }
+.subject-team-peek summary { cursor: pointer; color: var(--text-2); }
+.subject-team-peek summary > * { margin-inline-end: 10px; }
+.subject-team-peek summary strong { color: var(--text); }
+.subject-team-peek summary .chip { margin-block: 2px; }
+.subject-team-peek table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.subject-team-peek th, .subject-team-peek td { padding: 8px 4px; text-align: center; border-bottom: 1px solid var(--card-line); }
+.subject-team-peek th:first-child { text-align: left; max-width: 10em; overflow-wrap: anywhere; }
+.subject-team-peek .team-current { color: var(--brand-dark); font-weight: 700; }
+.subject-team-caption { text-align: left; color: var(--text-3); font-size: 12px; padding-bottom: 5px; }

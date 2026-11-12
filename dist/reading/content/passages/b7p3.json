@@ -1,0 +1,287 @@
+{
+  "id": "b7p3",
+  "bank": "p3",
+  "label": "Passage 3",
+  "title": "The Evolutionary Puzzle of Animal Play",
+  "titleZh": "动物玩耍的演化之谜",
+  "source": "IELTS AI Dataset · Band 7 · CC BY 4.0",
+  "summary": "玩耍既耗能又招险，为什么会被自然选择保留下来。",
+  "topic": "演化生物学",
+  "level": "P3 · 进阶",
+  "minutes": 20,
+  "tags": [
+    "观点判断",
+    "单选",
+    "摘要填空"
+  ],
+  "intro": "You should spend about 20 minutes on Questions 1–13, which are based on the passage below.",
+  "paragraphs": [
+    {
+      "id": "A",
+      "text": "Watch a litter of wolf pups wrestling, or a group of juvenile dolphins riding the bow wave of a boat, and the concept of \"play\" seems intuitively obvious. Yet, for decades, evolutionary biologists found animal play deeply perplexing. In the harsh reality of natural selection, behavior is typically highly efficient, optimized for finding food, avoiding predators, and reproducing. Play, by contrast, appears to be a colossal waste of energy. Furthermore, animals engaged in play are often distracted and noisy, making them significantly more vulnerable to predation. Given these high costs, play must confer a substantial evolutionary advantage, or natural selection would have eliminated it long ago."
+    },
+    {
+      "id": "B",
+      "text": "Defining play scientifically is notoriously difficult. The widely accepted framework proposed by Gordon Burghardt establishes several criteria: the behavior must not be fully functional in the context in which it is expressed; it must be voluntary and rewarding; it differs from \"serious\" behavior in form or timing; and it must be performed repeatedly when the animal is healthy and free from immediate stress. Having defined play, scientists have spent years formulating and testing hypotheses regarding its evolutionary function."
+    },
+    {
+      "id": "C",
+      "text": "The most traditional explanation is the \"Motor Training\" hypothesis. This suggests that play, particularly locomotor play like running and leaping, helps young animals develop the physical strength, coordination, and neurological wiring necessary for adult survival. While logical, empirical support for this theory is surprisingly mixed. A long-term study of wild meerkats revealed that individuals who engaged in high levels of play-fighting as juveniles were not any more successful at winning real fights or hunting prey as adults. The motor benefits of play, it seems, may be overstated or easily acquired through standard, non-playful movement."
+    },
+    {
+      "id": "D",
+      "text": "Another prominent theory is the \"Social Cohesion\" hypothesis. Many highly social mammals, such as rats, chimpanzees, and wolves, engage in extensive social play. This behavior is thought to establish social hierarchies, teach social rules, and forge bonds that hold the group together. During play fighting, animals learn to communicate their intentions and differentiate between a playful nip and an aggressive bite. They learn the boundaries of acceptable behavior, which reduces the likelihood of lethal aggression within the group later in life."
+    },
+    {
+      "id": "E",
+      "text": "Recently, a compelling new framework has emerged: the \"Cognitive Flexibility\" hypothesis, championed by Marek Spinka and his colleagues. This theory proposes that play serves to train animals for the unexpected. Wild animals exist in unpredictable environments where a sudden loss of balance or an unexpected attack can be fatal. During play, animals deliberately handicap themselves. They put themselves in disadvantageous positions—rolling on their backs, purposefully losing their balance, or allowing a smaller peer to \"win\" a mock fight. Spinka argues that by actively seeking out and experiencing these minor physical and emotional shocks in a safe environment, animals learn to recover quickly. Play, therefore, is essentially a biological rehearsal for emergencies, building resilience and neurological flexibility."
+    },
+    {
+      "id": "F",
+      "text": "Ultimately, the motivation for an animal to risk energy and safety for play boils down to neurochemistry. When mammals play, their brains release high levels of dopamine and endogenous opioids—the brain’s natural reward chemicals. Play feels intrinsically good. If the evolutionary benefits of play (whether cognitive flexibility, social bonding, or physical conditioning) were not reinforced by immediate, powerful feelings of pleasure, young animals simply would not take the risk. As research deepens, it becomes clear that play is not a frivolous byproduct of youth, but a deeply embedded, neurologically driven strategy for survival in an unpredictable world."
+    }
+  ],
+  "sections": [
+    {
+      "id": "b7p3-s1",
+      "type": "YNNG",
+      "instruction": "Questions 1–4: Do the following statements agree with the claims of the writer? Write YES, NO, or NOT GIVEN.",
+      "questions": [
+        {
+          "id": "b7p3-q1",
+          "number": 1,
+          "stem": "Engaging in play behavior reduces an animal’s risk of being attacked by predators.",
+          "answer": {
+            "value": "NO"
+          }
+        },
+        {
+          "id": "b7p3-q2",
+          "number": 2,
+          "stem": "Gordon Burghardt established a widely accepted framework for defining animal play.",
+          "answer": {
+            "value": "YES"
+          }
+        },
+        {
+          "id": "b7p3-q3",
+          "number": 3,
+          "stem": "Meerkat pups that play more frequently become more successful hunters as adults.",
+          "answer": {
+            "value": "NO"
+          }
+        },
+        {
+          "id": "b7p3-q4",
+          "number": 4,
+          "stem": "Male animals generally spend a greater proportion of their time playing than female animals.",
+          "answer": {
+            "value": "NOT_GIVEN"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b7p3-s2",
+      "type": "MCQ",
+      "instruction": "Questions 5–8: Complete each sentence with the correct ending, A–F, from the box below.",
+      "questions": [
+        {
+          "id": "b7p3-q5",
+          "number": 5,
+          "stem": "The 'Motor Training' hypothesis assumes that play helps young animals",
+          "answer": {
+            "value": "A"
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "develop crucial physical skills needed for adulthood."
+            },
+            {
+              "id": "B",
+              "text": "practice recovering from sudden or stressful situations."
+            },
+            {
+              "id": "C",
+              "text": "establish and maintain complex social hierarchies."
+            },
+            {
+              "id": "D",
+              "text": "are motivated to participate despite the survival risks."
+            },
+            {
+              "id": "E",
+              "text": "consume excess calories in an environment with abundant food."
+            },
+            {
+              "id": "F",
+              "text": "differentiate between true aggression and harmless interaction."
+            }
+          ]
+        },
+        {
+          "id": "b7p3-q6",
+          "number": 6,
+          "stem": "Play fighting in highly social species like wolves helps to",
+          "answer": {
+            "value": "C"
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "develop crucial physical skills needed for adulthood."
+            },
+            {
+              "id": "B",
+              "text": "practice recovering from sudden or stressful situations."
+            },
+            {
+              "id": "C",
+              "text": "establish and maintain complex social hierarchies."
+            },
+            {
+              "id": "D",
+              "text": "are motivated to participate despite the survival risks."
+            },
+            {
+              "id": "E",
+              "text": "consume excess calories in an environment with abundant food."
+            },
+            {
+              "id": "F",
+              "text": "differentiate between true aggression and harmless interaction."
+            }
+          ]
+        },
+        {
+          "id": "b7p3-q7",
+          "number": 7,
+          "stem": "According to the 'Cognitive Flexibility' hypothesis, animals play in order to",
+          "answer": {
+            "value": "B"
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "develop crucial physical skills needed for adulthood."
+            },
+            {
+              "id": "B",
+              "text": "practice recovering from sudden or stressful situations."
+            },
+            {
+              "id": "C",
+              "text": "establish and maintain complex social hierarchies."
+            },
+            {
+              "id": "D",
+              "text": "are motivated to participate despite the survival risks."
+            },
+            {
+              "id": "E",
+              "text": "consume excess calories in an environment with abundant food."
+            },
+            {
+              "id": "F",
+              "text": "differentiate between true aggression and harmless interaction."
+            }
+          ]
+        },
+        {
+          "id": "b7p3-q8",
+          "number": 8,
+          "stem": "The release of neurochemicals like dopamine during play ensures that animals",
+          "answer": {
+            "value": "D"
+          },
+          "options": [
+            {
+              "id": "A",
+              "text": "develop crucial physical skills needed for adulthood."
+            },
+            {
+              "id": "B",
+              "text": "practice recovering from sudden or stressful situations."
+            },
+            {
+              "id": "C",
+              "text": "establish and maintain complex social hierarchies."
+            },
+            {
+              "id": "D",
+              "text": "are motivated to participate despite the survival risks."
+            },
+            {
+              "id": "E",
+              "text": "consume excess calories in an environment with abundant food."
+            },
+            {
+              "id": "F",
+              "text": "differentiate between true aggression and harmless interaction."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b7p3-s3",
+      "type": "SUMMARY_COMPLETION",
+      "instruction": "Questions 9–13: Complete the summary below. Choose ONE WORD from the box for each answer. Word box: preparation · vulnerable · recover · emergencies · dopamine · calories · hierarchies · aggression · predators",
+      "questions": [
+        {
+          "id": "b7p3-q9",
+          "number": 9,
+          "stem": "It suggests that play serves as a form of ______ for unexpected real-world events.",
+          "answer": {
+            "value": "preparation"
+          }
+        },
+        {
+          "id": "b7p3-q10",
+          "number": 10,
+          "stem": "During play, animals deliberately place themselves in ______ situations, such as falling over or losing a mock fight.",
+          "answer": {
+            "value": "vulnerable"
+          }
+        },
+        {
+          "id": "b7p3-q11",
+          "number": 11,
+          "stem": "This intentional self-handicapping helps them learn how to rapidly ______ both physically and emotionally.",
+          "answer": {
+            "value": "recover"
+          }
+        },
+        {
+          "id": "b7p3-q12",
+          "number": 12,
+          "stem": "Consequently, when faced with genuine ______ in the future, they are better equipped to cope.",
+          "answer": {
+            "value": "emergencies"
+          }
+        },
+        {
+          "id": "b7p3-q13",
+          "number": 13,
+          "stem": "The underlying mechanism for this behavior relies on the brain’s reward system, particularly the release of ______, which makes the activity inherently pleasurable.",
+          "answer": {
+            "value": "dopamine"
+          }
+        }
+      ],
+      "wordLimit": 1,
+      "wordBank": [
+        "preparation",
+        "vulnerable",
+        "recover",
+        "emergencies",
+        "dopamine",
+        "calories",
+        "hierarchies",
+        "aggression",
+        "predators"
+      ]
+    }
+  ]
+}

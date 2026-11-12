@@ -1,0 +1,309 @@
+{
+  "schemaVersion": "writing-composite-v1",
+  "algorithmVersion": "1.1.0",
+  "assessmentId": "1809aee66a273fb676deb10b6c20cc103f42eccb41573159ea84049fdfbe4e2a",
+  "userId": "synthetic-user-001",
+  "assessmentSetId": "synthetic-set-001",
+  "asOf": "2026-11-09T01:00:00.000Z",
+  "status": "complete",
+  "scope": "academic_writing_first_draft_estimate",
+  "officialResult": false,
+  "calibrationStatus": "not_calibrated_against_examiner_scores",
+  "policy": {
+    "id": "first-draft-pair-2026-11-v1.1",
+    "maxAgeDays": 90,
+    "maxPairGapDays": 7,
+    "rounding": "nearest_half_ties_up_product_display",
+    "taskWeights": {
+      "task1": 1,
+      "task2": 2
+    },
+    "criterionWeights": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ]
+  },
+  "tasks": {
+    "task1": {
+      "task": "task1",
+      "questionId": "T1-001",
+      "submissionId": "smoke-mixed-accurate",
+      "recordId": "synthetic-record-task1",
+      "practiceId": "synthetic-practice-task1",
+      "textHash": "8b4e95fb43ed57d968780b16d35aca214dc9e07ee76bebd3a69e78ad8ed4addd",
+      "reportHash": "e1850aa75c42e14a6d1523e204d2573229727535a05e83bfedfc0534a3f3652d",
+      "sourceFingerprint": "cab325e1c0e1faf5dfe9ca798a6a93a505bfca379aafd4a7af7a63329b376936",
+      "submittedAt": "2026-11-08T13:53:25.587Z",
+      "assessedAt": "2026-11-08T13:54:25.587Z",
+      "reportStoredAt": "2026-11-08T13:54:26.587Z",
+      "wordCount": 172,
+      "underlength": false,
+      "criteria": {
+        "taskAchievement": 7.5,
+        "coherenceCohesion": 7.5,
+        "lexicalResource": 7.5,
+        "grammaticalRangeAccuracy": 7.5
+      },
+      "unroundedMean": 7.5,
+      "displayBand": 7.5,
+      "weakestCriteria": [
+        "taskAchievement",
+        "coherenceCohesion",
+        "lexicalResource",
+        "grammaticalRangeAccuracy"
+      ],
+      "criterionFeedback": {
+        "taskAchievement": {
+          "band": 7.5,
+          "reason": "两个面板的主要特征均被准确覆盖：地区份额最大/最小、总量与单位、股价升至1998年峰值后回落并反弹、终点与起点/峰值的比较。概述清楚，数据使用准确，比较有效。折线图无精确标签，学生用约数处理得当；若再补充区域份额的排序或合计比较可更充分，但已属较好完成任务。",
+          "evidenceSentenceIds": [
+            "smoke-mixed-accurate:s:156",
+            "smoke-mixed-accurate:s:285",
+            "smoke-mixed-accurate:s:373",
+            "smoke-mixed-accurate:s:514",
+            "smoke-mixed-accurate:s:712",
+            "smoke-mixed-accurate:s:925"
+          ],
+          "nextStep": "保持现有概述与数据准确度；可在主体段补一句地区份额的排序比较（如北美约为非洲和中东的四倍多），使比较更充分。"
+        },
+        "coherenceCohesion": {
+          "band": 7.5,
+          "reason": "四段结构自然：引言、概述、饼图细节、折线细节。段内按份额从大到小推进，段间用Turning to衔接，指代（these two regions、It）清楚。个别衔接略常规，但整体推进顺畅，不影响阅读。",
+          "evidenceSentenceIds": [
+            "smoke-mixed-accurate:s:0",
+            "smoke-mixed-accurate:s:156",
+            "smoke-mixed-accurate:s:430",
+            "smoke-mixed-accurate:s:712"
+          ],
+          "nextStep": "练习在主体段开头用一句主题句点明该段描述对象（如The pie chart's regional breakdown shows a clear ranking），减少仅靠连接词推进。"
+        },
+        "lexicalResource": {
+          "band": 7.5,
+          "reason": "词汇准确且搭配自然：regional distribution、accounted for、contributed、recovering、well below its peak等使用恰当；approximately/roughly等约数词与无标签折线图匹配。范围足够完成任务，偶有常规表达但不影响准确度。",
+          "evidenceSentenceIds": [
+            "smoke-mixed-accurate:s:0",
+            "smoke-mixed-accurate:s:514",
+            "smoke-mixed-accurate:s:712",
+            "smoke-mixed-accurate:s:925"
+          ],
+          "nextStep": "可积累2–3个描述份额比较的动词/名词搭配（如account for the lion's share、a marginal share），但不必为求高级而替换已准确的词。"
+        },
+        "grammaticalRangeAccuracy": {
+          "band": 7.5,
+          "reason": "句式有变化：while对比、分词状语（followed by、dropping below、reaching a peak）、定语从句式比较（higher than...but well below...）。全文无明显语法错误，时态统一为过去时，单位与百分数表达正确。复杂句使用自然，未出现影响理解的错误。",
+          "evidenceSentenceIds": [
+            "smoke-mixed-accurate:s:0",
+            "smoke-mixed-accurate:s:430",
+            "smoke-mixed-accurate:s:712",
+            "smoke-mixed-accurate:s:838"
+          ],
+          "nextStep": "继续保持；可练习用非谓语结构压缩比较句（如ending at about $55, above the starting point but below the peak），但当前准确度已足够。"
+        }
+      },
+      "provenance": {
+        "upstreamDraftRole": "unverified",
+        "draftRoleResolvedFrom": "trusted_persisted_submission",
+        "reportSchema": "task1-ai-v1",
+        "promptVersion": "a246f4143fcb3e0e",
+        "rubricVersion": "ielts-task1-2023-product-v1",
+        "requestedModel": "deepseek-flash",
+        "responseModel": "deepseek-flash",
+        "sourceOrigin": "reference",
+        "sourceHumanVerified": false,
+        "referenceReviewKind": "agent_visual_review"
+      }
+    },
+    "task2": {
+      "task": "task2",
+      "questionId": "T2-026",
+      "submissionId": "task2-discussion-complete",
+      "recordId": "synthetic-record-task2",
+      "practiceId": "synthetic-practice-task2",
+      "textHash": "4cf344c53093a2be64a6b7a6bb2d41f03193ea03edac86dbfe36efe62636b9da",
+      "reportHash": "9410db395a88541d9c3e99a6423d5ec9adbb8fd0086c27843bb51929025eb474",
+      "sourceFingerprint": "02f59fbbbc5676b26ac306bbab157d1373d9005a52c8b9c9ed3c0bbd891c8de6",
+      "submittedAt": "2026-11-09T00:48:53.277Z",
+      "assessedAt": "2026-11-09T00:49:53.277Z",
+      "reportStoredAt": "2026-11-09T00:49:54.277Z",
+      "wordCount": 284,
+      "underlength": false,
+      "criteria": {
+        "taskResponse": 7,
+        "coherenceCohesion": 7,
+        "lexicalResource": 7,
+        "grammaticalRangeAccuracy": 7.5
+      },
+      "unroundedMean": 7.125,
+      "displayBand": 7,
+      "weakestCriteria": [
+        "taskResponse",
+        "coherenceCohesion",
+        "lexicalResource"
+      ],
+      "criterionFeedback": {
+        "taskResponse": {
+          "band": 7,
+          "reason": "双方观点均得到讨论并有具体展开，立场清楚且贯穿全文。第一方论证有工程例子支撑，第二方论证有适应性和研究能力支撑。综合立场明确。但第一方“为何就业技能重要”的深层理由（如雇主需求、就业压力）可更充分，论证深度略欠8分水平。",
+          "evidenceSentenceIds": [
+            "task2-discussion-complete:s:276",
+            "task2-discussion-complete:s:598",
+            "task2-discussion-complete:s:1082",
+            "task2-discussion-complete:s:1557"
+          ],
+          "nextStep": "在讨论就业技能一方时，补充一句说明为何这一需求在当下尤为紧迫（如就业市场竞争），使论证更有层次。"
+        },
+        "coherenceCohesion": {
+          "band": 7,
+          "reason": "四段结构清晰：引入并表态、第一方观点、第二方观点、综合结论。段落间用However和therefore自然过渡，段内用For example、Such experience、This is especially useful等衔接。整体推进顺畅，但部分衔接偏常规，未达到8分所需的更精细组织。",
+          "evidenceSentenceIds": [
+            "task2-discussion-complete:s:974",
+            "task2-discussion-complete:s:1557",
+            "task2-discussion-complete:s:598"
+          ],
+          "nextStep": "尝试在第三段开头用更具体的对比衔接（如“While practical training addresses immediate needs, ...”），使两方观点的对照更鲜明。"
+        },
+        "lexicalResource": {
+          "band": 7,
+          "reason": "词汇使用准确且有一定灵活性，如bridge this gap、underlying principles、question assumptions、intellectual resources等搭配自然。但整体词汇范围属常见学术表达，罕见或高度精准的词汇有限，个别表达如“narrow the value”稍显生硬。",
+          "evidenceSentenceIds": [
+            "task2-discussion-complete:s:532",
+            "task2-discussion-complete:s:1082",
+            "task2-discussion-complete:s:1216",
+            "task2-discussion-complete:s:1871"
+          ],
+          "nextStep": "将“narrow the value of higher education”改为更自然的表达，如“unduly narrow the purpose of higher education”，并注意搭配准确性。"
+        },
+        "grammaticalRangeAccuracy": {
+          "band": 7.5,
+          "reason": "句式多样，包含定语从句（who understands how research is conducted）、让步结构（whereas...）、分词结构（learning to manage deadlines）等，且使用准确。全文语法错误极少，句子控制良好。但复杂句式的密度和多样性尚未达到8分所需的持续精准与灵活。",
+          "evidenceSentenceIds": [
+            "task2-discussion-complete:s:385",
+            "task2-discussion-complete:s:1082",
+            "task2-discussion-complete:s:1338",
+            "task2-discussion-complete:s:1651"
+          ],
+          "nextStep": "在结论段尝试一个更复杂的条件句或让步句，如“Even if resources are limited, universities can...”，展示句法灵活性。"
+        }
+      },
+      "provenance": {
+        "upstreamDraftRole": "unverified",
+        "draftRoleResolvedFrom": "trusted_persisted_submission",
+        "reportSchema": "task2-ai-v2",
+        "promptVersion": "091a6e0c1b785535",
+        "rubricVersion": "ielts-task2-2023-product-v2",
+        "requestedModel": "deepseek-flash",
+        "responseModel": "deepseek-flash",
+        "sourceOrigin": "rule",
+        "sourceHumanVerified": false,
+        "referenceReviewKind": null
+      }
+    }
+  },
+  "writing": {
+    "unroundedMean": 7.25,
+    "displayBand": 7.5,
+    "exact": {
+      "numerator": 174,
+      "denominator": 24
+    },
+    "criteria": {
+      "taskFulfilment": 7.166666666666667,
+      "coherenceCohesion": 7.166666666666667,
+      "lexicalResource": 7.166666666666667,
+      "grammaticalRangeAccuracy": 7.5
+    },
+    "formula": "(task1_unroundedMean + 2 * task2_unroundedMean) / 3"
+  },
+  "feedbackSummary": "写作综合练习估分 7.5，由两份首稿的未取整分数按 1:2 汇总。task1 的相对薄弱维度：任务完成、连贯与衔接、词汇、语法。task2 的相对薄弱维度：任务回应、连贯与衔接、词汇。本结果仅覆盖本组写作样本，尚未与考官评分校准。",
+  "qualityFlags": [
+    "ONE_SAMPLE_PER_AVAILABLE_TASK",
+    "TASK1_SOURCE_NOT_HUMAN_VERIFIED",
+    "UNCALIBRATED_AI_ESTIMATE"
+  ],
+  "coverage": {
+    "availableTasks": [
+      "task1",
+      "task2"
+    ],
+    "missingTasks": [],
+    "inputRecordCount": 2,
+    "uniqueRecordCount": 2
+  },
+  "excluded": [],
+  "matchingSource": {
+    "schemaVersion": "writing-matching-source-v1",
+    "assessmentId": "1809aee66a273fb676deb10b6c20cc103f42eccb41573159ea84049fdfbe4e2a",
+    "userId": "synthetic-user-001",
+    "assessmentSetId": "synthetic-set-001",
+    "asOf": "2026-11-09T01:00:00.000Z",
+    "status": "complete",
+    "scope": "academic_writing_first_draft_estimate",
+    "officialResult": false,
+    "calibrationStatus": "not_calibrated_against_examiner_scores",
+    "algorithmVersion": "1.1.0",
+    "policyId": "first-draft-pair-2026-11-v1.1",
+    "writingRaw": 7.25,
+    "writingBand": 7.5,
+    "task1": {
+      "questionId": "T1-001",
+      "submissionId": "smoke-mixed-accurate",
+      "unroundedMean": 7.5,
+      "displayBand": 7.5,
+      "criteria": {
+        "taskAchievement": 7.5,
+        "coherenceCohesion": 7.5,
+        "lexicalResource": 7.5,
+        "grammaticalRangeAccuracy": 7.5
+      },
+      "submittedAt": "2026-11-08T13:53:25.587Z",
+      "provenance": {
+        "upstreamDraftRole": "unverified",
+        "draftRoleResolvedFrom": "trusted_persisted_submission",
+        "reportSchema": "task1-ai-v1",
+        "promptVersion": "a246f4143fcb3e0e",
+        "rubricVersion": "ielts-task1-2023-product-v1",
+        "requestedModel": "deepseek-flash",
+        "responseModel": "deepseek-flash",
+        "sourceOrigin": "reference",
+        "sourceHumanVerified": false,
+        "referenceReviewKind": "agent_visual_review"
+      }
+    },
+    "task2": {
+      "questionId": "T2-026",
+      "submissionId": "task2-discussion-complete",
+      "unroundedMean": 7.125,
+      "displayBand": 7,
+      "criteria": {
+        "taskResponse": 7,
+        "coherenceCohesion": 7,
+        "lexicalResource": 7,
+        "grammaticalRangeAccuracy": 7.5
+      },
+      "submittedAt": "2026-11-09T00:48:53.277Z",
+      "provenance": {
+        "upstreamDraftRole": "unverified",
+        "draftRoleResolvedFrom": "trusted_persisted_submission",
+        "reportSchema": "task2-ai-v2",
+        "promptVersion": "091a6e0c1b785535",
+        "rubricVersion": "ielts-task2-2023-product-v2",
+        "requestedModel": "deepseek-flash",
+        "responseModel": "deepseek-flash",
+        "sourceOrigin": "rule",
+        "sourceHumanVerified": false,
+        "referenceReviewKind": null
+      }
+    },
+    "sampleCounts": {
+      "task1": 1,
+      "task2": 1
+    },
+    "qualityFlags": [
+      "ONE_SAMPLE_PER_AVAILABLE_TASK",
+      "TASK1_SOURCE_NOT_HUMAN_VERIFIED",
+      "UNCALIBRATED_AI_ESTIMATE"
+    ]
+  }
+}

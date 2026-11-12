@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 310" fill="none">
+  <defs>
+    <pattern id="mesh" width="23" height="23" patternUnits="userSpaceOnUse">
+      <path d="M23 0H0v23" stroke="#e0f2f8" stroke-opacity=".13" stroke-width=".85"/>
+      <circle r=".85" fill="#e6f5f9" opacity=".4"/>
+    </pattern>
+    <linearGradient id="rim" x1=".04" y1="0" x2=".85" y2=".95" gradientUnits="objectBoundingBox">
+      <stop stop-color="#accee5"/><stop offset=".29" stop-color="#7ab1d5"/><stop offset=".75" stop-color="#60a1cd"/><stop offset="1" stop-color="#89b9da"/>
+    </linearGradient>
+    <linearGradient id="cup" x1="0%" y1="8%" x2="92%" y2="95%">
+      <stop stop-color="#afd0e6"/><stop offset=".55" stop-color="#79b0d5"/><stop offset="1" stop-color="#5399c9"/>
+    </linearGradient>
+    <linearGradient id="pad" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#263d50"/><stop offset=".54" stop-color="#213445"/><stop offset="1" stop-color="#1e3040"/>
+    </linearGradient>
+  </defs>
+  <rect x="28" y="0" width="362" height="310" fill="url(#mesh)"/>
+  <g stroke="#cae9f2" opacity=".40" stroke-width="1.1">
+    <path d="M59 194C38 120 77 46 160 23c48-13 108-4 153 29" stroke-dasharray="2 6"/>
+    <path d="M325 66c26 28 42 69 38 105-4 47-30 91-71 118" stroke-dasharray="2 6"/>
+    <path d="M47 255c20 17 33 23 65 32" stroke-dasharray="2 6"/>
+  </g>
+  <g stroke="#e6f5f9" stroke-linecap="round">
+    <path d="M43 84v9m-4.5-4.5h9m286 142v9m-4.5-4.5h9" opacity=".64"/>
+    <path d="M329 24v6m-3-3h6m-204 245v6m-3-3h6" opacity=".46"/>
+    <path d="M23 161v4m5-10v16m5-21v23m5-16v11m5-8v5" opacity=".50" stroke-width="1.7"/>
+    <path d="M344 106v5m5-10v16m5-22v26m5-20v15m5-10v6" opacity=".75" stroke-width="1.7"/>
+  </g>
+  <g transform="translate(211 151) rotate(14) translate(-211 -151)" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Change from the outside shell into the inner padded band. -->
+    <path d="M106 182C93 131 98 82 127 50c20-22 49-33 82-33 41 0 74 18 96 49 22 32 27 72 22 112l-15 12-11-12c9-48-1-86-23-110-17-19-39-29-67-30-29-1-51 8-69 26-24 26-31 68-19 111l-6 13Z" fill="#3b87ba" stroke="#2c485e" stroke-width="2.6"/>
+    <path d="M109 175c-11-48-6-91 21-119 21-23 49-33 81-32 37 0 68 15 88 43 23 32 28 73 20 117l-13-2c5-36 1-72-18-100-17-25-43-40-75-42-29-2-51 8-69 26-22 23-28 59-19 101l-3 13Z" fill="url(#rim)" stroke="#2d688f" stroke-width="2"/>
+    <path d="M126 149c-5-34 1-63 20-83 19-20 42-28 68-26 31 2 57 16 74 41 13 20 19 43 20 66l-7-2c-3-22-9-40-21-56-17-23-38-35-65-38-25-2-47 6-63 23-16 18-23 41-21 68Z" fill="#243a4d" stroke="#284156" stroke-width="2"/>
+    <path d="M112 115c2-23 10-42 23-57 13-14 30-24 47-28" stroke="#c1daeb" stroke-width="3"/>
+    <path d="M198 27c14-1 27 1 38 4" stroke="#d1ecf4" stroke-width="2.4"/>
+    <path d="M279 50c25 19 38 48 42 80" stroke="#9cc4e0" stroke-width="2.1"/>
+    <path d="M114 151l11-2 7 23-13 4z" fill="#72acd2" stroke="#375975" stroke-width="1.8"/>
+    <path d="M307 139l13 3-2 29-13-3z" fill="#8abada" stroke="#385b78" stroke-width="1.8"/>
+    <!-- Far cushion and its articulated yoke. -->
+    <g transform="rotate(-15 133 205)">
+      <path d="M115 163c-9 1-16 8-18 17-3 15 0 42 7 57 3 7 9 11 17 10l12-3 2-81Z" fill="#4692c5" stroke="#2d485f" stroke-width="2.5"/>
+      <rect x="110" y="164" width="31" height="83" rx="14" fill="#89b9da" stroke="#375874" stroke-width="2.3"/>
+      <path d="M132 163c8-4 17 2 20 11 4 13 5 41 4 56-1 13-5 19-14 20-6 1-15-3-17-14-3-14-4-44-3-58 0-7 3-13 10-15Z" fill="url(#pad)" stroke="#1f3242" stroke-width="2.6"/>
+      <path d="M139 170c5 2 7 7 8 12m2 38c0 10-1 16-4 20" stroke="#225a74" stroke-width="2"/>
+      <path d="M109 151l-4 39c0 7 4 12 11 14l6-11-7-4 7-34z" fill="#6ea9d1" stroke="#2d678e" stroke-width="2"/>
+      <circle cx="112" cy="193" r="3.4" fill="#306d97"/>
+    </g>
+    <!-- Near earpiece: cushion, orange shell and inset face. -->
+    <g transform="rotate(12 290 202)">
+      <path d="M267 153c-10 0-17 7-20 19-3 15-4 45-3 62 1 13 9 20 22 20l15-1 11-97z" fill="url(#pad)" stroke="#213445" stroke-width="2.8"/>
+      <path d="M257 168c-4 4-5 8-6 19l-1 27m2 13c0 7 1 13 4 16" stroke="#20566e" stroke-width="2.1"/>
+      <path d="M272 152c7-3 20-3 28 0 14 5 22 16 22 33v30c0 21-9 35-24 40-9 3-22 3-30-1-10-5-16-14-16-29v-39c0-16 6-29 20-34Z" fill="#4e96c7" stroke="#2f4c64" stroke-width="2.7"/>
+      <path d="M284 151c19-3 35 7 38 26 2 11 1 39-1 48-3 18-13 29-30 32-17 2-30-9-32-26-1-13 0-37 2-49 2-17 9-28 23-31Z" fill="url(#cup)" stroke="#385a76" stroke-width="2.1"/>
+      <path d="M285 161c13-3 24 6 26 20 1 9 1 30-1 40-2 14-8 22-19 24-12 2-21-6-23-19-1-11 0-29 1-39 2-13 6-22 16-26Z" fill="#80b4d7" stroke="#579cca" stroke-width="1.8"/>
+      <path d="M269 185c1-12 7-20 15-22 5-2 9-1 13 0" stroke="#b5d3e8" stroke-width="2"/>
+      <path d="M300 132l16 2 2 42c0 9-4 15-11 17-6 1-12-2-14-7l5-8 5 1z" fill="#60a1cd" stroke="#2b648a" stroke-width="2.1"/>
+      <path d="M304 137l5 1 1 34" stroke="#9bc4df" stroke-width="2.3"/>
+      <circle cx="306" cy="183" r="4.6" fill="#2c668d"/>
+      <circle cx="306" cy="182" r="1.5" fill="#8cbbdb"/>
+      <path d="M279 214v7m4-12v16m4-23v29m4-24v17m4-14v9" stroke="#32739f" stroke-width="2"/>
+    </g>
+  </g>
+  <g fill="#afcfe6"><circle cx="58" cy="188" r="2.5"/><circle cx="345" cy="70" r="2"/><circle cx="292" cy="270" r="2.5"/></g>
+</svg>

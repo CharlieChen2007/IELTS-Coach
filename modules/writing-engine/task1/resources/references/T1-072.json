@@ -1,0 +1,122 @@
+{
+  "questionId": "T1-072",
+  "sourceFingerprint": "287b7f76c1e93af6b7f351b7fa8f3aacfd9bf8241b05193290bbcfce73897809",
+  "review": {
+    "kind": "agent_visual_review",
+    "id": "codex-image-review-2026-11-08-T1-072",
+    "reviewedAt": "2026-11-08",
+    "note": "Codex对照用户原图整理；未经人类考官核验。仅供可信服务端载入，不接受浏览器提交。"
+  },
+  "analysis": {
+    "readability": "clear",
+    "chartTypes": [
+      "map"
+    ],
+    "questionQuality": {
+      "alignment": "aligned",
+      "instructions": "standard",
+      "issues": []
+    },
+    "panels": [
+      {
+        "id": "p1",
+        "kind": "map",
+        "description": "Canterbury两处拟建学校选址"
+      }
+    ],
+    "facts": [
+      {
+        "id": "f1",
+        "panelId": "p1",
+        "kind": "structure",
+        "statement": "The map shows two proposed school sites, S1 and S2, in Canterbury. North is toward the top.",
+        "location": "题干与图顶指北针",
+        "approximate": false,
+        "confidence": "high"
+      },
+      {
+        "id": "f2",
+        "panelId": "p1",
+        "kind": "location",
+        "statement": "S1 is in the countryside east of the town centre, near the road leading northeast to Sturry.",
+        "location": "右侧S1在绿色区域、东北道路旁",
+        "approximate": false,
+        "confidence": "high"
+      },
+      {
+        "id": "f3",
+        "panelId": "p1",
+        "kind": "location",
+        "statement": "S2 is in the southern part of the town centre, which is marked as a no-traffic zone.",
+        "location": "橙色区域下部S2与图例",
+        "approximate": false,
+        "confidence": "high"
+      },
+      {
+        "id": "f4",
+        "panelId": "p1",
+        "kind": "location",
+        "statement": "Housing surrounds most of the town centre; countryside lies around the outside.",
+        "location": "浅灰与绿色区域及图例",
+        "approximate": false,
+        "confidence": "high"
+      },
+      {
+        "id": "f5",
+        "panelId": "p1",
+        "kind": "location",
+        "statement": "The university is in the north of the town and northwest of S1.",
+        "location": "蓝色区域相对S1位置、指北针",
+        "approximate": false,
+        "confidence": "high"
+      },
+      {
+        "id": "f6",
+        "panelId": "p1",
+        "kind": "location",
+        "statement": "The northeast road leads toward Sturry, labelled 5 km away with a population of 7,000.",
+        "location": "右上文字5km to Sturry (Population: 7,000)",
+        "approximate": false,
+        "confidence": "high"
+      },
+      {
+        "id": "f7",
+        "panelId": "p1",
+        "kind": "location",
+        "statement": "The southwest road leads toward Chartham, labelled 7 km away with a population of 4,500.",
+        "location": "左下文字7km to Chartham (Population: 4,500)",
+        "approximate": false,
+        "confidence": "high"
+      }
+    ],
+    "keyFeatures": [
+      {
+        "id": "k1",
+        "description": "S1在郊外靠近道路，S2位于无交通区内",
+        "factIds": [
+          "f2",
+          "f3"
+        ]
+      },
+      {
+        "id": "k2",
+        "description": "住宅、市中心、大学与乡村的布局",
+        "factIds": [
+          "f4",
+          "f5"
+        ]
+      },
+      {
+        "id": "k3",
+        "description": "两条方向上的连接道路、标注距离及人口",
+        "factIds": [
+          "f6",
+          "f7"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "未标比例尺；不能精确估算两选址到大学距离，也不能给出选址优劣或交通影响。"
+    ]
+  }
+}

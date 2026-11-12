@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SpeakLoop · 雅思高频词库</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="assets/styles.css">
+<link rel="stylesheet" href="assets/vocab.css">
+<script>
+  /* 嵌入学习空间时，首帧之前就打上 host-embedded：隐藏独立站的品牌与账号切换，
+     只保留功能导航。等 JS 跑起来再加 class 会先闪一下独立站的顶栏。 */
+  (function () {
+    try {
+      var p = new URLSearchParams(location.search);
+      if (window.parent !== window && p.get('embedded') === '1') {
+        document.documentElement.classList.add('host-embedded');
+      }
+    } catch (e) {}
+  })();
+</script>
+<style>
+  html.host-embedded .topbar { padding: 8px 18px; gap: 12px; }
+  html.host-embedded .brand,
+  html.host-embedded .account { display: none !important; }
+  html.host-embedded .nav { justify-content: flex-start; }
+</style>
+<link rel="stylesheet" href="/motion.css"><script src="/motion.js" defer></script><link rel="stylesheet" href="/navigation-motion.css"><script src="/navigation-motion.js" defer></script><link rel="stylesheet" href="/frame-layout.css"><script src="/frame-layout.js" defer></script></head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo">SL</div>
+      <div class="brand-txt"><b>SpeakLoop · 高频词库</b><span>雅思学术词 · 卡牌记忆与听写</span></div>
+    </div>
+    <nav class="nav" id="nav">
+      <button class="nav-btn" data-nav="cards">今日卡牌</button>
+      <button class="nav-btn" data-nav="dictation">听写</button>
+      <button class="nav-btn" data-nav="curve">记忆曲线</button>
+      <button class="nav-btn" data-nav="list">词表</button>
+    </nav>
+    <div class="topright">
+      <div class="mini-progress">
+        <span id="miniProgLabel">今日 0/15</span>
+        <div class="bar"><i id="miniProgBar"></i></div>
+      </div>
+      <button class="account" id="accountBtn"><span class="avatar" id="avatar">S</span><span id="accountName">学员</span></button>
+    </div>
+  </header>
+
+  <main id="view" class="vc-wrap"></main>
+  <div id="toast" class="toast"></div>
+  <div id="modal" class="modal hidden"><div class="modal-inner" id="modalInner"></div></div>
+
+  <script src="assets/vocab-host.js"></script>
+  <script src="assets/module-contract.js"></script>
+  <script src="assets/audio.js"></script>
+  <script src="assets/vocab-data.js"></script>
+  <script src="assets/vocab-bank.js"></script>
+  <script src="assets/vocab-engine.js"></script>
+  <script src="assets/vocab-app.js"></script>
+</body>
+</html>

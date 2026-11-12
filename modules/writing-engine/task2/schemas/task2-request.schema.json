@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Task 2 request",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "questionId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 120,
+      "pattern": "^T2-[0-9]{3}$"
+    },
+    "submissionId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100,
+      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9:._-]*$"
+    },
+    "text": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 20000
+    },
+    "mode": {
+      "type": "string",
+      "enum": [
+        "essay",
+        "language"
+      ]
+    },
+    "revisionContext": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "initialText": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 20000
+        },
+        "previousText": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 20000
+        },
+        "previousFocus": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 500
+          },
+          "minItems": 0,
+          "maxItems": 3
+        },
+        "round": {
+          "type": "integer",
+          "minimum": 2,
+          "maximum": 100
+        }
+      },
+      "required": [
+        "initialText",
+        "previousText",
+        "previousFocus",
+        "round"
+      ]
+    }
+  },
+  "required": [
+    "questionId",
+    "submissionId",
+    "text",
+    "mode"
+  ]
+}

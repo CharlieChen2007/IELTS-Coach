@@ -1,0 +1,48 @@
+.tp-panel {
+  background:var(--surface,#fff); border:1px solid var(--line,#dedfd9); border-radius:18px;
+  padding:clamp(16px,2vw,26px); color:var(--ink,#252531); min-width:0;
+}
+.tp-panel h2 {font-size:1.35rem; line-height:1.3; margin:0 0 .75rem}
+.tp-panel h3 {font-size:1.12rem; overflow-wrap:anywhere}
+.tp-panel h4 {font-size:1rem; overflow-wrap:anywhere}
+.tp-panel [data-team-content] {min-width:0}
+.tp-panel label,.tp-panel legend {font-size:.85rem; font-weight:650}
+.tp-panel label {display:grid; gap:.35rem; min-width:0}
+.tp-panel button,.tp-panel input,.tp-panel select {border:1px solid var(--line,#dedfd9); background:white; border-radius:8px; color:inherit; font:inherit; padding:.45rem .7rem}
+.tp-panel button {font-size:.86rem; font-weight:650}
+.tp-panel button:hover:not(:disabled) {border-color:var(--accent,#5147c9); color:var(--deep,#353091)}
+.tp-panel button.tp-primary {background:var(--accent,#5147c9); border-color:transparent; color:white}
+.tp-panel button.tp-primary:hover:not(:disabled) {background:var(--deep,#353091);color:white}
+.tp-panel fieldset {border:0; padding:0; margin:.85rem 0}
+.tp-panel legend {margin-bottom:.35rem}
+.tp-panel .tp-fields,.tp-panel .tp-create {display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:.8rem; margin:.75rem 0}
+.tp-panel .tp-create {grid-template-columns:1fr auto; align-items:end}
+.tp-panel input,.tp-panel select {min-width:0; max-width:100%; font-size:.9rem}
+.tp-teamhead,.tp-goal,.tp-match,.tp-actions,.tp-slot-picker,.tp-slots,.tp-confirm {display:flex; align-items:center; gap:.5rem; flex-wrap:wrap}
+.tp-teamhead,.tp-goal,.tp-match {justify-content:space-between}
+.tp-teamhead p,.tp-match p,.tp-match small,.tp-note,.tp-panel caption span {color:var(--secondary,#595a66); font-size:.83rem; font-weight:400}
+.tp-slots {margin:.6rem 0}
+.tp-panel .tp-slots span,.tp-panel button.tp-chip {border:0; border-radius:99px; padding:.18rem .55rem; background:#f1eff9; color:#3d367e; font-size:.79rem}
+.tp-goal {margin:1rem 0 .35rem}
+.tp-goal b,.tp-goal strong {font-size:.92rem}
+.tp-goal span {display:block; font-size:.84rem; color:var(--secondary,#595a66)}
+.tp-panel progress {width:100%; height:8px; accent-color:var(--accent,#5147c9)}
+.tp-panel table {width:100%; border-collapse:collapse; margin:.8rem 0 .45rem; font-size:.85rem; table-layout:fixed}
+.tp-panel caption {text-align:left; font-weight:700; margin-bottom:.4rem}
+.tp-panel caption span {display:inline-block; margin-left:.3rem; font-size:.76rem}
+.tp-panel td,.tp-panel th {text-align:center; padding:.4rem .12rem; border-bottom:1px solid var(--line,#dedfd9)}
+.tp-panel th[scope="row"],.tp-panel th:first-child {text-align:left; width:30%; overflow-wrap:anywhere}
+.tp-focus {background:#eef4f8}
+.tp-done {color:#235f47; font-weight:700}
+.tp-zero {color:#6b6d77}
+.tp-panel th small {color:var(--accent,#5147c9)}
+.tp-panel .tp-text {margin-top:.75rem; padding:.25rem 0; background:none; border:0; color:var(--secondary,#595a66)}
+.tp-panel .tp-results:not(:empty),.tp-link,.tp-confirm {margin-top:.8rem}
+.tp-panel .tp-match {border:1px solid var(--line,#dedfd9); border-radius:10px; margin:.45rem 0; padding:.65rem}
+.tp-message {font-size:.85rem; margin:.4rem 0 0; color:var(--deep,#353091)}
+.tp-message:empty {display:none}
+@media(max-width:500px) {
+  .tp-panel {padding:15px}
+  .tp-panel .tp-create {grid-template-columns:1fr}
+  .tp-panel table {font-size:.78rem}
+}

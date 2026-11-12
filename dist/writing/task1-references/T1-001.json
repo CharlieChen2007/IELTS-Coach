@@ -1,0 +1,145 @@
+{
+  "questionId": "T1-001",
+  "sourceFingerprint": "cab325e1c0e1faf5dfe9ca798a6a93a505bfca379aafd4a7af7a63329b376936",
+  "review": {
+    "kind": "agent_visual_review",
+    "id": "codex-image-review-2026-11-08-T1-001",
+    "reviewedAt": "2026-11-08",
+    "note": "Codex对照用户原图整理；未经人类考官核验。仅供可信服务端载入，不接受浏览器提交。"
+  },
+  "analysis": {
+    "readability": "clear",
+    "chartTypes": [
+      "pie",
+      "line"
+    ],
+    "questionQuality": {
+      "alignment": "aligned",
+      "instructions": "standard",
+      "issues": []
+    },
+    "panels": [
+      {
+        "id": "p1",
+        "kind": "pie",
+        "description": "2000年地区销量占比"
+      },
+      {
+        "id": "p2",
+        "kind": "line",
+        "description": "1996–2001年股价折线"
+      }
+    ],
+    "facts": [
+      {
+        "id": "f1",
+        "panelId": "p1",
+        "kind": "unit",
+        "statement": "The pie chart shows regional unit case volume in 2000, as percentages of a total of 17.1 billion unit cases.",
+        "location": "左图标题、中心总量",
+        "approximate": false,
+        "confidence": "high"
+      },
+      {
+        "id": "f2",
+        "panelId": "p1",
+        "kind": "value",
+        "statement": "North America: 30.4%; Latin America: 25.7%.",
+        "location": "左图左侧两个标签",
+        "approximate": false,
+        "confidence": "high"
+      },
+      {
+        "id": "f3",
+        "panelId": "p1",
+        "kind": "value",
+        "statement": "Europe: 20.5%; Asia: 16.4%; Africa and the Middle East: 7.0%.",
+        "location": "左图右侧三个标签",
+        "approximate": false,
+        "confidence": "high"
+      },
+      {
+        "id": "f4",
+        "panelId": "p1",
+        "kind": "comparison",
+        "statement": "North America has the largest share; Africa and the Middle East have the smallest. The two American regions together account for 56.1%.",
+        "location": "左图五个标签相比较；30.4+25.7",
+        "approximate": false,
+        "confidence": "high"
+      },
+      {
+        "id": "f5",
+        "panelId": "p2",
+        "kind": "unit",
+        "statement": "The share-price chart uses dollars, with labelled vertical ticks at 30, 50, 70 and 90 and years 1996 to 2001 on the horizontal axis.",
+        "location": "右图纵轴与横轴",
+        "approximate": false,
+        "confidence": "high"
+      },
+      {
+        "id": "f6",
+        "panelId": "p2",
+        "kind": "trend",
+        "statement": "The share price rises from roughly $35–40 at the start to a peak of about $80 around 1998, with fluctuations.",
+        "location": "右图起点在30与50之间靠下；峰值在70与90之间",
+        "approximate": true,
+        "confidence": "medium"
+      },
+      {
+        "id": "f7",
+        "panelId": "p2",
+        "kind": "trend",
+        "statement": "After the peak, the price generally declines, falls below $50 around 2000, recovers to about $60, and ends around $55–60.",
+        "location": "右图1998年后折线及末端",
+        "approximate": true,
+        "confidence": "medium"
+      },
+      {
+        "id": "f8",
+        "panelId": "p2",
+        "kind": "comparison",
+        "statement": "The ending price is higher than the starting price but below the peak.",
+        "location": "右图起点、终点、最高点比较",
+        "approximate": false,
+        "confidence": "high"
+      }
+    ],
+    "keyFeatures": [
+      {
+        "id": "k1",
+        "description": "北美最多，非洲和中东最少；区域份额有关键比较",
+        "factIds": [
+          "f2",
+          "f3",
+          "f4"
+        ]
+      },
+      {
+        "id": "k2",
+        "description": "2000年总量与地区份额的单位正确",
+        "factIds": [
+          "f1"
+        ]
+      },
+      {
+        "id": "k3",
+        "description": "股价上升到约1998年的峰值，之后回落并有反弹",
+        "factIds": [
+          "f5",
+          "f6",
+          "f7"
+        ]
+      },
+      {
+        "id": "k4",
+        "description": "股价末端高于起点但低于峰值",
+        "factIds": [
+          "f8"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "折线数据点无数值标签；估读为近似范围，不能据此纠正合理约数。"
+    ]
+  }
+}

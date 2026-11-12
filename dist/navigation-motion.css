@@ -1,0 +1,39 @@
+/* One travelling highlight for host categories and native module switches. */
+nav.coach-segmented { position:relative; isolation:isolate; }
+nav.coach-segmented::before {
+  content:''; position:absolute; top:0; left:0;
+  width:var(--nav-w,0px); height:var(--nav-h,0px); box-sizing:border-box;
+  border:1px solid #cfe0ee; border-radius:var(--btn-radius,8px);
+  background:var(--grad-nav,linear-gradient(115deg,#e5f3fc,#eaf6ff));
+  transform:translate3d(var(--nav-x,0px),var(--nav-y,0px),0);
+  opacity:0; pointer-events:none; z-index:-1;
+}
+nav.coach-segmented[data-nav-active="1"]::before { opacity:1; }
+nav.coach-segmented[data-nav-placed="1"]::before {
+  transition:transform 340ms cubic-bezier(.22,.8,.24,1),width 280ms cubic-bezier(.22,.8,.24,1),height 280ms cubic-bezier(.22,.8,.24,1),opacity 160ms ease;
+}
+nav.coach-segmented > :is(button,a) {
+  position:relative; z-index:auto;
+  background:transparent!important; border-color:transparent!important; box-shadow:none!important;
+  transition:color 240ms ease;
+}
+/* Surfaces below the slider, labels above it: no duplicate active backgrounds. */
+nav.coach-segmented > :is(button,a)::before {
+  content:''; position:absolute; inset:-1px; border:1px solid var(--card-line,#e2eaf2);
+  border-radius:inherit; background:#fff; z-index:-2; pointer-events:none;
+  transition:background-color 180ms ease,border-color 180ms ease;
+}
+nav.coach-segmented > :is(button,a):hover::before { background:#f7fbfe; border-color:#cfe0ee; }
+nav.coach-segmented > :is(button,a):is(.on,.active,[aria-current="page"],[aria-pressed="true"]) { color:var(--brand-dark,#397fb5); }
+nav.coach-segmented > :is(button,a):active { transform:none; }
+nav.coach-segmented:is(.workspace-secondary,.section-nav,#nav)::before {
+  background:#fff; border-color:#e0eaf3; border-radius:9px; box-shadow:0 1px 3px #173e6014;
+}
+nav.coach-segmented:is(.workspace-secondary,.section-nav,#nav) > :is(button,a)::before { background:transparent; border-color:transparent; }
+nav.coach-segmented:is(.workspace-secondary,.section-nav,#nav) > :is(button,a):hover::before { background:#ffffff70; }
+@media(prefers-reduced-motion:reduce) {
+  nav.coach-segmented::before,nav.coach-segmented > :is(button,a),nav.coach-segmented > :is(button,a)::before { transition:none!important; }
+}
+html[data-motion="off"] nav.coach-segmented::before,
+html[data-motion="off"] nav.coach-segmented > :is(button,a),
+html[data-motion="off"] nav.coach-segmented > :is(button,a)::before { transition:none!important; }
